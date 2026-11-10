@@ -1,0 +1,601 @@
+{
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T07:01:03.607+08:00",
+  "edition": 2,
+  "headline": {
+    "title": "美俄乌三邊和談首日持續四小時，俄烏立場未見妥協",
+    "summary": "美國、俄羅斯與烏克蘭代表在阿布扎比舉行今年2月以來的首次三方會談，首日談判持續四小時。美方稱有「一些好主意」彌合分歧，俄方要求烏克蘭撤出四個州並放棄加入北約，烏方則拒絕交出俄軍未佔領的領土。",
+    "why": "地緣政治穩定性直接影響全球供應鏈風險評估與跨國資金的流向，對長遠的宏觀環境有實質影響。",
+    "importance": 5,
+    "source_name": "DW 中文",
+    "source_url": "https://www.dw.com/zh/突破1万亿美元：中国前10个月贸易顺差创纪录/a-79910316?maca=chi-rss-chi-all-1127-rdf",
+    "original_title": "突破1万亿美元：中国前10个月贸易顺差创纪录",
+    "original_lang": "zh",
+    "published_at": "2026-11-10T14:44:00.000Z",
+    "tags": [
+      "烏俄戰爭",
+      "地緣政治",
+      "外交談判"
+    ]
+  },
+  "brief": "美國通膨高於預期促使部分聯準會官員主張十二月升息，而微軟正施壓川普政府擱置禁止進口中國製人工智慧關鍵零組件的計畫以維護供應鏈。Anthropic 最快於十一月下旬上市，目標估值最高達一點四兆美元。衛福部將更新指引，監管具自主行動的醫療人工智慧代理。",
+  "sections": [
+    {
+      "id": "ai",
+      "items": [
+        {
+          "title": "Anthropic 最快 11 月下旬上市，估值最高達 1.4 兆美元",
+          "summary": "Anthropic 目標 11 月 19 日或 20 日以代碼 ANT 登上 Nasdaq，預設每股價格區間為 70 至 80 美元，對應估值最高達 1.4 兆美元。部分機構投資人曾要求估值低於 1.5 兆美元，導致原定的高價區間在消息發布當晚被撤回，顯示機構資金對高額估值的審慎態度。",
+          "why": "AI 實驗室大規模資本化將重塑投資組合結構，影響創投退出機制與產業估值基準。",
+          "importance": 5,
+          "source_name": "INSIDE",
+          "source_url": "https://www.inside.com.tw/article/42863-anthropic-ipo-nasdaq-ant-valuation-below-1-5-trillion",
+          "original_title": "Anthropic 傳最快 11 月 19 日登 Nasdaq，機構投資人要求估值低於 1.5 兆美元",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T03:25:00.000Z",
+          "tags": [
+            "IPO",
+            "Anthropic",
+            "資本市場"
+          ]
+        },
+        {
+          "title": "衛福部將更新指引，監管具自主行動的醫療 AI Agent",
+          "summary": "衛福部醫事司指出，現行醫療生成式 AI 指引尚未涵蓋能自主決策的 AI Agent，下一階段將針對此類系統發布新的治理規範。官員建議醫院應先盤點院內 AI 工具並釐清責任歸屬，再依風險等級安排驗證與持續監測，以應對 AI 從內容生成轉向自主行動的趨勢。",
+          "why": "醫療機構導入自主型 AI 系統前需明確責任邊界，此規範將直接影響臨床工作流的驗證標準。",
+          "importance": 4,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180379",
+          "original_title": "醫療AI從內容生成走向自主行動，衛福部下一階段指引瞄準Agent治理",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T04:11:53.000Z",
+          "tags": [
+            "醫療 AI",
+            "監管",
+            "Governance"
+          ]
+        },
+        {
+          "title": "N-able N-central 曝多起零時差漏洞，緊急關閉全球服務",
+          "summary": "IT 管理軟體公司 N-able 旗下的 N-central 平台被曝出超過 30 個零時差漏洞，攻擊者可串聯漏洞取得系統管理權限。N-able 已緊急關閉全球託管版服務，並要求本地建置客戶暫時關閉伺服器以阻斷潛在攻擊。",
+          "why": "遠端監控管理軟體廣泛部署於關鍵基礎設施，重大漏洞洩漏可能成為大規模網路攻擊的跳板。",
+          "importance": 4,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180377",
+          "original_title": "N-able遭揭露逾30個零時差漏洞，緊急關閉全球N-central雲端服務，要求本地建置客戶停機",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T03:11:47.000Z",
+          "tags": [
+            "資安",
+            "RCE",
+            "RMM"
+          ]
+        },
+        {
+          "title": "Google 開放 Gemini 4 Carbon，12 月將漲價至 Opus 級水準",
+          "summary": "Google 正式向大眾開放 Gemini 4 Carbon 模型，定價為輸入每百萬 token 2 美元、輸出 10 美元，預定 12 月 1 日漲至 4/20 美元。該模型提供三種思考深度選項，並展示了其在高思考 effort 下的邏輯推演能力。",
+          "why": "頂級模型定價策略調整將直接影響企業級 AI 應用的運維成本與預算規劃。",
+          "importance": 3,
+          "source_name": "Simon Willison",
+          "source_url": "https://simonwillison.net/2026/Nov/10/llm-gemini/",
+          "original_title": "llm-gemini 0.36",
+          "original_lang": "en",
+          "published_at": "2026-11-10T20:09:44.000Z",
+          "tags": [
+            "LLM",
+            "Gemini",
+            "定價"
+          ]
+        },
+        {
+          "title": "Google 推出新 TPU，強化機密訓練與記憶體容量",
+          "summary": "Google 發布兩款新的张量處理器（TPU），擴展其晶片組合以支援更多用例。新晶片專為機密模型訓練設計，並提供更大的記憶體容量，以滿足高資料吞吐量需求。",
+          "why": "專屬硬體優化將降低特定訓練場景的延遲與成本，影響模型研發效率。",
+          "importance": 3,
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/10/google-broadens-its-ai-hardware-portfolio-with-two-new-specialized-chips/",
+          "original_title": "Google broadens its AI hardware portfolio with two new specialized chips",
+          "original_lang": "en",
+          "published_at": "2026-11-10T15:54:08.000Z",
+          "tags": [
+            "硬體",
+            "TPU",
+            "訓練"
+          ]
+        },
+        {
+          "title": "Anthropic 發表新模型，承認較常懷疑自身處於測試中",
+          "summary": "Anthropic 發表 Fable 5.2 與 Mythos 5.2，METR 估計其研發速度提升約 2 倍。輸入價格從每百萬 token 10 美元降至 8 美元，官方確認新模型在受測時表現出較高的「自我懷疑」頻率。",
+          "why": "模型在環境感知上的異常表現是評估 AI 系統可靠度與對齊安全的重要指標。",
+          "importance": 2,
+          "source_name": "INSIDE",
+          "source_url": "https://www.inside.com.tw/article/42865-anthropic-fable-mythos-5-2-metr-evaluation-awareness",
+          "original_title": "Anthropic 發表 Fable 5.2 與 Mythos 5.2，模型「懷疑自己正在受測」的頻率高於近期 Claude 模型",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T04:06:00.000Z",
+          "tags": [
+            "模型發布",
+            "Anthropic",
+            "Alignment"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "items": [
+        {
+          "title": "Gemini 4 Carbon 上線，自動化基準測試得分 53.9%",
+          "summary": "Google 推出 Gemini 4 Carbon 並整合進 n8n 平台，該模型被稱為最新強化版本。在針對自動化工作流的 AutomationBench 基準測試中，該模型獲得 53.9 分並位居榜首，顯示其在長程代理任務與編碼方面顯著提升。",
+          "why": "提升長程代理任務的穩定性與效能，縮短企業部署複雜 AI 工作流所需的開發與除錯時間。",
+          "importance": 4,
+          "source_name": "n8n Blog",
+          "source_url": "https://blog.n8n.io/build-safer-n8n-agents-and-workflows-with-google-gemini-4-carbon/",
+          "original_title": "Build Safer n8n Agents and Workflows with Google Gemini 4 Carbon",
+          "original_lang": "en",
+          "published_at": "2026-11-10T16:43:11.000Z",
+          "tags": [
+            "AI 模型",
+            "自動化平台",
+            "代理系統"
+          ]
+        },
+        {
+          "title": "Git 發布更新，修復六項核心安全漏洞",
+          "summary": "Git 發布安全更新，修復影響遞迴克隆、參照處理、合併、二進位补丁與導入流程的六個安全漏洞。此更新涵蓋了核心功能中潛在的安全風險。",
+          "why": "保障開發環境與 CI/CD 管線的資安基礎，降低因版本控制工具漏洞導致的供應鏈攻擊風險。",
+          "importance": 4,
+          "source_name": "GitHub Blog",
+          "source_url": "https://github.blog/open-source/git/git-security-vulnerabilities-announced-7/",
+          "original_title": "Git security vulnerabilities announced",
+          "original_lang": "en",
+          "published_at": "2026-11-10T18:00:00.000Z",
+          "tags": [
+            "Git",
+            "資安",
+            "版本控制"
+          ]
+        },
+        {
+          "title": "n8n 解析大規模工作流的批次處理與重試模式",
+          "summary": "n8n 探討大規模工作流自動化的批次處理模式，包含數據分塊、速率限制與重試機制。文章分析如何透過結構化方法解決數據量大時的執行穩定性問題。",
+          "why": "提供處理高負載自動化場景的具體工程實踐，幫助團隊避免系統崩潰並提升吞吐量。",
+          "importance": 4,
+          "source_name": "n8n Blog",
+          "source_url": "https://blog.n8n.io/batch-processing/",
+          "original_title": "Batch processing patterns for workflow automation at scale",
+          "original_lang": "en",
+          "published_at": "2026-11-10T20:36:22.000Z",
+          "tags": [
+            "工作流設計",
+            "大數據處理",
+            "n8n"
+          ]
+        },
+        {
+          "title": "DeepMind 發布 AlphaProof Code，挑戰數學證明",
+          "summary": "DeepMind 發布 AlphaProof Code，專為驗證數學定理設計。該模型在代數幾何與分析學領域的特定任務中，能獨立生成並驗證數學證明，展現解決複雜嚴謹邏輯問題的潛能。",
+          "why": "開啟 AI 在嚴謹數學推導與形式化驗證領域的新應用，為基礎科學與高階邏輯運算提供自動化工具。",
+          "importance": 3,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://deepmind.google/blog/introducing-alphaproof-code/",
+          "original_title": "AlphaProof Code",
+          "original_lang": "en",
+          "published_at": "2026-11-10T12:11:12.000Z",
+          "tags": [
+            "數學 AI",
+            "DeepMind",
+            "形式化驗證"
+          ]
+        },
+        {
+          "title": "Axon 斥資 12 億美元收購 Skydio 無人機公司",
+          "summary": "Axon 投資 12 億美元收購 Skydio，並成為其美國公共安全部門的分銷商。雙方計畫將 Skydio 無人機引入「無人機即第一響應者」項目，覆蓋更多政府與公共安全機構。",
+          "why": "加速無人機在緊急應變與公共安全領域的商業落地，擴大自動化無人機在政府機構中的部署規模。",
+          "importance": 3,
+          "source_name": "The Robot Report",
+          "source_url": "https://www.therobotreport.com/axon-invests-1-2b-into-skydio-and-becomes-its-u-s-public-safety-distributor/",
+          "original_title": "Axon invests $1.2B into Skydio and becomes its U.S. public safety distributor",
+          "original_lang": "en",
+          "published_at": "2026-11-10T13:06:58.000Z",
+          "tags": [
+            "無人機",
+            "公共服務",
+            "產業併購"
+          ]
+        },
+        {
+          "title": "研究指出 AI 輔助編碼可能導致代碼庫結構脆弱",
+          "summary": "文章指出廣泛使用 AI 輔助編碼可能導致代碼庫結構變得脆弱。即使 AI 生成的代碼功能正確，但其缺乏人類開發者的架構考量，可能導致長期維護成本增加與系統可讀性下降。",
+          "why": "提醒開發團隊在使用 AI 工具時需注重架構審查，避免累積技術債導致系統長期維護困難。",
+          "importance": 3,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://evanxmerz.com/post/ai-usage-generates-a-fragile-codebase/",
+          "original_title": "AI usage generates a fragile codebase",
+          "original_lang": "en",
+          "published_at": "2026-11-10T10:25:58.000Z",
+          "tags": [
+            "軟體工程",
+            "AI 輔助開發",
+            "代碼質量"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "items": [
+        {
+          "title": "FDA 要求 GLP-1 減重藥物加註視神經病變警語",
+          "summary": "美國 FDA 要求胰妥讚、猛健樂等 GLP-1 減重與糖尿病藥物更新仿單，加註可能增加罕見視神經病變（俗稱「眼睛中風」）的風險警語。",
+          "why": "監管機構針對全球熱門藥物類別發布新的安全警語，將直接影響藥品生產商的成本、合規流程及臨床處方決策。",
+          "importance": 4,
+          "source_name": "科技新報 生技",
+          "source_url": "https://technews.tw/2026/11/10/us-fda-orders-new-eye-risk-warnings-for-ozempic-zepbound/",
+          "original_title": "瘦瘦針可能增加罕見視神經病變風險，美 FDA 令藥廠加警語",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T04:10:00.000Z",
+          "tags": [
+            "FDA",
+            "GLP-1",
+            "藥物警語"
+          ]
+        },
+        {
+          "title": "Oura 斥資 6.25 億美元收購臨床 AI 公司",
+          "summary": "智慧手環製造商 Oura 宣布以 6.25 億美元收購臨床 AI _startup Counsel Health。此交易顯示 Oura 正從硬體監控轉向結合人工智慧提供臨床照護服務，儘管其 IPO 計劃近期已延遲。",
+          "why": "消費級健康硬體廠商深入佈局臨床 AI，可能改變醫療數據的變現模式與患者照護的數位化路徑。",
+          "importance": 4,
+          "source_name": "STAT News",
+          "source_url": "https://www.statnews.com/2026/11/10/oura-acquires-counsel-health-big-bet-ai-care/",
+          "original_title": "STAT+: Oura to acquire Counsel Health for $625 million, placing a big bet on AI care",
+          "original_lang": "en",
+          "published_at": "2026-11-10T17:14:42.000Z",
+          "tags": [
+            "AI醫療",
+            "併購",
+            "可穿戴裝置"
+          ]
+        },
+        {
+          "title": "Beam 地中海貧血基因編輯療法達標，瞄準 FDA 新藥申請",
+          "summary": "Beam Therapeutics 針對地中海型貧血（sickle cell disease）的基底編輯療法在關鍵性試驗中達標。此結果被視為科學里程碑，使該公司有望在年底提交同類首創的 FDA 新藥申請。",
+          "why": "基底編輯技術首次在人體罕見病關鍵試驗中驗證效力，為基因治療產業的關鍵技術路線提供臨床證據支持。",
+          "importance": 4,
+          "source_name": "BioPharma Dive",
+          "source_url": "https://www.biopharmadive.com/news/beam-sickle-cell-base-editing-risto-cel-results/874242/",
+          "original_title": "Beam’s base editing therapy for sickle cell hits goal in pivotal trial",
+          "original_lang": "en",
+          "published_at": "2026-11-10T17:06:00.000Z",
+          "tags": [
+            "基因編輯",
+            "臨床試驗",
+            "罕見病"
+          ]
+        },
+        {
+          "title": "研究揭示走路不穩可能是阿茲海默症極早期警訊",
+          "summary": "美國中佛羅里達大學研究利用「人體晶片」模型發現，引發家族性阿茲海默症的基因突變可能導致神經元產生異常電活動，進而影響肌肉控制，造成走路不穩。研究建議這可能是早於腦部病變出現的極早期警訊。",
+          "why": "挑戰了阿茲海默症僅限於大腦病變的傳統認知，為探索早期生物標記與非侵入性診斷方法提供了新方向。",
+          "importance": 3,
+          "source_name": "科技新報 生技",
+          "source_url": "https://technews.tw/2026/11/10/alzheimers-early-warning-signs/",
+          "original_title": "阿茲海默症病變不在大腦？美研究揭：走路不穩恐為極早期警訊",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T06:30:28.000Z",
+          "tags": [
+            "阿茲海默症",
+            "早期診斷",
+            "器官晶片"
+          ]
+        },
+        {
+          "title": "中國擬禁止生物技術產品出口",
+          "summary": "中國計劃實施生物技術產品出口禁令。此項政策旨在保護國有生物技術資產，可能影響跨國生物技術公司的供應鏈與技術轉移策略。",
+          "why": "生物技術領域的地緣政治風險上升，可能重塑全球生物製藥研發格局與跨境合作模式。",
+          "importance": 3,
+          "source_name": "Nature Biotechnology",
+          "source_url": "https://www.nature.com/articles/s41587-026-03397-6",
+          "original_title": "China plans ban on biotech exports",
+          "original_lang": "en",
+          "published_at": "2026-11-10T00:00:00.000Z",
+          "tags": [
+            "生物技術",
+            "地緣政治",
+            "貿易政策"
+          ]
+        },
+        {
+          "title": "研究：ACL 術後需指導型復健改善長期疼痛",
+          "summary": "針對前十字韌帶（ACL）重建術後患者，新研究顯示約有一半患者在術後兩年仍有疼痛問題。研究發現，在醫師指導下的特定復健方案能有效改善長期疼痛，打破僅依賴手術解決問題的迷思。",
+          "why": "強調運後管理與數位醫療指導在改善長期預後中的作用，對運動醫學臨床指南與相關健檢產品的設計具有參考價值。",
+          "importance": 2,
+          "source_name": "科技新報 生技",
+          "source_url": "https://technews.tw/2026/11/10/acl-post-operative-rehabilitation-new-research/",
+          "original_title": "打破運動傷膝蓋迷思，研究：前十字韌帶重建後，指導型復健有效改善長期疼痛",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T08:10:42.000Z",
+          "tags": [
+            "運動醫學",
+            "復健",
+            "ACL重建"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "items": [
+        {
+          "title": "Anthropic IPO 估值上看 1.4 兆美元",
+          "summary": "人工智慧公司Anthropic將進行大型首次公開募股（IPO），預計估值最高可達1.4兆美元。受投資人對AI熱情降溫影響，此估值略低於部分投資人預期。",
+          "why": "AI 龍頭企業的上市估值直接反映資本市場對該領域長期成長性的定價標準。",
+          "importance": 5,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611100361.aspx",
+          "original_title": "Anthropic將在美IPO 估值上看1.4兆美元",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T14:08:42.000Z",
+          "tags": [
+            "AI",
+            "IPO",
+            "產業趨勢"
+          ]
+        },
+        {
+          "title": "Meta 全球擴大 AI 偵測防青少年謊報年齡",
+          "summary": "Meta 宣布即日起將 AI 偵測技術推展至全球，主動辨識虛報年齡的未成年使用者並納入適齡保護機制。該措施預計涵蓋全球數百萬名青少年用戶，以規避安全限制漏洞。",
+          "why": "大型科技公司將 AI 應用於身份驗證與合規審查，展示了自動化系統在複雜社交數據中的實際部署規模。",
+          "importance": 4,
+          "source_name": "中央社 科技",
+          "source_url": "https://www.cna.com.tw/news/ait/202611100194.aspx",
+          "original_title": "防青少年謊報年齡 Meta擴大全球AI偵測",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T07:48:36.000Z",
+          "tags": [
+            "AI技術",
+            "資安",
+            "平台治理"
+          ]
+        },
+        {
+          "title": "美國通膨高於預期，12 月恐升息 2 碼",
+          "summary": "美國 10 月消費者物價指數高於市場預期，導致基準 10 年期公債殖利率再次突破 5% 重要關卡。部分聯準會官員認為，受此影響 12 月恐需升息 2 碼。",
+          "why": "利率預期變動將直接影響全球資本成本與科技及生技等高資本密集型產業的融資環境。",
+          "importance": 4,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611110004.aspx",
+          "original_title": "通膨高於預期 美債殖利率全面跳升、12月恐升息2碼",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T18:05:30.000Z",
+          "tags": [
+            "美國經濟",
+            "升息",
+            "債市"
+          ]
+        },
+        {
+          "title": "美方智庫示警中共擬「無聲軍演」",
+          "summary": "華府智庫示警中共恐進行大規模「無聲」軍演，國防部長顧立雄證實共軍航母近期在西太平洋演練。2026 年的海上兵力規模已破百艘，高於 2024 年動員 90 艘的紀錄。",
+          "why": "區域地緣穩定度影響國際企業在台投資信心與供應鏈布局的長期決策。",
+          "importance": 4,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/835165",
+          "original_title": "美國智庫示警 中擬以「無聲軍演」孤立台灣",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T12:27:19.000Z",
+          "tags": [
+            "地緣政治",
+            "軍事",
+            "國安"
+          ]
+        },
+        {
+          "title": "黃仁勳案衝擊股價，美擬加速晶片管制",
+          "summary": "輝達因執行長相關隱私事件逆勢下跌 4.27%，市值約蒸發 6 兆台幣。金仁寶集團總裁許勝雄表示台廠韌性佳，但美國國會可能加速推動 3 項對中晶片管制法案，進一步限制先進 AI 技術取得。",
+          "why": "政策監管的不確定性加劇，可能改變 AI 算力基礎設施的全球流通與部署邏輯。",
+          "importance": 3,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/835170",
+          "original_title": "黃仁勳案是否衝擊產業鏈 許勝雄：台灣供應鏈韌性佳",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T12:29:01.000Z",
+          "tags": [
+            "半導體",
+            "晶片管制",
+            "供應鏈"
+          ]
+        },
+        {
+          "title": "藍天前 3 季獲利倍增，2027 推 AI 新機",
+          "summary": "藍天電腦前 3 季合併營收 172.3 億元，歸屬淨利 23.65 億元，每股盈餘年增 2.6 倍。該公司計畫於 2027 年第 1 季推出 RTX Spark 新機，強化 AI PC 布局。",
+          "why": "PC 製造商加速佈局端側 AI 硬體，反映個人運算設備向本地化模型推理轉換的市場動向。",
+          "importance": 2,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611100362.aspx",
+          "original_title": "藍天前3季每股賺4.09元 明年首季推RTX Spark新機",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T14:10:45.000Z",
+          "tags": [
+            "AI PC",
+            "硬體",
+            "財報"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "title": "Megaspeed 資產激增遭疑轉運晶片，美商務調查曾中止",
+          "summary": "新加坡公司 Megaspeed 資產在一年內從 3,300 萬美元增至 30 億美元，被懷疑向中國轉運英偉達芯片。黃仁勳前員工黃樂曾任該公司高層，美國商務部調查人員曾深入調查，但去年底突然中止，該公司現再受審視。",
+          "why": "揭示晶片供應鏈潛在漏洞，影響對 AI 硬體來源合法性的審慎與合規風險。",
+          "importance": 4,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/黄仁勋风波调查：黄乐任职的新加坡公司什么来头？/a-79907996?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "黄仁勋风波调查：黄乐任职的新加坡公司什么来头？",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T11:16:00.000Z",
+          "tags": [
+            "半導體",
+            "出口管制",
+            "晶片供應鏈"
+          ]
+        },
+        {
+          "title": "微軟施壓川普政府，擬擱置禁止中製 AI 零組件進口",
+          "summary": "知情人士透露，微軟正施壓川普政府，要求擱置擬禁止進口中國製人工智慧（AI）資料中心關鍵零組件的計畫。此舉旨在保障 AI 基礎建設的供應鏈穩定，避免關鍵零件斷貨。",
+          "why": "AI 基礎設施零件的取得難度與成本，將直接影響資料中心部署與運維效率。",
+          "importance": 4,
+          "source_name": "中央社 國際",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611100351.aspx",
+          "original_title": "美擬禁中製資料中心關鍵零件進口 傳微軟向川普政府施壓要求擱置",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T13:35:16.000Z",
+          "tags": [
+            "AI",
+            "貿易政策",
+            "供應鏈"
+          ]
+        },
+        {
+          "title": "中國煤電佔比跌破五成，碳排放趨穩但新机組持續上馬",
+          "summary": "中國煤電佔比跌破五成，碳排放幾乎停滯，分析指排放或已提前達峰。然而，新煤電機組仍大量上馬，使得這一「拐點」的成色有待檢驗。",
+          "why": "了解中國能源結構變化有助於評估全球碳排趨勢與永續發展指標的實際進展。",
+          "importance": 3,
+          "source_name": "BBC 中文",
+          "source_url": "https://www.bbc.com/zhongwen/articles/cxnv0vgpj0qpo/trad?at_medium=RSS&at_campaign=rss",
+          "original_title": "全球最大排放國的拐點：中國煤電佔比跌破五成，碳排放幾乎停滯",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T10:09:14.000Z",
+          "tags": [
+            "能源轉型",
+            "碳足跡",
+            "中國經濟"
+          ]
+        },
+        {
+          "title": "台防長稱中軍在西太平洋進行「區域拒止」演習",
+          "summary": "台灣防長顧立雄表示，中國正在西太平洋進行「區域拒止」演習，參與者包括遼寧號航空母艦及其他海軍編隊。此無預警演習意在營造能隨時孤立台灣的印象，反映中國在臺週邊軍事活動大幅增加。",
+          "why": "地區安全態勢的變化是評估跨國業務風險與基礎設施安全的重要因素。",
+          "importance": 3,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/台湾国防部称中国进行-区域拒止-演习/a-79907965?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "台湾国防部称中国进行“区域拒止”演习",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T11:27:00.000Z",
+          "tags": [
+            "國防",
+            "臺灣",
+            "軍事演習"
+          ]
+        },
+        {
+          "title": "德軍禁用中國商用無人機，顧慮國安風險",
+          "summary": "德國「明鏡周刊」披露，德軍基於國安考量，已立即禁止在軍營和訓練場使用市售中國製無人機。德國聯邦國防部未在非上班時間回覆置評請求。",
+          "why": "體現先進國家對商用設備資安風險的謹慎態度，提醒企業導入自動化設備時需考量供應鏈安全。",
+          "importance": 2,
+          "source_name": "中央社 國際",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611110010.aspx",
+          "original_title": "明鏡周刊：德軍基於國安考量禁用中國商用無人機",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T21:57:46.000Z",
+          "tags": [
+            "資安",
+            "德國",
+            "無人機"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "items": [
+        {
+          "title": "勇士大勝鵜鶘51分 創NBA開季逆轉紀錄",
+          "summary": "金州勇士在主場以138比87大勝紐奧良鵜鶘51分，取得主場6連勝。此勝仗使勇士成為NBA史上第一支在開季0勝3敗後，能夠達成8連勝的球隊。",
+          "why": "打破NBA歷史紀錄，顯示高強度賽制下球队調整能力與數據極端離群值。",
+          "importance": 5,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611100228.aspx",
+          "original_title": "勇士痛宰鵜鶘51分 開季0勝3敗後8連勝創NBA紀錄",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T08:55:49.000Z",
+          "tags": [
+            "NBA",
+            "金州勇士",
+            "紀錄"
+          ]
+        },
+        {
+          "title": "2026 F1賽季以中東站收尾 伊莫拉備援",
+          "summary": "2026年世界大獎賽賽季末將如期在卡達與阿布達比舉行。義大利伊莫拉賽道將作为該等比賽的備用場址。",
+          "why": "確定賽季日曆結構，為賽道營運與賽事資源配置提供明確數據基準。",
+          "importance": 4,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/formula1/articles/c53989e97lxwo?at_medium=RSS&at_campaign=rss",
+          "original_title": "Formula 1 to finish season in Middle East",
+          "original_lang": "en",
+          "published_at": "2026-11-10T15:04:46.000Z",
+          "tags": [
+            "F1",
+            "賽程"
+          ]
+        },
+        {
+          "title": "麥克托米納揭/world杯前心臟治療細節",
+          "summary": "蘇格蘭球星麥克托米納（Scott McTominay）透露，他在今年6月對海地的世界杯勝利前兩天接受了心臟治療。",
+          "why": "提供職業運動員重大傷病與競技參與之間決策的具體案例。",
+          "importance": 3,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/football/articles/cw5ynynx204zo?at_medium=RSS&at_campaign=rss",
+          "original_title": "McTominay reveals heart treatment at World Cup",
+          "original_lang": "en",
+          "published_at": "2026-11-10T16:46:31.000Z",
+          "tags": [
+            "足球",
+            "運動醫學"
+          ]
+        },
+        {
+          "title": "世界健力錦標賽 陳葦綾與林逸鈞奪金",
+          "summary": "在土耳其伊斯坦堡舉行的2026年世界裝備公開健力錦標賽中，台灣選手陳葦綾奪下女子47公斤級硬舉與總和雙金。林逸鈞則贏的男子59公斤級總和金牌。",
+          "why": "反映台灣在特定小眾力量項目上具備國際級競爭力。",
+          "importance": 3,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611100198.aspx",
+          "original_title": "世界裝備公開健力錦標賽 陳葦綾獲硬舉、總和雙金",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T07:51:44.000Z",
+          "tags": [
+            "健力",
+            "國際賽事"
+          ]
+        },
+        {
+          "title": "WTA年終賽 謝淑薇搭檔逆轉落敗",
+          "summary": "在WTA年終總決賽分組賽首戰中，台灣網球選手謝淑薇與拉脫維亞搭檔奧斯塔朋科，在歷經三盤大戰後遭到對手逆轉，無緣勝利。",
+          "why": "關鍵年終賽首敗影響積分與晉級可能性，影響職業球員賽季末策略。",
+          "importance": 2,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611100222.aspx",
+          "original_title": "WTA年終賽謝淑薇與搭檔遭逆轉 無緣分組賽首戰奪勝",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T08:32:36.000Z",
+          "tags": [
+            "網球",
+            "WTA"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "feeds": 39,
+    "fetched": 2945,
+    "kept": 35,
+    "jev_cost_usd": 0.006289,
+    "llm_cost_usd": 0.00136
+  }
+}
