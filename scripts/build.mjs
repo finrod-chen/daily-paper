@@ -32,6 +32,7 @@ const T = {
   splitBrief: /(?<=[。！？])/,
   descText: (s) => s.replace(/\s+/g, ''),
   descLen: 120,
+  pagerLen: 34,
   navLatest: '最新一期',
   navArchive: '往期',
   mainMenu: '主選單',
@@ -79,7 +80,7 @@ const write = (rel, content) => {
 const hash = (s) => createHash('sha256').update(s).digest('hex').slice(0, 10);
 const ymdw = (date) => { const [y, m, d] = date.split('-').map(Number); return [y, m, d, new Date(Date.UTC(y, m - 1, d)).getUTCDay()]; };
 const longDate = (date) => T.longDate(...ymdw(date));
-const dayLabel = (date) => { const [, m, d, wd] = ymdw(date); return T.dayLabel(m, d, wd); };
+const dayLabel = (date) => { const [y, m, d, wd] = ymdw(date); return T.dayLabel(m, d, wd, y); };
 const dtf = new Intl.DateTimeFormat('en-US', { timeZone: TZ, month: T.timeMonth, day: 'numeric', hour: '2-digit', minute: '2-digit', hourCycle: 'h23' });
 const shortTime = (iso) => T.time(Object.fromEntries(dtf.formatToParts(new Date(iso)).map((x) => [x.type, x.value])));
 const cost = (s) => {
@@ -243,7 +244,7 @@ ${body.foot}
 // ---------- pages ----------
 function issuePage(issue, idx, isHome) {
   const newer = issues[idx - 1], older = issues[idx + 1];
-  const link = (is, klass, dir) => is ? `<a class="${klass}" href="/${is.date}/"><span class="dir">${dir}</span><span class="ttl">${T.issueNo(is.edition)} · ${esc(clip(is.headline.title, 34))}</span></a>` : '';
+  const link = (is, klass, dir) => is ? `<a class="${klass}" href="/${is.date}/"><span class="dir">${dir}</span><span class="ttl">${T.issueNo(is.edition)} · ${esc(clip(is.headline.title, T.pagerLen))}</span></a>` : '';
   const pager = older || newer ? `<nav class="pager wrap" aria-label="${T.pagerLabel}"><div>${link(older, 'prev', T.prev)}${link(newer, 'next', T.next)}</div></nav>` : '';
   const { secnav, main } = issueParts(issue);
   return page({
