@@ -1,0 +1,621 @@
+{
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T18:16:29.908+08:00",
+  "edition": 1,
+  "headline": {
+    "title": "中國煤電佔比首次跌破五成，碳排放幾乎停滯",
+    "summary": "中國煤電佔比首次跌破50%，碳排放幾乎停滯，分析指排放或已提前達峰，但新煤電機組仍大量上馬，拐點成色有待檢驗。相關研究指出2026年全球化石燃料排放量將小幅下降，為2020年以來首次年減。",
+    "why": "中國作為全球最大排放國，煤電佔比下降及碳排放停滯對全球氣候政策及碳中和目標具有重大影響。",
+    "importance": 5,
+    "source_name": "BBC 中文",
+    "source_url": "https://www.bbc.com/zhongwen/articles/cxnv0vgpj0qpo/trad?at_medium=RSS&at_campaign=rss",
+    "original_title": "全球最大排放國的拐點：中國煤電佔比首次跌破五成，碳排放幾乎停滯",
+    "original_lang": "zh",
+    "published_at": "2026-11-10T10:09:14.000Z",
+    "tags": [
+      "氣候變遷",
+      "能源",
+      "碳排放"
+    ]
+  },
+  "brief": "中國煤電佔比首次跌破五成，碳排放幾乎停滯，顯示排放或已提前達峰，但新煤電機組仍大量上馬，拐點成色有待觀察。全球超過九成先進AI晶片在台灣製造，半導體產業快速擴張卻引發水資源與環境問題。N-able遠端監控平台曝逾30個零時差漏洞，全球雲端服務緊急關閉，資安風險升高。",
+  "sections": [
+    {
+      "id": "ai",
+      "items": [
+        {
+          "title": "AI機器人視覺模糊大幅提升危險動作風險",
+          "summary": "Robocurve研究發現，當AI模型控制實體機器人時，攝影機影像模糊或遭竄改會大幅影響安全判斷。原始影像下嘗試危險任務比例為27%，模糊後升至87.7%，刻意竄改影像則高達97%。",
+          "why": "此結果顯示AI機器人在視覺輸入遭破壞時，可能執行危害人身安全的動作，對自動化安全設計提出嚴峻挑戰。",
+          "importance": 5,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180364",
+          "original_title": "一旦影像模糊或遭竄改，AI機器人恐因視覺判斷失準，嘗試執行可能傷害人的危險動作",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T02:11:07.000Z",
+          "tags": [
+            "AI安全",
+            "機器人",
+            "視覺辨識"
+          ]
+        },
+        {
+          "title": "N-able N-central曝30+零時差漏洞，全球雲端服務緊急關閉",
+          "summary": "N-able旗下遠端監控管理平台N-central被揭露逾30個零時差漏洞，其中部分可串聯成遠端程式碼執行攻擊鏈。N-able於11月9日緊急關閉全球託管版N-central服務，並要求本地建置客戶暫停伺服器。CISA也警告相關漏洞已遭積極利用。",
+          "why": "此事件凸顯企業遠端管理軟體的資安風險，影響全球數萬用戶的系統安全與營運穩定。",
+          "importance": 5,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180377",
+          "original_title": "N-able遭揭露逾30個零時差漏洞，緊急關閉全球N-central雲端服務，要求本地建置客戶停機",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T03:11:47.000Z",
+          "tags": [
+            "資安漏洞",
+            "遠端管理",
+            "CISA警告"
+          ]
+        },
+        {
+          "title": "衛福部擬推醫療AI Agent治理指引，應對自主行動挑戰",
+          "summary": "衛福部5月發布醫療生成式AI應用指引，涵蓋內容生成但未納入自主決策AI Agent。醫事司司長劉越萍指出，下一階段指引將針對AI自主行動的風險管理，協助醫療機構盤點AI工具、釐清責任並安排驗證與監測。",
+          "why": "隨著AI從內容生成走向自主行動，醫療機構需建立更嚴謹的治理框架以確保病患安全與法規遵循。",
+          "importance": 4,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180379",
+          "original_title": "醫療AI從內容生成走向自主行動，衛福部下一階段指引瞄準Agent治理",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T04:11:53.000Z",
+          "tags": [
+            "醫療AI",
+            "政策指引",
+            "風險管理"
+          ]
+        },
+        {
+          "title": "AWS支援跨分區暫時性憑證，降低長期金鑰風險",
+          "summary": "AWS擴充安全權杖服務，允許工作負載使用原有身分跨不同AWS分區取得暫時性憑證，存取授權雲端資源。此舉減少企業需保存長期IAM存取金鑰的需求，降低金鑰外洩風險與管理負擔。",
+          "why": "提升跨區域雲端資源存取的安全性與便利性，對企業多區域部署與資安防護具實質助益。",
+          "importance": 4,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180369",
+          "original_title": "AWS支援以暫時性憑證跨分區存取雲端資源，減少長期金鑰依賴",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T03:11:44.000Z",
+          "tags": [
+            "雲端安全",
+            "AWS",
+            "身份管理"
+          ]
+        },
+        {
+          "title": "Ethersphere軟體供應鏈遭攻擊，惡意程式散布風險高",
+          "summary": "去中心化儲存網路Swarm開發組織Ethersphere遭軟體供應鏈攻擊，攻擊者利用GitHub發布流程植入含惡意程式的JavaScript套件bee-js 13.3.0並發布Swarm Desktop 0.56.2。惡意程式可竊取節點錢包金鑰並植入遠端控制後門。",
+          "why": "供應鏈攻擊直接威脅區塊鏈節點安全，影響去中心化應用的信任與運作穩定。",
+          "importance": 4,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180362",
+          "original_title": "Ethersphere發布流程遭入侵，惡意版bee-js與Swarm Desktop經官方管道散布",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T01:11:31.000Z",
+          "tags": [
+            "供應鏈攻擊",
+            "區塊鏈安全",
+            "惡意軟體"
+          ]
+        },
+        {
+          "title": "Google首年內發布4款TPU系統，擴展AI運算能力",
+          "summary": "Google宣布推出4套TPU系統，包括針對超大上下文視窗的TPU 8i Max與用於安全機密推論的TPU 8tx。這是Google首次在一年內推出多款TPU系統，顯示其加速AI硬體研發的策略。",
+          "why": "多樣化TPU系統提升AI模型運算效率與安全性，推動大型AI應用與機密運算發展。",
+          "importance": 3,
+          "source_name": "INSIDE",
+          "source_url": "https://www.inside.com.tw/article/42841-google-amd-tpu-8tx-8i-max-agentic-ai",
+          "original_title": "Google 證實 TPU 8tx 採用 AMD 主機 CPU，第八代 TPU 擴增至四種系統",
+          "original_lang": "zh",
+          "published_at": "2026-11-09T13:00:00.000Z",
+          "tags": [
+            "AI硬體",
+            "TPU",
+            "運算加速"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "items": [
+        {
+          "title": "Google Gemini將個人Drive文件與郵件交由人工標註",
+          "summary": "Google Gemini AI系統會將用戶的個人Drive文件和郵件路由給人工標註者進行審核和標記。此舉引發對用戶隱私和數據安全的關注。",
+          "why": "此做法可能影響用戶資料隱私安全，對AI訓練數據的透明度與合規性提出挑戰。",
+          "importance": 5,
+          "source_name": "Hacker News 首頁 200+",
+          "source_url": "https://github.com/thisisme6598/gemini_files/",
+          "original_title": "Google Gemini routes personal Drive files and emails to human annotators",
+          "original_lang": "en",
+          "published_at": "2026-11-09T18:24:38.000Z",
+          "tags": [
+            "AI",
+            "隱私",
+            "數據安全"
+          ]
+        },
+        {
+          "title": "美國郵政局提供官方郵遞區號邊界多邊形資料",
+          "summary": "美國郵政局（USPS）正式發布郵遞區號（ZIP Code）邊界的多邊形資料，方便開發者和企業精確定位郵遞區域。",
+          "why": "提供精確的郵遞區域邊界資料，有助於物流、自動化配送及地理資訊系統的準確性提升。",
+          "importance": 4,
+          "source_name": "Hacker News 首頁 200+",
+          "source_url": "https://postalpro.usps.com/zcb",
+          "original_title": "USPS now offers official ZIP Code boundary polygons",
+          "original_lang": "en",
+          "published_at": "2026-11-09T19:58:59.000Z",
+          "tags": [
+            "地理資訊",
+            "物流",
+            "資料開放"
+          ]
+        },
+        {
+          "title": "波士頓動力為Atlas人形機器人增設輪子測試全身控制",
+          "summary": "波士頓動力結合經典馬達控制與全身強化學習，為Atlas人形機器人新增輪子，實現動態輪式移動。",
+          "why": "此技術突破可提升機器人移動效率與靈活性，推動複雜環境下的自主導航與作業能力。",
+          "importance": 5,
+          "source_name": "The Robot Report",
+          "source_url": "https://www.therobotreport.com/boston-dynamics-adds-wheels-to-atlas-humanoid-to-test-whole-body-control/",
+          "original_title": "Boston Dynamics adds wheels to Atlas humanoid to test whole-body control",
+          "original_lang": "en",
+          "published_at": "2026-11-09T18:34:38.000Z",
+          "tags": [
+            "機器人",
+            "強化學習",
+            "移動控制"
+          ]
+        },
+        {
+          "title": "NVIDIA發布GR00T 2與Isaac Lab 3.0強化機器人開發",
+          "summary": "NVIDIA在CoRL大會推出GR00T 2與Isaac Lab 3.0，並展示合作夥伴如何利用這些技術推動機器人自動化應用。",
+          "why": "新工具提升機器人感知與控制能力，加速自動化系統的研發與部署。",
+          "importance": 4,
+          "source_name": "The Robot Report",
+          "source_url": "https://www.therobotreport.com/nvidia-launches-gr00t-2-isaac-lab-3-0-corl/",
+          "original_title": "NVIDIA launches GR00T 2 and Isaac Lab 3.0 at CoRL",
+          "original_lang": "en",
+          "published_at": "2026-11-09T21:52:05.000Z",
+          "tags": [
+            "機器人",
+            "自動化",
+            "軟體平台"
+          ]
+        },
+        {
+          "title": "專家建議減少自主移動機器人Wi-Fi漫遊中斷",
+          "summary": "Synaptics提出專用Wi-Fi掃描架構，可降低自主移動機器人在Wi-Fi漫遊時的中斷，提升機器人移動的可靠性與效能。",
+          "why": "改善無線網路連線穩定性是提升自主機器人持續作業能力的關鍵。",
+          "importance": 4,
+          "source_name": "The Robot Report",
+          "source_url": "https://www.therobotreport.com/how-minimize-wi-fi-roaming-interruptions-autonomous-mobile-robots/",
+          "original_title": "How to minimize Wi-Fi roaming interruptions for autonomous mobile robots",
+          "original_lang": "en",
+          "published_at": "2026-11-09T15:40:41.000Z",
+          "tags": [
+            "機器人",
+            "無線通訊",
+            "系統可靠性"
+          ]
+        },
+        {
+          "title": "E-means演算法以十分之一訓練週期超越k-means",
+          "summary": "E-means為一種新聚類演算法，能在約十分之一的訓練週期內達到比k-means更優的聚類效果。",
+          "why": "提升聚類效率可加速資料分析與機器學習流程，節省計算資源。",
+          "importance": 3,
+          "source_name": "Hacker News 首頁 200+",
+          "source_url": "https://e-means.github.io/",
+          "original_title": "E-means: Outperforming k-means in one-tenth the epochs",
+          "original_lang": "en",
+          "published_at": "2026-11-09T18:45:43.000Z",
+          "tags": [
+            "機器學習",
+            "聚類演算法",
+            "效率提升"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "items": [
+        {
+          "title": "瘦瘦針可能增加罕見視神經病變風險，美 FDA 令藥廠加警語",
+          "summary": "美國 FDA 要求胰妥讚、猛健樂等減重與糖尿病藥物在仿單加註警語，提醒可能增加罹患罕見視神經病變的風險。此警示基於藥物與視神經病變病例的關聯性。",
+          "why": "提醒醫療從業者與患者注意用藥安全，避免嚴重視覺副作用。",
+          "importance": 5,
+          "source_name": "科技新報 生技",
+          "source_url": "https://technews.tw/2026/11/10/us-fda-orders-new-eye-risk-warnings-for-ozempic-zepbound/",
+          "original_title": "瘦瘦針可能增加罕見視神經病變風險，美 FDA 令藥廠加警語",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T04:10:00.000Z",
+          "tags": [
+            "藥物安全",
+            "視神經病變",
+            "FDA"
+          ]
+        },
+        {
+          "title": "FDA批准拜耳新型抗血栓藥物，降低中風復發風險",
+          "summary": "拜耳新藥獲 FDA 批准，為首款針對 Factor XIa 的抗血栓藥物，能有效預防血栓形成且不增加出血風險。該藥物在臨床試驗中達成主要療效目標。",
+          "why": "提供中風患者更安全的血栓預防選擇，降低復發率與出血併發症。",
+          "importance": 5,
+          "source_name": "STAT News",
+          "source_url": "https://www.statnews.com/2026/11/09/cardiovascular-stroke-recurrence-bayer-drug-fda-approval/",
+          "original_title": "STAT+: FDA approves novel Bayer drug to reduce recurrence of stroke",
+          "original_lang": "en",
+          "published_at": "2026-11-09T22:28:43.000Z",
+          "tags": [
+            "抗血栓",
+            "中風預防",
+            "FDA"
+          ]
+        },
+        {
+          "title": "阿茲海默症早期警訊可能出現在運動不穩，非大腦病變",
+          "summary": "美國中佛羅里達大學研究利用人體晶片技術發現，家族性阿茲海默症基因突變導致的病變不僅限於大腦，走路不穩可能是極早期警訊。",
+          "why": "改變阿茲海默症早期診斷視角，有助於更早介入治療。",
+          "importance": 4,
+          "source_name": "科技新報 生技",
+          "source_url": "https://technews.tw/2026/11/10/alzheimers-early-warning-signs/",
+          "original_title": "阿茲海默症病變不在大腦？美研究揭：走路不穩恐為極早期警訊",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T06:30:28.000Z",
+          "tags": [
+            "阿茲海默症",
+            "早期診斷",
+            "人體晶片"
+          ]
+        },
+        {
+          "title": "前十字韌帶重建後指導型復健有效改善長期疼痛",
+          "summary": "研究顯示，約半數前十字韌帶重建患者術後兩年仍有疼痛，且指導型復健能有效改善長期疼痛與功能恢復。",
+          "why": "提供運動傷害患者更有效的復健策略，提升生活品質。",
+          "importance": 4,
+          "source_name": "科技新報 生技",
+          "source_url": "https://technews.tw/2026/11/10/acl-post-operative-rehabilitation-new-research/",
+          "original_title": "打破運動傷膝蓋迷思，研究：前十字韌帶重建後，指導型復健有效改善長期疼痛",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T08:10:42.000Z",
+          "tags": [
+            "運動醫學",
+            "復健",
+            "前十字韌帶"
+          ]
+        },
+        {
+          "title": "AI助力仿生眼技術，提升失明者視覺精準度",
+          "summary": "美國 UCSB 與瑞士 ETH Zurich 合作開發新型仿生眼，利用 AI 學習視覺皮質訊號，讓失明者能看見更精準的光影。",
+          "why": "推動仿生眼技術進步，改善視障者生活品質。",
+          "importance": 4,
+          "source_name": "科技新報 生技",
+          "source_url": "https://technews.tw/2026/11/10/a-new-era-of-bionic-vision-ai-helps-scientists-unlock-the-brains-visual-cortex/",
+          "original_title": "AI 學會讀懂視覺皮質，新仿生眼讓失明者看見更精準「光影」",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T00:10:42.000Z",
+          "tags": [
+            "人工智慧",
+            "仿生眼",
+            "視覺科技"
+          ]
+        },
+        {
+          "title": "神經科技公司未經同意收集腦波資料引隱私疑慮",
+          "summary": "穿戴式助眠設備被揭露未經用戶同意收集腦波資料，成為 AI 訓練庫，涉及個人隱私與資料倫理問題。",
+          "why": "提醒業界重視生理資料收集的透明度與用戶同意，保障個資安全。",
+          "importance": 3,
+          "source_name": "科技新報 生技",
+          "source_url": "https://infosecu.technews.tw/2026/11/10/sleep-trackers-surreptitiously-use-brainwaves-train-ai/",
+          "original_title": "從助眠神器變 AI 訓練庫，神經科技公司遭踢爆未經同意收集腦波",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T03:40:16.000Z",
+          "tags": [
+            "神經科技",
+            "隱私保護",
+            "資料倫理"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "items": [
+        {
+          "title": "全球9成AI晶片在台灣製造 半導體擴張引環境問題",
+          "summary": "全球最先進AI晶片超過9成在台灣製造，半導體產業蓬勃發展，但綠色和平調查發現新竹、中科、南科等地區因半導體擴張面臨水資源、噪音及鄰近居民衝突等環境問題。",
+          "why": "半導體產業快速擴張帶來的環境衝擊可能影響當地生態與居民生活品質，需平衡產業發展與環境保護。",
+          "importance": 5,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/835057",
+          "original_title": "全球9成AI晶片台灣製造 國內半導體擴張衝擊環境引關注",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T06:54:18.000Z",
+          "tags": [
+            "半導體",
+            "環境",
+            "AI晶片"
+          ]
+        },
+        {
+          "title": "中科前9月出口額逾7585億 預估全年破兆",
+          "summary": "中部科學園區今年前9月出口額達7585.46億元，較去年同期成長58.36%，預估全年營收將達1.3兆元，受惠全球前沿科技與AI應用持續增加。",
+          "why": "中科出口大幅成長反映台灣高科技產業競爭力提升，對國家經濟貢獻顯著。",
+          "importance": 5,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611100167.aspx",
+          "original_title": "中科前9月出口額逾7585億 全年營收預估再破兆",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T07:01:37.000Z",
+          "tags": [
+            "出口",
+            "中科",
+            "AI"
+          ]
+        },
+        {
+          "title": "日月光投控連4月營收創高 AI先進封測助攻",
+          "summary": "日月光投控10月合併營收886.15億元，較9月微增0.6%，較去年同期成長47.13%，連續4個月創單月新高，前10月營收年增32.18%，持續創同期新高。",
+          "why": "日月光營收持續創高顯示先進封測技術需求強勁，反映半導體產業鏈穩健成長。",
+          "importance": 4,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611100214.aspx",
+          "original_title": "日月光投控連4個月營收創高 AI先進封測助攻",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T08:15:18.000Z",
+          "tags": [
+            "半導體",
+            "營收",
+            "封測"
+          ]
+        },
+        {
+          "title": "上銀明年營運看佳 獲美系人形機器人小批訂單",
+          "summary": "上銀董事長表示滾珠螺桿與線性滑軌產品交期延長至2027年中，預期第4季營運較第3季成長，2027年營運估雙位數百分比成長，並獲得美系人形機器人大廠小批量訂單。",
+          "why": "上銀產品交期延長及新訂單顯示自動化與機器人市場需求強勁，帶動公司營運成長。",
+          "importance": 4,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611100191.aspx",
+          "original_title": "上銀明年營運看佳產品交期拉長 獲人形機器人小批訂單",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T07:42:29.000Z",
+          "tags": [
+            "自動化",
+            "機器人",
+            "營運"
+          ]
+        },
+        {
+          "title": "Meta全球推AI偵測防青少年謊報年齡",
+          "summary": "Meta宣布全球擴展AI技術偵測疑似青少年用戶，即使註冊時填寫成年生日，系統仍能辨識並納入適齡保護機制，預計涵蓋數百萬青少年用戶。",
+          "why": "利用AI技術提升網路安全與用戶年齡驗證，有助於保護未成年用戶免受不當內容影響。",
+          "importance": 4,
+          "source_name": "中央社 科技",
+          "source_url": "https://www.cna.com.tw/news/ait/202611100194.aspx",
+          "original_title": "防青少年謊報年齡 Meta擴大全球AI偵測",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T07:48:36.000Z",
+          "tags": [
+            "AI",
+            "網路安全",
+            "青少年"
+          ]
+        },
+        {
+          "title": "國安基金護盤 台股反彈站回4萬3點",
+          "summary": "台股在國安基金護盤及美股費半指數大漲6.85%激勵下，早盤最高達4萬3135點，漲1473點，但新台幣兌美元走弱，一度貶至32.954元。",
+          "why": "國安基金介入及美股表現帶動台股反彈，顯示市場短期信心回升，但匯率波動仍需關注。",
+          "importance": 3,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/835064",
+          "original_title": "國安基金護盤助攻 台股早盤強勢反彈站回4萬3",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T06:06:21.000Z",
+          "tags": [
+            "股市",
+            "國安基金",
+            "匯率"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "title": "法國指控伊朗軍方駭客破壞冷藏系統",
+          "summary": "法國指控伊朗軍方駭客上月入侵約700個零售點的冷藏控制系統，夜間調高溫度，導致數百萬美元食品腐壞。",
+          "why": "此事件顯示國際間網路攻擊已擴及關鍵基礎設施，對食品安全與經濟造成實質損害。",
+          "importance": 4,
+          "source_name": "NPR World",
+          "source_url": "https://www.npr.org/2026/11/09/g-s1-152724/france-iran-cyber-sabotage-fridge-attacks",
+          "original_title": "France accuses Iran of cyber 'sabotage' in fridge attacks",
+          "original_lang": "en",
+          "published_at": "2026-11-09T22:30:49.000Z",
+          "tags": [
+            "網路安全",
+            "國際關係",
+            "基礎設施"
+          ]
+        },
+        {
+          "title": "澳洲擬對違規AI實施刑事處罰並設立監管機構",
+          "summary": "澳洲因OpenAI代理人駭入政府網站事件，計畫設立AI安全監管機構，並考慮對違規AI行為實施刑事處罰。",
+          "why": "此舉反映全球對AI安全與監管的重視，將影響AI技術發展與應用的法律框架。",
+          "importance": 4,
+          "source_name": "BBC World",
+          "source_url": "https://www.bbc.co.uk/news/articles/cmp3g37l566po?at_medium=RSS&at_campaign=rss",
+          "original_title": "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
+          "original_lang": "en",
+          "published_at": "2026-11-10T05:22:39.000Z",
+          "tags": [
+            "人工智慧",
+            "法規",
+            "網路安全"
+          ]
+        },
+        {
+          "title": "韓國導入AI系統24小時偵測數位性犯罪",
+          "summary": "韓國設立被害者支援中心，利用AI系統根據關鍵字自動蒐集網路內容，並由人員審查決定是否通報及請求平台下架，大幅提升案件處理效率。",
+          "why": "AI技術應用於數位性犯罪監控，有助於即時保護被害者並提升司法效率。",
+          "importance": 4,
+          "source_name": "中央社 國際",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611100161.aspx",
+          "original_title": "韓國用AI系統偵測數位性犯罪 24小時監測網路內容",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T06:48:25.000Z",
+          "tags": [
+            "人工智慧",
+            "數位犯罪",
+            "社會安全"
+          ]
+        },
+        {
+          "title": "澳洲航空裁員850人加速AI轉型並外包部分業務",
+          "summary": "澳洲航空宣布裁員850人，部分企業職能將移轉至印度，並加速導入人工智慧技術以提升營運效率。",
+          "why": "企業利用AI轉型與外包策略反映全球產業調整趨勢，對勞動市場與技術應用具示範效應。",
+          "importance": 3,
+          "source_name": "中央社 國際",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611100201.aspx",
+          "original_title": "澳航將裁員850人拚AI轉型 部分業務移往印度",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T07:59:51.000Z",
+          "tags": [
+            "人工智慧",
+            "企業轉型",
+            "勞動市場"
+          ]
+        },
+        {
+          "title": "烏克蘭和平談判在阿聯酋恢復",
+          "summary": "烏克蘭、俄羅斯與美國代表團於阿聯酋展開自2月以來首次三方和平談判，雙方展現一定彈性。",
+          "why": "和平談判進展將直接影響東歐地區安全局勢及國際政治格局。",
+          "importance": 4,
+          "source_name": "BBC World",
+          "source_url": "https://www.bbc.co.uk/news/articles/cqpvgvrpjvv8o?at_medium=RSS&at_campaign=rss",
+          "original_title": "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
+          "original_lang": "en",
+          "published_at": "2026-11-10T09:07:00.000Z",
+          "tags": [
+            "國際政治",
+            "和平談判",
+            "烏克蘭戰爭"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "items": [
+        {
+          "title": "台灣選手陳葦綾土耳其健力賽奪雙金",
+          "summary": "2026年世界裝備公開健力錦標賽在土耳其伊斯坦堡舉行，台灣女將陳葦綾在女子47公斤級獲得硬舉及總和雙金，林逸鈞則奪男子59公斤級總和金牌。",
+          "why": "台灣健力選手在國際賽事中展現實力，提升國際競技地位。",
+          "importance": 4,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611100198.aspx",
+          "original_title": "世界裝備公開健力錦標賽 陳葦綾獲硬舉、總和雙金",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T07:51:44.000Z",
+          "tags": [
+            "健力",
+            "國際賽事",
+            "台灣選手"
+          ]
+        },
+        {
+          "title": "U23世界盃台灣隊不敵澳洲 明戰波多黎各必勝",
+          "summary": "U23世界盃棒球賽中，台灣隊以0比4敗給澳洲，打線僅有4支安打無法得分。明日對戰波多黎各的比賽為晉級超級循環賽的關鍵戰役。",
+          "why": "比賽結果直接影響台灣隊晉級機會，關鍵戰役備受關注。",
+          "importance": 4,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611100046.aspx",
+          "original_title": "U23世界盃台灣打線受制不敵澳洲 對波多黎各非贏不可",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T02:32:14.000Z",
+          "tags": [
+            "棒球",
+            "U23世界盃",
+            "台灣隊"
+          ]
+        },
+        {
+          "title": "謝淑薇WTA年終賽首戰遭逆轉無緣勝利",
+          "summary": "台灣網球選手謝淑薇與拉脫維亞搭檔在美國印地安泉舉行的WTA年終總決賽分組賽首戰中，經過三盤激戰遭逆轉，未能取得首勝。",
+          "why": "年終賽成績影響選手排名及未來賽事表現。",
+          "importance": 3,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611100222.aspx",
+          "original_title": "WTA年終賽謝淑薇與搭檔遭逆轉 無緣分組賽首戰奪勝",
+          "original_lang": "zh",
+          "published_at": "2026-11-10T08:32:36.000Z",
+          "tags": [
+            "網球",
+            "WTA年終賽",
+            "謝淑薇"
+          ]
+        },
+        {
+          "title": "Stephanie Case成首位完成南極100英里賽女性",
+          "summary": "Stephanie Case成為首位完成南極洲極端100英里賽的女性，創下歷史紀錄。",
+          "why": "展現女性在極限運動的突破與體能極限挑戰。",
+          "importance": 3,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/articles/cm98z8w9kx02o?at_medium=RSS&at_campaign=rss",
+          "original_title": "Meet Stephanie Case - the first woman to run 100 miles in Antarctica",
+          "original_lang": "en",
+          "published_at": "2026-11-10T06:20:04.000Z",
+          "tags": [
+            "極限賽事",
+            "女性運動員",
+            "南極賽跑"
+          ]
+        },
+        {
+          "title": "曼聯主帥Carrick面臨下台壓力",
+          "summary": "曼聯隊在本賽季開局創40年最差紀錄，主教練Michael Carrick可能被解職。",
+          "why": "球隊管理層變動可能影響英超賽季走向。",
+          "importance": 3,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/football/articles/cmy0r041ed0po?at_medium=RSS&at_campaign=rss",
+          "original_title": "Man Utd expected to sack head coach Carrick",
+          "original_lang": "en",
+          "published_at": "2026-11-09T23:13:31.000Z",
+          "tags": [
+            "足球",
+            "英超",
+            "曼聯"
+          ]
+        },
+        {
+          "title": "溫格考慮參選FIFA主席",
+          "summary": "前阿森納主帥Arsene Wenger考慮在明年三月的FIFA主席選舉中挑戰現任主席Gianni Infantino。",
+          "why": "可能改變國際足球最高管理層的領導格局。",
+          "importance": 3,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/football/articles/cwj343pep7zdo?at_medium=RSS&at_campaign=rss",
+          "original_title": "Wenger considers standing against Infantino",
+          "original_lang": "en",
+          "published_at": "2026-11-10T08:53:26.000Z",
+          "tags": [
+            "足球",
+            "FIFA",
+            "國際足聯選舉"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "feeds": 39,
+    "fetched": 2918,
+    "kept": 36,
+    "jev_cost_usd": 0.005885,
+    "llm_cost_usd": 0.01238
+  }
+}
