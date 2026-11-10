@@ -1,0 +1,365 @@
+{
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T07:00:00+08:00",
+  "edition": 122,
+  "headline": {
+    "title": "【範例】晶片出口新規發布，業界評估對供應鏈影響有限",
+    "summary": "虛構的示範新聞：主管機關公布晶片出口管理的修訂版，新增部分高階製程設備的申報要求。多家業者表示短期訂單不受影響，但將加強合規文件。",
+    "why": "供應鏈合規成本上升，是長期要觀察的變數。",
+    "importance": 5,
+    "source_name": "示範財經報",
+    "source_url": "https://example.com/sample/2026-11-09/h",
+    "original_title": "晶片出口新規發布 業界評估影響有限",
+    "original_lang": "zh",
+    "published_at": "2026-11-09T06:05:00+08:00",
+    "tags": [
+      "半導體",
+      "政策",
+      "範例"
+    ]
+  },
+  "brief": "【範例資料】晶片出口新規公布，業界認為短期影響有限。工作流程工具加入原生 AI 節點。台灣公布新一季能源補貼方案。",
+  "sections": [
+    {
+      "id": "ai",
+      "items": [
+        {
+          "title": "【範例】曜石科技推出語音代理平台，通話延遲降至 300 毫秒",
+          "summary": "平台宣稱端到端延遲約 300 毫秒，並支援中英夾雜的客服場景。示範客戶包含兩家連鎖餐飲。",
+          "why": "低延遲是語音 AI 能否自然對話的關鍵。",
+          "importance": 4,
+          "source_name": "Sample Wire",
+          "source_url": "https://example.com/sample/2026-11-09/a1",
+          "original_title": "Obsidian Tech launches voice agent platform",
+          "original_lang": "en",
+          "published_at": "2026-11-09T07:10:00+08:00",
+          "tags": [
+            "語音",
+            "代理",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】開源社群提出「長文件分塊」新基準",
+          "summary": "新基準針對合約、論文等長文件，比較不同分塊與重排序策略，結果顯示重排序貢獻最大。",
+          "why": "做 RAG 的人可以直接參考調參方向。",
+          "importance": 3,
+          "source_name": "Demo Tech Review",
+          "source_url": "https://example.com/sample/2026-11-09/a2",
+          "original_title": "New benchmark for long-document chunking",
+          "original_lang": "en",
+          "published_at": "2026-11-09T05:30:00+08:00",
+          "tags": [
+            "RAG",
+            "基準",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】教育部試辦 AI 作業說明書，學生須揭露使用方式",
+          "summary": "示範新聞：試辦學校要求學生於作業註明 AI 使用範圍，老師以過程紀錄取代偵測工具。",
+          "why": "與其偵測，不如設計可驗證的學習歷程。",
+          "importance": 3,
+          "source_name": "範例新聞網",
+          "source_url": "https://example.com/sample/2026-11-09/a3",
+          "original_title": "教育部試辦 AI 作業說明",
+          "original_lang": "zh",
+          "published_at": "2026-11-09T04:40:00+08:00",
+          "tags": [
+            "教育",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】小型團隊分享：用 20 行腳本取代昂貴標註外包",
+          "summary": "作者描述如何以模型預標註加人工抽查，將標註成本壓低約七成。",
+          "why": "預算有限的團隊可以複製的作法。",
+          "importance": 2,
+          "source_name": "範例科技週報",
+          "source_url": "https://example.com/sample/2026-11-09/a4",
+          "original_title": "二十行腳本取代標註外包",
+          "original_lang": "zh",
+          "published_at": "2026-11-09T03:15:00+08:00",
+          "tags": [
+            "標註",
+            "範例"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "items": [
+        {
+          "title": "【範例】工作流程工具加入原生 AI 節點，支援結構化輸出",
+          "summary": "更新版加入可指定 JSON 結構的節點，失敗時自動重試並記錄原始回應。",
+          "why": "直接降低「LLM 輸出格式亂掉」的維運成本。",
+          "importance": 5,
+          "source_name": "範例科技週報",
+          "source_url": "https://example.com/sample/2026-11-09/b1",
+          "original_title": "工作流程工具加入原生 AI 節點",
+          "original_lang": "zh",
+          "published_at": "2026-11-09T06:50:00+08:00",
+          "tags": [
+            "n8n",
+            "LLM",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】靜態網站搭配 JSON 資料夾，成為個人資料庫新趨勢",
+          "summary": "越來越多人把資料存成版本控制的 JSON，再用靜態網站渲染，省去資料庫維運。",
+          "why": "資料可追溯、可回滾，非常適合個人專案。",
+          "importance": 3,
+          "source_name": "Demo Tech Review",
+          "source_url": "https://example.com/sample/2026-11-09/b2",
+          "original_title": "Static sites backed by JSON folders",
+          "original_lang": "en",
+          "published_at": "2026-11-09T02:30:00+08:00",
+          "tags": [
+            "靜態網站",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】Webhook 重送機制設計：冪等鍵的三種做法",
+          "summary": "文章比較以請求 ID、內容雜湊與資源版本號做冪等的優缺點。",
+          "why": "重跑同一天的流程時，避免重複 commit。",
+          "importance": 2,
+          "source_name": "範例科技週報",
+          "source_url": "https://example.com/sample/2026-11-09/b3",
+          "original_title": "Webhook 冪等鍵三種做法",
+          "original_lang": "zh",
+          "published_at": "2026-11-09T01:15:00+08:00",
+          "tags": [
+            "API",
+            "範例"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "items": [
+        {
+          "title": "【範例】蛋白質結構預測工具更新，膜蛋白準確度提升",
+          "summary": "新版工具針對膜蛋白加入專用訓練資料，在示範測試集上誤差下降一成五。",
+          "why": "膜蛋白是許多藥物的標靶。",
+          "importance": 4,
+          "source_name": "Example Biotech News",
+          "source_url": "https://example.com/sample/2026-11-09/c1",
+          "original_title": "Protein structure tool improves membrane predictions",
+          "original_lang": "en",
+          "published_at": "2026-11-09T05:45:00+08:00",
+          "tags": [
+            "蛋白質",
+            "AI",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】醫材業者取得居家血氧貼片查驗登記",
+          "summary": "示範新聞：一款可連續監測血氧的貼片取得核准，主打長者居家照護。",
+          "why": "居家監測讓慢性病管理更即時。",
+          "importance": 3,
+          "source_name": "示範生醫週刊",
+          "source_url": "https://example.com/sample/2026-11-09/c2",
+          "original_title": "居家血氧貼片取得查驗登記",
+          "original_lang": "zh",
+          "published_at": "2026-11-09T04:10:00+08:00",
+          "tags": [
+            "醫材",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】作物基因編輯：耐鹽水稻進入田間試驗",
+          "summary": "研究團隊於沿海試驗田種植耐鹽水稻，初步結果顯示產量減損較少。",
+          "why": "氣候變遷下，耐逆境作物越來越重要。",
+          "importance": 3,
+          "source_name": "Example Biotech News",
+          "source_url": "https://example.com/sample/2026-11-09/c3",
+          "original_title": "Salt-tolerant rice enters field trials",
+          "original_lang": "en",
+          "published_at": "2026-11-09T03:00:00+08:00",
+          "tags": [
+            "農業",
+            "範例"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "items": [
+        {
+          "title": "【範例】新一季能源補貼方案公布，家庭用電級距調整",
+          "summary": "示範方案調整補貼級距，月用電低於一定度數的家庭可獲得較高比例減免。",
+          "why": "直接影響家庭電費。",
+          "importance": 4,
+          "source_name": "範例新聞網",
+          "source_url": "https://example.com/sample/2026-11-09/d1",
+          "original_title": "新一季能源補貼方案公布",
+          "original_lang": "zh",
+          "published_at": "2026-11-09T06:40:00+08:00",
+          "tags": [
+            "民生",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】南部科學園區啟用共享實驗室，新創可按小時租用",
+          "summary": "共享實驗室提供基本量測設備，租金按使用時數計價。",
+          "why": "降低硬體新創的起步成本。",
+          "importance": 3,
+          "source_name": "示範財經報",
+          "source_url": "https://example.com/sample/2026-11-09/d2",
+          "original_title": "南科共享實驗室啟用",
+          "original_lang": "zh",
+          "published_at": "2026-11-09T05:15:00+08:00",
+          "tags": [
+            "新創",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】高鐵與台鐵推出聯程票試辦",
+          "summary": "旅客可在單一平台購買跨系統聯程票，試辦期間提供九折。",
+          "why": "轉乘更方便。",
+          "importance": 2,
+          "source_name": "範例新聞網",
+          "source_url": "https://example.com/sample/2026-11-09/d3",
+          "original_title": "高鐵台鐵聯程票試辦",
+          "original_lang": "zh",
+          "published_at": "2026-11-09T03:50:00+08:00",
+          "tags": [
+            "交通",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】文化部公布年度獨立書店補助名單",
+          "summary": "共有六十餘間書店獲補助，重點在社區活動與數位化。",
+          "why": "獨立書店的生存策略。",
+          "importance": 2,
+          "source_name": "範例新聞網",
+          "source_url": "https://example.com/sample/2026-11-09/d4",
+          "original_title": "年度獨立書店補助名單",
+          "original_lang": "zh",
+          "published_at": "2026-11-09T02:05:00+08:00",
+          "tags": [
+            "文化",
+            "範例"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "title": "【範例】主要經濟體央行釋出放緩升息訊號",
+          "summary": "示範報導：多國央行在最新會議紀要中提到通膨降溫，市場預期明年初可能暫停升息。",
+          "why": "利率走向影響匯率與投資。",
+          "importance": 4,
+          "source_name": "Example Global",
+          "source_url": "https://example.com/sample/2026-11-09/e1",
+          "original_title": "Central banks signal pause in rate hikes",
+          "original_lang": "en",
+          "published_at": "2026-11-09T06:25:00+08:00",
+          "tags": [
+            "金融",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】南半球某國稀土礦開採計畫獲批",
+          "summary": "環評通過後，計畫預計三年內投產，供應電動車馬達所需材料。",
+          "why": "關鍵礦產供應多元化。",
+          "importance": 3,
+          "source_name": "Sample Wire",
+          "source_url": "https://example.com/sample/2026-11-09/e2",
+          "original_title": "Rare earth mine approved",
+          "original_lang": "en",
+          "published_at": "2026-11-09T04:20:00+08:00",
+          "tags": [
+            "礦產",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】國際太空站補給任務順利對接",
+          "summary": "貨運太空船攜帶實驗設備與補給，順利與太空站完成對接。",
+          "why": "常規補給維持科學實驗運作。",
+          "importance": 2,
+          "source_name": "Example Global",
+          "source_url": "https://example.com/sample/2026-11-09/e3",
+          "original_title": "Cargo spacecraft docks with station",
+          "original_lang": "en",
+          "published_at": "2026-11-09T01:50:00+08:00",
+          "tags": [
+            "太空",
+            "範例"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "items": [
+        {
+          "title": "【範例】棒球聯盟公布新賽季賽程，開幕戰改在週五晚間",
+          "summary": "聯盟為提高現場觀賽人數，把開幕戰移到週五夜間，並增加平日夜場比例。",
+          "why": "賽程設計影響球迷出席。",
+          "importance": 3,
+          "source_name": "範例體育報",
+          "source_url": "https://example.com/sample/2026-11-09/f1",
+          "original_title": "新賽季賽程公布 開幕戰改週五",
+          "original_lang": "zh",
+          "published_at": "2026-11-09T06:15:00+08:00",
+          "tags": [
+            "棒球",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】網球公開賽爆冷，種子選手首輪出局",
+          "summary": "示範賽事中，頭號種子在首輪以直落二落敗，對手為資格賽晉級選手。",
+          "why": "籤表因此大洗牌。",
+          "importance": 3,
+          "source_name": "Demo Sports",
+          "source_url": "https://example.com/sample/2026-11-09/f2",
+          "original_title": "Top seed upset in first round",
+          "original_lang": "en",
+          "published_at": "2026-11-09T05:00:00+08:00",
+          "tags": [
+            "網球",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】穿戴裝置數據：恢復心率變異可預測過度訓練",
+          "summary": "研究顯示連續三天恢復心率變異偏低，與疲勞累積相關。",
+          "why": "業餘運動者也能用手錶避免受傷。",
+          "importance": 2,
+          "source_name": "Demo Sports",
+          "source_url": "https://example.com/sample/2026-11-09/f3",
+          "original_title": "HRV can flag overtraining",
+          "original_lang": "en",
+          "published_at": "2026-11-09T02:40:00+08:00",
+          "tags": [
+            "運動科學",
+            "範例"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "feeds": 39,
+    "fetched": 831,
+    "kept": 21,
+    "jev_cost_usd": 0.0013,
+    "llm_cost_usd": 0.031
+  }
+}

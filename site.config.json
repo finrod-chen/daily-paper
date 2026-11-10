@@ -1,0 +1,19 @@
+{
+  "name": "Finrod 日報",
+  "tagline": "每天早上七點，由機器替你讀完 39 個來源",
+  "description": "Finrod 日報：每日自動編輯的繁體中文個人日報，涵蓋 AI、自動化、生技、台灣、國際與體育。",
+  "url": "https://daily-paper.pages.dev",
+  "timezone": "Asia/Taipei",
+  "language": "zh-Hant-TW",
+  "primary_color": "#9b1c1c",
+  "max_items_per_section": 6,
+  "sections": [
+    { "id": "ai", "name": "AI", "color": "#1d4ed8" },
+    { "id": "automation", "name": "自動化", "color": "#b45309" },
+    { "id": "biotech", "name": "生技", "color": "#047857" },
+    { "id": "taiwan", "name": "台灣", "color": "#be123c" },
+    { "id": "world", "name": "國際", "color": "#6d28d9" },
+    { "id": "sports", "name": "體育", "color": "#c2410c" }
+  ],
+  "footer_text": "由 n8n × TypeSafe Jev 自動編輯"
+}

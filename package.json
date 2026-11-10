@@ -1,0 +1,14 @@
+{
+  "name": "daily-paper",
+  "version": "1.0.0",
+  "description": "靜態繁體中文個人日報網站範本 — n8n commit JSON，GitHub Actions 建置並部署到 Cloudflare Pages。",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "validate": "node scripts/validate.mjs",
+    "build": "node scripts/validate.mjs && node scripts/build.mjs",
+    "dev": "npm run build && npx --yes serve dist -l 3000"
+  },
+  "license": "MIT"
+}

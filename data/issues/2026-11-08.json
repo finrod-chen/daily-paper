@@ -1,0 +1,368 @@
+{
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T07:00:00+08:00",
+  "edition": 121,
+  "headline": {
+    "title": "【範例】離岸風電新案併網，台灣再生能源占比首度突破兩成",
+    "summary": "虛構的示範新聞：一座百萬瓩級離岸風場完成併網，官方表示本季再生能源發電占比首次站上兩成。業者指出，儲能設備同步啟用，可緩解午後尖峰的電網壓力。",
+    "why": "這是能源轉型從「蓋設備」進入「穩定供電」階段的指標。",
+    "importance": 5,
+    "source_name": "範例新聞網",
+    "source_url": "https://example.com/sample/2026-11-08/h",
+    "original_title": "離岸風電新案併網 再生能源占比破兩成",
+    "original_lang": "zh",
+    "published_at": "2026-11-08T06:10:00+08:00",
+    "tags": [
+      "能源",
+      "台灣",
+      "範例"
+    ]
+  },
+  "brief": "【範例資料】離岸風電併網讓再生能源占比首破兩成。AI 工具商推出可離線運行的小型模型。生技業者公布一項新型疫苗載體的早期數據。",
+  "sections": [
+    {
+      "id": "ai",
+      "items": [
+        {
+          "title": "【範例】鏡湖智能發表 3B 小模型，主打筆電離線運行",
+          "summary": "鏡湖智能釋出一款 30 億參數的語言模型，宣稱在一般筆電上不需顯卡即可流暢對話。基準測試成績接近上一代 70 億參數模型。",
+          "why": "小模型變強，代表個人裝置上的私密 AI 更可行。",
+          "importance": 4,
+          "source_name": "Sample Wire",
+          "source_url": "https://example.com/sample/2026-11-08/a1",
+          "original_title": "Mirror Lake AI unveils 3B model for offline laptops",
+          "original_lang": "en",
+          "published_at": "2026-11-08T07:40:00+08:00",
+          "tags": [
+            "模型",
+            "邊緣運算",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】開發者調查：六成團隊已把 AI 程式助理納入日常流程",
+          "summary": "一份示範性的年度調查指出，多數受訪團隊每週至少使用一次 AI 程式助理，但僅三成建立了審查規範。",
+          "why": "工具普及速度快於流程，風險管理成為下一個缺口。",
+          "importance": 3,
+          "source_name": "Demo Tech Review",
+          "source_url": "https://example.com/sample/2026-11-08/a2",
+          "original_title": "Survey: 60% of dev teams use AI coding assistants daily",
+          "original_lang": "en",
+          "published_at": "2026-11-08T05:20:00+08:00",
+          "tags": [
+            "開發",
+            "調查",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】多模態檢索套件開源，支援中文圖文混合查詢",
+          "summary": "新開源套件可以同時索引文件、圖片與表格，並針對繁體中文優化斷詞。作者提供十行程式碼即可上手的範例。",
+          "why": "對想做內部知識庫的小團隊是低門檻選擇。",
+          "importance": 3,
+          "source_name": "範例科技週報",
+          "source_url": "https://example.com/sample/2026-11-08/a3",
+          "original_title": "多模態檢索套件開源 支援中文圖文查詢",
+          "original_lang": "zh",
+          "published_at": "2026-11-08T04:55:00+08:00",
+          "tags": [
+            "開源",
+            "檢索",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】研究：提示詞加入反例，可降低摘要的幻覺率",
+          "summary": "研究團隊在示範實驗中發現，於提示詞中附上一個「錯誤示範」，能讓摘要任務的捏造事實比例下降約三分之一。",
+          "why": "不改模型也能改善品質，適合馬上套用到自動化流程。",
+          "importance": 2,
+          "source_name": "Sample Wire",
+          "source_url": "https://example.com/sample/2026-11-08/a4",
+          "original_title": "Negative examples cut summarization hallucinations",
+          "original_lang": "en",
+          "published_at": "2026-11-08T03:30:00+08:00",
+          "tags": [
+            "研究",
+            "提示詞",
+            "範例"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "items": [
+        {
+          "title": "【範例】工作流程平台新增「失敗自動重試與告警」範本",
+          "summary": "平台更新後，內建範本可在 API 失敗時自動退避重試，並在三次失敗後推播通知。",
+          "why": "無人值守的排程最怕靜默失敗，這類範本值得直接採用。",
+          "importance": 4,
+          "source_name": "範例科技週報",
+          "source_url": "https://example.com/sample/2026-11-08/b1",
+          "original_title": "工作流程平台新增失敗重試與告警範本",
+          "original_lang": "zh",
+          "published_at": "2026-11-08T06:45:00+08:00",
+          "tags": [
+            "n8n",
+            "運維",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】RSS 重新受到重視：個人資訊流的低成本解法",
+          "summary": "示範文章指出，RSS 搭配自動摘要，是避開演算法推薦的簡單做法。作者整理了常見的去重與分類策略。",
+          "why": "自架資訊流的門檻正在下降。",
+          "importance": 3,
+          "source_name": "Demo Tech Review",
+          "source_url": "https://example.com/sample/2026-11-08/b2",
+          "original_title": "Why RSS is back for personal news feeds",
+          "original_lang": "en",
+          "published_at": "2026-11-08T02:10:00+08:00",
+          "tags": [
+            "RSS",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】排程任務時區陷阱：夏令時間導致重複執行",
+          "summary": "文章整理三個因時區設定造成排程重複或漏跑的案例，建議一律以 UTC 儲存並明確指定顯示時區。",
+          "why": "每天定時發刊的系統要特別留意。",
+          "importance": 2,
+          "source_name": "範例科技週報",
+          "source_url": "https://example.com/sample/2026-11-08/b3",
+          "original_title": "排程任務時區陷阱整理",
+          "original_lang": "zh",
+          "published_at": "2026-11-08T01:40:00+08:00",
+          "tags": [
+            "排程",
+            "範例"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "items": [
+        {
+          "title": "【範例】青檜生技公布 mRNA 疫苗新載體的一期數據",
+          "summary": "示範數據顯示，新型脂質載體在小規模試驗中抗體濃度提升，且注射部位不適感較低。公司預計明年啟動二期。",
+          "why": "載體是 mRNA 藥物的瓶頸，改善可擴大適應症。",
+          "importance": 4,
+          "source_name": "示範生醫週刊",
+          "source_url": "https://example.com/sample/2026-11-08/c1",
+          "original_title": "青檜生技公布新載體一期數據",
+          "original_lang": "zh",
+          "published_at": "2026-11-08T05:50:00+08:00",
+          "tags": [
+            "疫苗",
+            "臨床",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】基因定序成本再降，單一基因組低於兩百美元",
+          "summary": "示範報導稱新一代定序儀把單人全基因組成本壓到兩百美元以下，健檢套餐可望納入。",
+          "why": "成本降低會加速精準醫療的普及。",
+          "importance": 3,
+          "source_name": "Example Biotech News",
+          "source_url": "https://example.com/sample/2026-11-08/c2",
+          "original_title": "Whole-genome sequencing falls below $200",
+          "original_lang": "en",
+          "published_at": "2026-11-08T04:15:00+08:00",
+          "tags": [
+            "定序",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】腸道菌相研究：高纖飲食與睡眠品質相關",
+          "summary": "小型觀察研究發現，高纖飲食者的睡眠效率略佳，但作者強調樣本有限，不能視為因果。",
+          "why": "提醒讀者注意相關不等於因果。",
+          "importance": 2,
+          "source_name": "示範生醫週刊",
+          "source_url": "https://example.com/sample/2026-11-08/c3",
+          "original_title": "腸道菌相與睡眠品質初步研究",
+          "original_lang": "zh",
+          "published_at": "2026-11-08T03:05:00+08:00",
+          "tags": [
+            "營養",
+            "範例"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "items": [
+        {
+          "title": "【範例】雙北新增夜間公車專線，週末延長至凌晨兩點",
+          "summary": "市府宣布試辦夜間專線，涵蓋三條主要幹道，票價與一般公車相同。",
+          "why": "影響夜間通勤與週末出遊族群。",
+          "importance": 3,
+          "source_name": "範例新聞網",
+          "source_url": "https://example.com/sample/2026-11-08/d1",
+          "original_title": "雙北新增夜間公車專線",
+          "original_lang": "zh",
+          "published_at": "2026-11-08T06:30:00+08:00",
+          "tags": [
+            "交通",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】半導體廠擴建人才缺口，大學推出跨系微學程",
+          "summary": "多所大學與業者合作開設六週微學程，內容包含製程基礎與資料分析，名額已被搶光。",
+          "why": "產學合作模式可能成為補足人才缺口的常態。",
+          "importance": 4,
+          "source_name": "示範財經報",
+          "source_url": "https://example.com/sample/2026-11-08/d2",
+          "original_title": "半導體擴廠人才缺口 大學推微學程",
+          "original_lang": "zh",
+          "published_at": "2026-11-08T05:40:00+08:00",
+          "tags": [
+            "產業",
+            "教育",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】颱風外圍環流影響，東北部週一有短暫陣雨",
+          "summary": "氣象單位提醒週一早晨東北部降雨機率較高，午後轉為多雲，氣溫略降。",
+          "why": "通勤族出門記得帶傘。",
+          "importance": 2,
+          "source_name": "範例新聞網",
+          "source_url": "https://example.com/sample/2026-11-08/d3",
+          "original_title": "東北部週一短暫陣雨",
+          "original_lang": "zh",
+          "published_at": "2026-11-08T04:00:00+08:00",
+          "tags": [
+            "天氣",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】夜市數位點餐普及，攤商抱怨手續費偏高",
+          "summary": "示範調查指出，約四成夜市攤商導入行動點餐，但對平台抽成不滿，盼政府協調。",
+          "why": "小商家的數位化成本值得追蹤。",
+          "importance": 2,
+          "source_name": "示範財經報",
+          "source_url": "https://example.com/sample/2026-11-08/d4",
+          "original_title": "夜市數位點餐 攤商抱怨手續費",
+          "original_lang": "zh",
+          "published_at": "2026-11-08T02:50:00+08:00",
+          "tags": [
+            "商業",
+            "範例"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "title": "【範例】區域氣候峰會閉幕，簽署海運減碳路線圖",
+          "summary": "示範新聞：多國在峰會尾聲簽署海運減排路線圖，目標十年內讓新建船舶使用低碳燃料。",
+          "why": "航運是難以減碳的產業，協議影響全球供應鏈成本。",
+          "importance": 4,
+          "source_name": "Sample Wire",
+          "source_url": "https://example.com/sample/2026-11-08/e1",
+          "original_title": "Climate summit closes with shipping roadmap",
+          "original_lang": "en",
+          "published_at": "2026-11-08T06:00:00+08:00",
+          "tags": [
+            "氣候",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】歐洲某國通過資料可攜新法，要求平台開放匯出",
+          "summary": "新法要求大型平台提供標準格式的資料匯出，違者最高處營收百分之二罰款。",
+          "why": "資料可攜有助降低服務轉換成本。",
+          "importance": 3,
+          "source_name": "Example Global",
+          "source_url": "https://example.com/sample/2026-11-08/e2",
+          "original_title": "New data portability law passes",
+          "original_lang": "en",
+          "published_at": "2026-11-08T03:45:00+08:00",
+          "tags": [
+            "法規",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】國際能源展望：明年原油需求成長放緩",
+          "summary": "示範預測認為電動車滲透率上升，使明年原油需求成長幅度低於今年。",
+          "why": "能源價格預期會影響通膨與匯率。",
+          "importance": 3,
+          "source_name": "Example Global",
+          "source_url": "https://example.com/sample/2026-11-08/e3",
+          "original_title": "Oil demand growth to slow next year",
+          "original_lang": "en",
+          "published_at": "2026-11-08T02:20:00+08:00",
+          "tags": [
+            "能源",
+            "範例"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "items": [
+        {
+          "title": "【範例】城市馬拉松開放報名，三萬名額十分鐘額滿",
+          "summary": "示範賽事「範例城市馬拉松」開放報名，系統一度塞車，主辦單位承諾加開下午場次。",
+          "why": "大型賽事的報名系統是年年的痛點。",
+          "importance": 2,
+          "source_name": "範例體育報",
+          "source_url": "https://example.com/sample/2026-11-08/f1",
+          "original_title": "城市馬拉松三萬名額十分鐘額滿",
+          "original_lang": "zh",
+          "published_at": "2026-11-08T06:20:00+08:00",
+          "tags": [
+            "路跑",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】職籃例行賽：主場球隊末節逆轉，終場一分險勝",
+          "summary": "示範比賽中，主場球隊在最後兩分鐘打出 9 比 2 的攻勢，以一分之差獲勝。",
+          "why": "排名競爭進入白熱化。",
+          "importance": 3,
+          "source_name": "Demo Sports",
+          "source_url": "https://example.com/sample/2026-11-08/f2",
+          "original_title": "Home team rallies for one-point win",
+          "original_lang": "en",
+          "published_at": "2026-11-08T05:05:00+08:00",
+          "tags": [
+            "籃球",
+            "範例"
+          ]
+        },
+        {
+          "title": "【範例】運動科學：週期化訓練對業餘跑者更有效",
+          "summary": "研究對照發現，採用週期化訓練的業餘跑者，十公里成績平均進步幅度較大。",
+          "why": "訓練安排比單純加量更重要。",
+          "importance": 2,
+          "source_name": "Demo Sports",
+          "source_url": "https://example.com/sample/2026-11-08/f3",
+          "original_title": "Periodized training helps amateur runners",
+          "original_lang": "en",
+          "published_at": "2026-11-08T01:30:00+08:00",
+          "tags": [
+            "訓練",
+            "範例"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "feeds": 39,
+    "fetched": 796,
+    "kept": 21,
+    "jev_cost_usd": 0.0011,
+    "llm_cost_usd": 0.028
+  }
+}
