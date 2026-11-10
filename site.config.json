@@ -1,7 +1,7 @@
 {
-  "name": "Finrod 日報",
+  "name": "JustNote Daily",
   "tagline": "每天早上七點，由機器替你讀完 39 個來源",
-  "description": "Finrod 日報：每日自動編輯的繁體中文個人日報，涵蓋 AI、自動化、生技、台灣、國際與體育。",
+  "description": "JustNote Daily：每日自動編輯的繁體中文個人日報，涵蓋 AI、自動化、生技、台灣、國際與體育。",
   "url": "https://daily.finrod.xyz",
   "timezone": "Asia/Taipei",
   "language": "zh-Hant-TW",

@@ -57,8 +57,11 @@ write(CSS_PATH.slice(1), css);
 write(JS_PATH.slice(1), js);
 
 const initial = Array.from(cfg.name)[0];
+// og.svg 報名字級：依字寬估算（CJK 1em、其他約 0.62em），最大 140、確保不超出 1000px
+const nameEm = Array.from(cfg.name).reduce((n, c) => n + (/[^\x00-\x7f]/.test(c) ? 1 : 0.62), 0);
+const ogSize = Math.min(140, Math.floor(1000 / Math.max(nameEm, 1)));
 write('favicon.svg', `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="12" fill="${cfg.primary_color}"/><text x="32" y="46" text-anchor="middle" font-size="40" font-weight="700" font-family="serif" fill="#fff">${esc(initial)}</text></svg>\n`);
-write('og.svg', `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630"><rect width="1200" height="630" fill="#faf8f3"/><rect x="60" y="60" width="1080" height="510" fill="none" stroke="#1b1a17" stroke-width="3"/><rect x="72" y="72" width="1056" height="486" fill="none" stroke="#1b1a17" stroke-width="1"/><rect x="72" y="72" width="1056" height="14" fill="${cfg.primary_color}"/><text x="600" y="320" text-anchor="middle" font-size="140" font-weight="900" font-family="'Noto Serif TC','Songti TC',PMingLiU,serif" fill="#1b1a17">${esc(cfg.name)}</text><text x="600" y="420" text-anchor="middle" font-size="36" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#58534a">${esc(cfg.tagline || '')}</text></svg>\n`);
+write('og.svg', `<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630"><rect width="1200" height="630" fill="#faf8f3"/><rect x="60" y="60" width="1080" height="510" fill="none" stroke="#1b1a17" stroke-width="3"/><rect x="72" y="72" width="1056" height="486" fill="none" stroke="#1b1a17" stroke-width="1"/><rect x="72" y="72" width="1056" height="14" fill="${cfg.primary_color}"/><text x="600" y="320" text-anchor="middle" font-size="${ogSize}" font-weight="900" font-family="'Noto Serif TC','Songti TC',PMingLiU,serif" fill="#1b1a17">${esc(cfg.name)}</text><text x="600" y="420" text-anchor="middle" font-size="36" font-family="'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif" fill="#58534a">${esc(cfg.tagline || '')}</text></svg>\n`);
 
 // ---------- components ----------
 const sectionDefs = (issue) => {
