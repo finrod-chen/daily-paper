@@ -93,7 +93,7 @@ try {
 
 // ---- data/issues ----
 const dir = join(ROOT, 'data/issues');
-const files = readdirSync(dir).filter((f) => !f.startsWith('.')).sort();
+const files = readdirSync(dir).filter((f) => !f.startsWith('.')).sort(); // .gitkeep 等隱藏檔會被忽略
 const editions = new Map();
 const sectionIds = new Set((config?.sections ?? []).map((s) => s.id));
 let count = 0;
@@ -128,7 +128,7 @@ for (const f of files) {
   }
 }
 
-if (!count) fail('data/issues', '找不到任何期數 JSON');
+if (!count) warnings.push('data/issues: 目前沒有任何期數，網站將顯示「尚未發刊」');
 
 warnings.forEach((w) => console.warn(`⚠ ${w}`));
 if (errors.length) {

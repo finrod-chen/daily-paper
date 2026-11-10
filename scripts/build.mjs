@@ -44,8 +44,7 @@ const issues = readdirSync(join(ROOT, 'data/issues'))
   .filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))
   .map((f) => JSON.parse(readFileSync(join(ROOT, 'data/issues', f), 'utf8')))
   .sort((a, b) => (a.date < b.date ? 1 : -1)); // 新 → 舊
-if (!issues.length) { console.error('找不到任何期數'); process.exit(1); }
-const latest = issues[0];
+const latest = issues[0] ?? null; // 尚無任何期數時為 null，會產生「尚未發刊」的占位首頁
 
 // ---------- assets ----------
 rmSync(DIST, { recursive: true, force: true });
@@ -149,7 +148,7 @@ function page({ title, description, path, canonical, body, issue, type = 'websit
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(description)}">
-<meta name="issue-date" content="${esc(issue ? issue.date : latest.date)}">
+<meta name="issue-date" content="${esc(issue?.date ?? latest?.date ?? '')}">
 <meta name="color-scheme" content="light dark">
 <meta name="theme-color" media="(prefers-color-scheme: light)" content="#faf8f3">
 <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#141311">
@@ -204,13 +203,17 @@ function issuePage(issue, idx, isHome) {
   });
 }
 
-write('index.html', issuePage(latest, 0, true));
+if (latest) write('index.html', issuePage(latest, 0, true));
+else write('index.html', page({
+  title: `${cfg.name}｜${cfg.tagline || ''}`, description: cfg.description || cfg.tagline || cfg.name, path: '/',
+  body: { head: masthead({ current: 'home', h1: true }), main: `<div class="empty"><h2 class="page-title">尚未發刊</h2><p>第一期還在編輯中，請稍後再來。</p></div>`, foot: footer(null) },
+}));
 issues.forEach((is, i) => write(`${is.date}/index.html`, issuePage(is, i, false)));
 
 // archive
 const byMonth = new Map();
 for (const is of issues) { const k = is.date.slice(0, 7); (byMonth.get(k) ?? byMonth.set(k, []).get(k)).push(is); }
-const archiveMain = `<h1 class="page-title">往期索引</h1><p>共 ${issues.length} 期，依月份分組。</p><div class="archive">${[...byMonth]
+const archiveMain = `<h1 class="page-title">往期索引</h1><p>${issues.length ? `共 ${issues.length} 期，依月份分組。` : '目前還沒有任何一期。'}</p><div class="archive">${[...byMonth]
   .map(([k, list]) => { const [y, m] = k.split('-').map(Number); return `<section aria-labelledby="m-${k}"><h2 id="m-${k}">${y} 年 ${m} 月</h2><ul>${list.map((is) => `<li><a href="/${is.date}/"><span class="d"><b>第 ${is.edition} 期</b>${is.date.slice(5)}（${weekday(is.date)}）</span><span class="t">${esc(is.headline.title)}</span></a></li>`).join('')}</ul></section>`; })
   .join('')}</div>`;
 write('archive/index.html', page({
@@ -225,7 +228,7 @@ write('404.html', page({
 }));
 
 // latest.json — 給 n8n 輪詢確認部署成功
-write('latest.json', JSON.stringify({ date: latest.date, edition: latest.edition, url: issueUrl(latest.date) }) + '\n');
+write('latest.json', JSON.stringify(latest ? { date: latest.date, edition: latest.edition, url: issueUrl(latest.date) } : { date: null, edition: 0, url: `${BASE}/` }) + '\n');
 
 // feed.xml
 const rfc = (iso) => new Date(iso).toUTCString();
@@ -236,13 +239,13 @@ const feedItems = issues.slice(0, 30).map((is) => {
 }).join('\n');
 write('feed.xml', `<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
-<channel><title>${esc(cfg.name)}</title><link>${BASE}/</link><description>${esc(cfg.description || cfg.tagline || '')}</description><language>zh-TW</language><lastBuildDate>${rfc(latest.generated_at)}</lastBuildDate><atom:link href="${BASE}/feed.xml" rel="self" type="application/rss+xml"/>
+<channel><title>${esc(cfg.name)}</title><link>${BASE}/</link><description>${esc(cfg.description || cfg.tagline || '')}</description><language>zh-TW</language><lastBuildDate>${rfc(latest ? latest.generated_at : new Date().toISOString())}</lastBuildDate><atom:link href="${BASE}/feed.xml" rel="self" type="application/rss+xml"/>
 ${feedItems}
 </channel></rss>
 `);
 
 // sitemap / robots / _headers
-write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[['/', latest.date], ['/archive/', latest.date], ...issues.map((i) => [`/${i.date}/`, i.date])].map(([p, d]) => `<url><loc>${BASE}${p}</loc><lastmod>${d}</lastmod></url>`).join('\n')}\n</urlset>\n`);
+write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[['/', latest?.date], ['/archive/', latest?.date], ...issues.map((i) => [`/${i.date}/`, i.date])].map(([p, d]) => `<url><loc>${BASE}${p}</loc>${d ? `<lastmod>${d}</lastmod>` : ''}</url>`).join('\n')}\n</urlset>\n`);
 write('robots.txt', `User-agent: *\nAllow: /\nSitemap: ${BASE}/sitemap.xml\n`);
 write('_headers', `/*
   X-Content-Type-Options: nosniff
@@ -260,4 +263,4 @@ write('_headers', `/*
   Cache-Control: public, max-age=31536000, immutable
 `);
 
-console.log(`✔ 建置完成：${issues.length} 期 → dist/（最新 ${latest.date} 第 ${latest.edition} 期）`);
+console.log(`✔ 建置完成：${issues.length} 期 → dist/` + (latest ? `（最新 ${latest.date} 第 ${latest.edition} 期）` : '（尚無期數，已產生占位首頁）'));
