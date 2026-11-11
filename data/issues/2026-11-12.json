@@ -1,0 +1,538 @@
+{
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T07:01:55.101+08:00",
+  "edition": 3,
+  "headline": {
+    "title": "OpenAI Q3 營收破百億美元，虧損亦同步擴大",
+    "summary": "OpenAI 第三季營收首度突破 100 億美元，季增近 50%，企業業務單季翻倍。但調整後營業虧損擴大至 109 億美元。該數據與同週啟動 IPO 路演的 Anthropic 形成對照，顯示雙方的規模與財務結構差異。",
+    "why": "揭示大型 AI 實驗室在營收高速成長下仍面临巨大成本壓力，對行業可持續性具參考價值。",
+    "importance": 5,
+    "source_name": "INSIDE",
+    "source_url": "https://www.inside.com.tw/article/42879-openai-q3-2026-revenue-10-billion-enterprise",
+    "original_title": "OpenAI 第三季營收首破 100 億美元、企業業務翻倍，調整後虧損仍高於營收",
+    "original_lang": "zh",
+    "published_at": "2026-11-11T06:25:00.000Z",
+    "tags": [
+      "AI",
+      "營運數據",
+      "企業成長"
+    ]
+  },
+  "brief": "台積電十月營收創下歷史新高，並宣布最多投資十億美元於 Anthropic 與 OpenAI，帶動台股加權指數收復四萬四千點。與此同時，OpenAI 第三季營收首度突破一百億美元，雖企業業務表現亮眼，但調整後營業虧損同步擴大至一百零九億美元。多單位系統遭駭事件被數位發展部初步研判與 AI 自動化攻擊有關，顯示在 AI 技術快速擴展的同時，資安威脅亦日益顯現。",
+  "sections": [
+    {
+      "id": "ai",
+      "items": [
+        {
+          "title": "DeepMind 發布 AlphaGenome 2，聚焦疾病細胞根源",
+          "summary": "Google DeepMind 發布 AlphaGenome 2，旨在解讀 DNA 變化如何影響不同細胞。該模型提供比之前更詳細的視角，有助於理解疾病成因並指向新的治療方向。",
+          "why": "提供新工具解析基因與疾病的複雜關係，對生技研發與藥物發現具實質助益。",
+          "importance": 5,
+          "source_name": "The Verge AI",
+          "source_url": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
+          "original_title": "Google’s AlphaGenome 2 zooms in on the cellular roots of disease",
+          "original_lang": "en",
+          "published_at": "2026-11-11T15:00:00.000Z",
+          "tags": [
+            "生物醫學",
+            "Genomics",
+            "AI"
+          ]
+        },
+        {
+          "title": "Google 推醫療版 Gemini，整合病歷系統與行政作業",
+          "summary": "Google Cloud 推出醫療版 Gemini，可串接 Epic 和 Oracle Health 電子病歷系統。該方案整合 AI Agent，協助整理病史、準備看診資料，並支援保險事前授權與理賠審查，現已在美國開放預覽。",
+          "why": "將 AI 應用於醫療行政與臨床輔助，展示跨系統資料整合的實際落地場景。",
+          "importance": 4,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180431",
+          "original_title": "Google推出醫療版Gemini，可串Epic、Oracle電子病歷系統，還整合AI Agent協助看診和保險審查",
+          "original_lang": "zh",
+          "published_at": "2026-11-11T06:11:14.000Z",
+          "tags": [
+            "醫療 AI",
+            "電子病歷",
+            "Automation"
+          ]
+        },
+        {
+          "title": "Gemini 4 Carbon 上線，API 價格低於競品",
+          "summary": "Google 宣布 Gemini 4 Carbon 全面上線，開放給企業、開發者及個人付費用戶。其 API 存取費用為 Anthropic Fable/Mythos 5.2 的一半，並強化程式開發、代理式 AI 及長時間自主執行任務能力。",
+          "why": "降低尖端模型使用成本，可能改變開發者選型策略與自動化應用部署門檻。",
+          "importance": 3,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180428",
+          "original_title": "Google Gemini 4 Carbon全面上線，以較低價對打Anthropic Fable/Mythos 5.2",
+          "original_lang": "zh",
+          "published_at": "2026-11-11T04:11:38.000Z",
+          "tags": [
+            "LLM",
+            "定價策略",
+            "Developer Tools"
+          ]
+        },
+        {
+          "title": "微軟 .NET 11 發布，引入 C# 15 新語法",
+          "summary": "微軟發布 .NET 11 正式版，C# 15 新增聯合型別與封閉階層。.NET SDK 預設啟用 Native AOT 編譯以加速命令列啟動，並改善建置工具效能及擴充跨平臺與 AI 開發支援。",
+          "why": "提升程式開發效能與跨平台相容性，對使用 .NET 生態系的工程團隊有技術價值。",
+          "importance": 3,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180426",
+          "original_title": "微軟.NET 11登場，C# 15新增聯合型別、CLI導入Native AOT加速",
+          "original_lang": "zh",
+          "published_at": "2026-11-11T04:11:31.000Z",
+          "tags": [
+            ".NET",
+            "C#",
+            "Software Dev"
+          ]
+        },
+        {
+          "title": "數據中心建設受阻，電力與許可成關鍵瓶頸",
+          "summary": "數據中心建設面臨地方反對、許可證延誤及電力資源爭奪等障礙。許多已宣布的數十億美元 AI 基礎設施專案可能永遠不會實際建成。",
+          "why": "揭示 AI 基礎設施擴張的現實限制，影響對模型運算資源可用性的長期預期。",
+          "importance": 3,
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/podcast/how-backlash-and-red-tape-continue-to-slow-data-centers-post-blue-wave/",
+          "original_title": "How backlash and red tape continue to slow data centers post-Blue Wave",
+          "original_lang": "en",
+          "published_at": "2026-11-11T20:02:14.000Z",
+          "tags": [
+            "AI 基礎設施",
+            "能源",
+            "監管"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "items": [
+        {
+          "title": "Berkeley 與 NVIDIA 發布開源工具：AI 代理無需數據即可編程工業機器人",
+          "summary": "UC Berkeley 與 NVIDIA 發布開源工具，讓 AI 編碼代理無需訓練數據即可編寫、模擬並優化機器人程式。此方法旨在讓工業機器人能直接執行 AI 代理生成的可讀程式碼。",
+          "why": "降低工業機器人自動化的開發門檻，讓非專業人員或小型團隊能透過 AI 快速部署複雜的控制邏輯。",
+          "importance": 4,
+          "source_name": "The Robot Report",
+          "source_url": "https://www.therobotreport.com/can-ai-agents-program-industrial-robots-without-training-data-berkeley-says-yes/",
+          "original_title": "Can AI agents program industrial robots without training data? Berkeley says yes",
+          "original_lang": "en",
+          "published_at": "2026-11-11T12:55:16.000Z",
+          "tags": [
+            "機器人",
+            "AI 代理",
+            "自動控制"
+          ]
+        },
+        {
+          "title": "AI 代理協助發現未在地圖上的馬雅遺址",
+          "summary": "開發者使用 AI 代理識別出一處未在地圖上的馬雅遺址。此案例顯示 AI 在處理大量地理與歷史數據時，具備發現人類未記錄之實體資產的潛力。",
+          "why": "證明 AI 代理在跨領域數據探勘中具備實際發現新知識的能力，擴展了其在科學研究中的應用邊界。",
+          "importance": 4,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://pietromiotti.com/latest/maya-site",
+          "original_title": "My AI agents found an unmapped Maya site",
+          "original_lang": "en",
+          "published_at": "2026-11-11T12:05:22.000Z",
+          "tags": [
+            "AI 應用",
+            "考古學",
+            "數據分析"
+          ]
+        },
+        {
+          "title": "Serve Robotics 開放 API，允許第三方建構於其 2,000 台機器人車隊",
+          "summary": "Serve Robotics 開放其包含 2,000 多台機器的自動駕駛送貨車隊 API。第三方可透過該 API 在其硬體基礎上開發新的送貨服務，無需自建車隊。",
+          "why": "將大型自動駕駛車隊轉化為基礎設施，降低新興送貨服務提供商的硬體門檻與進入成本。",
+          "importance": 3,
+          "source_name": "The Robot Report",
+          "source_url": "https://www.therobotreport.com/serve-robotics-opens-robot-delivery-network-for-others-to-build-on/",
+          "original_title": "Serve Robotics opens robot delivery network for others to build on",
+          "original_lang": "en",
+          "published_at": "2026-11-11T13:43:29.000Z",
+          "tags": [
+            "自動駕駛",
+            "物聯網",
+            "送貨機器人"
+          ]
+        },
+        {
+          "title": "Jane Street 紐約數據中心因誤報煙警報險釀災難",
+          "summary": "Jane Street 位於紐約市的主要數據中心因誤報煙警報而幾乎淹水。該事件凸顯了基礎設施自動化監控與应急响应機制在關鍵時刻的重要性。",
+          "why": "提醒機構審查關鍵基礎設施的自動化監控系統，防止因單一誤報觸發的連鎖物理損害。",
+          "importance": 3,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://michael.bacarella.com/2026/11/10/false-smoke-alarm-jane-street-datacenter/",
+          "original_title": "A false smoke alarm almost drowned Jane Street's only NYC datacenter",
+          "original_lang": "en",
+          "published_at": "2026-11-11T16:38:44.000Z",
+          "tags": [
+            "數據中心",
+            "基礎設施",
+            "風險管理"
+          ]
+        },
+        {
+          "title": "研究人員利用電壓抖動解鎖挖掘卡中的 A100 GPU 性能",
+          "summary": "開發者通過電壓抖動（Voltage Glitching）解鎖挖掘卡中 NVIDIA A100 芯片的性能限制。此技術展示了繞過硬體韌體鎖定的可能性，但也引發關於設備完整性與安全性的討論。",
+          "why": "揭示硬體鎖定機制在物理攻擊面前的脆弱性，對依賴高價值 AI 晶片的企業提出新的安全考慮。",
+          "importance": 2,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://blog.kate.land/posts/using-voltage-glitching-to-unlock-the-a100/",
+          "original_title": "Using voltage glitching to unleash the A100 in my mining card",
+          "original_lang": "en",
+          "published_at": "2026-11-11T10:48:40.000Z",
+          "tags": [
+            "硬體安全",
+            "GPU",
+            "逆向工程"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "items": [
+        {
+          "title": "台首例 GLP-1 疑似引發眼中風，食藥署審議中",
+          "summary": "台灣食藥署確認接獲首例 GLP-1 類藥物引發眼睛中風致盲的藥害救濟申請。醫師指稱患者在使用減重針劑後出現相關症狀，目前案件正處於審議階段，需確認是否涉及非適應症使用。",
+          "why": "為監管機構與臨床醫師提供重要安全訊號，影響新型代謝藥物在減重族群的風險溝通與處方決策。",
+          "importance": 4,
+          "source_name": "中央社 生活健康",
+          "source_url": "https://www.cna.com.tw/news/ahel/202611110217.aspx",
+          "original_title": "首例瘦瘦針疑釀眼中風失明 申請藥害救濟審議中",
+          "original_lang": "zh",
+          "published_at": "2026-11-11T08:13:19.000Z",
+          "tags": [
+            "GLP-1",
+            "不良事件",
+            "藥害"
+          ]
+        },
+        {
+          "title": "剛果伊波拉逾 1.1 萬確診，肯雅啟動 42 天解除倒數",
+          "summary": "民主剛果確認累計伊波拉病例超過 1.1 萬例，疫情持續造成重大壓力。與此同時，肯雅因最後一名病患康復，啟動 42 天無新發病例倒數機制，屆期可宣告解除疫情。",
+          "why": "跨國疫情狀態變化直接影響區域旅遊限制、邊境管控策略及全球公共衛生資源調配。",
+          "importance": 4,
+          "source_name": "中央社 生活健康",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611110336.aspx",
+          "original_title": "民主剛果伊波拉確診逾1.1萬例 肯亞啟動42天疫情解除倒數",
+          "original_lang": "zh",
+          "published_at": "2026-11-11T14:03:44.000Z",
+          "tags": [
+            "伊波拉",
+            "疫情數據",
+            "公衛"
+          ]
+        },
+        {
+          "title": "All of Us 研究發現數千個影響藥物反應之新基因變異",
+          "summary": "All of Us 研究團隊分析近 10 萬名具有多元族裔背景的參與者數據，發現數以千計影響藥物反應的新基因變異。該成果強調基因分型對個人化醫療的數據基礎。",
+          "why": "擴展藥物反應基因組資料庫，有助於未來開發更精確的個人化用藥指引與 AI 預測模型。",
+          "importance": 3,
+          "source_name": "STAT News",
+          "source_url": "https://www.statnews.com/2026/11/11/all-of-us-study-finds-gene-variants-drug-responses/",
+          "original_title": "All of Us study finds thousands of new genetic variants affecting drug responses",
+          "original_lang": "en",
+          "published_at": "2026-11-11T21:37:27.000Z",
+          "tags": [
+            "藥物遺傳學",
+            "全人基因計畫",
+            "基因變異"
+          ]
+        },
+        {
+          "title": "健喬口服 GnRH 新藥獲准子宮內膜異位症適應症",
+          "summary": "健喬信元與日本橘生藥品共同宣布，其新一代口服 GnRH 拮抗劑獲准增加子宮內膜異位症適應症。該藥物在市場定位上取得區域性領先優勢。",
+          "why": "提升該藥物在生殖內分泌領域的市場滲透率，並提供患者相較於注射型製劑更多的給藥選擇。",
+          "importance": 3,
+          "source_name": "科技新報 生技",
+          "source_url": "https://finance.technews.tw/2026/11/11/kissei-gnrh/",
+          "original_title": "健喬奪亞洲第一！口服 GnRH 新藥獲准子宮內膜異位症新適應症",
+          "original_lang": "zh",
+          "published_at": "2026-11-11T08:13:46.000Z",
+          "tags": [
+            "健喬",
+            "GnRH 拮抗劑",
+            "生殖內分泌"
+          ]
+        },
+        {
+          "title": "Oura 6.25 億美元併購 AI 醫療公司 Counsel Health",
+          "summary": "芬蘭穿戴裝置大廠 Oura 宣布以 6.25 億美元現金收購 AI 醫療新創公司 Counsel Health。雙方將結合穿戴數據與 AI 診斷技術，拓展數位健康應用場景。",
+          "why": "顯示穿戴式設備廠商正透過併購 AI 服務商，從硬體轉向提供端對端的醫療決策支援。",
+          "importance": 2,
+          "source_name": "科技新報 生技",
+          "source_url": "https://technews.tw/2026/11/11/oura-acquires-counsel-health/",
+          "original_title": "Oura 砸重金併購 Counsel Health 攻 AI 醫療商機",
+          "original_lang": "zh",
+          "published_at": "2026-11-11T04:40:15.000Z",
+          "tags": [
+            "Oura",
+            "M&A",
+            "數位健康"
+          ]
+        },
+        {
+          "title": "三星專利曝光，Galaxy Watch 結合 UWB 測量內臟脂肪",
+          "summary": "三星申請一項技術專利，描述結合超寬頻雷達與生物電阻抗技術，透過 Galaxy Watch 掃描腹部以估算內臟脂肪含量。此技術旨在提升智慧手錶的生理監測維度。",
+          "why": "若商用化將提升消費級穿戴裝置的內臟脂肪追蹤精確度，為代謝健康提供額外量化指標。",
+          "importance": 2,
+          "source_name": "科技新報 生技",
+          "source_url": "https://technews.tw/2026/11/11/samsung-patent-galaxy-watch-measure-abdominal-fat/",
+          "original_title": "三星最新專利曝光，未來 Galaxy Watch 有望精準測量內臟脂肪",
+          "original_lang": "zh",
+          "published_at": "2026-11-11T03:50:32.000Z",
+          "tags": [
+            "三星",
+            "生物電阻抗",
+            "感測技術"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "items": [
+        {
+          "title": "台積電營收創新高 宣布投資兩家AI巨頭",
+          "summary": "台積電10月營收創下歷史新高，並宣布投資Anthropic與OpenAI兩家AI企業，最多投資10億美元。受此消息激勵，台積電當日股價收高至2395元，並帶動台股加權指數收復4萬4000點，新台幣匯率也止貶。",
+          "why": "台積電擴大與AI巨頭的資本連結，顯示半導體龍頭正加速融入AI產業鏈，將影響全球供應鏈格局。",
+          "importance": 5,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/835333",
+          "original_title": "台積電宣布投資AI二巨頭 最多10億美元",
+          "original_lang": "zh",
+          "published_at": "2026-11-11T12:36:19.000Z",
+          "tags": [
+            "半導體",
+            "台積電",
+            "AI"
+          ]
+        },
+        {
+          "title": "美國10月CPI高於預期 市場預期Fed升息",
+          "summary": "美國10月消費者物價指數（CPI）月增0.4%，漲幅高於市場預期。投資人因此大幅預期聯準會（Fed）在12月將進行升息，甚至可能升息兩個基準點，導致美股三大指數全數下跌。",
+          "why": "通膨升溫導致貨幣政策轉向緊縮，將直接衝擊全球風險資產估值及科技產業的融資環境。",
+          "importance": 4,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/835346",
+          "original_title": "美10月CPI增幅高於預期 市場估Fed篤定升息",
+          "original_lang": "zh",
+          "published_at": "2026-11-11T13:15:25.000Z",
+          "tags": [
+            "宏觀經濟",
+            "通膨",
+            "Fed"
+          ]
+        },
+        {
+          "title": "多單位系統遭駭 數發部研判涉AI自動化攻擊",
+          "summary": "數位發展部指出，近期多起資安事件初步研判與駭客利用「AI自動化」進行網路攻擊有關。受影響單位包括康橋國際學校及多家非營利組織的捐款系統，暗網中亦出現兜售台灣企業客戶資料的情況。",
+          "why": "AI自動化攻擊的出現顯著降低了大型組織的資安防禦門檻，提示企業需重新評估自動化系統與數據安全的協同風險。",
+          "importance": 4,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/835334",
+          "original_title": "多家NGO使用捐款系統遭駭 單位發示警訊息留意詐騙",
+          "original_lang": "zh",
+          "published_at": "2026-11-11T12:37:01.000Z",
+          "tags": [
+            "資安",
+            "AI",
+            "網路攻擊"
+          ]
+        },
+        {
+          "title": "Baird調降輝達評等至中立 目標價下調60%",
+          "summary": "美國券商Baird將輝達（Nvidia）股票評等調降為「中立」，目標價大幅下調60%。主要考量為美國政府可能收緊對中國晶片銷售的限制，以及全球AI資本支出增速可能放緩，將衝擊晶片需求。",
+          "why": "反映市場對AI硬體循環轉折的擔憂，顯示AI資本開支的永續性是影響上游晶片巨頭估值的核心變數。",
+          "importance": 4,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611120006.aspx",
+          "original_title": "Baird調降輝達股票評等至「中立」 目標價大砍60%",
+          "original_lang": "zh",
+          "published_at": "2026-11-11T17:53:31.000Z",
+          "tags": [
+            "輝達",
+            "晶片",
+            "市場分析"
+          ]
+        },
+        {
+          "title": "FDA警告GLP-1減重藥罕見情況下致失明",
+          "summary": "美國食品藥物管理局（FDA）發布警告，指出GLP-1減肥藥物在極少數情況下可能導致失視（blindness）。該警告針對的是此類藥物的罕見但嚴重的視覺副作用風險。",
+          "why": "對代謝性疾病新藥的長期使用安全監控，將影響醫藥界對其臨床應用指引及患者風險告知。",
+          "importance": 3,
+          "source_name": "Taipei Times",
+          "source_url": "https://www.taipeitimes.com/News/front/archives/2026/11/12/2003867590",
+          "original_title": "GLP-1 weight-loss drugs can cause blindness in rare cases, FDA warns",
+          "original_lang": "en",
+          "published_at": "2026-11-12T00:00:00.000Z",
+          "tags": [
+            "醫藥",
+            "GLP-1",
+            "FDA"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "title": "美財長質問商務部 未列管輝達客戶轉運晶片",
+          "summary": "知情人士透露，美國財長貝森特不滿商務部未將輝達客戶 Megaspeed 列入國安疑慮企業名單，當面質問商務部長。該公司被指涉轉運晶片輸中。",
+          "why": "美國內部對半導體供應鏈審查標準的分歧，將影響後續對中國高科技公司的出口管制強度。",
+          "importance": 4,
+          "source_name": "中央社 國際",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611120008.aspx",
+          "original_title": "輝達客戶涉轉運晶片輸中 傳美財長質問商務部長為何不列管",
+          "original_lang": "zh",
+          "published_at": "2026-11-11T19:59:37.000Z",
+          "tags": [
+            "晶片管制",
+            "貿易戰",
+            "輝達"
+          ]
+        },
+        {
+          "title": "歐盟提「數位公平法」 違規最重罰營收6%",
+          "summary": "歐盟執委會提出「數位公平法」草案，旨在保護消費者免受線上不公平商業行為剝削。若企業違規，最重可處以全球年營業額 6% 的罰鍰。",
+          "why": "此法規草案將重塑數位平台的商業合規標準，對跨國科技巨頭的營運成本產生直接衝擊。",
+          "importance": 4,
+          "source_name": "中央社 國際",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611110346.aspx",
+          "original_title": "歐盟提數位公平法護消費者 違規企業最重罰全球年營業額6%",
+          "original_lang": "zh",
+          "published_at": "2026-11-11T14:51:08.000Z",
+          "tags": [
+            "歐盟監管",
+            "數位經濟",
+            "消費者保護"
+          ]
+        },
+        {
+          "title": "德國軍隊因安全風險 禁用中國小型無人機",
+          "summary": "德國聯邦國防軍基於安全考量，禁止在軍營及訓練場使用所有中國小型無人機。相關消息已由德國國防部證實。",
+          "why": "西方國家對中國製造設備在關鍵基礎設施中的信任度持續下降，加速供應鏈在地化與替代方案的開發。",
+          "importance": 3,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/德国联邦国防军因间谍风险禁用中国无人机和汽车/a-79919532?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "德国联邦国防军因间谍风险禁用中国无人机和汽车",
+          "original_lang": "zh",
+          "published_at": "2026-11-11T14:14:00.000Z",
+          "tags": [
+            "供應鏈安全",
+            "德國",
+            "軍事安全"
+          ]
+        },
+        {
+          "title": "法國超市血庫頻遭網攻 加速立法強化防禦",
+          "summary": "法國多家超市冰箱設備和血液中心冷藏系統近期遭網路攻擊，凸顯網路安全對公共健康的潛在威脅。法國政府正加速立法以強化重要設施的網路安全韌性。",
+          "why": "針對生技與醫療關鍵基礎設施的網攻案例增加，推動相關產業提升資安標準與法規依從性。",
+          "importance": 3,
+          "source_name": "中央社 國際",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611110340.aspx",
+          "original_title": "法國超市及血庫相繼遭網攻 加快立法防堵安全破口",
+          "original_lang": "zh",
+          "published_at": "2026-11-11T14:34:53.000Z",
+          "tags": [
+            "網路安全",
+            "關鍵基礎設施",
+            "法國"
+          ]
+        },
+        {
+          "title": "氣候變遷績效指數 多數G20減排進展不足",
+          "summary": "第 31 屆聯合國氣候變化大會指出，大多數 G20 國家應對氣候變化進展不足。同期發布的气候變化績效指數顯示，主要發達國家在減排承諾上仍有落差。",
+          "why": "氣候政策落後可能導致歐盟碳边境調整機制等綠色貿易壁壘增強，影響跨國製造業的碳足跡管理成本。",
+          "importance": 3,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/土耳其气候峰会：大国领导人缺席，冯德莱恩或感-孤单/a-79921161?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "土耳其气候峰会：大国领导人缺席，冯德莱恩或感“孤单”",
+          "original_lang": "zh",
+          "published_at": "2026-11-11T15:01:00.000Z",
+          "tags": [
+            "氣候政策",
+            "G20",
+            "減排目標"
+          ]
+        },
+        {
+          "title": "肯亞最後一例瘧疾患者出院 進入清除倒數",
+          "summary": "肯亞最後一例愛滋病相關患者（註：原文為Ebola）出院，該國進入 42 天倒數，若無新增病例將被宣布為無病毒狀態。剛果民主共和國則報告該國疫情病例數已突破 11,000 例。",
+          "why": "地區性傳染病的撲滅進度影響供應鏈穩定與區域旅遊，剛果持續的高病例數則反映疫苗覆蓋率與醫療資源分配的挑戰。",
+          "importance": 2,
+          "source_name": "BBC World",
+          "source_url": "https://www.bbc.co.uk/news/articles/cwe9kzv0g0v7o?at_medium=RSS&at_campaign=rss",
+          "original_title": "Kenya discharges last Ebola patient in major milestone towards virus-free status",
+          "original_lang": "en",
+          "published_at": "2026-11-11T12:53:11.000Z",
+          "tags": [
+            "流行病",
+            "公衛",
+            "非洲"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "items": [
+        {
+          "title": "曼市近期狀態下滑，馬里斯卡國際賽期間調整",
+          "summary": "曼徹斯特城在恩佐·馬里斯卡（Enzo Maresca）執教下，近期賽事成績出現下滑趨勢。國際比賽日（International break）為教練團提供了寶貴的調整時間，以便重新審視並改善隊內當前面臨的問題。",
+          "why": "反映頂級聯賽冠軍級球隊在戰術調整與人員配置上，如何通過數據與分析回應即時賽果波動，具備管理層決策參考價值。",
+          "importance": 4,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/football/articles/cw30e0yz0p04o?at_medium=RSS&at_campaign=rss",
+          "original_title": "Assessing the reasons for Man City's decline in form under Maresca",
+          "original_lang": "en",
+          "published_at": "2026-11-11T11:47:09.000Z",
+          "tags": [
+            "英超",
+            "曼徹斯特城"
+          ]
+        },
+        {
+          "title": "哈里凱恩成年組進球與國家隊出賽紀錄",
+          "summary": "哈里·凱恩（Harry Kane）在 21 歲時於正式比賽開場 79 秒即攻入首粒成年組國腳進球，並已累積 101 場代表英格蘭國家隊出場的紀錄。目前他正處於打破英格蘭隊史出賽紀錄的邊緣。",
+          "why": "具體的進球秒數與出場場次數據，提供了頂級球員長期競技狀態與歷史貢獻的客觀基準。",
+          "importance": 4,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/football/articles/c60qkdj4lp34o?at_medium=RSS&at_campaign=rss",
+          "original_title": "Leader, role model, extraordinary - how Kane's 'fairytale' came true",
+          "original_lang": "en",
+          "published_at": "2026-11-11T16:44:58.000Z",
+          "tags": [
+            "英格蘭",
+            "哈里凱恩"
+          ]
+        },
+        {
+          "title": "藍鳥評估洽談老虎隊投手 Skubal 可行性",
+          "summary": "多倫多藍鳥隊正評估是否洽談底特律老虎隊的核心投手 Tater Skubal。分析指出該交易計畫的具體可行性與實際操作層面仍存在挑戰。",
+          "why": "展示職業運動市場中核心球員轉會交易，如何受到契約結構與市場價值等多重變數影響的複雜性。",
+          "importance": 3,
+          "source_name": "MLB.com",
+          "source_url": "https://www.mlb.com/news/blue-jays-tarik-skubal-free-agency-interest-2026",
+          "original_title": "Blue Jays eye Skubal, but how realistic is a deal?",
+          "original_lang": "en",
+          "published_at": "2026-11-11T18:48:16.000Z",
+          "tags": [
+            "MLB",
+            "多倫多藍鳥"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "feeds": 39,
+    "fetched": 2939,
+    "kept": 31,
+    "jev_cost_usd": 0.005845,
+    "llm_cost_usd": 0.00121
+  }
+}
