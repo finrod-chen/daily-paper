@@ -1,0 +1,525 @@
+{
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T07:01:04.068+08:00",
+  "edition": 4,
+  "headline": {
+    "title": "Anthropic IPO 加私募最高 904 億美元",
+    "summary": "彭博引述知情人士報導，Anthropic 的 IPO 路演剛啟動，8.25 億股的訂單已達發行量數倍。IPO 加上 Google、NVIDIA、台積電等 7 家的私募，合計最高約 904 億美元，完全稀釋估值上看 1.4 兆美元。",
+    "why": "AI 領域出現首批兆美元級別的融資事件，將重塑 AI 基礎設施與研發投資的資本規模。",
+    "importance": 5,
+    "source_name": "INSIDE",
+    "source_url": "https://www.inside.com.tw/article/42893-anthropic-ipo-oversubscribed-1-4-trillion-valuation",
+    "original_title": "Anthropic IPO 加私募合計最高 904 億美元，上市前傳獲數倍超額認購",
+    "original_lang": "zh",
+    "published_at": "2026-11-12T06:08:00.000Z",
+    "tags": [
+      "AI IPO",
+      "Anthropic",
+      "估值"
+    ]
+  },
+  "brief": "輝達創辦人黃仁勳辭任執行長並由財務長克瑞斯接任，與美國政府擴大 AI 晶片管制至七個國家及台積電員工個資遭盜售事件同時發生，顯示全球科技供應鏈正面對嚴峻的人事、監管與資安多重衝擊。",
+  "sections": [
+    {
+      "id": "ai",
+      "items": [
+        {
+          "title": "Google 發表 AlphaGenome 2 解析疾病",
+          "summary": "Google 發表 AlphaGenome 2，該模型能夠分析基因變異在特定細胞中的作用。系統從逾 1 億筆細胞資料中解析疾病成因，協助研究人員尋找疾病機制，未來也可能為新療法提供線索。",
+          "why": "提供可驗證的生醫數據分析工具，直接加速疾病機制研究與新藥開發流程。",
+          "importance": 4,
+          "source_name": "INSIDE",
+          "source_url": "https://www.inside.com.tw/article/42896-alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease",
+          "original_title": "Google 發表 AlphaGenome 2，從逾 1 億筆細胞資料解析疾病成因",
+          "original_lang": "zh",
+          "published_at": "2026-11-12T07:03:00.000Z",
+          "tags": [
+            "生技 AI",
+            "基因分析",
+            "Google"
+          ]
+        },
+        {
+          "title": "駭客濫用 AI 代理 AntiFox 攻擊 AWS",
+          "summary": "資安業者 Arctic Wolf Labs 揭露駭客利用開源 AI 代理滲透測試平臺 AntiFox，對網際網路服務及 AWS 雲端環境發動攻擊。研究人員發現，託管於阿里雲上的 AntiFox 相關基礎設施曾涉及多起惡意入侵活動。",
+          "why": "顯露 AI 自動化滲透測試工具的雙刃劍風險，迫使企業重新審視雲端環境的防禦策略。",
+          "importance": 4,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180465",
+          "original_title": "駭客濫用AI代理滲透測試平臺AntiFox，發動AWS雲端憑證竊取攻擊",
+          "original_lang": "zh",
+          "published_at": "2026-11-12T06:11:39.000Z",
+          "tags": [
+            "AI 資安",
+            "雲端滲透",
+            "攻擊工具"
+          ]
+        },
+        {
+          "title": "台積電員工紀錄遭地下論壇兜售",
+          "summary": "地下論壇有人聲稱兜售 4.6 萬筆台積電員工紀錄，資料量為 6.9GB，包含個資，開價 3 個比特幣。台積電回應已掌握此情形，正與相關雲端服務供應商及調查機關密切合作，以釐清狀況並採取必要措施。",
+          "why": "顯示大型科技製造業員工個資在地下經濟中流通，突顯供應鏈資安防護的持續挑戰。",
+          "importance": 4,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180450",
+          "original_title": "地下論壇有人聲稱兜售4.6萬筆台積電員工紀錄，台積電回應無證據顯示公司系統遭入侵",
+          "original_lang": "zh",
+          "published_at": "2026-11-12T03:11:23.000Z",
+          "tags": [
+            "資安",
+            "台積電",
+            "資料外洩"
+          ]
+        },
+        {
+          "title": "Google 發布生成式介面協定 A2UI 1.0",
+          "summary": "Google 推出生成式介面協定 A2UI 1.0，讓 AI 代理透過結構化訊息描述表單、圖表或確認卡片，再由應用程式使用既有元件算繪畫面。開發者可限制 AI 代理只能使用預先核准的介面元件，不必直接執行 AI 生成的介面程式碼，以降低安全風險。",
+          "why": "提供結構化機制讓 AI 代理安全地跨平臺產生互動介面，解決自動化工具整合的相容性問題。",
+          "importance": 3,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180453",
+          "original_title": "Google發布生成式介面協定A2UI 1.0，代理可跨平臺產生互動介面",
+          "original_lang": "zh",
+          "published_at": "2026-11-12T05:11:24.000Z",
+          "tags": [
+            "AI 代理",
+            "介面協定",
+            "Google"
+          ]
+        },
+        {
+          "title": "ChatGPT 開放商家認領檔案與 Agent",
+          "summary": "OpenAI 推出 Businesses in ChatGPT 測試版，商家可以在 Business Hub 認領自家檔案，查看過去 28 天被 ChatGPT 提及及網站被點擊次數。美國電商與線上服務業者還能上架專屬的 Business Agent，並透過驗證流程管理其在 AI 生態系中的呈現。",
+          "why": "提供 AI 代理在商業場景中的具體執行與追蹤數據，改變電子商務的行銷與客戶互動方式。",
+          "importance": 2,
+          "source_name": "INSIDE",
+          "source_url": "https://www.inside.com.tw/article/42889-openai-chatgpt-business-hub-business-agents",
+          "original_title": "ChatGPT 開放商家認領檔案，美國電商可先上架 AI 代理 Business Agent",
+          "original_lang": "zh",
+          "published_at": "2026-11-12T03:33:00.000Z",
+          "tags": [
+            "ChatGPT",
+            "商家工具",
+            "AI 商業化"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "items": [
+        {
+          "title": "NVIDIA 換血：Jensen Huang 辭任執行長",
+          "summary": "NVIDIA 宣布由副總裁 Collette Kress 接任執行長，同時指派 Harvey C. Jones 為董事會主席。此人事調動發生在面臨中國 AI 與機器人貿易審查的敏感時期。",
+          "why": "頂尖 AI 晶片供應商的高層異動可能影響其供應鏈穩定性與長期產品研發策略。",
+          "importance": 5,
+          "source_name": "The Robot Report",
+          "source_url": "https://www.therobotreport.com/nvidia-replaces-ceo-amid-china-ai-and-robotics-concerns/",
+          "original_title": "NVIDIA replaces CEO amid China AI and robotics concerns",
+          "original_lang": "en",
+          "published_at": "2026-11-12T16:33:17.000Z",
+          "tags": [
+            "NVIDIA",
+            "高階管理",
+            "AI 硬體"
+          ]
+        },
+        {
+          "title": "Google 發布 Gemini 4 Hydrogen 模型",
+          "summary": "Google 發布新一代模型 Gemini 4 Hydrogen。該模型專為提升效率與處理複雜推理任務而設計，是 Google 在生成式 AI 領域的最新架構迭代。",
+          "why": "新一代之模型架構的公開將為企業級 AI 應用開發提供新的效能與成本基準。",
+          "importance": 4,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+          "original_title": "Gemini 4 Hydrogen",
+          "original_lang": "en",
+          "published_at": "2026-11-12T18:01:48.000Z",
+          "tags": [
+            "生成式 AI",
+            "Google",
+            "大模型"
+          ]
+        },
+        {
+          "title": "Runway 推出機器人世界模型 Praxis-1",
+          "summary": "Runway 推出名為 Praxis-1 的機器人世界行動模型，並向開發者開放其權重（open weights）。該模型旨在通過模擬真實世界互動來提升機器人對物理環境的決策能力。",
+          "why": "開放模型權重讓研究人員與開發者能直接驗證機器人動作生成的邏輯與泛化能力。",
+          "importance": 3,
+          "source_name": "The Robot Report",
+          "source_url": "https://www.therobotreport.com/runways-praxis-1-world-action-model-for-robotics-is-now-available/",
+          "original_title": "Runway’s Praxis-1 world action model for robotics is now available",
+          "original_lang": "en",
+          "published_at": "2026-11-12T13:18:47.000Z",
+          "tags": [
+            "機器人",
+            "世界模型",
+            "開放源碼"
+          ]
+        },
+        {
+          "title": "GitHub 指南：建立可跨平台重用的 Agent Skills",
+          "summary": "GitHub 發布技術指南，說明如何建立「Agent Skills」。此機制將重複性的工程工作封裝為可審查的檔案，允許在不同宿主代理端之間重用，同時保留特定環境的權限與上下文明確邊界。",
+          "why": "提供標準化的方法來管理 AI 代理的邏輯與依賴，降低團隊在不同自動化框架間遷移的成本。",
+          "importance": 3,
+          "source_name": "GitHub Blog",
+          "source_url": "https://github.blog/ai-and-ml/github-copilot/build-once-run-on-any-agent-a-practical-guide-to-agent-skills/",
+          "original_title": "Build once, run on any agent: A practical guide to agent skills",
+          "original_lang": "en",
+          "published_at": "2026-11-12T22:54:52.000Z",
+          "tags": [
+            "GitHub",
+            "軟體開發",
+            "AI 代理"
+          ]
+        },
+        {
+          "title": "Rust 1.100 正式發布",
+          "summary": "Rust 語言發布第 1.100 版更新。該版本帶來了新的編譯器增強功能與標準庫改進，持續鞏固其在系統層與高安全性場景下的開發體驗。",
+          "why": "語言的核心更新通常伴隨工具鏈的優化，對依賴 Rust 進行高效能運算或底層開發的專案有直接影響。",
+          "importance": 3,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://blog.rust-lang.org/2026/11/12/Rust-1.100.0/",
+          "original_title": "Rust 1.100",
+          "original_lang": "en",
+          "published_at": "2026-11-12T18:39:05.000Z",
+          "tags": [
+            "Rust",
+            "系統程式語言",
+            "版本發布"
+          ]
+        },
+        {
+          "title": "讓 LLM 在小舊裝置上運行的專案",
+          "summary": "開發者 HyperionAI 推出 smolmaxxing 專案，目標是讓 LLM 能在小型或過時的硬體裝置上運行。該專案針對資源受限的環境進行了優化。",
+          "why": "邊緣 AI 部署的可行性取決於輕量化模型的能力，此類專案擴展了 AI 應用的硬體落地場景。",
+          "importance": 2,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://github.com/hyperionaidev/smolmaxxing/",
+          "original_title": "I'm making LLMs work on small and old devices",
+          "original_lang": "en",
+          "published_at": "2026-11-12T15:23:10.000Z",
+          "tags": [
+            "邊緣運算",
+            "LLM 優化",
+            "硬體"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "items": [
+        {
+          "title": "Blackstone 投資 15 億美元支持 Pfizer 月劑量減重藥",
+          "summary": "Blackstone宣布投資15億美元，支持Pfizer針對其獲取的Metsera產權所進行的月劑量GLP-1肥胖藥物第三階臨床試驗。Pfizer此前參與競價，以最高10億美元收購Metsera取得該藥物。\n\n此交易涵蓋該藥物廣泛的第三階段開發計畫。",
+          "why": "大型私募資金介入創新藥開發，顯著影響藥物上市時程與商業化路徑。",
+          "importance": 5,
+          "source_name": "BioPharma Dive",
+          "source_url": "https://www.biopharmadive.com/news/blackstone-pfizer-berobenatide-deal/874483/",
+          "original_title": "Blackstone bets $1.5B on Pfizer’s obesity drug",
+          "original_lang": "en",
+          "published_at": "2026-11-12T16:44:00.000Z",
+          "tags": [
+            "肥胖藥",
+            "GLP-1",
+            "資金"
+          ]
+        },
+        {
+          "title": "FDA 人力短缺影響生技產業，逾千職位空缺",
+          "summary": "美國FDA目前超過1,000個職位空缺，主要因去年大量員工流失導致人力不足。此 staffing shortage 正對整個生技產業產生影響。\n\n該機構仍在努力恢復運作能力，審批效率可能受到挑戰。",
+          "why": "監管機構審批能力不足可能延緩藥物上市，對依賴FDA審查的研發機構構成實質風險。",
+          "importance": 4,
+          "source_name": "BioPharma Dive",
+          "source_url": "https://www.biopharmadive.com/news/fda-staffing-shortages-drug-reviews-pharma/874480/",
+          "original_title": "The FDA has over 1k open jobs — and the staffing shortage is hitting pharma",
+          "original_lang": "en",
+          "published_at": "2026-11-12T14:38:00.000Z",
+          "tags": [
+            "FDA",
+            "人力短缺",
+            "審批"
+          ]
+        },
+        {
+          "title": "AAV 基因治療 IND 提交趨勢分析，揭示監管卡關原因",
+          "summary": "Nature Biotechnology 發布分析，回顧1995至2025年間向美國FDA提交的AAV基因治療IND申請。研究指出AAV開發在三十年間急速成長，並識別出導致監管審查暫緩（regulatory holds）的共同原因。\n\n該分析為成功產品開發提供監管策略參考。",
+          "why": "提供可驗證的監管歷史數據，幫助研發團隊優化 IND 提交策略，降低審批風險。",
+          "importance": 4,
+          "source_name": "Nature Biotechnology",
+          "source_url": "https://www.nature.com/articles/s41587-026-03378-9",
+          "original_title": "A comprehensive analysis of CBER experience with AAV gene therapy IND submissions",
+          "original_lang": "en",
+          "published_at": "2026-11-12T00:00:00.000Z",
+          "tags": [
+            "基因治療",
+            "AAV",
+            "IND"
+          ]
+        },
+        {
+          "title": "沛爾生醫逆轉失智與抗癌新藥獲美國放行",
+          "summary": "沛爾生醫宣布自主研發的逆轉失智症新藥 PP021 與抗癌新藥 PL001 獲得美國批准，可進行後續動作。此次放行受惠於川普及相關法案對生技業的支持。\n\n這被視為台灣生技產業的重大突破。",
+          "why": "顯示政策環境改變對國內生技企業全球商業化的直接影響，具市場參考價值。",
+          "importance": 3,
+          "source_name": "科技新報 生技",
+          "source_url": "https://finance.technews.tw/2026/11/12/right-to-try/",
+          "original_title": "川普法案神助攻！沛爾逆轉失智、抗癌新藥「免等藥證」獲美放行",
+          "original_lang": "zh",
+          "published_at": "2026-11-12T03:18:18.000Z",
+          "tags": [
+            "台灣生技",
+            "失智症",
+            "抗癌藥"
+          ]
+        },
+        {
+          "title": "科學家繪製最詳細基底核地圖，協助神經疾病研究",
+          "summary": "大型科學合作產出目前為止最詳細的基底核（basal ganglia）地圖。該腦區與多類精神與神經疾病相關。\n\n此地圖旨在提供疾病機制研究的新基礎。",
+          "why": "基礎神經科學數據的更新，有助於未來針對相關神經疾病的新標的發現與機制理解。",
+          "importance": 3,
+          "source_name": "STAT News",
+          "source_url": "https://www.statnews.com/2026/11/12/brain-map-basal-ganglia-offers-treatment-clues-parkinsons-schizophrenia/",
+          "original_title": "STAT+: Scientists debut map of basal ganglia, a key brain region involved in an array of diseases",
+          "original_lang": "en",
+          "published_at": "2026-11-12T16:00:00.000Z",
+          "tags": [
+            "神經科學",
+            "基底核",
+            "腦圖譜"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "items": [
+        {
+          "title": "輝達創辦人黃仁勳辭任執行長",
+          "summary": "輝達（NVIDIA）執行長黃仁勳今日宣布辭去總裁兼永久執行長職務，即刻生效。公司財務長克瑞斯（Colette Kress）接任臨時執行長，宣示將繼續推進加速運算與AI領導者地位，並承諾在黃仁勳奠定的基礎上發展。",
+          "why": "AI晶片龍頭最高領導人更迭，可能影響全球AI基礎設施供應鏈的策略穩定性與投資信心。",
+          "importance": 5,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611120383.aspx",
+          "original_title": "黃仁勳辭執行長並退出董事會 AI巨擘輝達前景添變數",
+          "original_lang": "zh",
+          "published_at": "2026-11-12T15:01:28.000Z",
+          "tags": [
+            "輝達",
+            "AI",
+            "公司治理"
+          ]
+        },
+        {
+          "title": "美將擴張AI晶片管制涵蓋7國",
+          "summary": "美國商務部準備敲定新規定，禁止中國AI企業透過他國資料中心遠端取得先進AI晶片算力。管制範圍擴大，新增馬來西亞、新加坡、泰國等7國，以堵截晶片出口管制漏洞。",
+          "why": "強化美國對先進算力資源的地理與實體管制，將重構全球AI資料中心佈局與供應鏈合規標準。",
+          "importance": 4,
+          "source_name": "中央社 科技",
+          "source_url": "https://www.cna.com.tw/news/ait/202611120205.aspx",
+          "original_title": "美擬禁止中企遠端用AI晶片 管制擴及星馬泰等7國",
+          "original_lang": "zh",
+          "published_at": "2026-11-12T07:21:51.000Z",
+          "tags": [
+            "AI晶片",
+            "出口管制",
+            "美中科技戰"
+          ]
+        },
+        {
+          "title": "台積電、領務局個資疑外流",
+          "summary": "台積電證實部分員工個資疑似流入暗網，但公司表示目前無證據顯示內部系統遭入侵。同時，外交部領事事務局部分網站疑遭駭客攻擊，導致近10萬筆民眾護照、授權書等個資外洩。",
+          "why": "關鍵基礎設施與企業高階人才個資外洩風險上升，凸顯供應鏈與行政體系數位資安防線仍需加固。",
+          "importance": 4,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/835511",
+          "original_title": "部分員工個資疑外流 台積電：無證據顯示系統遭入侵",
+          "original_lang": "zh",
+          "published_at": "2026-11-12T12:33:53.000Z",
+          "tags": [
+            "資安",
+            "個資保護",
+            "台積電"
+          ]
+        },
+        {
+          "title": "微軟雲端服務當機影響AI連接",
+          "summary": "微軟365、Outlook與Teams服務發生當機，影響數以千計美國用戶。中斷也波及OpenAI與Anthropic等AI服務所使用的連接器。",
+          "why": "顯示AI應用日益依賴大型雲端平台穩定性，基礎設施故障將直接間接影響開發者與企業級AI服務的運作。",
+          "importance": 3,
+          "source_name": "中央社 科技",
+          "source_url": "https://www.cna.com.tw/news/ait/202611130010.aspx",
+          "original_title": "微軟365、Outlook等服務當機 數以千計美國用戶受影響",
+          "original_lang": "zh",
+          "published_at": "2026-11-12T20:40:59.000Z",
+          "tags": [
+            "雲端服務",
+            "微軟",
+            "AI基礎設施"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "title": "輝達公告黃仁勳辭任執行長，由財務長接任",
+          "summary": "輝達董事會宣布創辦人黃仁勳辭去執行長一職，並指定財務長科萊特·克雷斯出任臨時執行長。這一人事異動引發全球科技圈對AI晶片產業鏈動向的關注，預期將影響美國政界對晶片輸出政策的態度。",
+          "why": "龍頭企業關鍵領導人更迭可能引發市場波動，並牽動地緣政治下的半導體供應鏈策略調整。",
+          "importance": 5,
+          "source_name": "BBC 中文",
+          "source_url": "https://www.bbc.com/zhongwen/articles/c63egjy85wq8o/trad?at_medium=RSS&at_campaign=rss",
+          "original_title": "Nvidia董事會宣佈黃仁勳辭任執行長",
+          "original_lang": "zh",
+          "published_at": "2026-11-12T14:28:57.000Z",
+          "tags": [
+            "輝達",
+            "企業治理",
+            "AI晶片"
+          ]
+        },
+        {
+          "title": "以色列空襲加薩醫院致6死 包含外科醫生",
+          "summary": "以色列對加薩地帶納賽爾醫院發動空襲，這是去年停火開始以來的首次針對醫院的打擊，導致包括一名外科醫生在內的六人死亡。以色列國防部表示瞄準目標為哈瑪斯指揮官，但加薩衛生部門指出多名平民傷亡。",
+          "why": "醫療機構遭攻擊破壞人道法底線，加劇地區地緣政治緊張與長期衝突的不確定性。",
+          "importance": 4,
+          "source_name": "NPR World",
+          "source_url": "https://www.npr.org/2026/11/12/nx-s1-6038879/israeli-air-strike-on-gaza-hospital-kills-six-including-surgeon",
+          "original_title": "Israeli air strike on Gaza hospital kills six, including surgeon",
+          "original_lang": "en",
+          "published_at": "2026-11-12T22:33:00.000Z",
+          "tags": [
+            "中東衝突",
+            "加薩空襲",
+            "戰地醫療"
+          ]
+        },
+        {
+          "title": "微軟伺服器故障導致多項服務中斷",
+          "summary": "微軟發生意外伺服器故障，導致 Outlook、Teams 及 Copilot 等多項服務中斷。此次故障影響了數萬名用戶的正常辦公與溝通。",
+          "why": "關鍵業務依賴雲端服務的組織需評估單一供應商故障對供應鏈與日常運作的潛在衝擊。",
+          "importance": 3,
+          "source_name": "Al Jazeera",
+          "source_url": "https://www.aljazeera.com/news/2026/11/12/microsoft-outage-hits-tens-of-thousands-of-users?traffic_source=rss",
+          "original_title": "Microsoft outage hits tens of thousands of users",
+          "original_lang": "en",
+          "published_at": "2026-11-12T21:03:09.000Z",
+          "tags": [
+            "雲端服務",
+            "系統中斷",
+            "資訊安全"
+          ]
+        },
+        {
+          "title": "美司法部多項調查恐牽連輝達",
+          "summary": "兩名美國官員透露，司法部正展開多項調查，範圍可能延伸至輝達公司。儘管前執行長黃仁勳已請辭，但相關爭議仍在華府持續發酵，未因人事變動而平息。",
+          "why": "監管單位對科技巨頭的調查可能產生長期合規成本，影響該領域的研發投資與市場信心。",
+          "importance": 3,
+          "source_name": "中央社 國際",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611130008.aspx",
+          "original_title": "黃仁勳醜聞風波延燒 美司法部多項調查恐牽連輝達",
+          "original_lang": "zh",
+          "published_at": "2026-11-12T19:12:53.000Z",
+          "tags": [
+            "司法調查",
+            "輝達",
+            "合规風險"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "items": [
+        {
+          "title": "MLB兩投手並列歷史無同票賽揚獎",
+          "summary": "2025年美國職棒大聯盟（MLB）賽季的投球三振數紀錄，由道奇隊與大都會隊兩名投手共同打破，創造歷史。",
+          "why": "投球數據的極致突破，為球探系統與進擊策略模型提供新的參數極限。",
+          "importance": 4,
+          "source_name": "MLB.com",
+          "source_url": "https://www.mlb.com/news/2026-mlb-cy-young-award-winners",
+          "original_title": "Pair of flamethrowers are unanimous Cy Young winners for just 3rd time in history",
+          "original_lang": "en",
+          "published_at": "2026-11-12T01:15:00.000Z",
+          "tags": [
+            "MLB",
+            "紀錄",
+            "投手"
+          ]
+        },
+        {
+          "title": "謝淑薇WTA年終賽開胡搶晉級",
+          "summary": "在WTA年終總決賽中，台灣網球選手謝淑薇與拉脫維亞搭檔奧斯塔朋科擊敗對手，拿下分組賽首勝，保留晉級四強的機會。",
+          "why": "網球雙打的高階表現，反映跨文化配對策略的實戰成效。",
+          "importance": 3,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611120179.aspx",
+          "original_title": "WTA年終賽謝淑薇攜搭檔分組賽開胡 保有晉級一線生機",
+          "original_lang": "zh",
+          "published_at": "2026-11-12T06:20:56.000Z",
+          "tags": [
+            "網球",
+            "WTA",
+            "謝淑薇"
+          ]
+        },
+        {
+          "title": "江凱傑健力世錦賽硬舉奪金",
+          "summary": "在世界裝備公開健力錦標賽中，台灣選手江凱傑在83公斤級硬舉項目以335公斤奪得金牌，總和915公斤獲銅牌。",
+          "why": "人體功率極限的具體數據，對運動科學與設備負載測試具有參考價值。",
+          "importance": 3,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611120261.aspx",
+          "original_title": "裝備公開健力世錦賽 江凱傑硬舉摘金、總和奪銅",
+          "original_lang": "zh",
+          "published_at": "2026-11-12T09:02:53.000Z",
+          "tags": [
+            "健力",
+            "江凱傑",
+            "錦標賽"
+          ]
+        },
+        {
+          "title": "周天成熊本大師賽不敵地主",
+          "summary": "在熊本羽球大師賽中，台灣男單選手周天成在次輪比賽中以22比24、19比21的比分落敗，無法晉級八強。",
+          "why": "高強度競技中失誤率的關鍵影響，反映穩定性模型的重要變數。",
+          "importance": 2,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611120143.aspx",
+          "original_title": "BWF熊本羽球大師賽 周天成不敵地主好手無緣8強",
+          "original_lang": "zh",
+          "published_at": "2026-11-12T05:25:36.000Z",
+          "tags": [
+            "羽球",
+            "周天成",
+            "大師賽"
+          ]
+        },
+        {
+          "title": "林湘緹熊本賽首勝依瑟儂",
+          "summary": "在熊本羽球大師賽中，台灣女將林湘緹首輪以21比15、21比19的比分擊敗泰國名將依瑟儂，成功闖入女單八強。",
+          "why": "突破強敵的戰績，對運動表現預測與心理韌性模型提供數據。",
+          "importance": 2,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611120189.aspx",
+          "original_title": "熊本羽球大師賽林湘緹首勝依瑟儂 晉女單8強",
+          "original_lang": "zh",
+          "published_at": "2026-11-12T06:38:16.000Z",
+          "tags": [
+            "羽球",
+            "林湘緹",
+            "大師賽"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "feeds": 39,
+    "fetched": 2933,
+    "kept": 30,
+    "jev_cost_usd": 0.005508,
+    "llm_cost_usd": 0.00123
+  }
+}
