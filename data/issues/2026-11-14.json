@@ -1,0 +1,518 @@
+{
+  "date": "2026-11-14",
+  "generated_at": "2026-11-14T07:01:07.907+08:00",
+  "edition": 5,
+  "headline": {
+    "title": "微軟雲端服務全球停機逾八小時，影響74國用戶",
+    "summary": "全球性雲端服務中斷已持續超過八小時，波及74個國家。微軟證實故障影響了Outlook、Teams及Copilot等多項核心產品，目前仍在恢復服務。",
+    "why": "此事件凸顯了企業高度依賴少數巨頭雲端基礎設施的系統性風險，對依賴數位協作工具的跨國營運構成重大挑戰。",
+    "importance": 5,
+    "source_name": "BBC 中文",
+    "source_url": "https://www.bbc.com/zhongwen/articles/crvg2d7v05yno/trad?at_medium=RSS&at_campaign=rss",
+    "original_title": "微軟系統全球癱瘓：Outlook、Teams、Copilot受影響",
+    "original_lang": "zh",
+    "published_at": "2026-11-13T07:32:18.000Z",
+    "tags": [
+      "雲計算",
+      "企業IT"
+    ]
+  },
+  "brief": "微軟雲端服務全球停機逾八小時波及74國，同日美國FAA也下令全美航班停飛，顯示基礎設施出現多重併發危機。面對潛在的資安風險，Apache修補HTTP/2重大漏洞且64%雲端環境恐曝險，而美國司法部更查封北朝鮮詐騙基礎設施並凍結12億美元資金。台廠方面，精材與台積電簽訂7年協議共建先進封裝產線，同時中企違法挖角與混用晶片案導致台廠負責人遭起訴，凸顯產業競爭與法律風險並存。",
+  "sections": [
+    {
+      "id": "ai",
+      "items": [
+        {
+          "title": "Apache 修補 HTTP/2 重大漏洞 64% 雲端環境恐曝險",
+          "summary": "Apache 軟體基金會發布 HTTP Server 2.4.71，修補 HTTP/2 模組中的重大安全漏洞 CVE-2026-119618。該弱點源於多執行緒處理 HTTP/2 請求時的競爭條件，可能導致嚴重安全風險。據統計，約有 64% 的雲端環境可能因此曝險。",
+          "why": "此漏洞影響廣泛，系統管理員需立即評估並部署更新以減少供應鏈與基礎架構的安全風險。",
+          "importance": 5,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180490",
+          "original_title": "Apache修補網頁伺服器HTTP/2模組的重大漏洞，64%雲端環境恐曝險",
+          "original_lang": "zh",
+          "published_at": "2026-11-13T12:11:45.000Z",
+          "tags": [
+            "資安",
+            "漏洞修補",
+            "Apache"
+          ]
+        },
+        {
+          "title": "Google 發表 Gemini 4 Hydrogen AI 代理任務快 2.5 倍",
+          "summary": "Google 發表 Gemini 4 Hydrogen，其 AI 代理任務執行速度較上一代快 2.5 倍。該模型專為快速執行設計，特別適合程式碼修改、工具操作，以及需要連續完成多個步驟的代理式 AI 工作場景。",
+          "why": "執行速度的顯著提升降低了代理式 AI 任務的延遲，對於自動化工作流與即時開發輔助工具具有實質性能優勢。",
+          "importance": 4,
+          "source_name": "INSIDE",
+          "source_url": "https://www.inside.com.tw/article/42905-google-gemini-4-hydrogen",
+          "original_title": "Google 發表 Gemini 4 Hydrogen，AI 代理任務較上代快 2.5 倍",
+          "original_lang": "zh",
+          "published_at": "2026-11-13T03:51:00.000Z",
+          "tags": [
+            "LLM",
+            "Google",
+            "AI Agent"
+          ]
+        },
+        {
+          "title": "AWS 擴充 AgentCore 支援大型編譯與本地模型載入",
+          "summary": "AWS 擴充 Amazon Bedrock AgentCore 執行環境，新版 Runtime V2 單一工作階段最多可支援 8 個虛擬 CPU 及 32 GB 記憶體。容器映像檔容量上限提高至 10 GB，使 AI 代理能在執行環境內編譯大型程式專案、操作瀏覽器及載入本地模型。",
+          "why": "資源上限的大幅提高使得在雲端環境中部署需要高算力與大記憶體需求的複雜 AI 代理應用成為可能。",
+          "importance": 4,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180503",
+          "original_title": "AWS擴充AgentCore執行環境，支援大型程式編譯與本地模型載入",
+          "original_lang": "zh",
+          "published_at": "2026-11-13T09:11:24.000Z",
+          "tags": [
+            "AWS",
+            "AI 基礎設施",
+            "雲端計算"
+          ]
+        },
+        {
+          "title": "Rust 1.100 新增套件冷卻期 Never Type 正式穩定",
+          "summary": "Rust 開發團隊發布 1.100.0 版本，套件管理工具 Cargo 新增依賴套件發布冷卻期，讓開發者可延後採用剛上架的套件版本以降低供應鏈攻擊風險。新版也正式支援歷經 10 年嘗試仍未穩定的 Never Type，並開放自訂記憶體配置器的核心介面。",
+          "why": "供應鏈冷卻機制提供了針對新型態攻擊的防線，而 Never Type 的穩定則簡化了錯誤處理型別系統，提升了大型專案的型別安全性。",
+          "importance": 3,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180489",
+          "original_title": "Rust 1.100允許延後採用新套件，Never Type歷經10年正式穩定",
+          "original_lang": "zh",
+          "published_at": "2026-11-13T12:11:12.000Z",
+          "tags": [
+            "Rust",
+            "開發工具",
+            "程式語言"
+          ]
+        },
+        {
+          "title": "OpenAI 推出 ChatGPT Wallet 允許 AI 代理代客購物結帳",
+          "summary": "OpenAI 推出 ChatGPT Wallet，讓 Dots AI 代理能在用戶授權下進行購物與結帳。該功能目前限美國 Pro 訂閱使用者，且需使用特定美國發行的信用卡。",
+          "why": "此功能將 AI 從資訊處理延伸至交易執行環節，重新定義了代理式 AI 在消費場景中的角色與信任機制。",
+          "importance": 3,
+          "source_name": "The Verge AI",
+          "source_url": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
+          "original_title": "ChatGPT Wallet lets OpenAI’s Dots agents make purchases for you",
+          "original_lang": "en",
+          "published_at": "2026-11-13T20:45:10.000Z",
+          "tags": [
+            "OpenAI",
+            "AI 商業化",
+            "數位支付"
+          ]
+        },
+        {
+          "title": "多家上市櫃公司受委外業者資安風暴波及",
+          "summary": "2026 年 11 月第二週，委外服務業者資安風暴延燒，多家上市櫃公司接連公告受影響。日本郵件服務商 Arara 遭駭，逾 8,100 萬筆資訊可能外洩；西班牙 Amadeus 遭駭事件已波及 10 多家航空公司。",
+          "why": "第三方服務商的資安漏洞正在成為企業主要風險來源，強調了對供應鏈安全與第三方稽核的重視需求。",
+          "importance": 2,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180500",
+          "original_title": "【資安週報】1109～1113，Cyberbiz事件擴大、多家上市櫃公司接連公告，資安救火人力不足恐浮現",
+          "original_lang": "zh",
+          "published_at": "2026-11-13T06:11:02.000Z",
+          "tags": [
+            "資安事件",
+            "供應鏈",
+            "企業風險"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "items": [
+        {
+          "title": "AGIBOT機器人在上海便利店完成24小時1,730項任務試驗",
+          "summary": "中國機器人公司AGIBOT在上海便利店進行24小時試驗，6台G2機器人完成1,730項任務。其中4台通過了績效評估，測試涵蓋客服、零售營運及具身AI能力。",
+          "why": "展現具身AI在真實零售場景中處理複雜任務的初步可行性與穩定性。",
+          "importance": 4,
+          "source_name": "The Robot Report",
+          "source_url": "https://www.therobotreport.com/six-agibot-g2-robots-complete-1730-tasks-in-24-hour-shanghai-convenience-store-trial/",
+          "original_title": "Six AGIBOT G2 Robots Complete 1,730 Tasks in 24-Hour Shanghai Convenience Store Trial",
+          "original_lang": "en",
+          "published_at": "2026-11-13T16:32:58.000Z",
+          "tags": [
+            "機器人",
+            "具身AI",
+            "零售自動化"
+          ]
+        },
+        {
+          "title": "Rhoda AI以視頻數據訓練機器人理解物理世界的通用模型",
+          "summary": "Rhoda AI利用視頻數據開發通用AI模型，使機器人能理解物理世界。該公司推出了直視視頻動作模型，並擴展了移動視頻動作模型以實現更廣泛的環境適應能力。",
+          "why": "視頻驅動的動作模型可能成為提升機器人環境適應性與泛化能力的關鍵技術路徑。",
+          "importance": 3,
+          "source_name": "The Robot Report",
+          "source_url": "https://www.therobotreport.com/how-rhoda-ai-is-using-video-data-to-create-generalized-ai-models-for-robots/",
+          "original_title": "How Rhoda AI is using video data to create generalized AI models for robots",
+          "original_lang": "en",
+          "published_at": "2026-11-13T13:30:44.000Z",
+          "tags": [
+            "機器人視覺",
+            "視頻AI",
+            "具身AI"
+          ]
+        },
+        {
+          "title": "n8n新增公共API速率限制與冪等性重試機制",
+          "summary": "n8n為公共API新增速率限制功能，允許依API金鑰設定請求上限。系統會透過429標頭告知客戶端重試時機，並提供冪等性金鑰以確保重試安全。",
+          "why": "提升多團隊共用自動化實例時的API穩定性與資源管理精度，降低並發風險。",
+          "importance": 3,
+          "source_name": "n8n Blog",
+          "source_url": "https://blog.n8n.io/new-in-n8n-public-api-rate-limits-that-keep-every-team-on-your-instance-running/",
+          "original_title": "New in n8n: Public API rate limits that keep every team on your instance running",
+          "original_lang": "en",
+          "published_at": "2026-11-13T09:29:35.000Z",
+          "tags": [
+            "n8n",
+            "API管理",
+            "自動化工具"
+          ]
+        },
+        {
+          "title": "Zapier展示AI個人助理自主執行跨應用自動化的方法",
+          "summary": "Zapier說明如何利用自動化讓AI個人助理超越對話介面，實現自主運行與跨應用操作。功能包括標記重要事項並在連結應用程式中執行動作，助理也能自行建立自動化流程。",
+          "why": "降低AI助理落地門檻，使非技術使用者也能透過既有工具鏈實現自主代理式自動化。",
+          "importance": 2,
+          "source_name": "Zapier Blog",
+          "source_url": "https://zapier.com/blog/automate-ai-personal-assistant",
+          "original_title": "How to automate your AI personal assistant",
+          "original_lang": "en",
+          "published_at": "2026-11-13T05:00:00.000Z",
+          "tags": [
+            "AI助理",
+            "Zapier",
+            "工作流自動化"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "items": [
+        {
+          "title": "Windward IPO 定價1.75億美元開發競爭性哮喘藥物",
+          "summary": "瑞士生技公司 Windward 宣布以1.75億美元定價進行 IPO，並透過與賽諾菲的同步私募額外籌措5,000萬美元。該公司正開發一款針對哮喘的肺部藥物，旨在挑戰目前市占率極高的 blockbuster 藥物 Tezspire（Tezspire 為中文譯名，原文未提供，僅提及為 blockbuster asthma treatment）。",
+          "why": "顯示資本市場對特定疾病領域（如哮喘/肺部疾病）新機制藥物的持續信心，且透過併購授權（China-licensed）策略降低早期研發風險。",
+          "importance": 4,
+          "source_name": "BioPharma Dive",
+          "source_url": "https://www.biopharmadive.com/news/windward-ipo-pricing-immune-drugs-china-deals-tezspire/874533/",
+          "original_title": "Windward prices $175M IPO to advance China-licensed lung drugs",
+          "original_lang": "en",
+          "published_at": "2026-11-13T01:22:00.000Z",
+          "tags": [
+            "生技融資",
+            "肺部疾病藥物"
+          ]
+        },
+        {
+          "title": "Nature 發表 omics 研究 FDR 控制統一分類法",
+          "summary": "《Nature Biotechnology》發表一則評論，提出一個 2 × 2 矩陣，用於幫助基于測序和質譜的大數據研究人員選擇適當的錯誤發現率（FDR）控制程序。該矩陣旨在根據數據和實驗設計，區分不同假設下的 FDR 程序族或更嚴謹的替代方法。",
+          "why": "提供標準化的統計框架以解決多組學研究中因假設不同導致的 FDR 控制混淆，有助於提升研究結果的可驗證性與標準化。",
+          "importance": 4,
+          "source_name": "Nature Biotechnology",
+          "source_url": "https://www.nature.com/articles/s41587-026-03379-8",
+          "original_title": "A unified and practical taxonomy for false discovery rate control in omics research",
+          "original_lang": "en",
+          "published_at": "2026-11-13T00:00:00.000Z",
+          "tags": [
+            "生物資訊",
+            "統計方法"
+          ]
+        },
+        {
+          "title": "TRF2 蛋白質被證實關鍵於肌肉再生與修復",
+          "summary": "研究發現保護染色體的蛋白質 TRF2 具有保護肌肉幹細胞特徵及再生受損組織的隱藏功能。在小鼠模型中移除該蛋白質後，肌肉受損後無法有效修復，並充滿脂肪與瘢痕組織，且肌營養不良進展速度顯著加快。",
+          "why": "揭示 TRF2 在肌肉幹細胞維持中的雙重功能，為肌營養不良及肌肉損傷修復提供新的潛在治療靶點。",
+          "importance": 3,
+          "source_name": "ScienceDaily Stem Cells",
+          "source_url": "https://www.sciencedaily.com/releases/2026/11/261111221643.htm",
+          "original_title": "Without this protein, damaged muscle fills with fat and scar tissue",
+          "original_lang": "en",
+          "published_at": "2026-11-13T02:28:20.000Z",
+          "tags": [
+            "干细胞研究",
+            "肌肉疾病"
+          ]
+        },
+        {
+          "title": "神經領域初創公司近周共募資約4.5億美元",
+          "summary": "近幾週內，五家專注於神經學的初創企業共募集約4.5億美元資金。相比之下，投資者對最新細胞治療研究的反應較為平淡。",
+          "why": "反映風險資本對神經藥物領域的回暖趨勢，與細胞治療領域的相對冷清形成對比，顯示投資風向的結構性變化。",
+          "importance": 3,
+          "source_name": "BioPharma Dive",
+          "source_url": "https://www.biopharmadive.com/news/charts-venture-neuroscience-oyster-vectory-acr-cell-therapy/874570/",
+          "original_title": "This week in charts: Brain drugs are back on venture capitalists’ minds",
+          "original_lang": "en",
+          "published_at": "2026-11-13T14:00:00.000Z",
+          "tags": [
+            "醫療融資",
+            "神經科學"
+          ]
+        },
+        {
+          "title": "浩鼎與諾華簽訂次世代ADC授權協議",
+          "summary": "台灣生技公司浩鼎（4174）於13日宣布與諾華（Novartis Pharma AG）達成次世代抗體藥物偶聯物（ADC）授權協議。該協議包含3,000萬美元的簽約金，標誌著台灣生技研發在跨國合作領域的新進展。",
+          "why": "體現台灣生技研發團隊在創新藥物（ADC）領域的技術實力獲得國際大廠認可，對國內生技產業鏈的商業化具指標意義。",
+          "importance": 3,
+          "source_name": "GeneOnline 基因線上",
+          "source_url": "https://geneonline.news/obi-pharma-adc-license-out-to-novartis-news-007-nov-2026/",
+          "original_title": "浩鼎攜手諾華，次世代 ADC 授權協議簽約金三千萬美元",
+          "original_lang": "zh",
+          "published_at": "2026-11-13T10:02:23.000Z",
+          "tags": [
+            "ADC藥物",
+            "國際授權"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "items": [
+        {
+          "title": "精材與台積電簽7年協議 共建先進封裝產線",
+          "summary": "半導體晶圓封測廠精材公告與台積電簽訂產能外包協議，雙方將在中部科學園區廠房合作建置先進封裝後段製程產線。該協議期限超過7年，顯示台積電持續擴充先進封裝供應鏈的布局。",
+          "why": "先進封裝是提升晶片效能與整合度的關鍵技術，供應鏈穩定性對硬體產品迭代至關重要。",
+          "importance": 4,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611130329.aspx",
+          "original_title": "精材與台積電簽逾7年產能外包協議 2029年量產後段先進封裝",
+          "original_lang": "zh",
+          "published_at": "2026-11-13T14:39:50.000Z",
+          "tags": [
+            "半導體",
+            "台積電",
+            "先進封裝"
+          ]
+        },
+        {
+          "title": "富邦人壽擬申購Anthropic IPO 上限7億美元",
+          "summary": "AI新創公司Anthropic即將在美國IPO，富邦人壽公告擬申購該公司掛牌普通股，金額上限達7億美元（約新台幣230億元）。這顯示大型保險機構正積極參與頂尖AI基礎模型公司的資本市場交易。",
+          "why": "巨額資本進入AI核心實驗室，將加速模型研發資源的集中與產業競爭格局的變化。",
+          "importance": 4,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611130316.aspx",
+          "original_title": "Anthropic將在美IPO 富邦人壽擬申購上限7億美元",
+          "original_lang": "zh",
+          "published_at": "2026-11-13T13:42:21.000Z",
+          "tags": [
+            "AI",
+            "IPO",
+            "投資"
+          ]
+        },
+        {
+          "title": "中企違法挖角與混用晶片案 台廠負責人遭起訴",
+          "summary": "北檢依《兩岸人民關係條例》起訴耀迅國際負責人夫婦，指控其協助中國企業「宏微科技」違法挖角工程師，營運長達16年。此外，亞拓科技也被中檢依《國安法》起訴，被控在軍方無人機採購案中混用中國製晶片，求刑5年以上。",
+          "why": "針對關鍵技術人才流失與供應鏈安全的法律責任強化，將影響企業合規標準與人才招募策略。",
+          "importance": 4,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/835683",
+          "original_title": "涉助中企「宏微」違法挖角 台廠耀迅負責人夫婦遭起訴",
+          "original_lang": "zh",
+          "published_at": "2026-11-13T13:09:14.000Z",
+          "tags": [
+            "資安",
+            "台積電供應鏈",
+            "法律訴訟"
+          ]
+        },
+        {
+          "title": "微軟365服務全球當機 波及亞太企業與政府",
+          "summary": "微軟旗下Outlook、Teams及Copilot等服務發生全球當機，導致亞太地區企業及政府機關運作受影響。微軟表示已調整受影響伺服器，服務僅部分恢復，Exchange Online等郵件服務異常仍在搶修中。",
+          "why": "核心生產力工具的長期停機凸显了企業對單一雲端供應商依賴的風險，突顯備援架構的重要性。",
+          "importance": 3,
+          "source_name": "中央社 科技",
+          "source_url": "https://www.cna.com.tw/news/ait/202611130190.aspx",
+          "original_title": "微軟365服務全球當機 亞太企業及政府機關受影響",
+          "original_lang": "zh",
+          "published_at": "2026-11-13T08:04:40.000Z",
+          "tags": [
+            "雲端服務",
+            "微軟",
+            "系統故障"
+          ]
+        },
+        {
+          "title": "台股本周反彈漲3973點 外資轉為買超288億元",
+          "summary": "在台股經歷波動後，於國安基金介入及限空令措施下，加權指數止跌回升，本周累計大漲3973點，外資亦終結連賣轉為買超288億元。市場關注輝達高階管理變動及美國晶片管制對台灣供應鏈長期成長的影響。",
+          "why": "指數的大幅波動與外資流向變化，直接影響上市生技與科技公司的股價估值及資本運作環境。",
+          "importance": 3,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/835689",
+          "original_title": "政府雙箭救市 台股本周反彈漲幅10%",
+          "original_lang": "zh",
+          "published_at": "2026-11-13T12:31:09.000Z",
+          "tags": [
+            "台股",
+            "國安基金",
+            "市場趨勢"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "title": "美司法部查封北朝鮮詐騙基礎設施，凍結12億美元資金",
+          "summary": "美國司法部查封北朝鮮黑客用於「FaceStealer」視訊會議詐欺的雲端基礎設施，此騙局在18個月內騙取超過4億美元加密貨幣。同時，司法部門獲法院批准扣押或凍結近期從幣安（Binance）盜竊的12億美元資金。",
+          "why": "展示執法機構在追蹤跨境網路犯罪鏈條及凍結加密資產方面的具體進展，對數位資產安全與合規監管具有重要參考意義。",
+          "importance": 4,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/美国打击加密货币诈骗：视频会议里的-熟人-，可能是朝鲜黑客/a-79942669?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "美国打击加密货币诈骗：视频会议里的“熟人”，可能是朝鲜黑客",
+          "original_lang": "zh",
+          "published_at": "2026-11-13T15:20:00.000Z",
+          "tags": [
+            "資安執法",
+            "加密貨幣",
+            "網路犯罪"
+          ]
+        },
+        {
+          "title": "美國FAA因通訊問題下令全美航班停飛",
+          "summary": "美國聯邦航空總局（FAA）因「通訊問題」下令全美航班停飛，交通運輸部長Sean Duffy表示正在調查此事。",
+          "why": "大規模航空系統停機將對全球供應鏈、跨國商業出行造成立即且廣泛的衝擊，凸顯關鍵基礎設施通訊韌性的重要性。",
+          "importance": 4,
+          "source_name": "Al Jazeera",
+          "source_url": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue?traffic_source=rss",
+          "original_title": "FAA grounds US flights nationwide after ‘communication issue’",
+          "original_lang": "en",
+          "published_at": "2026-11-13T21:32:08.000Z",
+          "tags": [
+            "航空",
+            "基礎設施"
+          ]
+        },
+        {
+          "title": "奔馳中斷德國投資，警告或因成本高關閉工廠",
+          "summary": "梅賽德斯-奔驰宣布中止在德國基地的後續投資，並警告若勞動力成本未下降，可能關閉部分德國工廠或將新產品轉向海外生產，以應對工會加薪要求與成本壓力。",
+          "why": "傳統製造業龍頭轉向海外生產的決策，反映了勞動力成本與自動化競爭對歐洲產業鏈結構的長期影響。",
+          "importance": 3,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/工会要加薪，企业要降本：奔驰叫停全部在德投资-称考虑关闭工厂/a-79939561?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "工会要加薪，企业要降本：奔驰叫停全部在德投资 称考虑关闭工厂",
+          "original_lang": "zh",
+          "published_at": "2026-11-13T12:06:00.000Z",
+          "tags": [
+            "汽車產業",
+            "勞動市場",
+            "供應鏈"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "items": [
+        {
+          "title": "楊勇緯薩格勒布柔道大獎賽奪金",
+          "summary": "薩格勒布柔道大獎賽中，台灣選手楊勇緯在男子60公斤級四強戰擊敗巴黎奧運銀牌得主法國選手姆凱德澤，並進金牌戰。他最終與哈薩克好手巴克特詹激戰超過11分鐘，奪得本季首面大獎賽金牌。",
+          "why": "該勝利確立了台灣選手在國際頂級柔道賽事中的競爭地位，具備高勝率的實戰數據價值。",
+          "importance": 4,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611130333.aspx",
+          "original_title": "薩格勒布柔道大獎賽 楊勇緯力退奧運銀牌闖金牌戰",
+          "original_lang": "zh",
+          "published_at": "2026-11-13T15:02:01.000Z",
+          "tags": [
+            "柔道",
+            "世界大賽",
+            "楊勇緯"
+          ]
+        },
+        {
+          "title": "康寧漢零失誤NBA史上首度達成",
+          "summary": "NBA活塞隊康寧漢單場獨得52分、11助攻且零失誤，成為史上首位達成此統計紀錄的球員。活塞最終經二度延長以144比140擊敗華盛頓巫師。",
+          "why": "打破長期統計紀錄提供了具體的效能指標，對分析運動表現極限與數據模型具有參考價值。",
+          "importance": 4,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611130149.aspx",
+          "original_title": "康寧漢52分11助攻零失誤NBA史上首見 活塞二度加班擒巫師",
+          "original_lang": "zh",
+          "published_at": "2026-11-13T06:22:11.000Z",
+          "tags": [
+            "NBA",
+            "統計紀錄",
+            "底特律活塞"
+          ]
+        },
+        {
+          "title": "洪秀靜蹲舉235公斤勇奪健力金牌",
+          "summary": "2026年世界裝備公開健力錦標賽，台灣女將洪秀靜在女子63公斤級以蹲舉235公斤奪金。其硬舉成績為210公斤，總和560公斤獲得銅牌。",
+          "why": "明確的重量級數據反映了人體生物力學極限與訓練成效，適合用於運動生理或器材工程的基準對照。",
+          "importance": 3,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611130098.aspx",
+          "original_title": "世界裝備公開健力錦標賽 洪秀靜蹲舉勇奪金牌",
+          "original_lang": "zh",
+          "published_at": "2026-11-13T03:49:17.000Z",
+          "tags": [
+            "健力",
+            "世界錦標賽",
+            "洪秀靜"
+          ]
+        },
+        {
+          "title": "林崇佑生涯首奪柔道大獎賽銅牌",
+          "summary": "薩格勒布柔道大獎賽中，台灣選手林崇佑在男子66公斤級銅牌戰擊敗義大利選手阿科利。這是他生涯首度登上榜獎台，獲致銅牌。",
+          "why": "代表了運動生涯里程碑的突破，顯示訓練策略調整後的階段性成效。",
+          "importance": 2,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611140006.aspx",
+          "original_title": "林崇佑柔道大獎賽首度奪牌爆哭 阿嬤遠端鼓勵加持",
+          "original_lang": "zh",
+          "published_at": "2026-11-13T20:40:24.000Z",
+          "tags": [
+            "柔道",
+            "世界大賽",
+            "林崇佑"
+          ]
+        },
+        {
+          "title": "中職聯隊亞冠賽6比4勝澳洲",
+          "summary": "亞冠賽中，中職聯隊以6比4擊敗澳洲隊，目前戰績為1勝1敗。明日將對上韓國隊，總教練高志綱表示目標在於先馳得點以爭取冠軍賽門票。",
+          "why": "關鍵對戰的結果直接影響球隊在亞洲職業棒球賽事中的晉級路徑與資源分配策略。",
+          "importance": 2,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611130196.aspx",
+          "original_title": "亞冠賽14日對韓國關鍵戰 高志綱目標先馳得點",
+          "original_lang": "zh",
+          "published_at": "2026-11-13T08:24:53.000Z",
+          "tags": [
+            "職棒",
+            "亞冠賽",
+            "中職聯隊"
+          ]
+        },
+        {
+          "title": "林芝昀許尹鏸熊本羽球賽闖4強",
+          "summary": "BWF熊本羽球大師賽中，台灣女雙組合林芝昀、許尹鏸僅花33分鐘便直落二擊敗中國組合羅意、王汀戈。兩人順利挺進女雙四強。",
+          "why": "短時間內的高勝率表現提供了戰術執行效率的數據樣本，對運動表現分析具實益。",
+          "importance": 2,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611130168.aspx",
+          "original_title": "BWF熊本羽球大師賽 林芝昀許尹鏸輕取中國組合闖4強",
+          "original_lang": "zh",
+          "published_at": "2026-11-13T07:17:52.000Z",
+          "tags": [
+            "羽球",
+            "世界大賽",
+            "林芝昀"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "feeds": 39,
+    "fetched": 2939,
+    "kept": 30,
+    "jev_cost_usd": 0.005107,
+    "llm_cost_usd": 0.00128
+  }
+}
