@@ -1,0 +1,485 @@
+{
+  "date": "2026-11-15",
+  "generated_at": "2026-11-15T07:01:01.702+08:00",
+  "edition": 6,
+  "headline": {
+    "title": "SpaceX 首度完成星艦太空船捕捉回收",
+    "summary": "SpaceX 於 14 日完成史上首次太空船捕捉回收作業，星艦太空船在軌道飛行一天後，成功返回發射台。此前 SpaceX 雖取消推進器回收行動，但強調仍有望捕捉太空船，此舉若成功將創下首例。",
+    "why": "首次成功回收大型軌道器驗證了關鍵技術，可能大幅降低未來太空運載成本。",
+    "importance": 5,
+    "source_name": "中央社 科技",
+    "source_url": "https://www.cna.com.tw/news/ait/202611150008.aspx",
+    "original_title": "SpaceX首度完成太空船捕捉回收 星艦返回發射台",
+    "original_lang": "zh",
+    "published_at": "2026-11-14T22:47:14.000Z",
+    "tags": [
+      "SpaceX",
+      "星艦",
+      "太空探索"
+    ]
+  },
+  "brief": "SpaceX成功完成史無前例的星艦捕捉回收作業，而美國空管系統卻因通訊故障導致全國航班停飛數小時。威爾斯終結對紐西蘭全黑隊七十三年的不勝魔咒，AI同時加速長壽研究並從血液與基因中找出延緩老化的線索。",
+  "sections": [
+    {
+      "id": "ai",
+      "items": [
+        {
+          "title": "黃仁勳辭任 NVIDIA 執行長，2 萬人連署要求回任",
+          "summary": "NVIDIA 執行長黃仁勳宣布辭去總裁、執行長及董事職務。目前已有逾 2 萬人發起連署要求董事會讓他回任，馬斯克亦表示將簽署該連署，但董事會尚未公開回應。",
+          "why": "全球最大 AI 晶片供應商領導層的突變，可能影響晶片供應鏈的決策節奏與市場穩定性。",
+          "importance": 4,
+          "source_name": "INSIDE",
+          "source_url": "https://www.inside.com.tw/article/42914-jensen-huang-resigns-nvidia-petition-musk-signs",
+          "original_title": "馬斯克也要簽！黃仁勳辭去 NVIDIA 執行長，逾 2 萬人連署要求董事會讓他回任",
+          "original_lang": "zh",
+          "published_at": "2026-11-14T07:23:00.000Z",
+          "tags": [
+            "NVIDIA",
+            "高層人事"
+          ]
+        },
+        {
+          "title": "OpenAI 支持對中 AI 晶片管制法案",
+          "summary": "OpenAI 傳出已向國會議員表態支持限制中國取得 AI 晶片與製造設備的跨黨派法案。相關法案包括 Chip Security Act、MATCH Act 與 AI OVERWATCH Act，旨在強化技術管制。",
+          "why": "AI 龍頭介入晶片出口管制議題，可能加速改變全球半導體產業鏈的流向與合規標準。",
+          "importance": 4,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180507",
+          "original_title": "AI趨勢周報第294期：AI Agent不只要會看圖，Google新Benchmark直接考專業工作實戰",
+          "original_lang": "zh",
+          "published_at": "2026-11-14T11:11:39.000Z",
+          "tags": [
+            "AI 政策",
+            "晶片管制"
+          ]
+        },
+        {
+          "title": "OpenAI 推出 AI 自動補洞與紅隊測試工具",
+          "summary": "OpenAI 推出 Daybreak Defense Factory 與 Daybreak Red Team，前者由 AI 代理自動找出漏洞並備妥修補，後者以模型自動測試網頁應用程式。目前為早期試用階段。",
+          "why": "AI 驅動的安全自動化工具可降低人工審視代碼漏洞的成本，提升軟體發布前的防護強度。",
+          "importance": 3,
+          "source_name": "INSIDE",
+          "source_url": "https://www.inside.com.tw/article/42910-openai-daybreak-defense-factory-red-team-automated-patching-cyber-at-the-frontier",
+          "original_title": "OpenAI 推出 Daybreak Defense Factory 與 Red Team 自動找漏洞、補漏洞並模擬攻擊",
+          "original_lang": "zh",
+          "published_at": "2026-11-14T03:13:00.000Z",
+          "tags": [
+            "網路安全",
+            "AI 自動化"
+          ]
+        },
+        {
+          "title": "Amazon 擬建立全球商品數據索引",
+          "summary": "Amazon 計畫建立名為「World Product Graph」的資料庫，索引包括非 Amazon 銷售在內的全球網路商品數據。此舉旨在減少消費者跳轉至其他平台搜尋商品。",
+          "why": "構建跨平台的商品知識圖譜將重塑電商搜索體驗，對依賴精準數據的供應鏈管理有潛在價值。",
+          "importance": 3,
+          "source_name": "The Verge AI",
+          "source_url": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+          "original_title": "Amazon has a plan to index the world’s online shopping data",
+          "original_lang": "en",
+          "published_at": "2026-11-13T23:49:11.000Z",
+          "tags": [
+            "電商",
+            "數據基建"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "items": [
+        {
+          "title": "Lovable 應用曝護照及 20 萬則私密訊息",
+          "summary": "研究指出 Lovable 應用程式暴露了護照詳細資訊及超過 20 萬則私人訊息。此安全漏洞涉及大量個人隱私資料的外洩風險。",
+          "why": "此事件凸顯 AI 輔助開發平台在資料處理上的潛在風險，影響使用者隱私安全。",
+          "importance": 4,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://www.crissyfield.de/research/lovable-en/",
+          "original_title": "Lovable apps expose passport details and more than 200K private messages",
+          "original_lang": "en",
+          "published_at": "2026-11-14T17:43:10.000Z",
+          "tags": [
+            "資安",
+            "AI 工具"
+          ]
+        },
+        {
+          "title": "義大利罰 Meta 8.87 億美元涉資料存取",
+          "summary": "義大利監管機構因 Android 使用者資料存取問題對 Meta 罰款 8.87 億美元。此罰款基於對使用者資料隱私保護規範的違反。",
+          "why": "此判決將對科技巨頭的資料實踐與合規標準產生重大影響，可能引發更多監管行動。",
+          "importance": 4,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://www.reuters.com/world/italy-fines-meta-887-million-over-android-users-data-access-2026-11-14/",
+          "original_title": "Italy fines Meta $887M over Android users' data access",
+          "original_lang": "en",
+          "published_at": "2026-11-14T13:48:06.000Z",
+          "tags": [
+            "隱私",
+            "監管"
+          ]
+        },
+        {
+          "title": "SpaceX 成功回收第 15 次任務星艦",
+          "summary": "SpaceX 成功回收第 15 次任務的星艦（Starship）。此次回收為該公司星艦計劃中的重要里程碑。",
+          "why": "持續成功的硬體回收技術將降低太空發射成本，推動商業太空發展。",
+          "importance": 3,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://x.com/i/broadcasts/2brajgZlOKRMka",
+          "original_title": "SpaceX Catches the Starship to end Flight 15",
+          "original_lang": "en",
+          "published_at": "2026-11-14T21:22:24.000Z",
+          "tags": [
+            "太空探索",
+            "硬體工程"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "items": [
+        {
+          "title": "減重手術對第二型糖尿病療效最佳 14年追蹤緩解率達六成",
+          "summary": "最長追蹤14年的大型研究顯示，接受代謝減重手術的第二型糖尿病患者中，約58%達到疾病緩解。該結果表明減重手術對第二型糖尿病的療效最佳，可提供長期緩解機會。",
+          "why": "提供長期可驗證的緩解數據，有助於評估慢性病介入治療策略。",
+          "importance": 4,
+          "source_name": "科技新報 生技",
+          "source_url": "https://technews.tw/2026/11/14/could-type-2-diabetes-be-reversed-14-year-study-reveals-remarkable-results/",
+          "original_title": "減重手術對第二型糖尿病療效最佳，14 年追蹤緩解率達六成",
+          "original_lang": "zh",
+          "published_at": "2026-11-14T09:00:25.000Z",
+          "tags": [
+            "第二型糖尿病",
+            "代謝手術",
+            "臨床追蹤"
+          ]
+        },
+        {
+          "title": "AI加速長壽研究，科學家從血液與基因中找出延緩老化的線索",
+          "summary": "人工智慧正將長壽研究推向新階段，科學家利用AI結合生物學，從血液與基因數據中精準追蹤人體老化過程。研究透過分析生物標記，找出延緩老化的潛在線索。",
+          "why": "展示AI在生技領域的實際應用，有助於加速老化機制研究與潛在治療開發。",
+          "importance": 4,
+          "source_name": "科技新報 生技",
+          "source_url": "https://technews.tw/2026/11/14/ai-could-help-us-live-much-longer/",
+          "original_title": "AI 加速長壽研究，科學家從血液與基因中找出延緩老化的線索",
+          "original_lang": "zh",
+          "published_at": "2026-11-14T07:00:51.000Z",
+          "tags": [
+            "AI",
+            "長壽研究",
+            "生物標記"
+          ]
+        },
+        {
+          "title": "基因編輯有望終結「慢性病藥罐子」？專家示警：永久性介入恐藏不可逆風險",
+          "summary": "基因編輯技術正迎來轉折，未來有望從罕見遺傳疾病擴展至常見慢性病的預防與管理。專家提醒，永久性基因介入可能帶來不可逆風險，需謹慎評估長期影響。",
+          "why": "指出基因編輯在慢性病領域的應用潛力與風險，對技術開發與監管具有參考價值。",
+          "importance": 3,
+          "source_name": "科技新報 生技",
+          "source_url": "https://technews.tw/2026/11/14/potential-risks-challenges-gene-editing-medical-treatments/",
+          "original_title": "基因編輯有望終結「慢性病藥罐子」？專家示警：永久性介入恐藏不可逆風險",
+          "original_lang": "zh",
+          "published_at": "2026-11-14T00:30:40.000Z",
+          "tags": [
+            "基因編輯",
+            "慢性病",
+            "生物安全"
+          ]
+        },
+        {
+          "title": "AI問診漸成主流但侵蝕大眾信任感，醫病關係仍是最重要核心",
+          "summary": "民眾日益依賴AI問診，但研究顯示這可能侵蝕大眾對醫療的信任感。埃默里大學指出，醫病關係中的人性溫度與互動仍是建立信任的核心，難以被完全取代。",
+          "why": "反映AI在醫療導入中的社會接受度挑戰，影響產品設計與溝通策略。",
+          "importance": 2,
+          "source_name": "科技新報 生技",
+          "source_url": "https://technews.tw/2026/11/15/in-the-ai-era-can-we-preserve-humanity-in-healthcare/",
+          "original_title": "AI 問診漸成主流但侵蝕大眾信任感，醫病關係仍是最重要核心",
+          "original_lang": "zh",
+          "published_at": "2026-11-14T16:00:06.000Z",
+          "tags": [
+            "AI醫療",
+            "醫病關係",
+            "信任度"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "items": [
+        {
+          "title": "Nvidia 股東建議審慎評估黃仁勳回任可能",
+          "summary": "Nvidia 兩大股東向董事會提議，在評估未來領導人選時，應將「黃仁勳可能回任」納入考量範圍。股東們呼籲管理層在做出決定前，須審慎評估所有潛在選項。",
+          "why": "黃仁勳為 AI 產業關鍵人物，其去留將直接影響 Nvidia 股價與全球 AI 基礎建設供應鏈信心。",
+          "importance": 4,
+          "source_name": "中央社 科技",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611150004.aspx",
+          "original_title": "輝達兩大股東籲審慎評估領導人選 黃仁勳回任列入考量",
+          "original_lang": "zh",
+          "published_at": "2026-11-14T19:30:02.000Z",
+          "tags": [
+            "Nvidia",
+            "公司治理",
+            "高階管理"
+          ]
+        },
+        {
+          "title": "義大利開罰 Meta 逾 8 億歐元違反資安規定",
+          "summary": "義大利資料保護當局對 Meta Platforms 開罰 8 億 500 萬歐元，原因為未取得 Android 用戶同意或未告知用戶，即存取其照片與影片。此罰款基於違反當地資料保護規範而處。",
+          "why": "此高額罰款顯示歐洲對科技巨頭資料合規的嚴格執法趨勢，將成為全球企業數據處理合規的參考標竿。",
+          "importance": 4,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611140226.aspx",
+          "original_title": "未獲同意存取用戶資料 義大利開罰Meta逾8億歐元",
+          "original_lang": "zh",
+          "published_at": "2026-11-14T15:21:44.000Z",
+          "tags": [
+            "Meta",
+            "資安隱私",
+            "歐盟監管"
+          ]
+        },
+        {
+          "title": "廢除非核家園公投：核電成 AI 用電關鍵辯論",
+          "summary": "「廢除非核家園」公投第二場意見發表會中，正方代表陳中舜主張核電是 AI 產業用電需求的救命丸；反方代表賴建信則強調核電與經濟發展無關，且政府正在進行重啟核電評估，公投無必要。",
+          "why": "能源穩定性是 AI 算力擴展的物理瓶頸，公投結果將直接影響台灣未來高科技產業的供電基礎與成本結構。",
+          "importance": 3,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/835769",
+          "original_title": "廢非核家園公投／陳中舜稱核電是AI用電救命丸 賴建信：核電與經濟發展無關",
+          "original_lang": "zh",
+          "published_at": "2026-11-14T12:48:10.000Z",
+          "tags": [
+            "核能政策",
+            "能源轉型",
+            "公投"
+          ]
+        },
+        {
+          "title": "捷克智庫推演台海封鎖：歐美嚇阻為關鍵",
+          "summary": "捷克智庫舉行跨國兵棋推演，模擬中國封鎖台灣情境，約 30 名跨國專家參與。推演指出，若歐美能及早對中國施加經濟壓力並強化軍事嚇阻，有較大機會避免危機升高。",
+          "why": "地緣政治風險評估是供應鏈安全決策的核心變數，歐美態度的變化將直接影響全球資本對東亞科技製造區的安全性評估。",
+          "importance": 3,
+          "source_name": "中央社 政治",
+          "source_url": "https://www.cna.com.tw/news/aipl/202611140205.aspx",
+          "original_title": "捷克智庫兵推中國封鎖台灣 歐美軍事經濟嚇阻成關鍵",
+          "original_lang": "zh",
+          "published_at": "2026-11-14T12:00:51.000Z",
+          "tags": [
+            "地緣政治",
+            "安全研究",
+            "兵棋推演"
+          ]
+        },
+        {
+          "title": "國科會：台拉立合作累計補助逾 65 件科研",
+          "summary": "國科會副主委陳炳宇於第 25 屆台拉立三邊科技合作年會表示，台、拉、立簽署共同徵件協議以來，已補助逾 65 件研究計畫。計畫涵蓋生物醫學、材料開發等領域，並藉此拓展參與「展望歐洲」計畫的機會。",
+          "why": "透過跨國共同徵件機制，可協助台灣研究團隊進入歐洲國際科研體系，獲取更多外部研發資源與合作機會。",
+          "importance": 2,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611140091.aspx",
+          "original_title": "國科會：第25屆台拉立年會登場 盼深化三方科技合作",
+          "original_lang": "zh",
+          "published_at": "2026-11-14T05:01:38.000Z",
+          "tags": [
+            "國際合作",
+            "科研資金",
+            "生技材料"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "title": "澤倫斯基：美方提議烏撤出頓巴斯換北約成員",
+          "summary": "澤倫斯基表示，美方首度提出讓烏克蘭放棄頓巴斯領土，以換取加入北大西洋公約組織。美國政府尚未證實此說法，官方僅表示仍有多種方案在討論中。",
+          "why": "領土換安全的新方案若成真，將直接改變歐洲安全架構與國際邊界法理基礎。",
+          "importance": 5,
+          "source_name": "BBC World",
+          "source_url": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+          "original_title": "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
+          "original_lang": "en",
+          "published_at": "2026-11-14T22:37:25.000Z",
+          "tags": [
+            "地緣政治",
+            "戰爭",
+            "外交"
+          ]
+        },
+        {
+          "title": "微軟全球宕機超24小時，現已恢復",
+          "summary": "微軟宣布其持續超過24小時的全球服務中斷已結束，Teams、Outlook及Copilot等應用曾受影響。英格蘭國家醫療服務體系（NHS）在故障期間被迫改用紙質記錄。",
+          "why": "此次大規模中斷凸显了關鍵基礎設施對雲端服務的高度依賴，以及缺乏本地備援系統的風險。",
+          "importance": 4,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/停摆超过24小时：微软全球大宕机结束/a-79948266?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "停摆超过24小时：微软全球大宕机结束",
+          "original_lang": "zh",
+          "published_at": "2026-11-14T13:02:00.000Z",
+          "tags": [
+            "雲端服務",
+            "企業IT"
+          ]
+        },
+        {
+          "title": "美國空管通信故障致航班停飛，銅線升級是主因",
+          "summary": "美國空中交通管制系統因通信故障導致全国航班停飛數小時，數万名旅客受影響。美國交通部長指出，故障原因與銅線升級有關，目前正調查是人为失误或設備故障。",
+          "why": "美國航空運輸系統基礎設施的老化與維護問題，可能影響全球航運效率與安全標準。",
+          "importance": 4,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/美国航班大停飞-不是网络攻击，问题出在哪里？/a-79947450?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "美国航班大停飞 不是网络攻击，问题出在哪里？",
+          "original_lang": "zh",
+          "published_at": "2026-11-14T09:34:00.000Z",
+          "tags": [
+            "航空",
+            "基礎設施",
+            "監管"
+          ]
+        },
+        {
+          "title": "美國失去麻疹消除認證，年確診逾5000例",
+          "summary": "泛美衛生組織取消了美國持續26年的「麻疹消除認證」。美國正經歷30多年來最嚴重的麻疹疫情，今年已累計逾5000例確診，主要歸因於接種率下降。",
+          "why": "美國失去消除地位將導致跨境輸入風險增加，影響全球供應鏈與員工的職業健康規劃。",
+          "importance": 3,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/26年纪录终结！美国失去-消除麻疹-地位/a-79948420?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "26年纪录终结！美国失去“消除麻疹”地位",
+          "original_lang": "zh",
+          "published_at": "2026-11-14T15:08:00.000Z",
+          "tags": [
+            "公共衛生",
+            "疫苗",
+            "流行病學"
+          ]
+        },
+        {
+          "title": "SpaceX 機械臂成功接住 Starship 火箭",
+          "summary": "SpaceX 成功在史提普火箭返回地球時，使用機械臂（暱稱「筷子」）接住部分火箭。這是該公司進行的歷史性測試，旨在實現火箭的可重複使用。",
+          "why": "若能穩定實現著陸回收，將大幅降低太空發射成本，加速衛星通訊與深空探索技術的商業化。",
+          "importance": 3,
+          "source_name": "BBC World",
+          "source_url": "https://www.bbc.co.uk/news/videos/cwlym2gy3y3eo?at_medium=RSS&at_campaign=rss",
+          "original_title": "'Can you believe it?': SpaceX catches part of its Starship rocket on return to Earth",
+          "original_lang": "en",
+          "published_at": "2026-11-14T22:09:40.000Z",
+          "tags": [
+            "航天",
+            "工程",
+            "創新"
+          ]
+        },
+        {
+          "title": "Meta 因未告知用戶照片存取被罰 8 億歐元",
+          "summary": "義大利對 Meta 罰款8.05億歐元，指控其未告知兩千萬名用戶，平台已存取其照片。此舉引發對大型科技平台數據隱私合規性的關注。",
+          "why": "歐洲監管機構對大型平台數據處理行為的高額罰款，將成為全球數據保護合規的參考基準。",
+          "importance": 2,
+          "source_name": "BBC World",
+          "source_url": "https://www.bbc.co.uk/news/articles/cwn83gxemk35o?at_medium=RSS&at_campaign=rss",
+          "original_title": "Italy fines Meta €805m over accessing users' photos",
+          "original_lang": "en",
+          "published_at": "2026-11-14T18:28:06.000Z",
+          "tags": [
+            "數據隱私",
+            "監管",
+            "科技法務"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "items": [
+        {
+          "title": "威爾斯終結73年魔咒 擊退紐西蘭全黑隊",
+          "summary": "威爾斯在國際橄欖球賽中擊敗紐西蘭全黑隊，終結了對陣該隊73年的不勝紀錄。教練與球員均將此役視為威爾斯橄欖球史上最具意義的勝利之一。",
+          "why": "打破長期紀錄的突破性勝利，提升了威爾斯在國際橄欖球版圖的競爭地位與歷史評價。",
+          "importance": 5,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/rugby-union/articles/cmkg57rz2re9o?at_medium=RSS&at_campaign=rss",
+          "original_title": "'One of the greatest wins' - Wales stun All Blacks to go from no-hopers to heroes",
+          "original_lang": "en",
+          "published_at": "2026-11-14T19:33:46.000Z",
+          "tags": [
+            "橄欖球",
+            "威爾斯",
+            "紐西蘭"
+          ]
+        },
+        {
+          "title": "英國隊78比15血洗日本 Will Joseph歸復單場5達陣",
+          "summary": "英國隊在Nations Championship中以78比15大幅領先日本隊，全隊共攻入13次達陣。Will Joseph重返國際賽場即繳出5次達陣，平了個人生涯單場達陣紀錄。",
+          "why": "大比分勝利強化了英國隊在國際賽事中的統治力，關鍵球員的表現影響後續戰績與商業價值。",
+          "importance": 4,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/rugby-union/videos/cmn0d1w0ry0no?at_medium=RSS&at_campaign=rss",
+          "original_title": "Joseph enjoys dream return as England thrash Japan at Twickenham",
+          "original_lang": "en",
+          "published_at": "2026-11-14T19:32:45.000Z",
+          "tags": [
+            "橄欖球",
+            "英國",
+            "日本"
+          ]
+        },
+        {
+          "title": "APBC中職聯隊敗韓國無緣決戰 曾聖安雙響砲",
+          "summary": "第3屆亞洲職棒冠軍爭霸賽中，中職聯隊以4比6落敗韓國，喪失晉級冠軍戰資格，將與澳洲爭奪季軍。曾聖安單場擊出兩支全壘打，張仁瑋在連續兩場比賽中都有全壘打貢獻。",
+          "why": "賽果直接影響中職球隊在亞洲職業棒球聯賽中的排名與後續賽事獎金分配。",
+          "importance": 3,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611140217.aspx",
+          "original_title": "亞冠賽曾聖安雙響、張仁瑋開轟 中職聯隊輸韓國僅能爭季軍",
+          "original_lang": "zh",
+          "published_at": "2026-11-14T13:21:19.000Z",
+          "tags": [
+            "棒球",
+            "APBC",
+            "中職"
+          ]
+        },
+        {
+          "title": "APBC日本16比1澳洲 三連勝晉級冠軍戰",
+          "summary": "日本隊在第3屆APBC第三日賽事中，以16比1大幅領先澳洲隊，展現3連勝戰績成功晉級冠軍戰。比賽在東京巨蛋舉行，日本隊期盼締造該賽事三連霸紀錄。",
+          "why": "日本隊的連勝紀錄維持了其在亞洲頂級職業棒球賽事中的領先優勢與市場关注度。",
+          "importance": 3,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611140170.aspx",
+          "original_title": "日本16比1扣倒澳洲 勇奪亞冠賽3連勝晉級冠軍戰",
+          "original_lang": "zh",
+          "published_at": "2026-11-14T09:40:32.000Z",
+          "tags": [
+            "棒球",
+            "APBC",
+            "日本"
+          ]
+        },
+        {
+          "title": "PLG車侑城首秀18分 率富邦勇士奪賽季首勝",
+          "summary": "P.LEAGUE+台北富邦勇士隊在台裔球星車侑城首秀中，依靠其貢獻的18分全場最高成績，以109比78擊敗台鋼獵鷹隊，取得賽季首勝。車侑城賽後表示感謝林書豪對其職業生涯的啟發。",
+          "why": "新秀球員的表現直接影響球隊戰力評估與球迷關注度，對賽季初積分榜有實質影響。",
+          "importance": 2,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611140209.aspx",
+          "original_title": "PLG車侑城首秀砍18分率勇士奪勝 感謝林書豪給予啟發",
+          "original_lang": "zh",
+          "published_at": "2026-11-14T12:40:01.000Z",
+          "tags": [
+            "籃球",
+            "PLG",
+            "車侑城"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "feeds": 39,
+    "fetched": 3002,
+    "kept": 28,
+    "jev_cost_usd": 0.003841,
+    "llm_cost_usd": 0.00111
+  }
+}
