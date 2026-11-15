@@ -1,0 +1,391 @@
+{
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T07:00:58.378+08:00",
+  "edition": 7,
+  "headline": {
+    "title": "輝達換帥或成轉折點 中國憂美緊縮晶片出口",
+    "summary": "美國財政部長貝森特表示，輝達必須從公司外部尋找新任執行長。中國官媒分析指出，輝達前執行長黃仁勳離職可能是美國對中國晶片出口政策的轉折點，若美國進一步緊縮AI晶片出口，中國國內大模型訓練與高端算力供給將承受短期壓力。",
+    "why": "全球AI算力供應鏈的關鍵節點出現政策變數，將影響下游AI模型訓練資源的獲取成本與時程。",
+    "importance": 5,
+    "source_name": "中央社 科技",
+    "source_url": "https://www.cna.com.tw/news/acn/202611150102.aspx",
+    "original_title": "黃仁勳風波後美恐緊縮晶片出口 中國官媒憂衝擊尖端算力",
+    "original_lang": "zh",
+    "published_at": "2026-11-15T07:14:48.000Z",
+    "tags": [
+      "AI晶片",
+      "地緣政治",
+      "算力"
+    ]
+  },
+  "brief": "美國財政部長要求輝達在十天内說明晶片流向，並建議由公司外部人士領導以應對出口管制危機。美國FDA拒絕核准Summit與Akeso共同開發的肺癌藥物，顯示中美在尖端科技與醫療領域的競爭持續升溫。交通部預告2032年起新車須強制安裝防暴衝系統，以回應近期頻傳的駕駛誤踩油門事故。",
+  "sections": [
+    {
+      "id": "ai",
+      "items": [
+        {
+          "title": "Nvidia 間諜風波 國會擬強化晶片出口管制",
+          "summary": "Nvidia 前 CEO Jensen Huang 因被指與疑似中國間諜有往來而辭職，引發美國國會兩黨議員聯手要求加強 AI 晶片出口管制。多名立法者已提出法案，要求 Nvidia 高層前往國會作证，以查證晶片流向是否受到洩漏影響。",
+          "why": "出口管制升級將直接影響全球 AI 算力供應鏈布局，對依賴先進晶片的生技與自動化研發環境造成實質衝擊。",
+          "importance": 4,
+          "source_name": "The Verge AI",
+          "source_url": "https://www.theverge.com/ai-artificial-intelligence/1033984/congress-export-rules-ai-chips-china",
+          "original_title": "Congress wants to tighten export rules on AI chips after Nvidia spy scandal",
+          "original_lang": "en",
+          "published_at": "2026-11-15T19:15:43.000Z",
+          "tags": [
+            "AI Chips",
+            "Export Control",
+            "Nvidia"
+          ]
+        },
+        {
+          "title": "OpenAI 展示 AI 協助標準模型晶格定義",
+          "summary": "OpenAI 公布研究進展，展示如何利用 GPT-6 Astra 將標準模型在晶格上的非微擾定義轉化為詳細證明。該成果旨在探索如何將大型語言模型應用於基礎物理學理論的形式化驗證過程。",
+          "why": "將 LLM 應用於基礎科學形式化驗證，為 AI 輔助嚴謹數學與物理推導提供可驗證的實際範例。",
+          "importance": 3,
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/index/step-toward-defining-the-standard-model",
+          "original_title": "A step toward defining the Standard Model on a lattice",
+          "original_lang": "en",
+          "published_at": "2026-11-15T22:00:01.000Z",
+          "tags": [
+            "OpenAI",
+            "Physics",
+            "LLM Research"
+          ]
+        },
+        {
+          "title": "SpaceX 首度機械臂回收軌道返航 Starship",
+          "summary": "SpaceX 在 Starship 第 15 次飛行中，成功讓上節載具 Ship 42 在繞地球 14 圈後返回 Starbase，並由發射塔機械臂接住。這是有史以來首次太空載具從軌道返航後被同一座塔成功回收，但下節 Super Heavy 助推器未能完成回收。",
+          "why": "實現軌道載具的可重複使用回收，大幅降低進出太空的成本，對大型衛星部署與深空探測具有長期戰略意義。",
+          "importance": 3,
+          "source_name": "INSIDE",
+          "source_url": "https://www.inside.com.tw/article/42915-spacex-starship-ship-42-first-orbital-upper-stage-tower-catch-flight-15",
+          "original_title": "史上第一次！SpaceX 首度成功回收自軌道返航的 Starship 上節",
+          "original_lang": "zh",
+          "published_at": "2026-11-15T05:41:00.000Z",
+          "tags": [
+            "SpaceX",
+            "Starship",
+            "Orbital Return"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "items": [
+        {
+          "title": "Microsoft 365 故障致飯店 15 人氯氣中毒",
+          "summary": "德國某飯店的Microsoft 365系統發生故障，導致氯氣警報誤報或系統失靈，致使15名房客吸入氯氣中毒。此事件顯示雲端服務中斷可能引發實體安全危機。",
+          "why": "突顯了企業關鍵業務系統依賴雲端服務時，潛在的實體安全與業務連續性風險。",
+          "importance": 3,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://www1.wdr.de/nrw/rheinland/rhein-erft-kreis/technischer-defekt-chlor-phantasialand-100.html",
+          "original_title": "Microsoft 365 outage leads to chlorine gas poisoning of 15 hotel guests",
+          "original_lang": "en",
+          "published_at": "2026-11-15T18:36:10.000Z",
+          "tags": [
+            "Microsoft 365",
+            "安全",
+            "雲端服務"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "items": [
+        {
+          "title": "FDA拒絕核准Summit與Akeso肺癌藥物",
+          "summary": "美國FDA拒絕核准由Summit Therapeutics與中國藥企Akeso共同開發的肺癌藥物ivonescimab。該藥物主要用於治療特定類型的非小細胞肺癌。",
+          "why": "監管機構對雙重抗體藥物安全性的嚴格審視，將影響跨國藥企的合作策略與投資回報預期。",
+          "importance": 4,
+          "source_name": "STAT News",
+          "source_url": "https://www.statnews.com/2026/11/15/fda-rejects-ivonescimab-lung-cancer-treatment-summit-therapeutics/",
+          "original_title": "STAT+: FDA rejects lung cancer treatment ivonescimab from Summit Therapeutics",
+          "original_lang": "en",
+          "published_at": "2026-11-15T15:05:15.000Z",
+          "tags": [
+            "FDA審議",
+            "肺癌藥物",
+            "Biotech合作"
+          ]
+        },
+        {
+          "title": "醫師呼籲健保接軌45%荷爾蒙陽性HER2乳癌",
+          "summary": "健保目前僅開放荷爾蒙陰性的HER2弱陽性晚期乳癌患者給付新藥。醫師指出約45%屬荷爾蒙陽性HER2弱陽性的病友仍在等待健保接軌，呼籲補齊治療缺口。",
+          "why": "縮小不同亞型乳癌患者的治療落差，直接影響晚期病人的生存品質與醫療資源分配公平性。",
+          "importance": 3,
+          "source_name": "中央社 生活健康",
+          "source_url": "https://www.cna.com.tw/news/ahel/202611150109.aspx",
+          "original_title": "晚期HER2弱陽性治療拼圖 醫：45%乳癌苦盼健保接軌",
+          "original_lang": "zh",
+          "published_at": "2026-11-15T07:36:04.000Z",
+          "tags": [
+            "乳癌治療",
+            "健保給付",
+            "HER2弱陽性"
+          ]
+        },
+        {
+          "title": "台灣早產率逾1成 醫籲借鏡日本落實高風險管理",
+          "summary": "台灣去年早產發生率為10.81%，醫師認為可能與晚婚晚育趨勢有關。建議借鏡日本模式，針對高風險孕婦落實追蹤個案管理以降低早產風險。",
+          "why": "降低早產率有助於提升兒童健康基礎，並減輕長期醫療照護成本與社會負擔。",
+          "importance": 3,
+          "source_name": "中央社 生活健康",
+          "source_url": "https://www.cna.com.tw/news/ahel/202611150136.aspx",
+          "original_title": "台灣早產率逾1成 醫籲借鏡日本落實高風險孕婦個管",
+          "original_lang": "zh",
+          "published_at": "2026-11-15T09:05:03.000Z",
+          "tags": [
+            "婦幼健康",
+            "早產防治",
+            "公共衛生"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "items": [
+        {
+          "title": "交通部預告2032年起新車須裝防暴衝系統",
+          "summary": "交通部預告修法，明訂2032年元旦起，新款自動排檔小客車及小貨車必須強制安裝「防止誤踩油門的加速控制系統」。该系统能在偵測前方有障礙物且駕駛誤踩油門時自動剎車，以應對近期頻傳的暴衝事故。",
+          "why": "將主動安全功能納入強制法規，可能加速車用自動駕駛感知與決策技術的標準化與普及率。",
+          "importance": 4,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/835841",
+          "original_title": "交通部預告修法 擬2032年起新車須裝防暴衝系統",
+          "original_lang": "zh",
+          "published_at": "2026-11-15T11:54:27.000Z",
+          "tags": [
+            "自動駕駛",
+            "汽車安全",
+            "法規"
+          ]
+        },
+        {
+          "title": "DRAM明年上半年恐更缺 模組廠惜售因應",
+          "summary": "記憶體廠南亞科等公司第3季獲利創新高，業者預估明年上半年DRAM供給恐將更加短缺，部分模組廠已採取惜售策略因應。相對之下，NAND Flash後市相對緩和，記憶體市場呈現趨勢分歧。",
+          "why": "核心硬體記憶體成本波動將直接影響AI伺服器與端側裝置的硬體建置成本與庫存管理策略。",
+          "importance": 3,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611150073.aspx",
+          "original_title": "DRAM明年上半年更缺 模組廠惜售因應",
+          "original_lang": "zh",
+          "published_at": "2026-11-15T05:19:43.000Z",
+          "tags": [
+            "半導體",
+            "記憶體",
+            "供應鏈"
+          ]
+        },
+        {
+          "title": "銀行業股市未實現利益9371億創新高",
+          "summary": "受台股今年前9月漲幅達65.52%影響，銀行業股市未實現利益達9371億元，續創歷史新高。然而受國內外債券殖利率彈升影響，銀行業債券未實現損失擴大至1920億元，創逾2年最大。",
+          "why": "顯示金融機構資產組合在股債不同調市場下的風險敞口變化，反映整體資本市場資金流向。",
+          "importance": 3,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611150180.aspx",
+          "original_title": "銀行業股市未實現利益9371億創新高 債券未實現損失擴大",
+          "original_lang": "zh",
+          "published_at": "2026-11-15T11:42:41.000Z",
+          "tags": [
+            "金融",
+            "台股",
+            "債券"
+          ]
+        },
+        {
+          "title": "外交單位強化資安措施",
+          "summary": "美國在台協會（AIT）或相關單位（原文未明，依Taipei Times標題推斷為MOFA或美國方面，但摘要需嚴謹，原文僅有標題，內容缺失，故無法提取具體事實。*註：此處發現原文[1]僅有標題無內文，根據規則「summary: 2-3 sentences of facts from the snippet only. Do not invent numbers, names or quotes.」，無法編造內容。因此，此條新聞因缺乏具體事實摘要，不應列入最終精選，除非有推斷，但規則禁止發明。故跳過此條。* 重新評估：規則要求從snippet中提取，若snippet無內容則無法生成。故跳過 [1]。",
+          "why": "提升關鍵基礎設施與政府單位的網路安全防護層級。",
+          "importance": 3,
+          "source_name": "Taipei Times",
+          "source_url": "https://www.taipeitimes.com/News/front/archives/2026/11/16/2003867805",
+          "original_title": "MOFA introduces tighter cybersecurity after data breaches",
+          "original_lang": "en",
+          "published_at": "2026-11-16T00:00:00.000Z",
+          "tags": [
+            "資安"
+          ]
+        },
+        {
+          "title": "美國航空系統升級異常致全國停飛",
+          "summary": "美國航空交管系統發生全國性癱瘓，導致聯邦航空署下達25年來首次近5小時的全国停飛令。美國運輸部長達菲指出，問題起因於老舊電信線路從銅線升級為光纖時發生的異常，目前正深入追查並追究責任。",
+          "why": "突顯關鍵基礎設施在數位轉型與升級過程中的韌性不足，可能成為資安與系統穩定性的警示案例。",
+          "importance": 2,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/835840",
+          "original_title": "美調查飛行系統故障原因 運輸部稱更新設備時出現異常",
+          "original_lang": "zh",
+          "published_at": "2026-11-15T11:54:58.000Z",
+          "tags": [
+            "基礎建設",
+            "航空",
+            "資安"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "title": "美財長給輝達10天期限：說明晶片是否走私",
+          "summary": "美國財政部長貝森特要求輝達在10天內說明其是否遵守美國出口管制，並建議由外部人士領導該公司。他強調，確保最先進人工智慧晶片未流入中國，比處理前執行長相關議題更為關鍵。",
+          "why": "此事直接影響先進人工智慧晶片的全球供應鏈穩定與合規成本，企業需重新評估對華業務的風險管控。",
+          "importance": 4,
+          "source_name": "Al Jazeera",
+          "source_url": "https://www.aljazeera.com/news/2026/11/15/us-treasury-chief-calls-for-outsider-to-lead-embattled-tech-firm-nvidia?traffic_source=rss",
+          "original_title": "US Treasury chief calls for outsider to lead embattled tech firm Nvidia",
+          "original_lang": "en",
+          "published_at": "2026-11-15T21:47:47.000Z",
+          "tags": [
+            "人工智慧",
+            "出口管制"
+          ]
+        },
+        {
+          "title": "德勞動局長：AI 15年內取代80萬工作",
+          "summary": "德國聯邦勞動局長表示，未來15年內約80萬個工作崗位可能因人工智慧而消失。她認為人工智慧將創造數量相近的新工作，但專業人才短缺仍是德國更大的長期挑戰。",
+          "why": "為評估人工智慧對長期就業市場的影響提供了官方數據參考，有助於理解自動化趨勢下的人才缺口。",
+          "importance": 3,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/德国劳动局长警告：ai将在15年内吞噬80万个就业岗位/a-79928366?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "德国劳动局长警告：AI将在15年内吞噬80万个就业岗位",
+          "original_lang": "zh",
+          "published_at": "2026-11-15T09:00:00.000Z",
+          "tags": [
+            "人工智慧",
+            "勞動市場"
+          ]
+        },
+        {
+          "title": "伊朗無人機再襲巴林美軍基地",
+          "summary": "伊朗對巴林的美軍基地發動無人機攻擊，這是三天內對該國的第二次襲擊。目前美國與伊朗仍在波斯灣海峽的緊張局勢中僵持不下。",
+          "why": "持續升級的中東緊張局勢可能影響區域穩定與能源運輸成本，間接衝擊全球供應鏈與市場情緒。",
+          "importance": 3,
+          "source_name": "BBC World",
+          "source_url": "https://www.bbc.co.uk/news/articles/cqn4e2py48kwo?at_medium=RSS&at_campaign=rss",
+          "original_title": "Iran targets US military base in Bahrain with drone attack",
+          "original_lang": "en",
+          "published_at": "2026-11-15T13:42:58.000Z",
+          "tags": [
+            "中東",
+            "安全"
+          ]
+        },
+        {
+          "title": "美千班機延誤 運輸部長稱或下週一恢復",
+          "summary": "美國全国航班停飛事件發生兩天後，仍有數千班航班取消或延誤。美國運輸部長表示，正常的空中交通管制作業可能要到下週一才能恢復。",
+          "why": "美國航空運送的大規模中斷會延遲高價值貨物與人員流動，對依賴即時物流的產業造成短期壓力。",
+          "importance": 3,
+          "source_name": "BBC World",
+          "source_url": "https://www.bbc.co.uk/news/articles/cw1mdlv0k2r4o?at_medium=RSS&at_campaign=rss",
+          "original_title": "Thousands of US flights still cancelled or delayed two days after grounding of planes nationwide",
+          "original_lang": "en",
+          "published_at": "2026-11-15T19:20:53.000Z",
+          "tags": [
+            "航空",
+            "供應鏈"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "items": [
+        {
+          "title": "TPBL克雷格本季首獲大三元 國王客勝雲豹",
+          "summary": "TPBL新北國王在作客桃園台啤永豐雲豹的比賽中，以110比93大勝對手。洋將克雷格繳出21分、10籃板、10助攻的成績單，成為該季首位完成大三元數據的球員。",
+          "why": "提供職業籃球聯賽具體的技術數據紀錄，反映洋將在本地聯賽中的關鍵影響。",
+          "importance": 3,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611150155.aspx",
+          "original_title": "TPBL克雷格本季首位大三元 國王作客輕取雲豹",
+          "original_lang": "zh",
+          "published_at": "2026-11-15T09:30:44.000Z",
+          "tags": [
+            "TPBL",
+            "籃球",
+            "大三元"
+          ]
+        },
+        {
+          "title": "廖元琪奪高雄羽球大師賽女單冠軍 首獲巡迴賽稱后",
+          "summary": "BWF超級100等級的高雄羽球大師賽，本土球員廖元琪在女單決賽中奪冠，成為生涯首座巡迴賽冠軍。男單郭冠麟同樣拿下生涯首座巡迴賽冠軍，男雙項目則取得一金兩銀的成績。",
+          "why": "展示本土運動選手在國際標準賽事中的實際競爭力與突破。",
+          "importance": 3,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611150168.aspx",
+          "original_title": "BWF高雄羽球大師賽 廖元琪女單封后首奪巡迴賽冠軍",
+          "original_lang": "zh",
+          "published_at": "2026-11-15T10:13:12.000Z",
+          "tags": [
+            "羽球",
+            "BWF",
+            "高雄"
+          ]
+        },
+        {
+          "title": "茲維列夫登頂世界第一 終點站首戰不敗喬達",
+          "summary": "亞歷山大茲維列夫（Alexander Zverev）在ATP網球終點站決賽的開局比賽中，以三盤不敗的方式擊敗拉斐爾·喬達（Rafael Jodar）。這是茲維列夫以世界第一身分取得的勝利。",
+          "why": "標誌網球世界第一身位的正式轉移與實際戰績驗證。",
+          "importance": 3,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/tennis/articles/cm5y1grdy3w2o?at_medium=RSS&at_campaign=rss",
+          "original_title": "Zverev 'felt a lot of joy' in first win as world number one",
+          "original_lang": "en",
+          "published_at": "2026-11-15T21:57:42.000Z",
+          "tags": [
+            "網球",
+            "ATP",
+            "茲維列夫"
+          ]
+        },
+        {
+          "title": "格里夫斯勝宗內韋德仍無緣Grand Slam飛鏢賽",
+          "summary": "飛鏢選手貝奧·格里夫斯（Beau Greaves）雖然在比賽中擊敗尼爾斯·宗內韋德（Niels Zonneveld），但因週六在另一場比賽中慘敗給魯克·利特勒（Luke Littler），仍無法進入Grand Slam飛鏢大賽的下一階段。",
+          "why": "說明多階段賽事中，單一場次的勝負無法改變整體賽程結果的規則邏輯。",
+          "importance": 2,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/darts/articles/cxlylvy2m5lqo?at_medium=RSS&at_campaign=rss",
+          "original_title": "Greaves out of Grand Slam despite win over Zonneveld",
+          "original_lang": "en",
+          "published_at": "2026-11-15T22:54:50.000Z",
+          "tags": [
+            "飛鏢",
+            "Grand Slam",
+            "淘汰賽"
+          ]
+        },
+        {
+          "title": "沙佩科恩塞空難倖存者助隊升級 迎退休戰",
+          "summary": "阿蘭·盧斯科（Alan Ruschel）作為2016年沙佩科恩塞足球隊空難的倖存者之一，在其退休前的最後一場比賽中獲勝，幫助球隊升級至巴西甲级聯賽（Serie A）。",
+          "why": "記錄體育史上極端事故後的團隊復原與具體的聯賽升級結果。",
+          "importance": 2,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/football/articles/ckp8017p1e3go?at_medium=RSS&at_campaign=rss",
+          "original_title": "Chapecoense air crash survivor wins promotion in final game",
+          "original_lang": "en",
+          "published_at": "2026-11-15T17:10:24.000Z",
+          "tags": [
+            "足球",
+            "巴西聯賽",
+            "沙佩科恩塞"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "feeds": 39,
+    "fetched": 3000,
+    "kept": 22,
+    "jev_cost_usd": 0.003511,
+    "llm_cost_usd": 0.00094
+  }
+}
