@@ -1,0 +1,536 @@
+{
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T07:00:57.539+08:00",
+  "edition": 9,
+  "headline": {
+    "title": "輝達風暴連累台股重挫 美加嚴晶片管制",
+    "summary": "黃仁勳請辭輝達執行長持續衝擊全球 AI 股，台股兩日累計大跌逾 3580 點，外資賣超金額超過 1080 億元。美國政府同步收緊先進 AI 晶片出口管制，將新加坡等 5 個國家列入高風險轉運清單，要求運往這些國家的晶片必須取得出口許可證。",
+    "why": "供應鏈政策變動與市場信心動搖，直接影響全球科技資產價格與資本支出決策。",
+    "importance": 5,
+    "source_name": "公視新聞",
+    "source_url": "https://news.pts.org.tw/article/836178",
+    "original_title": "黃仁勳請辭持續衝擊全球AI股 台股連兩日大跌累計逾3580點",
+    "original_lang": "zh",
+    "published_at": "2026-11-17T12:23:54.000Z",
+    "tags": [
+      "台股",
+      "輝達",
+      "出口管制"
+    ]
+  },
+  "brief": "輝達執行長黃仁勳請辭引發全球AI股重挫，並促使美國政府收緊對新加坡等國的晶片出口管制及遠端算力許可規則。Google威脅情報小組首次記錄到AI代理在無人工介入下自主將修補程式轉化為攻擊手法，同時微軟全球服務中斷確認係由潛伏約四个月的程式缺陷引發。Anthropic完成IPO後，Amazon與Google將共同持有其近30%股權。",
+  "sections": [
+    {
+      "id": "ai",
+      "items": [
+        {
+          "title": "Amazon與Google IPO後將共持有Anthropic近30%股權",
+          "summary": "Anthropic IPO後，Amazon將持有不到15%股權並擁有進一步增持股權的選擇權；Google則持有接近14%股權。這意味著兩家科技巨頭在IPO後將共同掌握Anthropic近30%的持股。",
+          "why": "明確的股權結構與選擇權安排，揭示了AI基礎模型賽道中資本與算力資源的深層綁定關係。",
+          "importance": 5,
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/17/amazon-and-google-will-together-own-nearly-30-of-anthropic-after-its-ipo/",
+          "original_title": "Amazon and Google will together own nearly 30% of Anthropic after its IPO",
+          "original_lang": "en",
+          "published_at": "2026-11-17T22:29:05.000Z",
+          "tags": [
+            "AI投資",
+            "巨頭股權",
+            "Anthropic"
+          ]
+        },
+        {
+          "title": "美國遠端存取新規管制，中國租用AI算力超1,200萬TPP需許可",
+          "summary": "美國商務部11月16日遠端存取新規則規定，海外資料中心若向中國企業提供超過1,200萬TPP的算力，先進晶片出貨需申請許可。此舉亦將新加坡、馬來西亞等5國先進晶片出口改採許可制。",
+          "why": "以具體的算力量化指標取代純地域限制，將對跨國AI基礎設施部署及晶片供應鏈的商業模式產生實質影響。",
+          "importance": 4,
+          "source_name": "INSIDE",
+          "source_url": "https://www.inside.com.tw/article/42931-us-bis-remote-access-ai-chips-rule-singapore-malaysia-license",
+          "original_title": "美國遠端存取新規防堵中國租用 AI 算力，新加坡、馬來西亞等 5 國晶片出口改採許可制",
+          "original_lang": "zh",
+          "published_at": "2026-11-17T04:22:00.000Z",
+          "tags": [
+            "AI監管",
+            "晶片出口",
+            "遠端算力管制"
+          ]
+        },
+        {
+          "title": "Lovable無代碼AI平台7000多個專案資料庫存在權限漏洞",
+          "summary": "德國研究指出，使用無代碼AI開發平台Lovable建立的至少7,000多個資料庫應用程式存在權限設定不當問題。該漏洞導致未登入的外部人士也能讀取原本不應公開的資料。",
+          "why": "量化AI開發工具的實際安全漏洞規模，突顯了無代碼應用在快速交付中忽視基礎存取控制的風險。",
+          "importance": 3,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180567",
+          "original_title": "德國研究揭露AI開發平臺Lovable用戶開發的應用程式，至少7千多個資料庫存在權限設定不當問題",
+          "original_lang": "zh",
+          "published_at": "2026-11-17T04:11:09.000Z",
+          "tags": [
+            "AI資安",
+            "無代碼開發",
+            "資料庫漏洞"
+          ]
+        },
+        {
+          "title": "OpenAI開放4家外部機構進入內部，深層檢驗未發布AI模型安全性",
+          "summary": "OpenAI宣布啟動第一階段嵌入式評估，開放4家獨立機構進入內部檢驗AI模型安全性。外部專家可存取未發布模型、原始程式碼、訓練評估資料及監控系統等資源。",
+          "why": "改變了僅透過API進行外部測試的標準做法，為高風險AI系統的透明度與安全性驗證建立了更嚴格的內部審查機制。",
+          "importance": 3,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180565",
+          "original_title": "OpenAI開放4家外部機構進駐，深入檢驗AI模型安全性",
+          "original_lang": "zh",
+          "published_at": "2026-11-17T02:11:13.000Z",
+          "tags": [
+            "AI安全",
+            "獨立評估",
+            "OpenAI"
+          ]
+        },
+        {
+          "title": "500大超算Top 10維持不變，AI工廠正改寫GPU算力流向",
+          "summary": "最新500大超級電腦排名前十名與今年6月相比沒有變化，但新上榜系統數量創下歷史新低。排行榜數據顯示，目前正呈現AI工廠改寫GPU算力流向的趨勢。",
+          "why": "頂級算力資源的流動與穩定，直接反映了AI基礎設施建設的重心正在從傳統超算轉向大型AI訓練與推理集群。",
+          "importance": 2,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180575",
+          "original_title": "500大超級電腦排名前十名不變，新系統數量創新低，並呈現AI工廠正在改寫GPU算力流向的趨勢",
+          "original_lang": "zh",
+          "published_at": "2026-11-17T06:11:37.000Z",
+          "tags": [
+            "超算",
+            "GPU算力",
+            "AI基礎設施"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "items": [
+        {
+          "title": "OpenJDK 爆出 Java4Shell 遠端代碼執行漏洞",
+          "summary": "Java 開發環境 OpenJDK 被發現存在 Java4Shell 遠端代碼執行（RCE）漏洞，攻擊者可透過處理 Base64 數據觸發。該問題已在 Hacker News 引發超過 200 個頁面討論。",
+          "why": "Java 廣泛應用於企業後端與自動化腳本，此類底層 RCE 漏洞可能透過供應鏈間接影響依賴 Java 元件的內部系統安全。",
+          "importance": 4,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://calif.io/java4shell/",
+          "original_title": "Java4Shell: RCE in OpenJDK when processing Base64",
+          "original_lang": "en",
+          "published_at": "2026-11-17T21:11:28.000Z",
+          "tags": [
+            "資安",
+            "Java",
+            "RCE"
+          ]
+        },
+        {
+          "title": "GitHub 試點將 AI 漏洞報告轉化為可用修復方案",
+          "summary": "GitHub 與 Microsoft 啟動 Codename MDASH 試點計畫，將數千份 AI 生成的原始發現轉化為 99 份附帶修復建議的私有報告，涵蓋六個廣泛使用的開源專案。目前維護者已修復超過一半的問題。",
+          "why": "解決了 AI 輔助程式審查中「誤報多、實作難」的痛點，為軟體團隊提供了可直接整合的修復工作流，提升開源專案的維護效率。",
+          "importance": 3,
+          "source_name": "GitHub Blog",
+          "source_url": "https://github.blog/open-source/maintainers/maintainers-dont-need-more-ai-bug-reports-they-need-fixes/",
+          "original_title": "Maintainers don’t need more AI bug reports. They need fixes.",
+          "original_lang": "en",
+          "published_at": "2026-11-17T18:29:29.000Z",
+          "tags": [
+            "GitHub",
+            "開源",
+            "AI 資安"
+          ]
+        },
+        {
+          "title": "GitHub 推出跨裝置 AI 代理會話同步協議",
+          "summary": "GitHub 發布 Agent Host Protocol（AHP），這是一個開放協議，旨在讓 AI 代理人的對話會話能跨編輯器、應用程式、手機及雲端同步，維持連續性。",
+          "why": "標準化 AI 代理的會話狀態管理，讓開發者在使用不同前端工具時不需重啟或重新載入上下文，提升自動化開發與多端協作的體驗。",
+          "importance": 3,
+          "source_name": "GitHub Blog",
+          "source_url": "https://github.blog/engineering/engineering-principles/building-the-agent-host-protocol-for-sessions-that-continue-across-devices/",
+          "original_title": "Building the Agent Host Protocol for sessions that continue across devices",
+          "original_lang": "en",
+          "published_at": "2026-11-17T18:20:40.000Z",
+          "tags": [
+            "GitHub",
+            "AI 代理",
+            "協議"
+          ]
+        },
+        {
+          "title": "Claude Code 團隊解析 AI 代碼驗證策略",
+          "summary": "Claude Code 團隊詳細說明其內部的驗證（verification）思維，涵蓋如何確保 AI 生成代碼與指令的正確性與可靠性。該文章在開發者社群引發廣泛討論。",
+          "why": "提供了實作的「如何確保 AI 不胡說」的工程視角，對正在構建依賴 AI 代碼生成或自動化流水線的團隊具有直接的參考價值。",
+          "importance": 4,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
+          "original_title": "How the Claude Code team thinks about verification",
+          "original_lang": "en",
+          "published_at": "2026-11-17T10:20:40.000Z",
+          "tags": [
+            "Claude",
+            "AI 驗證",
+            "開發工具"
+          ]
+        },
+        {
+          "title": "OpenAI 發布 GPT-6.2 Astra 與 Sol 模型",
+          "summary": "OpenAI 推出 GPT-6.2 Astra 與 Sol 兩個模型。此發布在 Hacker News 上獲得超過 900 點與 600 則評論，為當日討論最熱烈的事項。",
+          "why": "大規模語言模型架構的更新可能帶來推理成本與效能的變化，影響所有整合生成式 AI 的應用程式與自動化腳本的運行成本與策略。",
+          "importance": 5,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
+          "original_title": "GPT‑6.2 Astra and Sol",
+          "original_lang": "en",
+          "published_at": "2026-11-17T17:46:43.000Z",
+          "tags": [
+            "OpenAI",
+            "GPT-6.2",
+            "生成式 AI"
+          ]
+        },
+        {
+          "title": "Atlas 人型機器人將進入半導體廠房試點",
+          "summary": "Boston Dynamics 的 Atlas 人型機器人將於 2027 年初在一家半導體製造商處進行首次非汽車業界的試點。",
+          "why": "標誌着人型機器人從汽車組裝向精密製造（半導體）領域擴展，可能改變未來工廠自動化的人機協作模式與產線佈局。",
+          "importance": 2,
+          "source_name": "The Robot Report",
+          "source_url": "https://www.therobotreport.com/boston-dynamics-atlas-humanoid-lands-first-non-automotive-trial/",
+          "original_title": "Boston Dynamics’ Atlas humanoid lands first non-automotive trial",
+          "original_lang": "en",
+          "published_at": "2026-11-17T14:49:05.000Z",
+          "tags": [
+            "機器人",
+            "半導體",
+            "自動化"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "items": [
+        {
+          "title": "Sellas 血癌免疫療法臨床試驗降低死亡風險",
+          "summary": "Sellas 的血液癌症免疫療法在臨床試驗中顯示出降低死亡風險的結果。該數據表明其實驗性藥物在治療特定血癌患者時具有顯著的生存益處。",
+          "why": "提供可驗證的臨床結果，對血液癌症治療領域具有實質影響。",
+          "importance": 4,
+          "source_name": "STAT News",
+          "source_url": "https://www.statnews.com/2026/11/17/sellas-blood-cancer-immunotherapy-succeeds-clinical-trial/",
+          "original_title": "STAT+: Sellas’ experimental blood cancer immunotherapy reduced risk of death in clinical trial",
+          "original_lang": "en",
+          "published_at": "2026-11-17T12:00:00.000Z",
+          "tags": [
+            "免疫療法",
+            "血液癌症",
+            "臨床試驗"
+          ]
+        },
+        {
+          "title": "FDA 核准羅氏乳癌口服藥 Wilserdly",
+          "summary": "羅氏的乳癌口服藥物 Wilserdly 獲得 FDA 核准。分析師認為這是羅氏重要產品推出的關鍵第一步，該公司聲稱此藥可能成為其銷售冠軍產品。",
+          "why": "標誌著羅氏在乳癌領域的重大產品里程碑，對市場競爭格局有實際影響。",
+          "importance": 4,
+          "source_name": "BioPharma Dive",
+          "source_url": "https://www.biopharmadive.com/news/roche-fda-approve-wilserdly-giredestrant-breast-cancer/874884/",
+          "original_title": "Roche breast cancer pill cleared by FDA",
+          "original_lang": "en",
+          "published_at": "2026-11-17T17:18:00.000Z",
+          "tags": [
+            "乳癌",
+            "FDA核准",
+            "羅氏"
+          ]
+        },
+        {
+          "title": "Marrow 獲 1.73 億美元開發血液疾病新療法",
+          "summary": "新創公司 Marrow 獲得 1.73 億美元風險投資，旨在開發比基因療法更具可及性的替代品。該藥物針對嚴重血液疾病，如鐮狀紅血球病和地中海型貧血。",
+          "why": "提供基因治療的可及性替代方案，對嚴重血液疾病治療市場有潛在影響。",
+          "importance": 3,
+          "source_name": "BioPharma Dive",
+          "source_url": "https://www.biopharmadive.com/news/marrow-therapeutics-sickle-cell-beta-thalassemia-drug/874789/",
+          "original_title": "Marrow sets out to challenge genetic medicines for severe blood diseases",
+          "original_lang": "en",
+          "published_at": "2026-11-17T12:00:00.000Z",
+          "tags": [
+            "血液疾病",
+            "基因治療",
+            "新創投資"
+          ]
+        },
+        {
+          "title": "Isomorphic 完成 50 億美元 AI 製藥融資",
+          "summary": "AI 製藥公司 Isomorphic 在 AI 產業動盪之際完成融資，成為今年生技領域兩筆最大規模現金注入之一。此舉顯示投資者對 AI 製藥持續看好。",
+          "why": "反映 AI 製藥領域的資金流向，對相關技術開發和產業發展有指示作用。",
+          "importance": 3,
+          "source_name": "BioPharma Dive",
+          "source_url": "https://www.biopharmadive.com/news/isomorphic-labs-ai-drug-discovery-financing/874863/",
+          "original_title": "AI drugmaker Isomorphic restocks with $5B fundraise",
+          "original_lang": "en",
+          "published_at": "2026-11-17T15:51:00.000Z",
+          "tags": [
+            "AI製藥",
+            "融資",
+            "生技投資"
+          ]
+        },
+        {
+          "title": "Flagship 英國啟動 1 億英鎊 AI 生技平台",
+          "summary": "Flagship 在英國開設生技創新據點，投入 1 億英鎊啟動專注於人類與地球健康的「AI 原生平台公司」。",
+          "why": "推動 AI 原生生技平台的發展，對跨國生技創新生態系有影響。",
+          "importance": 3,
+          "source_name": "STAT News",
+          "source_url": "https://www.statnews.com/2026/11/17/biotech-news-flagship-opens-biotech-creation-uk-outpost/",
+          "original_title": "STAT+: Flagship opens biotech-creation outpost in the U.K.",
+          "original_lang": "en",
+          "published_at": "2026-11-17T17:05:10.000Z",
+          "tags": [
+            "生技創新",
+            "AI平台",
+            "英國生技"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "items": [
+        {
+          "title": "Google 首見 AI 代理自主開發漏洞攻擊",
+          "summary": "Google 威脅情報小組在第 4 季報告中首次記錄到 AI 代理在完全無人介入下，將安全修補程式轉化為實際可用的攻擊手法。該報告指出 AI 代理在系統入侵與漏洞利用中承擔更多角色，加速了攻擊生命週期並降低人類參與需求。",
+          "why": "自動化 AI 代理能獨立執行複雜的漏洞利用，大幅改變了資安攻防的速度與門檻。",
+          "importance": 5,
+          "source_name": "中央社 科技",
+          "source_url": "https://www.cna.com.tw/news/ait/202611170120.aspx",
+          "original_title": "Google：首見AI代理無需人類介入 自動開發漏洞攻擊",
+          "original_lang": "zh",
+          "published_at": "2026-11-17T05:20:58.000Z",
+          "tags": [
+            "資安",
+            "AI",
+            "Google"
+          ]
+        },
+        {
+          "title": "微軟全球服務中斷確認為潛伏缺陷所致",
+          "summary": "微軟確認全球服務中斷超過 24 小時，根本原因是一個潛伏約 4 個月的程式缺陷，在內部連線異常及伺服器容量不足下觸發連鎖故障。",
+          "why": "大型雲端平台的穩定性故障影響全球企業運營，凸顯長期維護與容量規劃的重要性。",
+          "importance": 4,
+          "source_name": "中央社 科技",
+          "source_url": "https://www.cna.com.tw/news/ait/202611170287.aspx",
+          "original_title": "微軟全球大當機停擺逾24小時 確認潛伏約4個月程式缺陷是禍因",
+          "original_lang": "zh",
+          "published_at": "2026-11-17T11:28:02.000Z",
+          "tags": [
+            "微軟",
+            "資安",
+            "雲端基礎設施"
+          ]
+        },
+        {
+          "title": "經理人重倉科技股比例創 20 年新低",
+          "summary": "美國銀行調查顯示，基金經理人淨增持科技股比重從 10 月的 37% 銳減至本月的 12%，創下 2006 年 6 月以來最大單月減碼。數據反映投資人預期相關資本支出將放緩。",
+          "why": "機構投資者對科技領域資本支出的預期轉向保守，可能影響相關產業的融資環境。",
+          "importance": 3,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611170333.aspx",
+          "original_title": "憂美選後AI支出放緩 美銀調查經理人減碼科技股創20年最劇",
+          "original_lang": "zh",
+          "published_at": "2026-11-17T14:26:48.000Z",
+          "tags": [
+            "資管",
+            "科技股",
+            "資本支出"
+          ]
+        },
+        {
+          "title": "學者籲國軍加速整合各系統促資訊共享",
+          "summary": "戰略學者沈明室指出，國軍主戰裝備來自美國、法國及國造，各系統資訊整合程度尚未完備。唯有充分整合資訊，才能促進戰場資訊共享並進行聯合作戰。",
+          "why": "多源武器系統的互操作性整合是現代戰力轉型的核心挑戰，影響整體作戰效率。",
+          "importance": 3,
+          "source_name": "中央社 政治",
+          "source_url": "https://www.cna.com.tw/news/aipl/202611170298.aspx",
+          "original_title": "促進戰場資訊共享 學者籲國軍加速整合各系統",
+          "original_lang": "zh",
+          "published_at": "2026-11-17T12:13:26.000Z",
+          "tags": [
+            "國防",
+            "資訊整合",
+            "軍事"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "title": "川普政府擬限制中國資料中心設備進口",
+          "summary": "川普政府計畫推動限制中國資料中心設備進口，儘管亞馬遜、谷歌、Meta及其他美國科技公司遊說反對。此舉旨在封堵中國大型互聯網公司和AI實驗室透過「只租算力、不買硬件」模式，在東南亞租用AI算力訓練模型的「後門」。",
+          "why": "限制算力來源可能影響全球AI模型訓練速度與硬體供應鏈佈局。",
+          "importance": 4,
+          "source_name": "BBC 中文",
+          "source_url": "https://www.bbc.com/zhongwen/articles/cmpdwn010nyvo/trad?at_medium=RSS&at_campaign=rss",
+          "original_title": "特朗普訪華之際 美國封堵中國公司在東南亞租用AI算力的「後門」",
+          "original_lang": "zh",
+          "published_at": "2026-11-17T11:37:12.000Z",
+          "tags": [
+            "AI",
+            "半導體",
+            "地緣政治"
+          ]
+        },
+        {
+          "title": "烏克蘭攻擊致克里米亞橋部分坍塌",
+          "summary": "烏克蘭對克里米亞橋樑發動七階段攻擊，導致橋樑部分坍塌。澤倫斯基稱這次攻擊經過數週規劃，是史無前例的行動。",
+          "why": "關鍵戰略基礎建設受損可能影響俄羅斯在該區域的物流與軍事部署。",
+          "importance": 3,
+          "source_name": "BBC World",
+          "source_url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo?at_medium=RSS&at_campaign=rss",
+          "original_title": "How the attack on Crimean Bridge unfolded",
+          "original_lang": "en",
+          "published_at": "2026-11-17T15:38:10.000Z",
+          "tags": [
+            "烏俄戰爭",
+            "基礎建設"
+          ]
+        },
+        {
+          "title": "伊朗對巴林美國設施發動第三輪無人機攻擊",
+          "summary": "伊朗週二向巴林的美國雷達設施發射無人機，這是第三輪打擊行動。美國隨即向重要航運沿線目標反擊。",
+          "why": "衝突升級可能威脅地區航運安全與能源供應穩定性。",
+          "importance": 3,
+          "source_name": "NPR World",
+          "source_url": "https://www.npr.org/2026/11/17/nx-s1-6044255/us-iran-war-latest-bahrain",
+          "original_title": "Iran launches a third round of strikes on Bahrain, host of U.S. Navy's 5th Fleet",
+          "original_lang": "en",
+          "published_at": "2026-11-17T18:34:31.000Z",
+          "tags": [
+            "中東",
+            "軍事衝突"
+          ]
+        },
+        {
+          "title": "美國喪失麻疹消滅地位 病例數創紀錄",
+          "summary": "美國自1990年代初以來首次失去麻疹消滅地位，各州報告超過5,400病例及10例麻疹相關死亡。",
+          "why": "疫苗接種率波動對全球公共衛生監測體系與生物藥研發生產規劃具有參考意義。",
+          "importance": 2,
+          "source_name": "BBC World",
+          "source_url": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo?at_medium=RSS&at_campaign=rss",
+          "original_title": "US loses measles elimination status after 26 years amid record case numbers",
+          "original_lang": "en",
+          "published_at": "2026-11-17T21:04:00.000Z",
+          "tags": [
+            "公共衛生",
+            "流行病學"
+          ]
+        },
+        {
+          "title": "中加達成新協議進一步削減關稅",
+          "summary": "中國與加拿大達成新協議進一步削減關稅，加拿大總理卡尼稱對華出口增長遠超預期，關係更具可預測性。部分安全分析人士警告这可能損害加拿大國家安全與價值觀。",
+          "why": "貿易政策調整將影響國際物流成本與跨國科技合作框架。",
+          "importance": 2,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/中加将进一步削减关税-卡尼赞两国关系更具-可预测性/a-79969061?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "中加将进一步削减关税 卡尼赞两国关系更具“可预测性”",
+          "original_lang": "zh",
+          "published_at": "2026-11-17T11:38:00.000Z",
+          "tags": [
+            "國際貿易",
+            "中加關係"
+          ]
+        },
+        {
+          "title": "德國經濟微幅增長 但依賴政府投資",
+          "summary": "德國經濟再次小幅增長，主要依賴政府投資及強勁出口。經濟學家警告若無改革及健康公共財政，機械業就業等領域的繁榮恐逐步消失。",
+          "why": "歐洲工業區經濟結構變化可能影響供應鏈穩定與自動化工具的市場需求。",
+          "importance": 2,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/德国经济实现增长，但乐观不起来/a-79971696?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "德国经济实现增长，但乐观不起来",
+          "original_lang": "zh",
+          "published_at": "2026-11-17T14:51:00.000Z",
+          "tags": [
+            "歐洲經濟",
+            "工業"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "items": [
+        {
+          "title": "南非橄欖球主教練因批評裁判被禁賽六場",
+          "summary": "南非橄欖球主教練拉斯（Rassie Erasmus）因對比賽裁判的言論，被世界橄欖球總會（World Rugby）罰禁賽六場。",
+          "why": "主教練長期禁賽將迫使南非隊調整賽前備戰策略，影響其在國際賽事中的戰術部署與陣容調配。",
+          "importance": 4,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/rugby-union/articles/cj752w5q7z90o?at_medium=RSS&at_campaign=rss",
+          "original_title": "South Africa head coach Erasmus banned for six matches",
+          "original_lang": "en",
+          "published_at": "2026-11-17T16:09:24.000Z",
+          "tags": [
+            "橄欖球",
+            "禁賽",
+            "世界橄欖球總會"
+          ]
+        },
+        {
+          "title": "老虎伍茲兩年後下月重返職業高爾夫賽場",
+          "summary": "高爾夫球球星老虎伍茲（Tiger Woods）預計將於下月重返職業高爾夫球比賽，這是他超過兩年未參賽後的首次回歸。",
+          "why": "頂尖球手重返職業賽場將吸引大量關注，對高爾夫運動的媒體曝光度與商業價值產生正面影響。",
+          "importance": 3,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/golf/articles/cm93080ep703o?at_medium=RSS&at_campaign=rss",
+          "original_title": "Woods set to return next month after two years out",
+          "original_lang": "en",
+          "published_at": "2026-11-17T15:54:36.000Z",
+          "tags": [
+            "高爾夫球",
+            "老虎伍茲",
+            "重返賽場"
+          ]
+        },
+        {
+          "title": "周天成領軍台灣羽球隊出征香港公開賽",
+          "summary": "BWF超級500等級的香港羽球公開賽今日展開會內賽，台灣代表隊共有23組人馬參賽，由周天成領軍，他將力拚頒獎台並為年終總決賽做準備。",
+          "why": "此賽事是選手爭取世界積分與備戰年終總決賽的關鍵站，影響台灣羽球隊的國際排名與後續賽程規劃。",
+          "importance": 3,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611170040.aspx",
+          "original_title": "BWF香港羽球公開賽登場 周天成領軍拚頒獎台備戰年終賽",
+          "original_lang": "zh",
+          "published_at": "2026-11-17T02:14:03.000Z",
+          "tags": [
+            "羽球",
+            "周天成",
+            "香港公開賽"
+          ]
+        },
+        {
+          "title": "運動部：國小體育班將轉型非廢除 教練權益保留",
+          "summary": "運動部次長洪志昌表示，根據新修正的國民體育法，國小體育班將進行轉型而非廢除，現有的專任運動教練權益不會受到損失。",
+          "why": "明確的政策解釋有助於穩定基層體育教育人力，避免教練群體因法規變動產生不確定感與離職風險。",
+          "importance": 2,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611170240.aspx",
+          "original_title": "運動部：國小體育班轉型非廢除 專任運動教練權益不受損",
+          "original_lang": "zh",
+          "published_at": "2026-11-17T09:48:20.000Z",
+          "tags": [
+            "體育政策",
+            "國民體育法",
+            "國小體育班"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "feeds": 39,
+    "fetched": 2952,
+    "kept": 31,
+    "jev_cost_usd": 0.005608,
+    "llm_cost_usd": 0.00121
+  }
+}
