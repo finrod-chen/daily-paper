@@ -82,7 +82,7 @@ const T = {
   mkCard: (s) => `成績單（近 ${s.days} 天，${s.horizon_hours} 小時後對答案）`,
   mkCardNone: '尚無到期可對答案的判斷',
   mkHit: (lbl, x) => `${lbl} ${x.hit}/${x.n}` + (x.n ? `（${Math.round((x.hit / x.n) * 100)}%）` : ''),
-  mkLegend: '偏多／偏空是 Kairos 依新聞判斷的方向；漲跌紅漲綠跌。',
+  mkLegend: '顏色：紅漲綠跌（偏多紅、偏空綠）；分數為新聞相關分數。',
   mkPageTitle: (d) => `台股 ${d}`,
   mkPageDesc: (name) => `${name} 每日台股：加權指數、熱門類股、外幣兌台幣，依新聞判斷偏多／偏空／觀望。非投資建議。`,
   mkMore: '看完整台股版（含往期）',
