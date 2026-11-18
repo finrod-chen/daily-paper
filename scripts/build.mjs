@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-// 單一建置腳本（Node 20+，零相依）：data/issues/*.json（＋選用 data/markets/*.json 台股，轉成一般新聞版「台股」）+ site.config.json → dist/
+// 單一建置腳本（Node 20+，零相依）：data/issues/*.json（＋選用 data/markets/*.json 美股指數＋台股，轉成一般新聞版「財經」）+ site.config.json → dist/
 import { readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { join, dirname } from 'node:path';
@@ -66,10 +66,12 @@ const T = {
   homeTitle: (name, i) => `${name}｜${i.date} 第 ${i.edition} 期：${i.headline.title}`,
   issueTitle: (name, i) => `${i.headline.title}｜${name} ${i.date} 第 ${i.edition} 期`,
   done: (n, latest) => `✔ 建置完成：${n} 期 → dist/` + (latest ? `（最新 ${latest.date} 第 ${latest.edition} 期）` : '（尚無期數，已產生占位首頁）'),
-  // 台股（data/markets → 一般新聞版；版別 id 'market'，名稱與顏色在 site.config.json）
-  mkName: '台股',
+  // 財經（data/markets → 一般新聞版；版別 id 'finance'，名稱、位置與顏色在 site.config.json）
+  mkName: '財經',
   mkCall: { bull: '偏多', bear: '偏空', neutral: '觀望' },
-  mkKind: { index: '大盤', sector: '熱門類股', fx: '外幣' },
+  mkKind: { us: '美股', index: '大盤', sector: '熱門類股', fx: '外幣' },
+  mkUsNote: '今晚美股盤勢',
+  mkUsClose: (d) => `美股指數價格為美東 ${d} 收盤，判斷對象是當天美股盤勢方向。`,
   mkSum: (kind, call, net, n) => `${kind}判斷：${call}（淨分數 ${net}${n ? `，依 ${n} 則相關新聞` : ''}）。`,
   mkLinks: '相關新聞',
   mkNoNews: '今天沒有配到相關新聞。',
@@ -106,12 +108,13 @@ const issues = readdirSync(join(ROOT, 'data/issues'))
   .sort((a, b) => (a.date < b.date ? 1 : -1)); // 新 → 舊
 const latest = issues[0] ?? null; // 尚無任何期數時為 null，會產生占位首頁
 
-// 台股（選用）：n8n 台股流程每天約 06:40 commit data/markets/YYYY-MM-DD.json。同一天的日報把它當成一般新聞版「台股」顯示
-// （大盤、熱門類股、外幣各一張卡：判斷寫在摘要、前 3 則相關新聞連結）。格式不符的檔案略過（validate 會警告），不擋日報。
+// 財經（選用）：n8n 台股流程每天約 06:40 commit data/markets/YYYY-MM-DD.json。同一天的日報把它當成一般新聞版「財經」顯示
+// （美股指數、大盤、熱門類股、外幣各一張卡：判斷寫在摘要、前 3 則相關新聞連結）。格式不符的檔案略過（validate 會警告），不擋日報。
+// 2026-11-18 起項目多了 kind 'us'（美股指數）與 us_market_date；舊檔（只有 index / sector / fx）照常顯示。
 const isNum = (v) => typeof v === 'number' && Number.isFinite(v);
 const okUrl = (u) => { try { return ['http:', 'https:'].includes(new URL(u).protocol); } catch { return false; } };
 const okMarket = (m, f) => m && m.date === f.replace('.json', '') && /^\d{4}-\d{2}-\d{2}$/.test(m.date) && m.counts && Array.isArray(m.items) && m.items.length &&
-  typeof m.disclaimer === 'string' && m.items.every((i) => ['index', 'sector', 'fx'].includes(i.kind) && ['bull', 'bear', 'neutral'].includes(i.call) &&
+  typeof m.disclaimer === 'string' && m.items.every((i) => ['us', 'index', 'sector', 'fx'].includes(i.kind) && ['bull', 'bear', 'neutral'].includes(i.call) &&
     typeof i.name === 'string' && isNum(i.net) && Array.isArray(i.news) && i.news.every((n) => typeof n.title === 'string' && okUrl(n.url) && isNum(n.score)));
 const MDIR = join(ROOT, 'data/markets');
 const markets = (existsSync(MDIR) ? readdirSync(MDIR) : [])
@@ -177,29 +180,33 @@ function briefHtml(brief) {
   return `<section class="brief" aria-labelledby="brief-h"><div class="wrap"><h2 id="brief-h" class="label">${T.brief}</h2>${body}</div></section>`;
 }
 
-// ---------- 台股 → 一般新聞版 ----------
-// 每個追蹤項目（大盤、熱門類股、外幣）變成一則一般新聞：標題＝名稱＋價格／漲跌，摘要＝判斷，「相關新聞」＝前 3 則連結。
+// ---------- 美股＋台股 → 一般新聞版「財經」 ----------
+// 順序固定：美股指數 → 台股大盤 → 熱門類股 → 外幣（同類照檔案裡的順序）。
+// 每個追蹤項目變成一則一般新聞：標題＝名稱＋價格／漲跌，摘要＝判斷，「相關新聞」＝前 3 則連結。
 // 版底一般文字：警告、熱門類股挑法、非投資建議。沒有特殊配色或圖例。
 const mdShort = (date) => { const [, m, d] = date.split('-').map(Number); return `${m}/${d}`; };
 const fmtNum = (v, d = 2) => Number(v).toLocaleString('en-US', { minimumFractionDigits: d, maximumFractionDigits: d });
 const fmtPct = (v) => `${v > 0 ? '+' : ''}${v.toFixed(2)}%`;
 const fmtNet = (v) => `${v > 0 ? '+' : ''}${v.toFixed(2)}`;
+const KIND_ORDER = { us: 0, index: 1, sector: 2, fx: 3 };
 function marketAsSection(m) {
-  const items = m.items.map((it) => ({
+  const sorted = m.items.map((it, i) => ({ it, i })).sort((a, b) => (KIND_ORDER[a.it.kind] ?? 9) - (KIND_ORDER[b.it.kind] ?? 9) || a.i - b.i).map((x) => x.it);
+  const items = sorted.map((it) => ({
     title: [it.name, isNum(it.price) ? fmtNum(it.price, it.decimals ?? 2) + (isNum(it.change_pct) ? T.paren(fmtPct(it.change_pct)) : '') : ''].filter(Boolean).join(' '),
-    summary: T.mkSum(T.mkKind[it.kind], T.mkCall[it.call], fmtNet(it.net), it.news_count ?? it.news.length) + (it.fx_hint ? `${it.fx_hint}。` : ''),
+    summary: T.mkSum(it.kind === 'us' ? T.mkUsNote : T.mkKind[it.kind], T.mkCall[it.call], fmtNet(it.net), it.news_count ?? it.news.length) + (it.fx_hint ? `${it.fx_hint}。` : ''),
     links: it.news.slice(0, 3).map((n) => ({ title: n.title, url: n.url, source: n.source || '' })),
-    importance: it.kind === 'index' ? 4 : 3,
+    importance: 3, // 全部同級：版內順序就是上面排好的順序（issueParts 依 importance 再依原順序排）
     source_name: '', source_url: '',
   }));
   const close = m.market_date ? `類股價格為證交所 ${mdShort(m.market_date)} 收盤。` : '';
-  const foot = [...(m.warnings || []), m.sector_note ? `熱門類股${T.paren(m.sector_note)}。${close}` : close, m.disclaimer].filter(Boolean);
-  return { id: 'market', name: T.mkName, items, foot };
+  const us = m.us_market_date && /^\d{4}-\d{2}-\d{2}$/.test(m.us_market_date) && sorted.some((i) => i.kind === 'us') ? T.mkUsClose(mdShort(m.us_market_date)) : '';
+  const foot = [...(m.warnings || []), us, m.sector_note ? `熱門類股${T.paren(m.sector_note)}。${close}` : close, m.disclaimer].filter(Boolean);
+  return { id: 'finance', name: T.mkName, items, foot };
 }
 
 function issueParts(issue, market = null) {
   const h = issue.headline;
-  const sections = market ? [...issue.sections.filter((s) => s.id !== 'market'), marketAsSection(market)] : issue.sections;
+  const sections = market ? [...issue.sections.filter((s) => s.id !== 'market' && s.id !== 'finance'), marketAsSection(market)] : issue.sections;
   issue = { ...issue, sections };
   const secs = sectionDefs(issue)
     .map((d) => {
@@ -221,7 +228,9 @@ function issueParts(issue, market = null) {
     .map(({ d, items, foot }) => {
       const list = `<ul class="stories">${items.map(storyHtml).join('')}</ul>`;
       const body = foot.length ? `<div class="sec-body">${list}${foot.map((t) => `<p class="sec-foot">${esc(t)}</p>`).join('')}</div>` : list;
-      return `<section class="sec tone ${cls(d.id)}" id="sec-${esc(d.id)}" aria-labelledby="h-${esc(d.id)}"><div class="wrap sec-grid"><header class="sec-head"><h2 id="h-${esc(d.id)}">${esc(d.name)}</h2><span class="count">${T.count(items.length)}</span></header>${body}</div></section>`;
+      // 舊連結相容：財經版原本叫「台股」，錨點 #sec-market（11/18 的 Telegram 訊息用過）→ 版首放一個同名空錨點
+      const compat = d.id === 'finance' ? '<span id="sec-market" class="anchor-compat" aria-hidden="true"></span>' : '';
+      return `<section class="sec tone ${cls(d.id)}" id="sec-${esc(d.id)}" aria-labelledby="h-${esc(d.id)}">${compat}<div class="wrap sec-grid"><header class="sec-head"><h2 id="h-${esc(d.id)}">${esc(d.name)}</h2><span class="count">${T.count(items.length)}</span></header>${body}</div></section>`;
     })
     .join('\n');
   const main = `<article class="issue">
@@ -300,7 +309,7 @@ function issuePage(issue, idx, isHome) {
   const newer = issues[idx - 1], older = issues[idx + 1];
   const link = (is, klass, dir) => is ? `<a class="${klass}" href="/${is.date}/"><span class="dir">${dir}</span><span class="ttl">${T.issueNo(is.edition)} · ${esc(clip(is.headline.title, T.pagerLen))}</span></a>` : '';
   const pager = older || newer ? `<nav class="pager wrap" aria-label="${T.pagerLabel}"><div>${link(older, 'prev', T.prev)}${link(newer, 'next', T.next)}</div></nav>` : '';
-  // 台股：只放同一天的資料（台股流程 06:40 先跑，日報 07:00 才發）
+  // 財經：只放同一天的資料（台股流程 06:40 先跑，日報 07:00 才發）
   const { secnav, main } = issueParts(issue, marketFor(issue.date));
   return page({
     title: isHome ? T.homeTitle(cfg.name, issue) : T.issueTitle(cfg.name, issue),
@@ -373,4 +382,4 @@ write('_headers', `/*
   Cache-Control: public, max-age=31536000, immutable
 `);
 
-console.log(T.done(issues.length, latest) + `；台股 ${markets.length} 天（併入同日日報的「台股」版）`);
+console.log(T.done(issues.length, latest) + `；財經 ${markets.length} 天（併入同日日報的「財經」版）`);

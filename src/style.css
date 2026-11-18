@@ -112,6 +112,7 @@ a:hover { color: var(--accent-ink); text-decoration-color: currentColor; }
 
 /* ── 各區段 ── */
 .sec { padding-top: clamp(36px, 6vw, 64px); scroll-margin-top: 56px; }
+.anchor-compat { display: block; height: 0; scroll-margin-top: 56px; } /* #sec-market → 財經版（舊錨點） */
 .sec-grid { display: grid; }
 .sec-head { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; padding: 10px 0 14px; border-top: 4px solid var(--sec-ink); }
 .sec-head h2 { margin: 0; font: 900 clamp(1.5rem, 4.5vw, 1.875rem)/1.2 var(--serif); color: var(--sec-ink); }

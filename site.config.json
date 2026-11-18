@@ -1,7 +1,7 @@
 {
   "name": "JustNote Daily",
   "tagline": "每天早上七點，由機器替你讀完 39 個來源",
-  "description": "JustNote Daily：每日自動編輯的繁體中文個人日報，涵蓋 AI、自動化、生技、台灣、國際與體育。",
+  "description": "JustNote Daily：每日自動編輯的繁體中文個人日報，涵蓋 AI、自動化、生技、台灣、國際、財經與體育。",
   "url": "https://daily.finrod.xyz",
   "timezone": "Asia/Taipei",
   "language": "zh-Hant-TW",
@@ -12,8 +12,8 @@
     { "id": "automation", "name": "自動化", "color": "#b45309" },
     { "id": "biotech", "name": "生技", "color": "#047857" },
     { "id": "taiwan", "name": "台灣", "color": "#be123c" },
-    { "id": "market", "name": "台股", "color": "#0f766e", "max_items": 8 },
     { "id": "world", "name": "國際", "color": "#6d28d9" },
+    { "id": "finance", "name": "財經", "color": "#0f766e", "max_items": 12 },
     { "id": "sports", "name": "體育", "color": "#c2410c" }
   ],
   "footer_text": "由 n8n × TypeSafe Jev 自動編輯"

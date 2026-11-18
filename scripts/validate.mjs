@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // 驗證 site.config.json、data/issues/*.json 與 data/markets/*.json（零相依的 JSON Schema draft-07 子集驗證器）。
-// issues / config 有任何錯誤 → exit code 1，讓 CI 失敗。markets（台股，build 時轉成同日日報的「台股」版）只警告：壞檔會被 build 略過，不擋日報部署。
+// issues / config 有任何錯誤 → exit code 1，讓 CI 失敗。markets（財經，build 時轉成同日日報的「財經」版）只警告：壞檔會被 build 略過，不擋日報部署。
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -132,7 +132,7 @@ for (const f of files) {
 
 if (!count) warnings.push('data/issues: 目前沒有任何期數，網站將顯示「尚未發刊」');
 
-// ---- data/markets（台股，選用）：錯誤只警告，build 會略過該檔 ----
+// ---- data/markets（財經版：美股指數＋台股，選用）：錯誤只警告，build 會略過該檔 ----
 const mdir = join(ROOT, 'data/markets');
 let mcount = 0;
 if (existsSync(mdir)) {
@@ -145,7 +145,7 @@ if (existsSync(mdir)) {
     const errs = [];
     check(marketSchema, data, '$', errs);
     if (!errs.length && data.date !== f.replace('.json', '')) errs.push(`date (${data.date}) 與檔名不一致`);
-    if (errs.length) { warnings.push(`${rel}: 格式不符，網站不顯示這天的台股：${errs.slice(0, 3).join('；')}`); continue; }
+    if (errs.length) { warnings.push(`${rel}: 格式不符，網站不顯示這天的財經版：${errs.slice(0, 3).join('；')}`); continue; }
     mcount++;
   }
   root = schema;
@@ -157,4 +157,4 @@ if (errors.length) {
   errors.forEach((e) => console.error(`  • ${e}`));
   process.exit(1);
 }
-console.log(`✔ 驗證通過：${count} 期、${sectionIds.size} 個區段設定、台股 ${mcount} 天`);
+console.log(`✔ 驗證通過：${count} 期、${sectionIds.size} 個區段設定、財經（data/markets） ${mcount} 天`);

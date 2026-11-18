@@ -26,9 +26,9 @@ flowchart LR
 ```
 site.config.json          報名、副標、網址、時區、區段（順序／名稱／顏色）、每區上限、主色、頁尾
 data/issues/*.json        每天一份，檔名 = 期數日期
-data/markets/*.json       （選用）台股，每天一份，n8n 台股流程寫入
+data/markets/*.json       （選用）財經版（美股指數＋台股），每天一份，n8n 台股流程寫入
 schema/issue.schema.json  資料格式
-schema/market.schema.json 台股資料格式
+schema/market.schema.json 財經版資料格式
 scripts/validate.mjs      build 前驗證（格式錯 → exit 1 → Cloudflare 建置失敗，線上維持上一版）
 scripts/build.mjs         單一建置腳本，零相依，輸出 dist/
 src/style.css, theme.js   樣式與深色模式切換
@@ -96,13 +96,13 @@ GET https://<你的網址>/latest.json?t={{ $now.toMillis() }}
 建議：每 30 秒一次，最多 20 次，逾時就通知失敗。
 ```
 
-## 台股版（data/markets，選用）
+## 財經版（data/markets，選用）
 
-另一個 n8n 流程（台股日報：加權指數、熱門類股、外幣兌台幣 → Kairos 判斷偏多／偏空／觀望）每天約 06:40 commit `data/markets/YYYY-MM-DD.json`（格式見 `schema/market.schema.json`）。
+另一個 n8n 流程（美股四大指數＋台股加權、熱門類股、外幣兌台幣 → Kairos 判斷偏多／偏空／觀望）每天約 06:40 commit `data/markets/YYYY-MM-DD.json`（格式見 `schema/market.schema.json`）。
 
-- build 時把同一天的台股檔轉成一般新聞版「台股」（`site.config.json` 的區段 `market`，順序、名稱、顏色、`max_items` 都在那裡改），和其他版用同一種卡片：每個項目（大盤、熱門類股、外幣）一張，標題＝名稱＋價格／漲跌，摘要＝判斷（偏多／偏空／觀望＋淨分數），「相關新聞」＝前 3 則連結；版底以一般文字附註熱門類股挑法與非投資建議。
-- 只顯示在同一天的那一期（含首頁）；當天沒有台股檔就沒有這一版。沒有獨立的台股頁面。錨點：`/<日期>/#sec-market`。
-- 台股檔格式不符時 `validate` 只**警告**並略過那一天，不會擋住日報部署。
+- build 時把同一天的檔案轉成一般新聞版「財經」（`site.config.json` 的區段 `finance`，排在「國際」後面；名稱、顏色、`max_items` 都在那裡改），和其他版用同一種卡片。版內順序固定：美股指數（S&P 500、那斯達克、道瓊、費城半導體）→ 台股大盤 → 熱門類股 → 外幣。每個項目一張，標題＝名稱＋價格／漲跌，摘要＝判斷（偏多／偏空／觀望＋淨分數；美股是「今晚美股盤勢」的判斷），「相關新聞」＝前 3 則連結；版底以一般文字附註美股收盤日、熱門類股挑法與非投資建議。
+- 只顯示在同一天的那一期（含首頁）；當天沒有檔案就沒有這一版。錨點：`/<日期>/#sec-finance`（舊的 `#sec-market` 仍會跳到財經版）。
+- 舊格式（11/18 以前、沒有 `us` 項目）照常顯示。格式不符時 `validate` 只**警告**並略過那一天，不會擋住日報部署。
 
 ## 資料格式
 

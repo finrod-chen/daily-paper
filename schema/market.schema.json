@@ -1,58 +1,178 @@
 {
   "$schema": "http://json-schema.org/draft-07/schema#",
   "$id": "https://daily-paper.invalid/schema/market.schema.json",
-  "title": "Daily Paper 台股 (TW market brief)",
-  "description": "n8n 台股日報流程每天約 06:40 commit 到 data/markets/YYYY-MM-DD.json。驗證不過的檔案只會警告並略過，不會擋住日報部署。price / change_pct 可為 null（來源沒資料）。",
+  "title": "Daily Paper 財經（美股指數＋台股）",
+  "description": "n8n 台股流程每天約 06:40 commit 到 data/markets/YYYY-MM-DD.json，網站轉成同日日報的「財經」版。驗證不過的檔案只會警告並略過，不會擋住日報部署。price / change_pct 可為 null（來源沒資料）。2026-11-18 起多了 kind 'us'（美股指數）、items[].market（US / TW）與 us_market_date；舊檔照常有效。",
   "type": "object",
-  "required": ["date", "generated_at", "counts", "items", "disclaimer"],
+  "required": [
+    "date",
+    "generated_at",
+    "counts",
+    "items",
+    "disclaimer"
+  ],
   "properties": {
-    "date": { "type": "string", "format": "date", "description": "台北日期，需與檔名一致" },
-    "generated_at": { "type": "string", "format": "date-time" },
-    "market_date": { "description": "證交所收盤資料日 YYYY-MM-DD 或 null" },
-    "sector_mode": { "type": "string", "enum": ["turnover", "change", "fixed"] },
-    "sector_note": { "type": "string" },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "description": "台北日期，需與檔名一致"
+    },
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "market_date": {
+      "description": "證交所收盤資料日 YYYY-MM-DD 或 null"
+    },
+    "sector_mode": {
+      "type": "string",
+      "enum": [
+        "turnover",
+        "change",
+        "fixed"
+      ]
+    },
+    "sector_note": {
+      "type": "string"
+    },
     "counts": {
       "type": "object",
-      "required": ["bull", "bear", "neutral"],
+      "required": [
+        "bull",
+        "bear",
+        "neutral"
+      ],
       "properties": {
-        "bull": { "type": "integer", "minimum": 0 },
-        "bear": { "type": "integer", "minimum": 0 },
-        "neutral": { "type": "integer", "minimum": 0 }
+        "bull": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "bear": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "neutral": {
+          "type": "integer",
+          "minimum": 0
+        }
       }
     },
     "items": {
       "type": "array",
       "items": {
         "type": "object",
-        "required": ["key", "kind", "name", "call", "net", "news"],
+        "required": [
+          "key",
+          "kind",
+          "name",
+          "call",
+          "net",
+          "news"
+        ],
         "properties": {
-          "key": { "type": "string", "minLength": 1 },
-          "kind": { "type": "string", "enum": ["index", "sector", "fx"] },
-          "name": { "type": "string", "minLength": 1 },
-          "decimals": { "type": "integer", "minimum": 0, "maximum": 6 },
-          "call": { "type": "string", "enum": ["bull", "bear", "neutral"] },
-          "net": { "type": "number" },
-          "news_count": { "type": "integer", "minimum": 0 },
-          "fx_hint": { "type": "string" },
+          "key": {
+            "type": "string",
+            "minLength": 1
+          },
+          "kind": {
+            "type": "string",
+            "enum": [
+              "us",
+              "index",
+              "sector",
+              "fx"
+            ]
+          },
+          "name": {
+            "type": "string",
+            "minLength": 1
+          },
+          "decimals": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 6
+          },
+          "call": {
+            "type": "string",
+            "enum": [
+              "bull",
+              "bear",
+              "neutral"
+            ]
+          },
+          "net": {
+            "type": "number"
+          },
+          "news_count": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "fx_hint": {
+            "type": "string"
+          },
           "news": {
             "type": "array",
             "items": {
               "type": "object",
-              "required": ["title", "url", "score", "side"],
+              "required": [
+                "title",
+                "url",
+                "score",
+                "side"
+              ],
               "properties": {
-                "title": { "type": "string", "minLength": 1 },
-                "url": { "type": "string", "format": "uri" },
-                "source": { "type": "string" },
-                "score": { "type": "number", "minimum": 0, "maximum": 1 },
-                "side": { "type": "string", "enum": ["long", "short", "skip"] }
+                "title": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "source": {
+                  "type": "string"
+                },
+                "score": {
+                  "type": "number",
+                  "minimum": 0,
+                  "maximum": 1
+                },
+                "side": {
+                  "type": "string",
+                  "enum": [
+                    "long",
+                    "short",
+                    "skip"
+                  ]
+                }
               }
             }
+          },
+          "market": {
+            "type": "string",
+            "enum": [
+              "US",
+              "TW"
+            ]
           }
         }
       }
     },
-    "scorecard": { "type": "object" },
-    "warnings": { "type": "array", "items": { "type": "string" } },
-    "disclaimer": { "type": "string", "minLength": 1 }
+    "scorecard": {
+      "type": "object"
+    },
+    "warnings": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "disclaimer": {
+      "type": "string",
+      "minLength": 1
+    },
+    "us_market_date": {
+      "description": "美股收盤日（美東）YYYY-MM-DD 或 null；判斷對象是這天之後開盤的那個美股交易時段"
+    }
   }
 }
