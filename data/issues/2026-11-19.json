@@ -1,0 +1,540 @@
+{
+  "date": "2026-11-19",
+  "generated_at": "2026-11-19T07:01:12.300+08:00",
+  "edition": 10,
+  "headline": {
+    "title": "Nginx 發現未認證 RCE 漏洞",
+    "summary": "Nginx 發生未經鑑權的遠端程式碼執行漏洞，可能影響多個版本。該漏洞被列為高風險，需在生產環境中立即進行補丁更新與安全評估。",
+    "why": "對於依賴 Nginx 進行自動化腳本或 API 閘道的前端工程，這代表需要立即執行供應鏈安全審查與熱修復。",
+    "importance": 5,
+    "source_name": "Hacker News Front Page 200+",
+    "source_url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+    "original_title": "Unauthenticated remote code execution in Nginx",
+    "original_lang": "en",
+    "published_at": "2026-11-18T15:19:55.000Z",
+    "tags": [
+      "資安",
+      "Nginx",
+      "漏洞"
+    ]
+  },
+  "brief": "輝達財測緩解去職疑慮並帶動 AI 類股走揚，同期 Anthropic 以每股 83 美元定價 IPO 達 1.5 兆美元估值，成為檢驗全球 AI 投資熱潮的關鍵指標。面對 AI 技術快速發展，英國 NCSC 建議企業董事會採納主動威脅獵捕策略以應對 AI 加速的大規模攻擊。",
+  "sections": [
+    {
+      "id": "ai",
+      "items": [
+        {
+          "title": "Anthropic IPO 定價 83 美元，估值達 1.5 兆美元",
+          "summary": "Anthropic 據報以 83 美元每股定價 IPO，高於預期區間，全稀釋估值達 1.5 兆美元。此價格設定反映資本市場對 AI 基礎模型開發商的極高估值信心。",
+          "why": "高額 IPO 定價將影響 AI 基礎模型領域的資本流動與後續研發投資規模。",
+          "importance": 5,
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/18/anthropic-reportedly-prices-ipo-at-83-a-share-above-projected-range/",
+          "original_title": "Anthropic reportedly prices IPO at $83 a share, above projected range",
+          "original_lang": "en",
+          "published_at": "2026-11-18T22:11:15.000Z",
+          "tags": [
+            "IPO",
+            "AI 產業"
+          ]
+        },
+        {
+          "title": "Tesla Cybercab 通報 8 起事故，高速輔助駕駛致傷",
+          "summary": "Tesla Cybercab 已通報 8 起事故，其中 4 起低速自動駕駛事故無人受傷，另 4 起高速輔助駕駛測試事故則已致傷。數據顯示不同駕駛輔助模式下的安全風險存在顯著差異。",
+          "why": "事故數據量化了不同自動駕駛等級的風險差異，影響自動駕駛計程車商業化的安全評估。",
+          "importance": 4,
+          "source_name": "INSIDE",
+          "source_url": "https://www.inside.com.tw/article/42952-tesla-cybercab-crashes-speed-problem",
+          "original_title": "Tesla Cybercab 累計發生 8 起事故！高速行駛安全性成無人自駕計程車擴張隱憂",
+          "original_lang": "zh",
+          "published_at": "2026-11-18T06:37:00.000Z",
+          "tags": [
+            "自動駕駛",
+            "安全"
+          ]
+        },
+        {
+          "title": "英國 NCSC 建議企業董事會重視主動威脅獵捕",
+          "summary": "英國 NCSC 發布報告指出，僅依賴既有監控機制恐無法及時偵測 AI 加速的大規模攻擊。報告建議企業董事會應採納主動威脅獵捕策略，以偵測環境中的新攻擊技術。",
+          "why": "為企業提供針對 AI 自動化攻擊的具體防禦策略指引，提升組織資安治理層級。",
+          "importance": 4,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180613",
+          "original_title": "面對AI加速攻擊，英國NCSC呼籲企業董事會應關切以主動威脅獵捕找出偵測缺口",
+          "original_lang": "zh",
+          "published_at": "2026-11-18T03:11:05.000Z",
+          "tags": [
+            "資安",
+            "威脅獵捕"
+          ]
+        },
+        {
+          "title": "NuGet.org 新增核准機制，降低自動化憑證濫用風險",
+          "summary": "NuGet.org 新增套件暫存發布功能，允許開發團隊先上傳並通過安全檢查後，再由授權維護者核准公開。新機制亦允許限制自動化工具發布權限，降低憑證遭竊後發布惡意套件的風險。",
+          "why": "提供具體的技術防禦手段，保護軟體供應鏈免受自動化憑證竊取攻擊。",
+          "importance": 3,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180626",
+          "original_title": "NuGet.org新增套件上架核准機制，降低自動化憑證遭濫用風險",
+          "original_lang": "zh",
+          "published_at": "2026-11-18T10:11:59.000Z",
+          "tags": [
+            "開發工具",
+            "資安"
+          ]
+        },
+        {
+          "title": "curl 專案數據：三週修復 200 個 Bug，超越 AI 重寫進度",
+          "summary": "curl 專案負責人指出，在 AI 代理將 18.5 萬行 C 代碼轉為 34 萬行 Rust 代碼的三週內，專案實際合併超過 300 個提交並修復約 200 個 Bug。數據顯示實際專案開發進度與 AI 重寫代碼的穩定性之間存在落差。",
+          "why": "提供軟體工程領域的具體數據對比，有助於評估 AI 編程代理在實際專案維護中的效能與限制。",
+          "importance": 3,
+          "source_name": "Simon Willison",
+          "source_url": "https://simonwillison.net/2026/Nov/18/daniel-stenberg/",
+          "original_title": "Quoting Daniel Stenberg",
+          "original_lang": "en",
+          "published_at": "2026-11-18T15:58:27.000Z",
+          "tags": [
+            "AI 編程",
+            "軟體工程"
+          ]
+        },
+        {
+          "title": "Nvidia 暫停向中國出貨先進 AI 晶片",
+          "summary": "Nvidia 臨時 CEO Colette Kress 宣布已停止向中國出貨先進 AI 晶片，儘管去年 12 月獲得白宮批准。此舉標誌著公司策略在 AI 晶片出口管制方面的顯著調整。",
+          "why": "晶片出口限制直接影響全球 AI 算力供應鏈配置，並對相關硬體生態系的商業部署產生實質衝擊。",
+          "importance": 3,
+          "source_name": "The Verge AI",
+          "source_url": "https://www.theverge.com/tech/1036445/nvidia-h200-ai-chips-china-stop-selling",
+          "original_title": "Nvidia isn’t selling any more AI chips to China",
+          "original_lang": "en",
+          "published_at": "2026-11-18T13:01:05.000Z",
+          "tags": [
+            "AI 晶片",
+            "出口管制"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "items": [
+        {
+          "title": "微軟發布七款新模型強調成本效益",
+          "summary": "微軟在 Ignite 2026 大會上發布七款新模型，強調在規模化部署下的價格與效能平衡。這些模型針對不同應用場景進行了優化。",
+          "why": "具體的效能與價格數據有助於評估在大型自動化管線中切換或整合新模型的總擁有成本 (TCO)。",
+          "importance": 4,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://microsoft.ai/news/microsoft-ignite-2026/",
+          "original_title": "Seven new models at scalable price-performance",
+          "original_lang": "en",
+          "published_at": "2026-11-18T16:08:24.000Z",
+          "tags": [
+            "AI 模型",
+            "微軟",
+            "成本效益"
+          ]
+        },
+        {
+          "title": "加州 DMV 禁止 Waymo 行駛高速公路",
+          "summary": "加州 DMV 禁止 Waymo 在州內高速公路營運，認定其反覆侵入車道對公共安全構成立即危險。此決定限制了該公司的自動駕駛測試與商用範圍。",
+          "why": "監管機構對自動駕駛行為的具體判定標準，將影響未來相關硬體與感測器整合方案的市場需求。",
+          "importance": 4,
+          "source_name": "The Robot Report",
+          "source_url": "https://www.therobotreport.com/california-dmv-bars-waymo-avs-from-operating-on-the-states-freeways/",
+          "original_title": "California DMV bars Waymo AVs from operating on the state’s freeways",
+          "original_lang": "en",
+          "published_at": "2026-11-17T23:55:07.000Z",
+          "tags": [
+            "自動駕駛",
+            "監管",
+            "安全"
+          ]
+        },
+        {
+          "title": "新架構宣稱推論效率提升 385 倍",
+          "summary": "一項研究提出基於能量的推理架構，宣稱其推論效率比現有方法高出 385 倍。該方法透過改變優化路徑來減少計算需求。",
+          "why": "顯著降低推理成本將使得邊緣裝置與即時自動化應用的 AI 部署更具可行性。",
+          "importance": 3,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://energy-based-reasoners.github.io/",
+          "original_title": "Energy-Based Reasoners: 385x more efficient inference",
+          "original_lang": "en",
+          "published_at": "2026-11-18T09:29:32.000Z",
+          "tags": [
+            "AI 架構",
+            "效率",
+            "推理"
+          ]
+        },
+        {
+          "title": "Google 推出 Gemini 4 Neon 模型",
+          "summary": "Google 發布名為 Gemini 4 Neon 的新模型。該模型專為特定效能需求而設計，是 Gemini 系列的新成員。",
+          "why": "提供了一個新的模型選項，開發者可根據其特定的效能指標來決定是否遷移現有架構。",
+          "importance": 3,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+          "original_title": "Gemini 4 Neon",
+          "original_lang": "en",
+          "published_at": "2026-11-18T21:34:07.000Z",
+          "tags": [
+            "Gemini",
+            "模型發布"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "items": [
+        {
+          "title": "FDA 公開 Summit 肺癌藥拒絕原因",
+          "summary": "美國食品藥物管理局（FDA）發布完整回覆信函，說明拒絕 Summit Therapeutics 肺癌新藥 ivonescimab 的具體原因。這份公開文件詳細列出了監管機構對該藥物申請的審批異議。",
+          "why": "明確的拒絕理由有助於業界評估類似免疫腫瘤標靶藥物的開發風險與審批標準。",
+          "importance": 4,
+          "source_name": "STAT News",
+          "source_url": "https://www.statnews.com/2026/11/18/biotech-news-fda-discloses-reasons-for-rejecting-summit-drug/",
+          "original_title": "STAT+: FDA discloses reasons for rejecting Summit drug",
+          "original_lang": "en",
+          "published_at": "2026-11-18T14:37:13.000Z",
+          "tags": [
+            "FDA",
+            "oncology"
+          ]
+        },
+        {
+          "title": "Pfizer 投入體內 CAR-T 治療自體免疫病",
+          "summary": "Pfizer 透過一筆潛在金額達 26 億美元的合作案，進入體內 CAR-T（in vivo CAR-T）領域。該策略旨在透過重新編程體內細胞來治療自體免疫疾病，與其他生技公司展開競爭。",
+          "why": "体内生成免疫細胞技術若能成功，將大幅降低製程成本並提高治療普及率，改變現行細胞治療的商業模式。",
+          "importance": 4,
+          "source_name": "BioPharma Dive",
+          "source_url": "https://www.biopharmadive.com/news/pfizer-starna-in-vivo-cell-therapy-autoimmune-disease-deal/875018/",
+          "original_title": "Pfizer leaps into ‘in vivo’ CAR-T with latest China deal",
+          "original_lang": "en",
+          "published_at": "2026-11-18T15:55:00.000Z",
+          "tags": [
+            "Pfizer",
+            "cell-therapy"
+          ]
+        },
+        {
+          "title": "台灣鼻咽癌標靶免疫藥無健保給付",
+          "summary": "台灣平均每天有近 4 人確診鼻咽癌，但目前的標靶與免疫治療均未納入健保給付。在已發生遠端轉移的患者中，僅有 8.2% 曾使用過免疫治療。",
+          "why": "缺乏給付制度導致晚期患者無法獲得先進治療，凸顯醫藥政策與臨床需求的脫節。",
+          "importance": 3,
+          "source_name": "中央社 生活健康",
+          "source_url": "https://www.cna.com.tw/news/ahel/202611180309.aspx",
+          "original_title": "台灣每天近4人確診鼻咽癌 標靶、免疫治療無健保給付",
+          "original_lang": "zh",
+          "published_at": "2026-11-18T10:37:33.000Z",
+          "tags": [
+            "nasopharyngeal-cancer",
+            "health-care"
+          ]
+        },
+        {
+          "title": "NIH 終結黑猩猩實驗遷移最後一批個體",
+          "summary": "美國國家衛生研究院（NIH）宣布將全數遷移最後一批實驗用黑猩猩至保護區。此舉標誌著美國政府資助的黑猩猩研究歷史正式終結。",
+          "why": "減少高等靈長類動物的實驗使用，是生技倫理與動物替代技術發展的重要里程碑。",
+          "importance": 3,
+          "source_name": "GeneOnline 基因線上",
+          "source_url": "https://geneonline.news/%E7%BE%8E%E5%9C%8B%E6%9C%80%E5%BE%8C%E4%B8%80%E6%89%B9%E5%AF%A6%E9%A9%97%E9%BB%91%E7%8C%A9%E7%8C%A9%E5%B0%87%E5%85%A8%E6%95%B8%E9%81%B7%E5%BE%80%E4%BF%9D%E8%AD%B7%E5%8D%80%E7%B5%82%E7%B5%90%E7%A0%94/",
+          "original_title": "美國最後一批實驗黑猩猩將全數遷往保護區終結研究歷史",
+          "original_lang": "zh",
+          "published_at": "2026-11-18T21:20:56.000Z",
+          "tags": [
+            "animal-research",
+            "NIH"
+          ]
+        },
+        {
+          "title": "EpiPad 外掛裝置 4 分鐘校正達 92% 準確",
+          "summary": "北卡羅來納州立大學團隊開發出 EpiPad 穿戴式裝置，可在 4 分鐘內達到 92% 的校正準確率。該產品定位為百元級別的智慧手錶外掛裝置，解決螢幕過小的操作限制。",
+          "why": "低成本的外掛輸入解決方案可能擴展穿戴式裝置在醫療或工業場景的應用邊界。",
+          "importance": 3,
+          "source_name": "科技新報 生技",
+          "source_url": "https://technews.tw/2026/11/18/smartwatch-forearm-touchpad/",
+          "original_title": "4 分鐘極速校正達 92% 準確率，百元級 EpiPad 替智慧手錶外掛「前臂觸控板」",
+          "original_lang": "zh",
+          "published_at": "2026-11-17T23:40:35.000Z",
+          "tags": [
+            "wearable-tech",
+            "HCI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "items": [
+        {
+          "title": "輝達財測緩解黃仁勳去職疑慮 帶動AI股反彈",
+          "summary": "輝達公布財測顯示運算需求激增，緩解了市場對創辦人黃仁勳去職帶來的不確定性。這項消息帶動輝達股價上漲，並推升整體人工智慧相關類股走揚。",
+          "why": "AI 巨頭的財測與股價波動直接反映全球算力需求與資本市場對 AI 技術路線的信心，影響相關產業投資決策。",
+          "importance": 5,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611180364.aspx",
+          "original_title": "輝達財測緩解黃仁勳去職疑慮 帶動AI股反彈",
+          "original_lang": "zh",
+          "published_at": "2026-11-18T15:08:42.000Z",
+          "tags": [
+            "AI",
+            "晶片",
+            "股市"
+          ]
+        },
+        {
+          "title": "Anthropic啟動上市 將成檢驗全球AI投資熱潮關鍵指標",
+          "summary": "AI 新創公司 Anthropic 將於 18 日敲定首次公開募股價格，讓投資人得以直接投資獨立營運的 AI 巨擘。此事件被視為檢驗全球 AI 投資熱潮能持續多久的重要指標。",
+          "why": "Anthropic 的 IPO 表現將成為衡量 AI 領域估值合理性與資金流向的關鍵參考數據，影響後續創投與研發資源分配。",
+          "importance": 4,
+          "source_name": "中央社 科技",
+          "source_url": "https://www.cna.com.tw/news/ait/202611180151.aspx",
+          "original_title": "Anthropic啟動上市 將成檢驗全球AI投資熱潮關鍵指標",
+          "original_lang": "zh",
+          "published_at": "2026-11-18T05:59:51.000Z",
+          "tags": [
+            "AI",
+            "資本市場",
+            "IPO"
+          ]
+        },
+        {
+          "title": "美國科技當機潮延燒 盧比歐稱無證據涉網攻",
+          "summary": "美國近日出現多家企業郵件停擺與航班取消的科技故障，範圍延燒至國家安全局的內部機密網路。專家擔憂 AI 工具可能助長網路攻擊，但國務卿盧比歐表示目前無證據顯示這些事件與網攻有關。",
+          "why": "大型技術故障與資安威脅的關聯性評估，對企業建立災難復原計畫與資安監控策略具有重要警示作用。",
+          "importance": 4,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/836343",
+          "original_title": "美國連日科技當機潮 盧比歐：無證據顯示涉及網攻",
+          "original_lang": "zh",
+          "published_at": "2026-11-18T12:31:16.000Z",
+          "tags": [
+            "資安",
+            "網路攻擊",
+            "美國"
+          ]
+        },
+        {
+          "title": "數發部：近期8百萬筆個資外洩 要求企業72小時內通知",
+          "summary": "數位發展部統計近期約 800 萬筆個資外洩，要求企業在知悉後 72 小時內通知當事人，但消費者反映企業執行程度有限。專家建議企業應先確認外洩範圍並全面盤點系統漏洞。",
+          "why": "個資外洩通報時限的規範落實程度，直接關係到企業在資安事件中的合規風險與品牌信譽管理。",
+          "importance": 3,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/836342",
+          "original_title": "數發部：近期8百萬筆個資外洩 要求企業72小時內通知當事人",
+          "original_lang": "zh",
+          "published_at": "2026-11-18T12:30:43.000Z",
+          "tags": [
+            "資安",
+            "個資保護",
+            "監管"
+          ]
+        },
+        {
+          "title": "九合一大選查賄偵辦達3千多件 疑涉境外勢力介選逾30件",
+          "summary": "檢方在九合一大選前已偵辦 3633 件查賄案件，約談 4200 多人，並發現 30 多件疑涉境外勢力介選案件。法務部正修改反滲透法，增訂跨國鎮壓罪以拉高防線。",
+          "why": "境外勢力介入選舉的規模與修法動態，影響政治穩定預期及相關政經環境的風險評估。",
+          "importance": 3,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/836348",
+          "original_title": "九合一大選查賄偵辦達3千多件 疑涉境外勢力介選逾30件",
+          "original_lang": "zh",
+          "published_at": "2026-11-18T12:25:06.000Z",
+          "tags": [
+            "選舉",
+            "政治",
+            "法律"
+          ]
+        },
+        {
+          "title": "國銀外幣存款旺 9月增額5243億創歷史次高",
+          "summary": "金管會統計顯示，本國銀行 9 月底外幣存款餘額達 17 兆 5760 億元，創歷史新高。月增額 5243 億元為史上次高，主要受法人客戶營收入帳、海外發債籌資及美元升值等因素帶動。",
+          "why": "外幣存款的大幅流入反映國際資本動向與匯率預期，對本國貨幣政策與跨國企業資金調度具有參考意義。",
+          "importance": 2,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611180329.aspx",
+          "original_title": "國銀外幣存款旺 9月增額5243億創歷史次高",
+          "original_lang": "zh",
+          "published_at": "2026-11-18T11:49:17.000Z",
+          "tags": [
+            "金融",
+            "外匯",
+            "銀行"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "title": "川普政府擬強迫美企揭露中國AI使用情況",
+          "summary": "特朗普政府正考慮要求美國企業公開披露使用中國AI模型的情況，旨在減少對中國AI技術的依賴，同時避免引發產業界或中方反彈。相關報導指出，中國AI模型正在快速擴大其全球影響力。",
+          "why": "此舉可能重塑全球AI合規標準，並影響跨國技術供應鏈的透明度和企業策略。",
+          "importance": 4,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/特朗普政府考虑强制美企披露中国ai使用情况/a-79982497?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "特朗普政府考虑强制美企披露中国AI使用情况",
+          "original_lang": "zh",
+          "published_at": "2026-11-18T14:10:00.000Z",
+          "tags": [
+            "AI監管",
+            "美中關係"
+          ]
+        },
+        {
+          "title": "英偉達財報雙翻倍，斷供中國Hopper芯片",
+          "summary": "英偉達季度財報顯示營收和盈利均實現同比翻倍。公司新管理層宣布對中國斷供Hopper系列芯片，且董事會目前沒有重新聘任黃仁勋擔任CEO的計劃。",
+          "why": "對中國市場的產品限制將進一步影響全球AI基礎設施部署速度與硬體成本結構。",
+          "importance": 3,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/英伟达季度营收盈利双双翻倍-董事会仍无计划重聘黄仁勋/a-79979748?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "英伟达季度营收盈利双双翻倍 董事会仍无计划重聘黄仁勋",
+          "original_lang": "zh",
+          "published_at": "2026-11-18T10:56:00.000Z",
+          "tags": [
+            "半導體",
+            "AI硬體"
+          ]
+        },
+        {
+          "title": "美國失去麻疹消除狀態，年增5400病例",
+          "summary": "美國時隔26年失去麻疹消除狀態，今年確診病例達5400例，造成10人死亡，創下1990年代以來新高。這一變化被視為疫苗懷疑論持續影響下的結果。",
+          "why": "主要經濟體失去传染病消除狀態，可能引發跨境傳播風險，影響全球公共衛生防線。",
+          "importance": 3,
+          "source_name": "BBC 中文",
+          "source_url": "https://www.bbc.com/zhongwen/articles/c5y4jmvxr9vyo/trad?at_medium=RSS&at_campaign=rss",
+          "original_title": "美國今年已10人死於麻疹 26年後失去「麻疹消除狀態」",
+          "original_lang": "zh",
+          "published_at": "2026-11-18T08:16:22.000Z",
+          "tags": [
+            "公共衛生",
+            "疫苗"
+          ]
+        },
+        {
+          "title": "皮尤預測伊斯蘭教將成全球最大宗教",
+          "summary": "皮尤研究中心預測，伊斯蘭教徒預計將在2035年超越基督徒，成為全球最大宗教群體。報告指出，基督教與伊斯蘭教的人口在2020年至2070年間均呈現穩步增長。",
+          "why": "宗教人口結構的長期變化將持續影響未來幾十年的地緣政治動態與文化議題。",
+          "importance": 2,
+          "source_name": "Al Jazeera",
+          "source_url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/muslims-projected-to-overtake-christians-as-worlds-largest-religious-group?traffic_source=rss",
+          "original_title": "Muslims projected to overtake Christians as world’s largest religious group",
+          "original_lang": "en",
+          "published_at": "2026-11-18T20:21:34.000Z",
+          "tags": [
+            "社會趨勢",
+            "人口統計"
+          ]
+        },
+        {
+          "title": "美眾院調查微軟洽售AI服務給字節跳動",
+          "summary": "美國眾議院「美國與中國共產黨戰略競爭特別委員會」要求微軟簡報其洽談出售AI雲端服務給中國企業字節跳動一事。該委員會正調查此交易是否涉及資安風險或合规問題。",
+          "why": "針對跨國AI數據流轉的監管審查趨嚴，將增加企業在進行跨境AI合作時的合規成本與不確定性。",
+          "importance": 2,
+          "source_name": "中央社 國際",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611190011.aspx",
+          "original_title": "微軟傳洽售AI服務給字節跳動 美眾院委員會要查",
+          "original_lang": "zh",
+          "published_at": "2026-11-18T21:16:17.000Z",
+          "tags": [
+            "科技監管",
+            "資料安全"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "items": [
+        {
+          "title": "皇家隊交易全壘打王至水手",
+          "summary": "皇家隊與水手隊進行交易，All-Star三壘手Garcia被交易至西雅圖，涉及六名球員的調動。此交易將改變兩隊戰力分布，並可能影響自由球員市場的後續發展。",
+          "why": "影響MLB多支球隊戰力平衡與自由球員市場動態。",
+          "importance": 4,
+          "source_name": "MLB.com",
+          "source_url": "https://www.mlb.com/news/maikel-garcia-traded-from-royals-to-mariners",
+          "original_title": "Royals-Mariners blockbuster: All-Star 3B Garcia traded to Seattle in 6-player swap",
+          "original_lang": "en",
+          "published_at": "2026-11-18T22:07:00.000Z",
+          "tags": [
+            "MLB",
+            "球員交易",
+            "Garcia"
+          ]
+        },
+        {
+          "title": "詹姆斯控博彩App盜用AI分身",
+          "summary": "NBA球星詹姆斯控告運動博彩App「Bron」，指其未經授權使用其綽號及AI生成的分身，涉嫌侵害商標權。該App的廣告讓人誤以為詹姆斯有參與下注。",
+          "why": "揭示AI生成內容在體育行銷中的法律邊界與個人品牌保護風險。",
+          "importance": 3,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611180057.aspx",
+          "original_title": "NBA球星詹姆斯告博彩App盜用綽號和AI分身 控侵害商標權",
+          "original_lang": "zh",
+          "published_at": "2026-11-18T02:47:25.000Z",
+          "tags": [
+            "NBA",
+            "AI身分",
+            "智慧財產權"
+          ]
+        },
+        {
+          "title": "英超上輪六次裁判錯誤創紀錄",
+          "summary": "英超關鍵比賽事件小組裁定，上輪比賽中有六次場上判決錯誤。這是單一週末並列最高的紀錄，顯示出裁判爭議頻繁。",
+          "why": "反映職業足球裁判判斷的準確性與審判標準執行的一致性問題。",
+          "importance": 3,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/football/articles/c69q8jy924y4o?at_medium=RSS&at_campaign=rss",
+          "original_title": "Joint-record six referee errors in last Premier League weekend",
+          "original_lang": "en",
+          "published_at": "2026-11-18T12:38:38.000Z",
+          "tags": [
+            "英超",
+            "裁判",
+            "判決爭議"
+          ]
+        },
+        {
+          "title": "棒協與中職擬建立國中全國賽",
+          "summary": "中華棒協與中華職棒合作組成代表隊參加世界盃與亞洲賽事，被視為成功案例。雙方計畫明年建立全國國中棒球賽事以扎根基層培訓。",
+          "why": "強化台灣棒球的基層人才培育體系，有助於長期的運動發展。",
+          "importance": 2,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611180333.aspx",
+          "original_title": "棒協與中職樹立合作模式 擬建立國中全國賽事",
+          "original_lang": "zh",
+          "published_at": "2026-11-18T12:16:26.000Z",
+          "tags": [
+            "棒球",
+            "台灣",
+            "基層培訓"
+          ]
+        },
+        {
+          "title": "台灣射箭男女團闖入亞盃4強",
+          "summary": "在2026射箭亞洲盃杭州站，台灣反曲弓男團在8強戰以6比2擊敗中國隊，與女團一同挺進4強。他們正在爭取登上頒獎台的機會。",
+          "why": "台灣射擊運動在區域賽事中展現競爭力的具體成果。",
+          "importance": 1,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611180341.aspx",
+          "original_title": "射箭亞洲盃杭州站 台灣反曲弓男、女團闖4強拚獎牌",
+          "original_lang": "zh",
+          "published_at": "2026-11-18T13:04:44.000Z",
+          "tags": [
+            "射箭",
+            "台灣",
+            "亞運賽事"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "feeds": 39,
+    "fetched": 2988,
+    "kept": 32,
+    "jev_cost_usd": 0.005729,
+    "llm_cost_usd": 0.00122
+  }
+}
