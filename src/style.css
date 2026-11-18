@@ -142,50 +142,9 @@ a:hover { color: var(--accent-ink); text-decoration-color: currentColor; }
 .tags li { display: inline; }
 .orig { margin: 4px 0 0; font-size: .8125rem; line-height: 1.5; color: var(--muted); }
 
-/* ── 台股（data/markets）：台灣慣例紅漲綠跌；偏多紅、偏空綠 ── */
-.sec-market { --sec: #0f766e; --up: #c62828; --down: #2e7d32; }
-@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .sec-market { --up: #ff7b72; --down: #5fd38d; } }
-:root[data-theme="dark"] .sec-market { --up: #ff7b72; --down: #5fd38d; }
-.mk { min-width: 0; }
-.mk-note { margin: 0 0 8px; padding: 8px 12px; border-left: 3px solid var(--sec-ink); background: var(--band); font-size: .9375rem; }
-.mk-sub { margin: 0 0 4px; font-size: .8125rem; color: var(--muted); }
-.mk-warn { margin: 8px 0 0; font-size: .875rem; color: var(--muted); }
-.mk-warn::before { content: "⚠ "; }
-.mk-group { margin-top: 18px; }
-.mk-gh { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; margin: 0; padding-bottom: 6px; border-bottom: 1px solid var(--ink); font: 700 1rem/1.4 var(--sans); }
-.mk-gh small { font-weight: 400; font-size: .8125rem; color: var(--muted); }
-.mk-list { list-style: none; margin: 0; padding: 0; }
-.mk-item { padding: 12px 0; border-bottom: 1px solid var(--line); }
-.mk-row { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px; }
-.mk-name { min-width: 0; }
-.mk-name b { display: block; font: 700 1.0625rem/1.4 var(--serif); }
-.mk-price { font-size: .875rem; font-variant-numeric: tabular-nums; color: var(--muted); }
-.mk-chg.up { color: var(--up); } .mk-chg.down { color: var(--down); }
-.mk-call { flex: none; text-align: right; }
-.mk-badge { display: inline-block; min-width: 3.4em; padding: 2px 10px; border-radius: 999px; font-weight: 700; font-size: .875rem; text-align: center; border: 1px solid currentColor; }
-.call-bull .mk-badge { color: var(--up); background: color-mix(in srgb, var(--up) 10%, transparent); }
-.call-bear .mk-badge { color: var(--down); background: color-mix(in srgb, var(--down) 10%, transparent); }
-.call-neutral .mk-badge { color: var(--muted); }
-.mk-net { display: block; margin-top: 2px; font-size: .75rem; color: var(--muted); font-variant-numeric: tabular-nums; }
-.mk-hint { margin: 2px 0 0; font-size: .8125rem; color: var(--muted); }
-.mk-none { margin: 4px 0 0; font-size: .875rem; color: var(--muted); }
-.mk-news { margin-top: 6px; }
-.mk-news summary { cursor: pointer; min-height: 32px; display: flex; align-items: center; font-size: .8125rem; color: var(--muted); }
-.mk-news ol { list-style: none; margin: 0; padding: 0; }
-.mk-news li { display: grid; grid-template-columns: auto auto 1fr; gap: 0 6px; align-items: baseline; padding: 4px 0; font-size: .9375rem; line-height: 1.55; }
-.mk-news li small { grid-column: 3; font-size: .75rem; color: var(--muted); }
-.mk-sc { font: 500 .75rem/1.6 ui-monospace, SFMono-Regular, Menlo, monospace; color: var(--muted); }
-.mk-side { font-size: .75rem; font-weight: 700; color: var(--muted); }
-.mk-side.side-long { color: var(--up); } .mk-side.side-short { color: var(--down); }
-.mk-card { margin: 16px 0 0; font-size: .875rem; color: var(--muted); }
-.mk-card b { display: block; color: var(--ink); }
-.mk-disc { margin: 12px 0 0; font-size: .8125rem; line-height: 1.6; color: var(--muted); }
-.mk-more { margin: 12px 0 0; }
-.mk-more a { display: inline-flex; align-items: center; min-height: 44px; font-weight: 700; color: var(--sec-ink); }
-.mk-past { margin-top: clamp(28px, 5vw, 48px); }
-.mk-past h2 { margin: 0; padding-bottom: 8px; border-bottom: 2px solid var(--ink); color: var(--muted); }
-.mk-past .rows a { grid-template-columns: 9rem 1fr; }
-@media (min-width: 62rem) { .mk-group:first-of-type { margin-top: 0; } }
+/* 版底附註（例：台股版的非投資建議），一般文字 */
+.sec-body { min-width: 0; }
+.sec-foot { margin: 12px 0 0; font-size: .875rem; line-height: 1.7; color: var(--muted); }
 
 /* ── 前後期 ── */
 .pager { margin-top: clamp(40px, 7vw, 72px); }

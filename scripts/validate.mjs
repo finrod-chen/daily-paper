@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // 驗證 site.config.json、data/issues/*.json 與 data/markets/*.json（零相依的 JSON Schema draft-07 子集驗證器）。
-// issues / config 有任何錯誤 → exit code 1，讓 CI 失敗。markets（台股）只警告：壞檔會被 build 略過，不擋日報部署。
+// issues / config 有任何錯誤 → exit code 1，讓 CI 失敗。markets（台股，build 時轉成同日日報的「台股」版）只警告：壞檔會被 build 略過，不擋日報部署。
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';

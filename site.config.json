@@ -12,6 +12,7 @@
     { "id": "automation", "name": "自動化", "color": "#b45309" },
     { "id": "biotech", "name": "生技", "color": "#047857" },
     { "id": "taiwan", "name": "台灣", "color": "#be123c" },
+    { "id": "market", "name": "台股", "color": "#0f766e", "max_items": 8 },
     { "id": "world", "name": "國際", "color": "#6d28d9" },
     { "id": "sports", "name": "體育", "color": "#c2410c" }
   ],
