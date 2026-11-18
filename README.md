@@ -26,7 +26,9 @@ flowchart LR
 ```
 site.config.json          報名、副標、網址、時區、區段（順序／名稱／顏色）、每區上限、主色、頁尾
 data/issues/*.json        每天一份，檔名 = 期數日期
+data/markets/*.json       （選用）台股，每天一份，n8n 台股流程寫入
 schema/issue.schema.json  資料格式
+schema/market.schema.json 台股資料格式
 scripts/validate.mjs      build 前驗證（格式錯 → exit 1 → Cloudflare 建置失敗，線上維持上一版）
 scripts/build.mjs         單一建置腳本，零相依，輸出 dist/
 src/style.css, theme.js   樣式與深色模式切換
@@ -93,6 +95,15 @@ GET https://<你的網址>/latest.json?t={{ $now.toMillis() }}
 條件：{{ $json.date === $now.setZone('Asia/Taipei').toFormat('yyyy-MM-dd') }}
 建議：每 30 秒一次，最多 20 次，逾時就通知失敗。
 ```
+
+## 台股版（data/markets，選用）
+
+另一個 n8n 流程（台股日報：加權指數、熱門類股、外幣兌台幣 → Kairos 判斷偏多／偏空／觀望）每天約 06:40 commit `data/markets/YYYY-MM-DD.json`（格式見 `schema/market.schema.json`）。
+
+- 當期頁：同一天有台股資料就在導讀下方顯示「台股」版面（區段導覽也會多一個「台股」）；首頁若當天還沒有，顯示 7 天內最近一期並註明日期；沒有資料就不顯示。
+- `/markets/`：最新一期完整台股版＋往期列表；`/markets/YYYY-MM-DD/`；`/markets/latest.json`。
+- 台股檔格式不符時 `validate` 只**警告**並略過那一天，不會擋住日報部署。
+- 顏色採台灣慣例：紅漲綠跌，偏多紅、偏空綠。內容是 Kairos 依新聞判斷的方向，**非投資建議**。
 
 ## 資料格式
 

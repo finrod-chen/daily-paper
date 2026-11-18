@@ -1,6 +1,6 @@
 #!/usr/bin/env node
-// 單一建置腳本（Node 20+，零相依）：data/issues/*.json + site.config.json → dist/
-import { readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync } from 'node:fs';
+// 單一建置腳本（Node 20+，零相依）：data/issues/*.json（＋選用 data/markets/*.json 台股）+ site.config.json → dist/
+import { readFileSync, writeFileSync, mkdirSync, rmSync, readdirSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -66,6 +66,28 @@ const T = {
   homeTitle: (name, i) => `${name}｜${i.date} 第 ${i.edition} 期：${i.headline.title}`,
   issueTitle: (name, i) => `${i.headline.title}｜${name} ${i.date} 第 ${i.edition} 期`,
   done: (n, latest) => `✔ 建置完成：${n} 期 → dist/` + (latest ? `（最新 ${latest.date} 第 ${latest.edition} 期）` : '（尚無期數，已產生占位首頁）'),
+  // 台股（data/markets）
+  navMarkets: '台股',
+  mkTitle: '台股',
+  mkCall: { bull: '偏多', bear: '偏空', neutral: '觀望' },
+  mkSide: { long: '多', short: '空', skip: '觀' },
+  mkKind: { index: '大盤', sector: '熱門類股', fx: '外幣' },
+  mkCounts: (c) => `偏多 ${c.bull}・偏空 ${c.bear}・觀望 ${c.neutral}`,
+  mkNet: '淨分數',
+  mkClose: (d) => `證交所 ${d} 收盤`,
+  mkOlder: (d) => `今天的台股資料還沒產生，以下是 ${d} 的版本。`,
+  mkNoNews: '沒有相關新聞',
+  mkNews: (n) => `相關新聞 ${n} 則`,
+  mkScore: '相關分數',
+  mkCard: (s) => `成績單（近 ${s.days} 天，${s.horizon_hours} 小時後對答案）`,
+  mkCardNone: '尚無到期可對答案的判斷',
+  mkHit: (lbl, x) => `${lbl} ${x.hit}/${x.n}` + (x.n ? `（${Math.round((x.hit / x.n) * 100)}%）` : ''),
+  mkLegend: '偏多／偏空是 Kairos 依新聞判斷的方向；漲跌紅漲綠跌。',
+  mkPageTitle: (d) => `台股 ${d}`,
+  mkPageDesc: (name) => `${name} 每日台股：加權指數、熱門類股、外幣兌台幣，依新聞判斷偏多／偏空／觀望。非投資建議。`,
+  mkMore: '看完整台股版（含往期）',
+  mkPast: '往期台股',
+  mkUpdated: (t) => `更新 ${t}`,
 };
 // ---------- 語系結束 ----------
 
@@ -98,6 +120,22 @@ const issues = readdirSync(join(ROOT, 'data/issues'))
   .map((f) => JSON.parse(readFileSync(join(ROOT, 'data/issues', f), 'utf8')))
   .sort((a, b) => (a.date < b.date ? 1 : -1)); // 新 → 舊
 const latest = issues[0] ?? null; // 尚無任何期數時為 null，會產生占位首頁
+
+// 台股（選用）：n8n 台股流程每天約 06:40 commit data/markets/YYYY-MM-DD.json。格式不符的檔案略過（validate 會警告），不擋日報。
+const isNum = (v) => typeof v === 'number' && Number.isFinite(v);
+const okUrl = (u) => { try { return ['http:', 'https:'].includes(new URL(u).protocol); } catch { return false; } };
+const okMarket = (m, f) => m && m.date === f.replace('.json', '') && /^\d{4}-\d{2}-\d{2}$/.test(m.date) && m.counts && Array.isArray(m.items) && m.items.length &&
+  typeof m.disclaimer === 'string' && m.items.every((i) => ['index', 'sector', 'fx'].includes(i.kind) && ['bull', 'bear', 'neutral'].includes(i.call) &&
+    typeof i.name === 'string' && isNum(i.net) && Array.isArray(i.news) && i.news.every((n) => typeof n.title === 'string' && okUrl(n.url) && isNum(n.score)));
+const MDIR = join(ROOT, 'data/markets');
+const markets = (existsSync(MDIR) ? readdirSync(MDIR) : [])
+  .filter((f) => /^\d{4}-\d{2}-\d{2}\.json$/.test(f))
+  .map((f) => { try { const m = JSON.parse(readFileSync(join(MDIR, f), 'utf8')); return okMarket(m, f) ? m : null; } catch { return null; } })
+  .filter(Boolean)
+  .sort((a, b) => (a.date < b.date ? 1 : -1)); // 新 → 舊
+const latestMarket = markets[0] ?? null;
+const marketFor = (date) => markets.find((m) => m.date === date) ?? null;
+const daysBetween = (a, b) => Math.round((Date.parse(b) - Date.parse(a)) / 86400000);
 
 // ---------- assets ----------
 rmSync(DIST, { recursive: true, force: true });
@@ -149,7 +187,36 @@ function briefHtml(brief) {
   return `<section class="brief" aria-labelledby="brief-h"><div class="wrap"><h2 id="brief-h" class="label">${T.brief}</h2>${body}</div></section>`;
 }
 
-function issueParts(issue) {
+// ---------- 台股 ----------
+const mdShort = (date) => { const [, m, d] = date.split('-').map(Number); return `${m}/${d}`; };
+const fmtNum = (v, d = 2) => (isNum(v) ? Number(v).toLocaleString('en-US', { minimumFractionDigits: d, maximumFractionDigits: d }) : '—');
+const fmtPct = (v) => (isNum(v) ? `${v > 0 ? '+' : ''}${v.toFixed(2)}%` : '');
+const fmtNet = (v) => `${v > 0 ? '+' : ''}${v.toFixed(2)}`;
+const upDown = (v) => (isNum(v) && v > 0 ? 'up' : isNum(v) && v < 0 ? 'down' : 'flat');
+function marketItem(it, full) {
+  const news = it.news.slice(0, 3).map((n) => `<li><span class="mk-sc" title="${T.mkScore}">${n.score.toFixed(2)}</span><span class="mk-side side-${esc(n.side)}">${T.mkSide[n.side] || ''}</span><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title)}<span class="sr-only">${T.newTab}</span></a>${n.source ? `<small>${esc(n.source)}</small>` : ''}</li>`).join('');
+  const price = `<span class="mk-px">${fmtNum(it.price, it.decimals ?? 2)}</span>${isNum(it.change_pct) ? ` <span class="mk-chg ${upDown(it.change_pct)}">${fmtPct(it.change_pct)}</span>` : ''}`;
+  const head = `<div class="mk-row"><div class="mk-name"><b>${esc(it.name)}</b><span class="mk-price">${price}</span></div><div class="mk-call call-${it.call}"><span class="mk-badge">${T.mkCall[it.call]}</span><span class="mk-net">${T.mkNet} ${fmtNet(it.net)}</span></div></div>${it.fx_hint ? `<p class="mk-hint">${esc(it.fx_hint)}</p>` : ''}`;
+  if (!it.news.length) return `<li class="mk-item">${head}<p class="mk-none">${T.mkNoNews}</p></li>`;
+  const open = full || it.call !== 'neutral' ? ' open' : '';
+  return `<li class="mk-item">${head}<details class="mk-news"${open}><summary>${T.mkNews(it.news.length)}</summary><ol>${news}</ol></details></li>`;
+}
+function marketSection(m, { note = '', full = false, link = false } = {}) {
+  const groups = ['index', 'sector', 'fx'].map((k) => {
+    const its = m.items.filter((i) => i.kind === k);
+    if (!its.length) return '';
+    const sub = k === 'sector' && m.sector_note ? `<small>${esc(m.sector_note)}</small>` : '';
+    return `<div class="mk-group"><h3 class="mk-gh">${T.mkKind[k]}${sub}</h3><ul class="mk-list">${its.map((i) => marketItem(i, full)).join('')}</ul></div>`;
+  }).join('');
+  const sc = m.scorecard;
+  let card = '';
+  if (sc) card = `<p class="mk-card"><b>${T.mkCard(sc)}</b>${sc.graded ? `${T.mkHit('偏多', sc.long)}${T.sep}${T.mkHit('偏空', sc.short)}${T.sep}${T.mkHit('觀望正確', sc.skip)}` : T.mkCardNone}</p>`;
+  const warn = (m.warnings || []).map((w) => `<p class="mk-warn">${esc(w)}</p>`).join('');
+  const sub = [m.market_date ? T.mkClose(mdShort(m.market_date)) : '', T.mkUpdated(shortTime(m.generated_at))].filter(Boolean).join(T.sep);
+  return `<section class="sec tone sec-market market" id="sec-market" aria-labelledby="h-market"><div class="wrap sec-grid"><header class="sec-head"><h2 id="h-market">${T.mkTitle}</h2><span class="count">${T.mkCounts(m.counts)}</span></header><div class="mk">${note ? `<p class="mk-note">${esc(note)}</p>` : ''}<p class="mk-sub">${sub}</p>${warn}${groups}${card}<p class="mk-disc">${esc(m.disclaimer)}<br>${T.mkLegend}</p>${link ? `<p class="mk-more"><a href="/markets/">${T.mkMore} →</a></p>` : ''}</div></div></section>`;
+}
+
+function issueParts(issue, market = null, marketNote = '') {
   const h = issue.headline;
   const secs = sectionDefs(issue)
     .map((d) => {
@@ -164,8 +231,9 @@ function issueParts(issue) {
       return items.length ? { d, items } : null;
     })
     .filter(Boolean);
-  const secnav = secs.length
-    ? `<nav class="secnav" aria-label="${T.sectionsNav}"><div class="wrap"><ul>${secs.map(({ d }) => `<li class="tone ${cls(d.id)}"><a href="#sec-${esc(d.id)}">${esc(d.name)}</a></li>`).join('')}</ul></div></nav>`
+  const mkNav = market ? `<li class="tone sec-market"><a href="#sec-market">${T.mkTitle}</a></li>` : '';
+  const secnav = secs.length || market
+    ? `<nav class="secnav" aria-label="${T.sectionsNav}"><div class="wrap"><ul>${mkNav}${secs.map(({ d }) => `<li class="tone ${cls(d.id)}"><a href="#sec-${esc(d.id)}">${esc(d.name)}</a></li>`).join('')}</ul></div></nav>`
     : '';
   const sectionsHtml = secs
     .map(({ d, items }) => `<section class="sec tone ${cls(d.id)}" id="sec-${esc(d.id)}" aria-labelledby="h-${esc(d.id)}"><div class="wrap sec-grid"><header class="sec-head"><h2 id="h-${esc(d.id)}">${esc(d.name)}</h2><span class="count">${T.count(items.length)}</span></header><ul class="stories">${items.map(storyHtml).join('')}</ul></div></section>`)
@@ -173,6 +241,7 @@ function issueParts(issue) {
   const main = `<article class="issue">
 <section class="lead wrap" aria-labelledby="lead-h"><p class="kicker label">${T.topStory}</p><h2 id="lead-h">${titleLink(h)}</h2>${imgTag(h)}<div class="lead-body"><div><p class="dek">${esc(h.summary)}</p>${meta(h)}</div><aside class="note"><p class="label">${T.why}</p><p class="txt">${esc(h.why)}</p></aside></div></section>
 ${briefHtml(issue.brief)}
+${market ? marketSection(market, { note: marketNote, link: true }) : ''}
 ${sectionsHtml}
 </article>`;
   return { secnav, main };
@@ -192,7 +261,7 @@ const MOON = '<svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d
 
 function masthead({ issue, current, h1 }) {
   const tag = h1 ? 'h1' : 'p';
-  const nav = [['/', T.navLatest, 'home'], ['/archive/', T.navArchive, 'archive'], ['/feed.xml', 'RSS', 'rss']]
+  const nav = [['/', T.navLatest, 'home'], ...(markets.length ? [['/markets/', T.navMarkets, 'markets']] : []), ['/archive/', T.navArchive, 'archive'], ['/feed.xml', 'RSS', 'rss']]
     .map(([href, label, key]) => `<li><a href="${href}"${current === key ? ' aria-current="page"' : ''}>${label}</a></li>`).join('');
   const dateline = issue ? `<div class="dateline"><time datetime="${issue.date}">${longDate(issue.date)}</time><span class="no">${T.issueNo(issue.edition)}</span></div>` : '';
   return `<header class="mast${issue ? '' : ' plain'}"><div class="wrap"><div class="util"><nav aria-label="${T.mainMenu}"><ul>${nav}</ul></nav><button id="theme-toggle" class="icon-btn" type="button" aria-pressed="false" aria-label="${T.darkMode}" hidden>${SUN}${MOON}</button></div><${tag} class="nameplate"><a href="/">${esc(cfg.name)}</a></${tag}><p class="tagline">${esc(cfg.tagline || '')}</p>${dateline}</div></header>`;
@@ -246,7 +315,13 @@ function issuePage(issue, idx, isHome) {
   const newer = issues[idx - 1], older = issues[idx + 1];
   const link = (is, klass, dir) => is ? `<a class="${klass}" href="/${is.date}/"><span class="dir">${dir}</span><span class="ttl">${T.issueNo(is.edition)} · ${esc(clip(is.headline.title, T.pagerLen))}</span></a>` : '';
   const pager = older || newer ? `<nav class="pager wrap" aria-label="${T.pagerLabel}"><div>${link(older, 'prev', T.prev)}${link(newer, 'next', T.next)}</div></nav>` : '';
-  const { secnav, main } = issueParts(issue);
+  // 台股：該期同一天的資料；首頁若當天還沒有，顯示 7 天內最近一期並註明日期（台股流程 06:40 先跑，日報 07:00 才發）
+  let market = marketFor(issue.date), marketNote = '';
+  if (!market && isHome && latestMarket && daysBetween(latestMarket.date, issue.date) <= 7 && daysBetween(issue.date, latestMarket.date) <= 7) {
+    market = latestMarket;
+    marketNote = T.mkOlder(mdShort(latestMarket.date));
+  }
+  const { secnav, main } = issueParts(issue, market, marketNote);
   return page({
     title: isHome ? T.homeTitle(cfg.name, issue) : T.issueTitle(cfg.name, issue),
     description: clip(T.descText(issue.brief), T.descLen),
@@ -276,6 +351,18 @@ write('archive/index.html', page({
   body: { head: masthead({ current: 'archive', h1: false }), main: archiveMain, foot: footer(latest) },
 }));
 
+// 台股：/markets/（最新一期＋往期列表）、/markets/YYYY-MM-DD/、/markets/latest.json
+const marketList = () => `<section class="wrap mk-past"><h2 class="label">${T.mkPast}</h2><ul class="rows">${markets.slice(0, 60).map((m) => `<li><a href="/markets/${m.date}/"><span class="d">${dayLabel(m.date)}</span><span class="t">${T.mkCounts(m.counts)}</span></a></li>`).join('')}</ul></section>`;
+const marketPage = (m, path, isIndex) => page({
+  title: `${T.mkPageTitle(m.date)}${T.sep}${cfg.name}`, description: T.mkPageDesc(cfg.name), path, canonical: `/markets/${m.date}/`,
+  body: { head: masthead({ current: isIndex ? 'markets' : '', h1: false }), main: `<div class="wrap page-head"><h1 class="page-title">${T.mkPageTitle(mdShort(m.date))}</h1><p>${longDate(m.date)}</p></div>${marketSection(m, { full: true })}${marketList()}`, foot: footer(latest) },
+});
+if (latestMarket) {
+  write('markets/index.html', marketPage(latestMarket, '/markets/', true));
+  markets.forEach((m) => write(`markets/${m.date}/index.html`, marketPage(m, `/markets/${m.date}/`, false)));
+}
+write('markets/latest.json', JSON.stringify(latestMarket ? { date: latestMarket.date, counts: latestMarket.counts, url: `${BASE}/markets/${latestMarket.date}/` } : { date: null }) + '\n');
+
 // 404
 write('404.html', page({
   title: `${T.nfPageTitle}${T.sep}${cfg.name}`, description: T.nfDesc, path: '/404.html', noindex: true,
@@ -300,7 +387,7 @@ ${feedItems}
 `);
 
 // sitemap / robots / _headers
-write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[['/', latest?.date], ['/archive/', latest?.date], ...issues.map((i) => [`/${i.date}/`, i.date])].map(([p, d]) => `<url><loc>${BASE}${p}</loc>${d ? `<lastmod>${d}</lastmod>` : ''}</url>`).join('\n')}\n</urlset>\n`);
+write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[['/', latest?.date], ['/archive/', latest?.date], ...issues.map((i) => [`/${i.date}/`, i.date]), ...(latestMarket ? [['/markets/', latestMarket.date]] : []), ...markets.map((m) => [`/markets/${m.date}/`, m.date])].map(([p, d]) => `<url><loc>${BASE}${p}</loc>${d ? `<lastmod>${d}</lastmod>` : ''}</url>`).join('\n')}\n</urlset>\n`);
 write('robots.txt', `User-agent: *\nAllow: /\nSitemap: ${BASE}/sitemap.xml\n`);
 write('_headers', `/*
   X-Content-Type-Options: nosniff
@@ -311,6 +398,10 @@ write('_headers', `/*
   Cache-Control: no-store
   Access-Control-Allow-Origin: *
 
+/markets/latest.json
+  Cache-Control: no-store
+  Access-Control-Allow-Origin: *
+
 /feed.xml
   Cache-Control: public, max-age=300
 
@@ -318,4 +409,4 @@ write('_headers', `/*
   Cache-Control: public, max-age=31536000, immutable
 `);
 
-console.log(T.done(issues.length, latest));
+console.log(T.done(issues.length, latest) + `；台股 ${markets.length} 天` + (latestMarket ? `（最新 ${latestMarket.date}）` : ''));

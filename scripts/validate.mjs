@@ -1,12 +1,14 @@
 #!/usr/bin/env node
-// 驗證 site.config.json 與 data/issues/*.json（零相依的 JSON Schema draft-07 子集驗證器）。
-// 任何錯誤 → exit code 1，讓 CI 失敗。
-import { readFileSync, readdirSync } from 'node:fs';
+// 驗證 site.config.json、data/issues/*.json 與 data/markets/*.json（零相依的 JSON Schema draft-07 子集驗證器）。
+// issues / config 有任何錯誤 → exit code 1，讓 CI 失敗。markets（台股）只警告：壞檔會被 build 略過，不擋日報部署。
+import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join, dirname } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const schema = JSON.parse(readFileSync(join(ROOT, 'schema/issue.schema.json'), 'utf8'));
+const marketSchema = JSON.parse(readFileSync(join(ROOT, 'schema/market.schema.json'), 'utf8'));
+let root = schema; // $ref 解析的根 schema
 
 const isRealDate = (s) => {
   const m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(s);
@@ -38,7 +40,7 @@ const typeMatches = (t, v) => (t === 'number' ? typeof v === 'number' && Number.
 
 function check(sch, data, path, errors) {
   if (sch.$ref) {
-    const target = sch.$ref.replace(/^#\//, '').split('/').reduce((o, k) => o?.[k], schema);
+    const target = sch.$ref.replace(/^#\//, '').split('/').reduce((o, k) => o?.[k], root);
     if (!target) return errors.push(`${path}: 無法解析 $ref ${sch.$ref}`);
     return check(target, data, path, errors);
   }
@@ -130,10 +132,29 @@ for (const f of files) {
 
 if (!count) warnings.push('data/issues: 目前沒有任何期數，網站將顯示「尚未發刊」');
 
+// ---- data/markets（台股，選用）：錯誤只警告，build 會略過該檔 ----
+const mdir = join(ROOT, 'data/markets');
+let mcount = 0;
+if (existsSync(mdir)) {
+  root = marketSchema;
+  for (const f of readdirSync(mdir).filter((x) => !x.startsWith('.')).sort()) {
+    const rel = `data/markets/${f}`;
+    if (!/^\d{4}-\d{2}-\d{2}\.json$/.test(f)) { warnings.push(`${rel}: 檔名需為 YYYY-MM-DD.json，略過`); continue; }
+    let data;
+    try { data = JSON.parse(readFileSync(join(mdir, f), 'utf8')); } catch (e) { warnings.push(`${rel}: JSON 解析失敗，略過（${e.message}）`); continue; }
+    const errs = [];
+    check(marketSchema, data, '$', errs);
+    if (!errs.length && data.date !== f.replace('.json', '')) errs.push(`date (${data.date}) 與檔名不一致`);
+    if (errs.length) { warnings.push(`${rel}: 格式不符，網站不顯示這天的台股：${errs.slice(0, 3).join('；')}`); continue; }
+    mcount++;
+  }
+  root = schema;
+}
+
 warnings.forEach((w) => console.warn(`⚠ ${w}`));
 if (errors.length) {
   console.error(`\n✖ 驗證失敗（${errors.length} 個錯誤）\n`);
   errors.forEach((e) => console.error(`  • ${e}`));
   process.exit(1);
 }
-console.log(`✔ 驗證通過：${count} 期、${sectionIds.size} 個區段設定`);
+console.log(`✔ 驗證通過：${count} 期、${sectionIds.size} 個區段設定、台股 ${mcount} 天`);
