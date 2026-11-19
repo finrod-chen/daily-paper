@@ -1,0 +1,477 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T07:01:14.821+08:00",
+  "edition": 11,
+  "headline": {
+    "title": "Anthropic IPO 募資 813 億美元，首日開盤漲 34%",
+    "summary": "Anthropic 於 Nasdaq 掛牌，代號 ANT，IPO 定價 83 美元，開盤價 111.50 美元。發行 9.8 億股募資約 813 億美元，規模超越 SpaceX。",
+    "why": "此舉驗證了大型 AI 模型開發商能透過資本市場籌措龐大資金，以支撐高昂的基礎設施建設與持續研發。",
+    "importance": 5,
+    "source_name": "INSIDE",
+    "source_url": "https://www.inside.com.tw/article/42956-anthropic-ipo-83-per-share-81-billion-record",
+    "original_title": "813 億美元寫下 IPO 新紀錄，Anthropic 每股 83 美元定價衝破區間上緣、規模超越 SpaceX",
+    "original_lang": "zh",
+    "published_at": "2026-11-19T03:24:00.000Z",
+    "tags": [
+      "IPO",
+      "Anthropic",
+      "融資"
+    ]
+  },
+  "brief": "Anthropic 以 813 億美元募資規模創下全球最大 IPO 紀錄，成為首家上市的前沿 AI 企業，首日股價大漲並展現資本市場熱度。与此同时，美國眾議院揭露過去六個月內已核准近 90 萬顆 AI 晶片出口中國，引發對晶片出口審查制度的嚴格審視。此外，Elastic 揭露五大 AI 攻擊框架已被濫用於實際網路入侵事件，凸顯人工智慧在資安領域帶來的雙重風險。",
+  "sections": [
+    {
+      "id": "ai",
+      "items": [
+        {
+          "title": "Google 發布 Gemini 4 Neon，成本較旗艦降低 32%",
+          "summary": "Google 推出 Gemini 4 Neon，效能接近旗艦模型 Carbon，但任務成本降低 32%。該模型針對長時間執行工作優化，適合多步驟分析與工具操作場景。",
+          "why": "降低推理成本且維持高效能的模型，能顯著提升自動化工作流中 AI 代理的性價比，有利於大規模部署。",
+          "importance": 4,
+          "source_name": "INSIDE",
+          "source_url": "https://www.inside.com.tw/article/42961-google-gemini-4-neon",
+          "original_title": "Google 推出 Gemini 4 Neon，效能媲美旗艦模型 Carbon、任務成本降低 32%",
+          "original_lang": "zh",
+          "published_at": "2026-11-19T05:44:00.000Z",
+          "tags": [
+            "Gemini",
+            "模型效能",
+            "成本優化"
+          ]
+        },
+        {
+          "title": "Elastic 揭露五大 AI 攻擊框架已遭濫用於實際入侵",
+          "summary": "資安廠商 Elastic 分析 ARTEX、CyberStrikeAI 等 5 種 AI 攻擊框架，確認其已被用於實際網路入侵事件。這些工具能利用 AI 規劃攻擊步驟並呼叫外部工具執行任務。",
+          "why": "AI 攻擊框架的成熟與濫用顯示網路威脅正走向自動化，企業需即時更新防護策略以應對基於代理的入侵行為。",
+          "importance": 4,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180657",
+          "original_title": "資安業者剖析ARTEX、Cairn、CyberStrikeAI等五大AI攻擊框架，均已遭濫用於實際入侵事件",
+          "original_lang": "zh",
+          "published_at": "2026-11-19T05:11:08.000Z",
+          "tags": [
+            "資安",
+            "AI 攻擊",
+            "自動化工具"
+          ]
+        },
+        {
+          "title": "Google Gemini 導入 Mac，代理可執行檔案整理與填表",
+          "summary": "Google 更新 Gemini 以支援 Mac 平台，提供 AI 代理功能。該代理可協助使用者整理檔案、填寫表格及處理多步驟工作流。",
+          "why": "桌面級 AI 代理的整合降低了日常辦公與開發流程中的重複性工作負荷，提升了終端使用者的操作效率。",
+          "importance": 3,
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/19/google-gives-gemini-the-ability-to-use-your-mac-for-you/",
+          "original_title": "Google gives Gemini the ability to use your Mac for you",
+          "original_lang": "en",
+          "published_at": "2026-11-19T18:09:11.000Z",
+          "tags": [
+            "Gemini",
+            "桌面代理",
+            "自動化"
+          ]
+        },
+        {
+          "title": "花旗明定客戶承擔第三方 AI 代理操作帳戶之風險",
+          "summary": "花旗銀行更新線上協議，明定若客戶授權第三方 AI 代理存取帳戶，相關操作失誤或遭駭損失由客戶自行承擔。摩根大通等多家銀行亦有類似規範。",
+          "why": "金融業正式將 AI 代理引入核心帳戶操作，但同時將安全責任轉移至客戶，影響了自動化財務工具的風險管理標準。",
+          "importance": 3,
+          "source_name": "INSIDE",
+          "source_url": "https://www.inside.com.tw/article/42959-citi-updates-user-agreement-customers-liable-third-party-ai-agents-jpmorgan-bofa-pnc-citizens",
+          "original_title": "花旗銀行：授權第三方 AI 代理操作帳戶，出錯或遭駭由客戶承擔",
+          "original_lang": "zh",
+          "published_at": "2026-11-19T10:28:00.000Z",
+          "tags": [
+            "銀行業",
+            "AI 代理",
+            "法律責任"
+          ]
+        },
+        {
+          "title": "Nvidia 證實調查第三方合作夥伴遭駭事件",
+          "summary": "勒索軟體組織 The Gentlemen 稱入侵 Nvidia，Nvidia 證實正在調查一起可能影響第三方合作夥伴的事件。官方表示目前未發現自身核心系統或網路受影響。",
+          "why": "硬體巨頭的供應鏈遭攻擊，凸顯了即使是核心技術供應商，其第三方生態系仍存在數據洩漏的間接風險。",
+          "importance": 2,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180664",
+          "original_title": "勒索軟體駭客The Gentlemen聲稱入侵Nvidia，疑為合作夥伴遭駭受到波及",
+          "original_lang": "zh",
+          "published_at": "2026-11-19T05:11:22.000Z",
+          "tags": [
+            "Nvidia",
+            "資安事件",
+            "供應鏈安全"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "items": [
+        {
+          "title": "Claude 解開兩個黑洞物理未解問題",
+          "summary": "Anthropic 發表研究，展示其大型語言模型 Claude 解決了兩個關於黑洞物理的未解數學問題。此研究針對特定的物理數學難題，並非一般性的科學探索。",
+          "why": "顯示 AI 具備處理複雜抽象科學推理的能力，可能擴展至藥物分子模擬或生物資訊學等生技領域的理論推導。",
+          "importance": 5,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://www.anthropic.com/research/claude-black-hole-physics",
+          "original_title": "Claude solves two open problems in the physics of black holes",
+          "original_lang": "en",
+          "published_at": "2026-11-19T17:30:44.000Z",
+          "tags": [
+            "人工智慧",
+            "物理學",
+            "大型語言模型"
+          ]
+        },
+        {
+          "title": "工業無人機部署揭示真實自主性挑戰",
+          "summary": "文章分析工業無人機部署中的真實自主性挑戰，包括全球衛星導航系統可靠性、即時定位與地圖建置、感測器融合及障礙物避開。這些是當前自主系統落地的關鍵技術瓶頸。",
+          "why": "揭示了從實驗室到實地部署間的工程差距，對開發任何依賴精準定位與即時決策的自動化設備（包含生技實驗室機器人）具有重要參考價值。",
+          "importance": 4,
+          "source_name": "The Robot Report",
+          "source_url": "https://www.therobotreport.com/what-industrial-drone-deployments-reveal-about-real-world-autonomy-challenges/",
+          "original_title": "What industrial drone deployments reveal about real-world autonomy challenges",
+          "original_lang": "en",
+          "published_at": "2026-11-19T17:01:55.000Z",
+          "tags": [
+            "無人機",
+            "自主系統",
+            "感測器融合"
+          ]
+        },
+        {
+          "title": "病毒注射暫停三名患者胰臟癌進展",
+          "summary": "一項臨床研究顯示，透過病毒注射成功暫停了三例胰臟癌患者的病情進展。該方法屬於實驗性療法，目前案例數極少。",
+          "why": "胰臟癌傳統預後極差，若能驗證此療法的安全性與有效性，將對腫瘤免疫治療與新藥開發策略產生重大影響。",
+          "importance": 4,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://www.newscientist.com/article/2528235-pancreatic-cancer-halted-by-virus-injection-in-three-patients/",
+          "original_title": "Pancreatic cancer halted by virus injection in three patients",
+          "original_lang": "en",
+          "published_at": "2026-11-19T17:25:33.000Z",
+          "tags": [
+            "癌症治療",
+            "病毒療效",
+            "臨床研究"
+          ]
+        },
+        {
+          "title": "Zapier 整合 AI 代理實現跨平台自動化",
+          "summary": "Zapier 推出新功能，允許使用者透過自然語言指令，將 AI 代理與 Google Workspace 及其他應用串接，自動執行跨平台資料傳輸與任務處理，無需手動編寫腳本。",
+          "why": "降低自動化流程的建置門檻，讓研究團隊能更快將日常行政與數據整理工作交給 AI 代理處理，專注於核心研發。",
+          "importance": 3,
+          "source_name": "Zapier Blog",
+          "source_url": "https://zapier.com/blog/google-apps-automations",
+          "original_title": "Google Workspace automation: Build with your AI agent and Zapier",
+          "original_lang": "en",
+          "published_at": "2026-11-19T07:00:00.000Z",
+          "tags": [
+            "工作自動化",
+            "AI 代理",
+            "Google Workspace"
+          ]
+        },
+        {
+          "title": "以記憶體壓縮技術替代實體擴容",
+          "summary": "技術部落格文章主張，在特定情境下使用記憶體壓縮技術可以替代購買實體記憶體模組，以達到類似的效能或成本效益。此觀點引發開發者社群關於硬體配置策略的討論。",
+          "why": "為伺服器與工作站資源配置提供替代方案，在預算有限時可透過軟體優化暫緩硬體採購需求，適用於計算密集型的生物資訊分析環境。",
+          "importance": 2,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://curiousbits.nl/blog/do-not-buy-ram-compress/",
+          "original_title": "Do not buy RAM, compress",
+          "original_lang": "en",
+          "published_at": "2026-11-19T08:56:47.000Z",
+          "tags": [
+            "記憶體管理",
+            "系統效能",
+            "硬體優化"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "items": [
+        {
+          "title": "輝瑞押注體內 CAR-T，FDA 核准多款新藥",
+          "summary": "美國輝瑞簽署協議，嘗試將 CAR-T 細胞改造程序直接移入病人體內，涉及高額授權。同時，Regeneron 與 Alnylam 合作的 RNAi 藥物 Livsayis 獲 FDA 核准用於自體免疫疾病，成為 Regeneron 首款上市的 RNAi 藥物。Sanofi 的 Gaucher 疾病口服藥 Infilbray 亦通過 FDA 審核。",
+          "why": "體內 CAR-T 與新核准藥物將改變自體免疫與罕病治療標準，影響供應鏈與臨床開發方向。",
+          "importance": 5,
+          "source_name": "GeneOnline 基因線上",
+          "source_url": "https://geneonline.news/20261119-news-highlights-007-news-nov-2026/",
+          "original_title": "輝瑞 3.3 億美元押注中國體內 CAR-T，FDA 接連核准 RNA 與罕病新藥",
+          "original_lang": "zh",
+          "published_at": "2026-11-19T10:05:11.000Z",
+          "tags": [
+            "FDA核准",
+            "CAR-T",
+            "RNAi"
+          ]
+        },
+        {
+          "title": "Nature 發表 RhoAgent 設計功能性 RNA",
+          "summary": "Nature Biotechnology 發表 RhoAgent，透過虛擬科學家設計功能 RNA 分子，限制次級結構、鹼基相互作用與功能模塊。",
+          "why": "自動化 RNA 設計工具可加速核酸藥物與治療分子的開發，提供可驗證的分子生成方法。",
+          "importance": 4,
+          "source_name": "Nature Biotechnology",
+          "source_url": "https://www.nature.com/articles/s41587-026-03362-3",
+          "original_title": "Programmable functional RNA design with a virtual scientist",
+          "original_lang": "en",
+          "published_at": "2026-11-19T00:00:00.000Z",
+          "tags": [
+            "RNA設計",
+            "AI",
+            "分子生物學"
+          ]
+        },
+        {
+          "title": "美面板警告中國可能壟斷生物製藥供應鏈",
+          "summary": "美國委員會警告中國可能壟斷生物製藥產業，呼籲國會迅速行動以防止對中國供應鏈的過度依賴，避免美國患者面臨供應鏈武器化風險。",
+          "why": "供應鏈政策將影響全球生物製藥生產成本、法規合規及企業戰略佈局。",
+          "importance": 4,
+          "source_name": "BioPharma Dive",
+          "source_url": "https://www.biopharmadive.com/news/us-china-biotech-report-commission-supply-chain-2026/875170/",
+          "original_title": "China could ‘corner’ biopharmaceutical sector with new plan, US panel warns",
+          "original_lang": "en",
+          "published_at": "2026-11-19T16:42:00.000Z",
+          "tags": [
+            "供應鏈",
+            "政策",
+            "生物製藥"
+          ]
+        },
+        {
+          "title": "美國國家學院建議加速學術撤稿與更正決策",
+          "summary": "美國國家科學院報告呼籲科學界對發表研究的錯誤或數據操縱指控做出更積極的回應，要求加快撤稿與更正的決策過程。",
+          "why": "加速撤稿機制有助於維護科學文獻的可靠性，影響後續研發決策與學術資源配置。",
+          "importance": 3,
+          "source_name": "STAT News",
+          "source_url": "https://www.statnews.com/2026/11/19/national-academies-report-proposes-faster-research-retractions/",
+          "original_title": "National Academies report calls for faster decisions on publication retractions and corrections",
+          "original_lang": "en",
+          "published_at": "2026-11-19T16:00:00.000Z",
+          "tags": [
+            "學術誠信",
+            "出版政策",
+            "研究質控"
+          ]
+        },
+        {
+          "title": "研究質疑瘧疾疫苗與單株抗體聯合保護效果",
+          "summary": "研究人員發現單株抗體在嬰兒中用於預防瘧疾時，會干擾新型疫苗的免疫反應，使兩者結合保護效果產生疑慮。",
+          "why": "結果對瘧疾預防策略及疫苗組合設計有重要影響，需進一步驗證臨床效果。",
+          "importance": 2,
+          "source_name": "STAT News",
+          "source_url": "https://www.statnews.com/2026/11/19/malaria-monoclonal-antibody-l9ls-vaccine-r21-infant-study-mali/",
+          "original_title": "Study raises doubts about combining vaccine, monoclonal antibody to protect against malaria",
+          "original_lang": "en",
+          "published_at": "2026-11-19T22:20:00.000Z",
+          "tags": [
+            "瘧疾",
+            "疫苗",
+            "單株抗體"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "items": [
+        {
+          "title": "Anthropic IPO募資813億美元 創全球紀錄",
+          "summary": "Anthropic 首次公開發行募得 813.1 億美元，超越 SpaceX 創下史上最大 IPO 紀錄。該公司成為首家上市的前沿 AI 企業，首日盤中市值曾達 2.1 兆美元，終場收漲逾 17%。",
+          "why": "驗證了前沿 AI 商業模式可支撐兆美元級別的資本市場規模，重塑全球科技股估值基準。",
+          "importance": 5,
+          "source_name": "中央社 科技",
+          "source_url": "https://www.cna.com.tw/news/ait/202611190043.aspx",
+          "original_title": "Anthropic超越SpaceX 改寫史上最大IPO紀錄",
+          "original_lang": "zh",
+          "published_at": "2026-11-19T02:21:33.000Z",
+          "tags": [
+            "AI",
+            "資本市場",
+            "IPO"
+          ]
+        },
+        {
+          "title": "超微涉中國供應鏈爭議 股價重挫8%",
+          "summary": "超微（AMD）因被指與受美國管制清單影響的中國實體有往來，引發監管審查疑慮，股價單日重挫 8%。同時，輝達（NVIDIA）預告加薪並擴大 AI 工廠業務，以鞏固人才競爭力。",
+          "why": "凸顯美國對中國晶片供應鏈的監管風險實質影響硬體供應商估值與市場信心。",
+          "importance": 4,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611200008.aspx",
+          "original_title": "中國供應鏈疑慮衝擊超微 股價重挫8%",
+          "original_lang": "zh",
+          "published_at": "2026-11-19T19:57:46.000Z",
+          "tags": [
+            "半導體",
+            "監管",
+            "地緣政治"
+          ]
+        },
+        {
+          "title": "油輪運輸受阻抵銷供應疑慮 油價持平",
+          "summary": "荷莫茲海峽油輪運輸受阻，抵銷了美國原油庫存增加及全球供應過剩的利空，使國際油價維持持平。此因素影響全球供應鏈物流與能源成本預期。",
+          "why": "地緣政治導致的運輸瓶頸正在取代供需基本面，成為短期內決定能源價格波動的主因。",
+          "importance": 3,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611200011.aspx",
+          "original_title": "油輪運輸受阻抵銷供應過剩疑慮 國際油價持平",
+          "original_lang": "zh",
+          "published_at": "2026-11-19T21:07:54.000Z",
+          "tags": [
+            "能源",
+            "油價",
+            "供應鏈"
+          ]
+        },
+        {
+          "title": "金管會推企業TISA 集保率先試行",
+          "summary": "金管會推動企業 TISA 制度，由員工與企業共同提撥至專屬帳戶進行定期定額投資。集保結算所率先試行，雙方每月各撥 5000 元，預計將推廣至其他單位。",
+          "why": "提供機構一種結構化的退休儲備與員工福利工具，可能改變企業財務規劃與人力資源策略。",
+          "importance": 3,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611190382.aspx",
+          "original_title": "金管會推企業TISA 集保結算所率先試行",
+          "original_lang": "zh",
+          "published_at": "2026-11-19T13:52:55.000Z",
+          "tags": [
+            "財經",
+            "退休儲備",
+            "政策"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "title": "美眾院揭露六個月內核准近90萬顆AI晶片出口中國",
+          "summary": "美眾院委員會揭露數據顯示，過去六個月美國已核准近90萬顆AI晶片出口至中國。此數據發布正值前Nvidia執行長被指控與中國間諜有聯繫之際，引發對晶片出口審查制度的嚴格審視。",
+          "why": "數據揭示了AI硬體供應鏈的實際流動規模，對於評估地緣政治風險與研發資源可得性至關重要。",
+          "importance": 5,
+          "source_name": "Al Jazeera",
+          "source_url": "https://www.aljazeera.com/economy/2026/11/19/us-signed-off-on-sales-of-nearly-900000-ai-chips-to-china-in-six-months?traffic_source=rss",
+          "original_title": "US signed off on sales of nearly 900,000 AI chips to China in six months",
+          "original_lang": "en",
+          "published_at": "2026-11-19T21:58:27.000Z",
+          "tags": [
+            "AI晶片",
+            "美中貿易",
+            "出口管制"
+          ]
+        },
+        {
+          "title": "Anthropic成為首家純AI公股公司，創下IPO紀錄",
+          "summary": "Anthropic在股市首日表現亮麗，成為首家純AI領域公開上市的科技公司。此次IPO募集資金規模創紀錄，為AI產業從閉源研究轉向公開資本市場運作提供了關鍵測試。",
+          "why": "這是AI研發領域資本結構的里程碑，影響後續AI研究的資金流動與商業化路徑。",
+          "importance": 4,
+          "source_name": "BBC World",
+          "source_url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o?at_medium=RSS&at_campaign=rss",
+          "original_title": "Anthropic becomes one of world's most valuable public companies in stock market debut",
+          "original_lang": "en",
+          "published_at": "2026-11-19T21:38:42.000Z",
+          "tags": [
+            "AI產業",
+            "資本市場",
+            "Anthropic"
+          ]
+        },
+        {
+          "title": "聯合國最高法院裁定緬甸對羅興亞人犯下種族滅絕",
+          "summary": "聯合國國際法院（ICJ）裁定，緬甸安全部隊在2017年對若開邦羅興亞人的軍事行動中「懷有滅絕意圖」。這是ICJ首次就此議題做出具里程碑意義的法律認定。",
+          "why": "此裁決為國際法實踐確立了新基準，可能改變未來類似人權悲劇的法律責任認定標準。",
+          "importance": 4,
+          "source_name": "BBC World",
+          "source_url": "https://www.bbc.co.uk/news/articles/c804wzp20ddvo?at_medium=RSS&at_campaign=rss",
+          "original_title": "Myanmar committed genocide against Rohingya minority, top UN court rules",
+          "original_lang": "en",
+          "published_at": "2026-11-19T20:07:02.000Z",
+          "tags": [
+            "國際法",
+            "緬甸",
+            "人權"
+          ]
+        },
+        {
+          "title": "伊朗對霍爾木茲海峽船舶發射攻擊，波斯灣局勢升溫",
+          "summary": "伊朗對霍爾木茲海峽內的船舶發動攻擊，並對波斯灣多個國家實施空襲。衝突升級顯示區域局勢正走向軍事對峙，能源運輸路徑面臨直接威脅。",
+          "why": "能源供應不穩定將直接影響全球製造業成本與供應鏈規劃。",
+          "importance": 3,
+          "source_name": "NPR World",
+          "source_url": "https://www.npr.org/2026/11/19/nx-s1-6044206/irans-attacks-on-ships-in-the-strait-of-hormuz-escalate",
+          "original_title": "Iran's attacks on ships in the Strait of Hormuz escalate",
+          "original_lang": "en",
+          "published_at": "2026-11-19T09:46:24.000Z",
+          "tags": [
+            "地緣政治",
+            "中東安全",
+            "能源"
+          ]
+        },
+        {
+          "title": "美國疫苗接種率下降，麻疹疫情出現明顯復甦",
+          "summary": "美國麻疹病例數量回升，主要歸因於疫苗接種率下降。公衛數據顯示社群免疫情形出現動搖，導致原本已受控的傳染病重新大規模爆發。",
+          "why": "對於依賴穩定公共衛生環境的跨國研發團隊而言，傳染病趨勢影響人員健康與出勤率。",
+          "importance": 2,
+          "source_name": "Al Jazeera",
+          "source_url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/how-vaccine-fears-fuelled-a-major-measles-comeback-in-the-us?traffic_source=rss",
+          "original_title": "How vaccine fears fuelled a major measles comeback in the US",
+          "original_lang": "en",
+          "published_at": "2026-11-19T20:35:14.000Z",
+          "tags": [
+            "公共衛生",
+            "疫苗",
+            "流行病學"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "items": [
+        {
+          "title": "王齊麟羽球男雙改搭劉廣珩力拚洛杉磯奧運資格",
+          "summary": "台灣羽球男雙組合王齊麟與邱相榤在香港公開賽首輪不敵馬來西亞組合，正式結束合作關係。王齊麟將改組與劉廣珩搭檔，目標鎖定洛杉磯奧運資格的爭奪。",
+          "why": "奧運資格的爭奪涉及長期體能數據監控與戰術模型優化，對運動科學與數據分析應用具直接參考價值。",
+          "importance": 3,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611190154.aspx",
+          "original_title": "王齊麟羽球男雙再換搭檔 攜手劉廣珩力拚洛杉磯奧運資格",
+          "original_lang": "zh",
+          "published_at": "2026-11-19T06:00:33.000Z",
+          "tags": [
+            "羽球",
+            "洛杉磯奧運",
+            "台灣體育"
+          ]
+        },
+        {
+          "title": "裁判體驗營導入TrackMan電子好球帶科技",
+          "summary": "棒球裁判體驗營將於12月25日在高雄舉辦，導入 TrackMan 電子好球帶技術。課程設計讓參與者直觀體驗人眼判斷與科技輔助系統在好壞球界定上的差異。",
+          "why": "展示 AI 感測器在即時體育決策中的實際部署，提供物聯網與演算法整合於競技場景的具體案例。",
+          "importance": 2,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611190204.aspx",
+          "original_title": "裁判體驗營12月高雄登場 邀棒球迷感受電子好球帶",
+          "original_lang": "zh",
+          "published_at": "2026-11-19T07:15:22.000Z",
+          "tags": [
+            "棒球",
+            "AI技術",
+            "數據分析"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "feeds": 39,
+    "fetched": 2968,
+    "kept": 27,
+    "jev_cost_usd": 0.005512,
+    "llm_cost_usd": 0.00115
+  }
+}
