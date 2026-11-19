@@ -1,0 +1,427 @@
+{
+  "date": "2026-11-20",
+  "generated_at": "2026-11-20T06:41:16.202+08:00",
+  "us_market_date": "2026-11-19",
+  "market_date": "2026-11-19",
+  "sector_mode": "turnover",
+  "sector_note": "依證交所 11/19 成交值×漲跌幅挑前 3",
+  "counts": {
+    "bull": 2,
+    "bear": 4,
+    "neutral": 6
+  },
+  "items": [
+    {
+      "key": "US:^GSPC",
+      "kind": "us",
+      "market": "US",
+      "name": "S&P 500",
+      "price": 7175.83,
+      "change_pct": -2.0181,
+      "decimals": 2,
+      "call": "bear",
+      "net": -1.36,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "Stock Market Today, Nov. 19: Dow Plunges 1,100 Points as the S&P 500 Suffers Its 6th Straight Day of Losses",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/19/stock-market-today-nov-19-dow-plunges-1-100-points-as-the-s-and-p-500-suffers-its-6th-straight-day-of-losses/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.98,
+          "side": "short"
+        },
+        {
+          "title": "Wall Street Wipes Out Early Gains As Dow Sinks 1,100 Points. Anthropic's $81 Billion IPO Fails To Lift Stocks.",
+          "url": "https://www.ibtimes.com/us-stocks-plunge-anthropic-ipo-ai-spending-concerns-3809985?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.97,
+          "side": "short"
+        },
+        {
+          "title": "Dow Jones Futures Fall After Ugly Market Reversal To New Lows; Anthropic IPO Debuts, AMD Dives",
+          "url": "https://finance.yahoo.com/m/9e02231d-41cd-31ac-b37f-993325b8a4ca/dow-jones-futures-fall-after.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.94,
+          "side": "short"
+        }
+      ]
+    },
+    {
+      "key": "US:^IXIC",
+      "kind": "us",
+      "market": "US",
+      "name": "那斯達克",
+      "price": 23879.2,
+      "change_pct": -2.2541,
+      "decimals": 2,
+      "call": "neutral",
+      "net": -0.169,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "Nvidia, AMD, Micron Sink as Anthropic Closes 17% Above IPO Price",
+          "url": "https://decrypt.co/383669/nvidia-amd-micron-ai-stocks-sink-anthropic-ipo-price?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.94,
+          "side": "short"
+        },
+        {
+          "title": "〈美股早盤〉Anthropic掛牌熱潮點火 科技股反攻 那指強彈近2%",
+          "url": "https://news.cnyes.com/news/id/6667810",
+          "source": "鉅亨",
+          "score": 0.78,
+          "side": "long"
+        },
+        {
+          "title": "Anthropic soars in record Wall Street debut",
+          "url": "https://finance.yahoo.com/technology/ai/articles/anthropic-set-price-ipo-key-030309911.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.65,
+          "side": "short"
+        }
+      ]
+    },
+    {
+      "key": "US:^DJI",
+      "kind": "us",
+      "market": "US",
+      "name": "道瓊",
+      "price": 49097.06,
+      "change_pct": -2.1935,
+      "decimals": 2,
+      "call": "bear",
+      "net": -0.354,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "The Home Depot Declares Quarterly Dividend of $2.33",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/home-depot-declares-quarterly-dividend-211500958.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.93,
+          "side": "skip"
+        },
+        {
+          "title": "〈美股盤後〉Anthropic上市難救AI買氣！道瓊暴跌超1100點 那指費半跌逾2%",
+          "url": "https://news.cnyes.com/news/id/6667840",
+          "source": "鉅亨",
+          "score": 0.7,
+          "side": "short"
+        },
+        {
+          "title": "Anthropic Slides From Opening Price–and Takes the Market With It",
+          "url": "https://finance.yahoo.com/m/7963cbda-271a-3c36-9bf0-83643eb4d754/anthropic-slides-from-opening.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.43,
+          "side": "short"
+        }
+      ]
+    },
+    {
+      "key": "US:^SOX",
+      "kind": "us",
+      "market": "US",
+      "name": "費城半導體",
+      "price": 9419.723,
+      "change_pct": -2.4146,
+      "decimals": 2,
+      "call": "bear",
+      "net": -0.743,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "Anthropic上市利多曇花一現！輝達、博通、美光吐回漲幅 AI概念股為何再陷賣壓？",
+          "url": "https://news.cnyes.com/news/id/6668130",
+          "source": "鉅亨",
+          "score": 0.97,
+          "side": "short"
+        },
+        {
+          "title": "Semiconductor Sell-Off: These Artificial Intelligence (AI) Chip Stocks Are Screaming Buys Before They Go Parabolic",
+          "url": "https://www.fool.com/investing/2026/11/19/semiconductor-sell-off-these-artificial-intelligence-ai-chip-stocks-are-screaming-buys-before-they-go-parabolic/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.96,
+          "side": "long"
+        },
+        {
+          "title": "Nvidia, AMD, Micron Sink as Anthropic Closes 17% Above IPO Price",
+          "url": "https://decrypt.co/383669/nvidia-amd-micron-ai-stocks-sink-anthropic-ipo-price?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.93,
+          "side": "short"
+        }
+      ]
+    },
+    {
+      "key": "IDX:^TWII",
+      "kind": "index",
+      "market": "TW",
+      "name": "加權指數",
+      "price": 38426.89,
+      "change_pct": -4.4,
+      "decimals": 2,
+      "call": "bull",
+      "net": 0.761,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "台股重挫1768點後 台指期夜盤急拉大漲逾900點 年線收復戰提前上演",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%87%8D%E6%8C%AB1768%E9%BB%9E%E5%BE%8C-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E6%80%A5%E6%8B%89%E5%A4%A7%E6%BC%B2%E9%80%BE900%E9%BB%9E-%E5%B9%B4%E7%B7%9A%E6%94%B6%E5%BE%A9%E6%88%B0%E6%8F%90%E5%89%8D%E4%B8%8A%E6%BC%94-115022031.html",
+          "source": "Yahoo奇摩",
+          "score": 0.99,
+          "side": "long"
+        },
+        {
+          "title": "禁空令、國安基金擋得住外資倒貨？台股30個營業日狂瀉逾萬點、外資賣超近2兆元",
+          "url": "https://tw.news.yahoo.com/%E7%A6%81%E7%A9%BA%E4%BB%A4-%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E6%93%8B%E5%BE%97%E4%BD%8F%E5%A4%96%E8%B3%87%E5%80%92%E8%B2%A8-%E5%8F%B0%E8%82%A130%E5%80%8B%E7%87%9F%E6%A5%AD%E6%97%A5%E7%8B%82%E7%80%89%E9%80%BE%E8%90%AC%E9%BB%9E-%E5%A4%96%E8%B3%87%E8%B3%A3%E8%B6%85%E8%BF%912%E5%85%86%E5%85%83-121238918.html",
+          "source": "Yahoo奇摩",
+          "score": 0.99,
+          "side": "long"
+        },
+        {
+          "title": "〈台股盤前要聞〉金管會祭「有條件禁空令」、全體券商10月獲利月減近6成、台積電砸5億美元取得Anthropic 602萬股",
+          "url": "https://news.cnyes.com/news/id/6667178",
+          "source": "鉅亨",
+          "score": 0.99,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "SEC:半導體",
+      "kind": "sector",
+      "market": "TW",
+      "name": "半導體",
+      "price": 1306.84,
+      "change_pct": -4.29,
+      "decimals": 2,
+      "call": "bear",
+      "net": -0.428,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "美國晶片禁令今正式生效！台積電緊急喊停中國16奈米先進製程訂單，AI晶片設計完成也恐無廠可代工",
+          "url": "https://news.cnyes.com/news/id/6667918",
+          "source": "鉅亨",
+          "score": 0.98,
+          "side": "short"
+        },
+        {
+          "title": "美國加強出口管制 金融時報：台積電、三星暫停部分對中晶片出貨",
+          "url": "https://news.cnyes.com/news/id/6667911",
+          "source": "鉅亨",
+          "score": 0.98,
+          "side": "short"
+        },
+        {
+          "title": "快訊／美國晶片管制擴大！台積電、三星暫停部分中國客戶出貨",
+          "url": "https://news.cnyes.com/news/id/6667851",
+          "source": "鉅亨",
+          "score": 0.98,
+          "side": "short"
+        }
+      ]
+    },
+    {
+      "key": "SEC:電子零組件",
+      "kind": "sector",
+      "market": "TW",
+      "name": "電子零組件",
+      "price": 561.17,
+      "change_pct": -8.34,
+      "decimals": 2,
+      "call": "neutral",
+      "net": 0.019,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "台達電看好印度AI商機目標4至5年營收至少增至3倍",
+          "url": "https://news.cnyes.com/news/id/6667495",
+          "source": "鉅亨",
+          "score": 0.86,
+          "side": "skip"
+        },
+        {
+          "title": "台股違約交割連環爆！2天12檔金額達5.56億 創意、欣興、世界全上榜",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%81%95%E7%B4%84%E4%BA%A4%E5%89%B2%E9%80%A3%E7%92%B0%E7%88%86-2%E5%A4%A912%E6%AA%94%E9%87%91%E9%A1%8D%E9%81%945-56%E5%84%84-%E5%89%B5%E6%84%8F-%E6%AC%A3%E8%88%88-213120427.html",
+          "source": "Yahoo奇摩",
+          "score": 0.82,
+          "side": "skip"
+        },
+        {
+          "title": "〈台股盤後〉電金傳同步下挫逾1800家上市櫃跳水 跌1768點失守39K史上第七大跌點",
+          "url": "https://news.cnyes.com/news/id/6667493",
+          "source": "鉅亨",
+          "score": 0.7,
+          "side": "short"
+        }
+      ]
+    },
+    {
+      "key": "SEC:光電",
+      "kind": "sector",
+      "market": "TW",
+      "name": "光電",
+      "price": 54.25,
+      "change_pct": -8.98,
+      "decimals": 2,
+      "call": "neutral",
+      "net": 0.095,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "友達ADR19日下跌0.54美元跌幅6.75%折台股24.57元",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%8B%E9%81%94adr19%E6%97%A5%E4%B8%8B%E8%B7%8C0-54%E7%BE%8E%E5%85%83%E8%B7%8C%E5%B9%856-75-%E6%8A%98%E5%8F%B0%E8%82%A124-57%E5%85%83-214648947.html",
+          "source": "Yahoo奇摩",
+          "score": 0.89,
+          "side": "skip"
+        },
+        {
+          "title": "綠電卡關？賴建信回應歐商建言：GDP拚破11% 風電光電與儲能3頭並進",
+          "url": "https://news.cnyes.com/news/id/6667409",
+          "source": "鉅亨",
+          "score": 0.87,
+          "side": "skip"
+        },
+        {
+          "title": "玉晶光看好與美商3M合作效益添營運動能 資本支出也將增加",
+          "url": "https://news.cnyes.com/news/id/6667715",
+          "source": "鉅亨",
+          "score": 0.81,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "FX:USD/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "美元／台幣",
+      "price": 32.993,
+      "change_pct": 0.2498,
+      "decimals": 4,
+      "call": "bull",
+      "net": 0.454,
+      "news_count": 4,
+      "fx_hint": "外幣偏強／台幣偏貶",
+      "news": [
+        {
+          "title": "〈台幣〉央行積極調節匯市波動 貶轉升收32.942元",
+          "url": "https://news.cnyes.com/news/id/6667656",
+          "source": "鉅亨",
+          "score": 0.97,
+          "side": "skip"
+        },
+        {
+          "title": "降息還要等多久？市場押注高利率再撐5年",
+          "url": "https://news.cnyes.com/news/id/6667963",
+          "source": "鉅亨",
+          "score": 0.47,
+          "side": "skip"
+        },
+        {
+          "title": "【遠東商銀】料FED擴大升息，支撐美元走強",
+          "url": "https://news.cnyes.com/news/id/6638212",
+          "source": "鉅亨",
+          "score": 0.46,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "FX:JPY/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "日圓／台幣",
+      "price": 0.2042,
+      "change_pct": -1.0271,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0,
+      "news_count": 0,
+      "fx_hint": "",
+      "news": []
+    },
+    {
+      "key": "FX:CNY/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "人民幣／台幣",
+      "price": 4.9569,
+      "change_pct": 0.2792,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0,
+      "news_count": 0,
+      "fx_hint": "",
+      "news": []
+    },
+    {
+      "key": "FX:EUR/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "歐元／台幣",
+      "price": 36.188,
+      "change_pct": 0.0275,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0,
+      "news_count": 0,
+      "fx_hint": "",
+      "news": []
+    }
+  ],
+  "scorecard": {
+    "days": 30,
+    "horizon_hours": 24,
+    "graded": 123,
+    "long": {
+      "n": 56,
+      "hit": 14,
+      "avg": -2.8817
+    },
+    "short": {
+      "n": 16,
+      "hit": 14,
+      "avg": 3.1644
+    },
+    "skip": {
+      "n": 51,
+      "hit": 0
+    },
+    "base": {
+      "n": 123,
+      "hit": 32,
+      "avg": -2.6587
+    },
+    "kinds": {
+      "us": {
+        "n": 28,
+        "hit": 5
+      },
+      "index": {
+        "n": 19,
+        "hit": 5
+      },
+      "sector": {
+        "n": 55,
+        "hit": 9
+      },
+      "fx": {
+        "n": 21,
+        "hit": 9
+      }
+    },
+    "tokens": 129797,
+    "usd": 0.0039
+  },
+  "warnings": [],
+  "disclaimer": "非投資建議。偏多／偏空只代表 Kairos 依新聞判斷的方向，不考慮你的財務狀況；本流程不會下單。"
+}
