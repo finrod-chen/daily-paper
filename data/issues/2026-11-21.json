@@ -1,0 +1,557 @@
+{
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T07:01:03.824+08:00",
+  "edition": 12,
+  "headline": {
+    "title": "美商務部核准逾87.9萬顆AI晶片銷中",
+    "summary": "美國眾議院委員會揭露，商務部已核准大量 AI 晶片對中出口許可，買家包含軍方關聯企業。此情況引發國安疑慮，國會正加強監督輝達與超微等公司的出口審批，並要求收緊現行管制政策。",
+    "why": "出口管制失靈可能改變全球半導體供應鏈地緣政治格局，影響下游硬體部署策略。",
+    "importance": 5,
+    "source_name": "INSIDE",
+    "source_url": "https://www.inside.com.tw/article/42970-us-commerce-ai-chip-export-licenses-china-nvidia-h200-879000",
+    "original_title": "美商務部核准逾 87.9 萬顆 AI 晶片銷中 議員質疑「出口管制失靈」",
+    "original_lang": "zh",
+    "published_at": "2026-11-20T07:37:00.000Z",
+    "tags": [
+      "AI晶片",
+      "出口管制",
+      "國安"
+    ]
+  },
+  "brief": "美國強硬監管 AI 晶片出口，國會監督與關稅威脅並行，同時 Anthropic 以破紀錄規模上市卻面臨次日股價重挫。AI 技術在多領域取得實質突破，成功設計新型 CPU 架構、自動完成上萬步驟實驗，並能重寫自身權重。醫療與科學研究方面，新型口服抑制劑助荷爾蒙型高血壓患者停藥恢復正常，重粒子結合化療顯著縮小胰臟癌腫瘤。",
+  "sections": [
+    {
+      "id": "ai",
+      "items": [
+        {
+          "title": "Anthropic 掛牌市值1.76兆美元",
+          "summary": "Anthropic 於 11 月 19 日以代碼 ANT 在 Nasdaq 掛牌，首日收盤完全稀釋市值約 1.76 兆美元，躍居全球市值第 7 大公司。此次 IPO 募資約 813 億美元，刷新了相關紀錄。",
+          "why": "AI 公司高估值反映市場對前沿模型開發商長期營收的樂觀預期，影響產業投資流向。",
+          "importance": 4,
+          "source_name": "INSIDE",
+          "source_url": "https://www.inside.com.tw/article/42969-anthropic-ant-nasdaq-debut-1-76-trillion-7th-most-valuable",
+          "original_title": "Anthropic 掛牌首日完全稀釋市值 1.76 兆美元，躍居全球市值第 7 大公司",
+          "original_lang": "zh",
+          "published_at": "2026-11-20T07:37:00.000Z",
+          "tags": [
+            "Anthropic",
+            "IPO",
+            "AI市場"
+          ]
+        },
+        {
+          "title": "OpenAI 推出 MedChemBench 評估 AI 藥物發現",
+          "summary": "OpenAI 發布 MedChemBench，用於評估 AI 模型在藥物發現早期階段的表現，包括解讀分子結構、從實驗證據推理及選擇化合物。此基準旨在測試 AI 輔助科學家識別潛在藥物候選分子的能力。",
+          "why": "提供量化指標以驗證 AI 在生技研發中的實際效用，有助於篩選可信賴的輔助工具。",
+          "importance": 4,
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/index/introducing-medchembench",
+          "original_title": "Can AI help scientists identify promising drug candidates?",
+          "original_lang": "en",
+          "published_at": "2026-11-20T00:00:00.000Z",
+          "tags": [
+            "AI",
+            "藥物發現",
+            "生技"
+          ]
+        },
+        {
+          "title": "VMware 修補已遭利用的 vCenter 重大漏洞",
+          "summary": "VMware 修補了一個已遭利用的 vCenter 重大漏洞。同日群暉（Synology）也警告其 NAS 產品存在兩個重大漏洞，預計提供部分版本作業系統的修補程式。",
+          "why": "基礎設施軟體的重大漏洞被利用，可能導致企業內部網路及資料外洩，需即時更新防護。",
+          "importance": 3,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180682",
+          "original_title": "【資安日報】11月20日，VMware修補已遭利用的vCenter重大漏洞",
+          "original_lang": "zh",
+          "published_at": "2026-11-20T04:11:17.000Z",
+          "tags": [
+            "資安",
+            "VMware",
+            "群暉"
+          ]
+        },
+        {
+          "title": "Signal 阻止 Gemini 與 Siri 讀取螢幕",
+          "summary": "Signal 限制 Android 和 iOS 裝置的螢幕截圖功能，以防 AI 代理程式閱讀使用者訊息及其他資料。Signal 總裁指出，內建於作業系統的 agentic AI 能力正侵蝕其獨立保證隱私的能力。",
+          "why": "顯示行動作業系統中的 AI 代理功能與即時通訊隱私之間的技術衝突正在加劇。",
+          "importance": 3,
+          "source_name": "The Verge AI",
+          "source_url": "https://www.theverge.com/ai-artificial-intelligence/1038390/signal-blocking-ai-agent-screenshots-mobile-app",
+          "original_title": "Signal is blocking Gemini and Siri AI from reading your screen",
+          "original_lang": "en",
+          "published_at": "2026-11-20T12:30:47.000Z",
+          "tags": [
+            "隱私",
+            "AI Agent",
+            "Signal"
+          ]
+        },
+        {
+          "title": "Gemini 可直接操作 Mac 應用程式介面",
+          "summary": "Google Gemini 現能直接操作應用程式介面，例如點擊按鈕、切換選單及輸入資料。此功能可進一步執行需要跨越不同軟體與網站的工作。",
+          "why": "AI 具備 GUI 互動能力，為自動化辦公流程提供新的執行層級，但需留意操作準確性。",
+          "importance": 3,
+          "source_name": "INSIDE",
+          "source_url": "https://www.inside.com.tw/article/42967-google-gemini-computer-use-apple-mac",
+          "original_title": "Google Gemini 現在能幫你操作 Mac！跨 App 點擊、填表單都交給 AI",
+          "original_lang": "zh",
+          "published_at": "2026-11-20T02:20:00.000Z",
+          "tags": [
+            "Google",
+            "Gemini",
+            "自動化"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "items": [
+        {
+          "title": "AI 設計並驗證新型 CPU 架構",
+          "summary": "AI 系統成功發現、設計並驗證了一種名為 Frostbite 的新型 CPU 架構。該成果展示了 AI 在複雜硬體工程領域從探索到驗證的完整閉環能力。",
+          "why": "驗證了 AI 參與核心晶片設計的可行性，可能重塑半導體研發流程。",
+          "importance": 5,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://architectlabs.com/blog/frostbite",
+          "original_title": "Frostbite: A new CPU architecture discovered, designed and verified by AI",
+          "original_lang": "en",
+          "published_at": "2026-11-20T10:01:41.000Z",
+          "tags": [
+            "AI",
+            "硬體",
+            "自動化"
+          ]
+        },
+        {
+          "title": "Navier-Stokes 有限時間奇異性證明",
+          "summary": "研究指出 Navier-Stokes 方程在有限時間內出現奇異性（blow-up）。此結果與廣義黎曼假設及未受迫歐拉方程奇異性存在數學上的深刻聯繫。",
+          "why": "解決流體力學基礎數學難題，可能影響流體模擬與相關工程計算。",
+          "importance": 5,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://github.com/tristanbuckmaster/navier-stokes/",
+          "original_title": "Finite-time blow-up for the Navier–Stokes equations",
+          "original_lang": "en",
+          "published_at": "2026-11-20T15:34:31.000Z",
+          "tags": [
+            "數學",
+            "流體力學",
+            "研究"
+          ]
+        },
+        {
+          "title": "語言模型重寫自身權重",
+          "summary": "論文提出語言模型能夠重寫自身權重的方法。該研究探索了模型自我調整與优化的新範式，超越了傳統的微調概念。",
+          "why": "若實現自我優化，將大幅降低 AI 模型維護成本並提升效能。",
+          "importance": 4,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://arxiv.org/abs/2611.21885",
+          "original_title": "Language Models Can Rewrite Their Own Weights",
+          "original_lang": "en",
+          "published_at": "2026-11-20T16:29:06.000Z",
+          "tags": [
+            "AI",
+            "語言模型",
+            "研究"
+          ]
+        },
+        {
+          "title": "Zapier 推出 Gemini 自動化整合",
+          "summary": "Zapier 推出 Gemini 整合功能，支援 Gemini 3.8 Flash 及 Enterprise 版本。用戶可透過此整合讓 Gemini 跨應用執行任務，而非僅限於對話。",
+          "why": "讓 AI 模型能更深度介入企業工作流，提升跨應用自動化效率。",
+          "importance": 3,
+          "source_name": "Zapier Blog",
+          "source_url": "https://zapier.com/blog/automate-google-ai-studio",
+          "original_title": "Gemini automation: How to use the Zapier Gemini integration (Gemini 3.8 Flash, Gemini Enterprise, and more)",
+          "original_lang": "en",
+          "published_at": "2026-11-20T05:00:00.000Z",
+          "tags": [
+            "Zapier",
+            "Gemini",
+            "自動化"
+          ]
+        },
+        {
+          "title": "Zapier MCP 支援多應用 AI 自動化",
+          "summary": "Zapier 介紹其 MCP 功能，允許 ChatGPT 等 AI 工具透過單一介面連接多個應用程式。Zapier 負責處理各應用的登入與權限管理。",
+          "why": "打破 AI 工具與應用間的生態壁壘，簡化跨平台資料流動的技術架構。",
+          "importance": 3,
+          "source_name": "Zapier Blog",
+          "source_url": "https://zapier.com/blog/automate-chatgpt-zapier-mcp",
+          "original_title": "4 ways to automate ChatGPT with Zapier MCP",
+          "original_lang": "en",
+          "published_at": "2026-11-20T05:00:00.000Z",
+          "tags": [
+            "Zapier",
+            "MCP",
+            "ChatGPT"
+          ]
+        },
+        {
+          "title": "Thinking Machines 發布 Inkling 2 Mini",
+          "summary": "Thinking Machines 發布 Inkling 2 Mini。具體功能細節未在摘要中列出，需參考官方頁面以了解其技術規格與定位。",
+          "why": "顯示專營 AI 硬體與模型結合的廠商持續推出新產品。",
+          "importance": 2,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://thinkingmachines.ai/news/inkling-2-mini/",
+          "original_title": "Inkling 2 Mini",
+          "original_lang": "en",
+          "published_at": "2026-11-20T20:12:19.000Z",
+          "tags": [
+            "Thinking Machines",
+            "AI 硬體",
+            "產品發布"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "items": [
+        {
+          "title": "新型口服抑制劑助荷爾蒙型高血壓患者停藥恢復正常",
+          "summary": "倫敦瑪麗皇后大學主導的最新追蹤研究顯示，針對原發性醛固酮增多症等荷爾蒙型高血壓患者，一款新型口服抑制劑治療後，患者停藥血壓可恢復正常。這提供了無需開刀且不需終身服藥的潛在解決方案。",
+          "why": "提供高血壓治療新選項，可能減少對開刀或長期用藥的依賴，改善特定患者生活品質。",
+          "importance": 4,
+          "source_name": "科技新報 生技",
+          "source_url": "https://technews.tw/2026/11/20/eu-recommends-novel-hypertension-drug/",
+          "original_title": "高血壓治療重大突破，新型口服抑制劑助「荷爾蒙型患者」停藥後血壓恢復正常",
+          "original_lang": "zh",
+          "published_at": "2026-11-19T23:20:56.000Z",
+          "tags": [
+            "高血壓治療",
+            "口服抑制劑",
+            "荷爾蒙型高血壓"
+          ]
+        },
+        {
+          "title": "AI 自動完成上萬步驟實驗設計與分析流程",
+          "summary": "研究展示人工智慧系統能自動完成上萬步驟的實驗流程，涵蓋實驗設計與數據分析。此技術突破了 AI 僅協助文獻搜尋或假說提煉的現狀，實現自主實驗執行。",
+          "why": "大幅提升生技研究效率，降低人力重複勞動，加速實驗週期與數據產出。",
+          "importance": 4,
+          "source_name": "科技新報 生技",
+          "source_url": "https://technews.tw/2026/11/20/autodna-system-uses-ai-to-autonomously-perform-thousands-of-experimental-steps/",
+          "original_title": "AI 科學家自動完成上萬步驟實驗，設計、分析都能自己來",
+          "original_lang": "zh",
+          "published_at": "2026-11-20T00:20:31.000Z",
+          "tags": [
+            "AI 自動化",
+            "實驗設計",
+            "生技研究"
+          ]
+        },
+        {
+          "title": "Alterome 公布 KRAS 突變藥物初階臨床結果",
+          "summary": "Alterome 公布其針對 KRAS 突變的藥物初階臨床結果，該藥物旨在選擇性針對胰臟、肺臟及大腸癌的驅動突變。這是針對多個 KRAS 突變型別的重要臨床進展。",
+          "why": "針對胰臟等難治性癌症的 KRAS 靶點提供新藥物選擇，可能改善特定癌症患者的治療選項。",
+          "importance": 4,
+          "source_name": "STAT News",
+          "source_url": "https://www.statnews.com/2026/11/20/biotech-news-early-results-for-alterome-kras-drug-arrive/",
+          "original_title": "STAT+: Early results for Alterome’s KRAS drug for pancreas, lung and colon cancer arrive",
+          "original_lang": "en",
+          "published_at": "2026-11-20T14:01:41.000Z",
+          "tags": [
+            "KRAS 突變",
+            "癌症治療",
+            "臨床試驗"
+          ]
+        },
+        {
+          "title": "CAR-T 腸炎風險關注，艾伯維布局雙標靶技術",
+          "summary": "研究關注 CAR-T 治療後引發的腸炎風險。艾伯維（AbbVie）投入 25 億美元布局雙標靶抗癌技術，試圖在精準抗癌的同時減少對正常組織的傷害。",
+          "why": "改善免疫細胞治療的安全性，降低嚴重副作用風險，提升 CAR-T 等精準療法的臨床適用性。",
+          "importance": 3,
+          "source_name": "GeneOnline 基因線上",
+          "source_url": "https://geneonline.news/20261120-news-highlights-007-news-nov-2026/",
+          "original_title": "CAR-T 治療後腸炎風險引關注，艾伯維 25 億美元布局雙標靶抗癌技術",
+          "original_lang": "zh",
+          "published_at": "2026-11-20T10:04:14.000Z",
+          "tags": [
+            "CAR-T",
+            "免疫治療",
+            "副作用管理"
+          ]
+        },
+        {
+          "title": "研究探索 CTE 血液檢測可行性，生前診斷有望",
+          "summary": "研究透過 21 名美式足球球員在生前抽血與死後捐獻大腦的對照，探索慢性創傷性腦病變（CTE）的血清生物標記。旨在發展能於生前診斷 CTE 的血液檢測方法。",
+          "why": "若成功，可提供非侵入性的 CTE 早期診斷工具，幫助高風險族群（如運動員）及時介入或預後管理。",
+          "importance": 3,
+          "source_name": "STAT News",
+          "source_url": "https://www.statnews.com/2026/11/20/health-news-researchers-explore-possibility-of-cte-blood-test/",
+          "original_title": "Researchers explore possibility of a CTE blood test",
+          "original_lang": "en",
+          "published_at": "2026-11-20T13:53:10.000Z",
+          "tags": [
+            "CTE",
+            "血液檢測",
+            "神經退化"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "items": [
+        {
+          "title": "Anthropic IPO募资916亿美元，次日股价重挫",
+          "summary": "Anthropic在纳斯达克上市，IPO募资约916亿美元。上市次日股价早盘重挫逾9.5%。其估值一度达到2兆美元左右，引发市场对AI投资热度的重新评估。",
+          "why": "AI龙头股估值剧烈波动直接冲击全球科技风险资产定价，反映市场对该行业商业模式的疑虑加深。",
+          "importance": 5,
+          "source_name": "中央社 科技",
+          "source_url": "https://www.cna.com.tw/news/ait/202611200054.aspx",
+          "original_title": "Anthropic上市首日先盛後衰 AI熱潮能否延續備受關注",
+          "original_lang": "zh",
+          "published_at": "2026-11-20T02:24:34.000Z",
+          "tags": [
+            "AI",
+            "資本市場",
+            "IPO"
+          ]
+        },
+        {
+          "title": "SEC调查Nvidia会计作业，辉达晶片外流黑名單大專",
+          "summary": "SEC正调查Nvidia的会计作业。Nvidia至少6所被美国列入黑名单的清华大学、复旦大学等院校采购了其受出口管制的芯片。",
+          "why": "合规风险与出口管制漏洞的双重压力可能影响Nvidia的财务稳定性及美国芯片出口政策的执行效力。",
+          "importance": 4,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611210010.aspx",
+          "original_title": "路透：輝達再陷法律風暴 SEC調查會計作業",
+          "original_lang": "zh",
+          "published_at": "2026-11-20T19:53:05.000Z",
+          "tags": [
+            "Nvidia",
+            "合规",
+            "出口管制"
+          ]
+        },
+        {
+          "title": "北榮研究：重粒子結合化療 胰臟癌腫瘤大幅縮小",
+          "summary": "台北荣总发布研究，针对胰脏癌结合化疗与重粒子放疗。结果显示可显著缩小肿瘤，目前患者术后恢复良好。",
+          "why": "为预后极差的胰脏癌提供新的临床治疗路径，重粒子治疗在实体肿瘤缩小上显示出的实际效果具有临床参考意义。",
+          "importance": 4,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/836689",
+          "original_title": "胰臟癌患者腫瘤侵犯血管 北榮結合重粒子治療腫瘤縮小",
+          "original_lang": "zh",
+          "published_at": "2026-11-20T12:40:40.000Z",
+          "tags": [
+            "医藥",
+            "重粒子",
+            "胰臟癌"
+          ]
+        },
+        {
+          "title": "n0n組織駭客入侵供應商，Visa、摩根大通客戶資料外洩",
+          "summary": "黑客入侵第三方服务供应商，导致Visa、Mastercard及JPMorgan的客户数据泄露。n0n勒索软件组织声称对此负责。",
+          "why": "第三方供应商的系统漏洞导致多家国际金融机构敏感数据外泄，凸显了供应链安全对金融数据保护的致命影响。",
+          "importance": 3,
+          "source_name": "中央社 科技",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611200028.aspx",
+          "original_title": "Visa、摩根大通用戶個資遭駭 n0n勒索軟體組織宣稱犯案",
+          "original_lang": "zh",
+          "published_at": "2026-11-20T00:43:37.000Z",
+          "tags": [
+            "資安",
+            "資料洩漏",
+            "金融"
+          ]
+        },
+        {
+          "title": "AI熱潮降溫，比特幣跌破6萬美元大關",
+          "summary": "受AI热潮降温及资产估值过高疑虑影响，全球市值最大的加密货币比特币跌破6万美元大关。这是自今年7月以来首次发生。",
+          "why": "比特币价格下跌反映了投机性风险资产的整体退潮，AI相关资产的高估值面临市场流动性的实质考验。",
+          "importance": 3,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611210009.aspx",
+          "original_title": "AI熱潮降溫拖累風險資產 比特幣跌破6萬美元",
+          "original_lang": "zh",
+          "published_at": "2026-11-20T19:36:03.000Z",
+          "tags": [
+            "加密貨幣",
+            "AI",
+            "市場情緒"
+          ]
+        },
+        {
+          "title": "台股重挫逾6%，融資餘額單日銳減491億元",
+          "summary": "台股因AI利空频传，今日下跌2393.60点或6.23%，收盘于36033.29点。集中市场融资余额单日大减491.41亿元。",
+          "why": "融资余额的大幅缩减与指数下跌，量化了台股市场因AI股回调而产生的去杠杆化程度与投资者恐慌情绪。",
+          "importance": 2,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611200337.aspx",
+          "original_title": "CNN：至少6所遭美列黑名單中國大學採購輝達晶片",
+          "original_lang": "zh",
+          "published_at": "2026-11-20T13:50:55.000Z",
+          "tags": [
+            "台股",
+            "融資",
+            "市場"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "title": "美國強化AI晶片遠端存取限制，川普威脅海外建廠稅收",
+          "summary": "美國新規定限制先進美國 AI 晶片的遠端存取，引發國安爭議。川普總統威脅對在海外興建 AI 資料中心的美國科技公司課徵「巨大稅金」，並稱正與中國討論僅限舊款晶片的出口協議。",
+          "why": "出口管制邊界擴大至軟體存取權，直接影響全球AI算力部署成本與供應鏈結構。",
+          "importance": 5,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/黃仁勳捲國安風波-如何影響美對中出口管制？/a-79998608?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "黃仁勳捲國安風波 如何影響美對中出口管制？",
+          "original_lang": "zh",
+          "published_at": "2026-11-20T05:27:00.000Z",
+          "tags": [
+            "AI晶片管制",
+            "美中貿易",
+            "出口管制"
+          ]
+        },
+        {
+          "title": "Anthropic IPO 前夕科技股賣壓，美股標普跌入修正區間",
+          "summary": "Anthropic 預備進行破紀錄 IPO，但相關科技股賣壓導致 S&P 500 與道瓊指數進入修正區間。市場擔憂 AI 產業泡沫風險未消。",
+          "why": "AI 龍頭公司定價與市場情緒成為判斷科技投資風險的關鍵指標。",
+          "importance": 4,
+          "source_name": "BBC World",
+          "source_url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo?at_medium=RSS&at_campaign=rss",
+          "original_title": "Tech stock sell-off drags markets down as Anthropic shares slide",
+          "original_lang": "en",
+          "published_at": "2026-11-20T22:42:47.000Z",
+          "tags": [
+            "AI投資",
+            "資本市場",
+            "Anthropic"
+          ]
+        },
+        {
+          "title": "國際法院認定緬甸對羅興亞人實施種族滅絕，中德法官反對",
+          "summary": "聯合國國際法院判定緬甸在 2017 年對羅興亞人實施種族滅絕，為該法院首次認定國家須承擔此責任。九票對六票通過，中國籍法官薛捍勤在反對票之列。",
+          "why": "確立國家種族滅絕責任的法律先例，可能影響未來國際人道法執法標準。",
+          "importance": 3,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/国际法院以九票对六票认定缅甸对罗兴亚人实施种族灭绝/a-80002919?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "国际法院以九票对六票认定缅甸对罗兴亚人实施种族灭绝",
+          "original_lang": "zh",
+          "published_at": "2026-11-20T12:49:00.000Z",
+          "tags": [
+            "國際法院",
+            "人權",
+            "緬甸"
+          ]
+        },
+        {
+          "title": "俄軍大規模空襲基輔，烏克朗打擊克里米亞橋後衝突升級",
+          "summary": "在烏克朗打擊克里米亞橋樑後，俄羅斯發動了迄今規模最大的空襲之一，目標鎖定基輔的過河通道。俄方拒絕提供烏克朗安全保證。",
+          "why": "關鍵基礎設施遭受密集攻擊，顯示戰爭進入針對戰略节点的長期消耗階段。",
+          "importance": 3,
+          "source_name": "BBC World",
+          "source_url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o?at_medium=RSS&at_campaign=rss",
+          "original_title": "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+          "original_lang": "en",
+          "published_at": "2026-11-20T13:01:16.000Z",
+          "tags": [
+            "俄烏戰爭",
+            "軍事行動",
+            "基輔"
+          ]
+        },
+        {
+          "title": "爆料：德意志銀行九年遭中國黑客攻擊，當時未通知客戶",
+          "summary": "媒體爆料指出，德意志銀行九年前曾遭受來自中國的黑客攻擊。當時銀行認為無需通知受影響客戶，此事現已公開。",
+          "why": "揭示大型傳統銀行資安事件披露時滯，突顯供應鏈間數據隱患的透明度問題。",
+          "importance": 2,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/媒体爆料分析：中国黑客曾袭击德意志银行/a-80002947?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "媒体爆料分析：中国黑客曾袭击德意志银行",
+          "original_lang": "zh",
+          "published_at": "2026-11-20T12:49:00.000Z",
+          "tags": [
+            "資安事件",
+            "德意志銀行",
+            "數據洩漏"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "items": [
+        {
+          "title": "鄭怡靜馬斯喀特桌球賽8強落敗",
+          "summary": "台灣女子桌球好手鄭怡靜在WTT馬斯喀特球星挑戰賽8強賽中，以7比11、3比11、5比11落敗於日本選手橋本帆乃香，無緣晉級4強。鄭怡靜在前一輪16強賽中曾以22分鐘時間輕取日本選手橫井咲櫻。",
+          "why": "呈現台灣頂尖桌球選手在國際巡迴賽中的最新勝負紀錄與競爭態勢。",
+          "importance": 3,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611200304.aspx",
+          "original_title": "WTT馬斯喀特球星挑戰賽 鄭怡靜不敵日本削球好手止步8強",
+          "original_lang": "zh",
+          "published_at": "2026-11-20T11:53:40.000Z",
+          "tags": [
+            "桌球",
+            "WTT",
+            "鄭怡靜"
+          ]
+        },
+        {
+          "title": "道奇隊收購雙城內野手Royce Lewis",
+          "summary": "洛杉磯道奇隊從明尼蘇達雙城隊收購內野手Royce Lewis。這是大聯盟轉會市場的最新人事異動。",
+          "why": "反映大聯盟球隊在自由球員或轉會市場上的策略調整。",
+          "importance": 2,
+          "source_name": "MLB.com",
+          "source_url": "https://www.mlb.com/news/royce-lewis-dodgers-twins-trade",
+          "original_title": "Dodgers acquire INF Royce Lewis from Twins (source)",
+          "original_lang": "en",
+          "published_at": "2026-11-20T22:50:00.000Z",
+          "tags": [
+            "MLB",
+            "轉會",
+            "道奇隊"
+          ]
+        },
+        {
+          "title": "盧奕銓奪中環碁聖賽冠軍獲8大頭銜",
+          "summary": "台灣圍棋好手盧奕銓在中環碁聖賽決賽中擊敗林君諺，奪得冠軍並獲得40萬元獎金。他以此成就獲得生涯首座8大頭銜。",
+          "why": "記錄台灣圍棋高手在專業賽事中的里程碑成就。",
+          "importance": 2,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611200334.aspx",
+          "original_title": "圍棋中環碁聖賽盧奕銓奪冠 生涯首獲8大頭銜",
+          "original_lang": "zh",
+          "published_at": "2026-11-20T13:40:48.000Z",
+          "tags": [
+            "圍棋",
+            "盧奕銓",
+            "中環碁聖賽"
+          ]
+        },
+        {
+          "title": "黑豹旗高苑工商11比1秀峰晉8強",
+          "summary": "黑豹旗青棒賽高苑工商16強賽中，林冠勳先發5局僅失1分，幫助球隊以11比1、5局擊敗秀峰晉級8強。8強賽高苑將對上穀保家商。",
+          "why": "提供台灣高中棒球賽事的具体勝負數據與賽程進展。",
+          "importance": 2,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611200156.aspx",
+          "original_title": "黑豹旗林冠勳先發5局好投 高苑晉8強將碰勁敵穀保",
+          "original_lang": "zh",
+          "published_at": "2026-11-20T07:12:18.000Z",
+          "tags": [
+            "棒球",
+            "黑豹旗",
+            "高苑工商"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "feeds": 39,
+    "fetched": 3008,
+    "kept": 32,
+    "jev_cost_usd": 0.005498,
+    "llm_cost_usd": 0.00121
+  }
+}
