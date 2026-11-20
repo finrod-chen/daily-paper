@@ -1,0 +1,457 @@
+{
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T06:41:13.282+08:00",
+  "us_market_date": "2026-11-20",
+  "market_date": "2026-11-20",
+  "sector_mode": "turnover",
+  "sector_note": "依證交所 11/20 成交值×漲跌幅挑前 3",
+  "counts": {
+    "bull": 1,
+    "bear": 6,
+    "neutral": 5
+  },
+  "items": [
+    {
+      "key": "US:^GSPC",
+      "kind": "us",
+      "market": "US",
+      "name": "S&P 500",
+      "price": 6910.39,
+      "change_pct": -3.6991,
+      "decimals": 2,
+      "call": "bear",
+      "net": -0.998,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "Update: S&P 500, Dow Sink Into Correction Territory as Investors Seek Treasury Cover Amid Plunging Big-Tech",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-dow-sink-correction-214248905.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.98,
+          "side": "short"
+        },
+        {
+          "title": "Update: AI Worries Send S&P 500 Into Correction Territory as Nasdaq Turns Negative For The Year",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ai-worries-send-p-500-221555530.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.97,
+          "side": "short"
+        },
+        {
+          "title": "〈美股盤後〉美股大屠殺！AI殺盤全面失控 道瓊標普陷修正區 費半瀉逾10% 輝達、美光暴跌約14%",
+          "url": "https://news.cnyes.com/news/id/6669311",
+          "source": "鉅亨",
+          "score": 0.91,
+          "side": "short"
+        }
+      ]
+    },
+    {
+      "key": "US:^IXIC",
+      "kind": "us",
+      "market": "US",
+      "name": "那斯達克",
+      "price": 22617.732,
+      "change_pct": -5.2827,
+      "decimals": 2,
+      "call": "bear",
+      "net": -0.491,
+      "news_count": 3,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "Stock Market Today: Nasdaq Tanks 5% With AI Trade Thrashed; Nvidia, Anthropic Dive",
+          "url": "https://finance.yahoo.com/m/4b546235-124e-3fa4-b951-41a067ff7bf2/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.98,
+          "side": "short"
+        },
+        {
+          "title": "Nasdaq turns negative: Why Anthropic & other tech stocks are getting crushed",
+          "url": "https://finance.yahoo.com/video/nasdaq-turns-negative-why-anthropic--other-tech-stocks-are-getting-crushed-213846825.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.97,
+          "side": "short"
+        },
+        {
+          "title": "輝達連七黑！創金融海嘯以來最長連跌紀錄 市值遭Alphabet超車跌至第四",
+          "url": "https://news.cnyes.com/news/id/6668153",
+          "source": "鉅亨",
+          "score": 0.94,
+          "side": "short"
+        }
+      ]
+    },
+    {
+      "key": "US:^DJI",
+      "kind": "us",
+      "market": "US",
+      "name": "道瓊",
+      "price": 48147.33,
+      "change_pct": -1.9344,
+      "decimals": 2,
+      "call": "bear",
+      "net": -0.424,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "Dow Jones Futures: Market Has Worst Week Since Covid Amid Nvidia, Anthropic. Does Fear Gauge Offer Hope?",
+          "url": "https://finance.yahoo.com/m/9ef9da98-bccf-3565-9a30-9bc3e57ad4b9/dow-jones-futures%3A-market-has.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.93,
+          "side": "skip"
+        },
+        {
+          "title": "6 reasons stocks are falling, and what you should do about it",
+          "url": "https://www.cbsnews.com/news/why-stocks-are-falling-ai-fears/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.53,
+          "side": "short"
+        },
+        {
+          "title": "〈美股盤後〉美股大屠殺！AI殺盤全面失控 道瓊標普陷修正區 費半瀉逾10% 輝達、美光暴跌約14%",
+          "url": "https://news.cnyes.com/news/id/6669311",
+          "source": "鉅亨",
+          "score": 0.53,
+          "side": "short"
+        }
+      ]
+    },
+    {
+      "key": "US:^SOX",
+      "kind": "us",
+      "market": "US",
+      "name": "費城半導體",
+      "price": 8408.591,
+      "change_pct": -10.7342,
+      "decimals": 2,
+      "call": "bear",
+      "net": -0.725,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "Nvidia drops 12%, Broadcom and AMD extend declines as the AI trade melts down",
+          "url": "https://finance.yahoo.com/markets/article/nvidia-amd-and-broadcom-lead-chip-stocks-lower-133658985.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.99,
+          "side": "short"
+        },
+        {
+          "title": "Chip Stocks Just Had a Reversal Last Seen in March 2020",
+          "url": "https://247wallst.com/investing/2026/11/20/chip-stocks-just-had-a-reversal-last-seen-in-march-2020/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.99,
+          "side": "short"
+        },
+        {
+          "title": "〈美股盤後〉美股大屠殺！AI殺盤全面失控 道瓊標普陷修正區 費半瀉逾10% 輝達、美光暴跌約14%",
+          "url": "https://news.cnyes.com/news/id/6669311",
+          "source": "鉅亨",
+          "score": 0.98,
+          "side": "short"
+        }
+      ]
+    },
+    {
+      "key": "IDX:^TWII",
+      "kind": "index",
+      "market": "TW",
+      "name": "加權指數",
+      "price": 36033.29,
+      "change_pct": -6.23,
+      "decimals": 2,
+      "call": "bull",
+      "net": 0.477,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "台股跌 2393.6 點，收 36033.29 點，三大法人賣超 522.46 億元",
+          "url": "https://news.cnyes.com/news/id/6668901",
+          "source": "鉅亨",
+          "score": 1,
+          "side": "long"
+        },
+        {
+          "title": "這次不是外資提款！台股狂瀉2393點 專家揭罪魁禍首「竟是自己人」：變背骨仔",
+          "url": "https://tw.news.yahoo.com/%E9%80%99%E6%AC%A1%E4%B8%8D%E6%98%AF%E5%A4%96%E8%B3%87%E6%8F%90%E6%AC%BE-%E5%8F%B0%E8%82%A1%E7%8B%82%E7%80%892393%E9%BB%9E-%E5%B0%88%E5%AE%B6%E6%8F%AD%E7%BD%AA%E9%AD%81%E7%A6%8D%E9%A6%96-%E7%AB%9F%E6%98%AF%E8%87%AA%E5%B7%B1%E4%BA%BA-%E8%AE%8A%E8%83%8C%E9%AA%A8%E4%BB%94-123008034.html",
+          "source": "Yahoo奇摩",
+          "score": 1,
+          "side": "long"
+        },
+        {
+          "title": "【盤後贏指標】台股大逃殺！空頭來臨了？贏指標跌破5日，3萬6保衛戰正式開打！",
+          "url": "https://news.cnyes.com/news/id/6669131",
+          "source": "鉅亨",
+          "score": 1,
+          "side": "short"
+        }
+      ]
+    },
+    {
+      "key": "SEC:半導體",
+      "kind": "sector",
+      "market": "TW",
+      "name": "半導體",
+      "price": 1230.73,
+      "change_pct": -5.82,
+      "decimals": 2,
+      "call": "bear",
+      "net": -0.682,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "台股盤中／大跌逾2,400點失守3萬6本週跌逾17%恐創1990年來最大單週跌幅",
+          "url": "https://news.cnyes.com/news/id/6668881",
+          "source": "鉅亨",
+          "score": 0.99,
+          "side": "short"
+        },
+        {
+          "title": "晶片管制｜市場傳出台積電收緊中國先進製程訂單AI晶片製造管道受影響",
+          "url": "https://news.cnyes.com/news/id/6668967",
+          "source": "鉅亨",
+          "score": 0.98,
+          "side": "short"
+        },
+        {
+          "title": "〈台股盤後〉限空令2.0擋不住賣壓狂瀉2393點創史上第三大跌點 本周跌逾7000點跌幅17.5%",
+          "url": "https://news.cnyes.com/news/id/6668992",
+          "source": "鉅亨",
+          "score": 0.98,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "SEC:電子零組件",
+      "kind": "sector",
+      "market": "TW",
+      "name": "電子零組件",
+      "price": 507.82,
+      "change_pct": -9.51,
+      "decimals": 2,
+      "call": "bear",
+      "net": -0.644,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "〈焦點股〉台達電失守千元挫跌停 半年跌逾6成市值蒸發4兆元",
+          "url": "https://news.cnyes.com/news/id/6668895",
+          "source": "鉅亨",
+          "score": 0.95,
+          "side": "short"
+        },
+        {
+          "title": "〈台股盤後〉限空令2.0擋不住賣壓狂瀉2393點創史上第三大跌點 本周跌逾7000點跌幅17.5%",
+          "url": "https://news.cnyes.com/news/id/6668992",
+          "source": "鉅亨",
+          "score": 0.82,
+          "side": "long"
+        },
+        {
+          "title": "〈台股開盤〉台積電重挫3%逾百檔個股跌停 賣壓擴大早盤跌逾1500點失守3萬7",
+          "url": "https://news.cnyes.com/news/id/6668393",
+          "source": "鉅亨",
+          "score": 0.73,
+          "side": "short"
+        }
+      ]
+    },
+    {
+      "key": "SEC:AI 伺服器／電子代工",
+      "kind": "sector",
+      "market": "TW",
+      "name": "AI 伺服器／電子代工",
+      "price": 325.87,
+      "change_pct": -6.41,
+      "decimals": 2,
+      "call": "neutral",
+      "net": -0.197,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "AI訂單大增也更吃資金！央行：伺服器備料到收款時間長，台廠周轉需求提高",
+          "url": "https://news.cnyes.com/news/id/6669420",
+          "source": "鉅亨",
+          "score": 0.96,
+          "side": "skip"
+        },
+        {
+          "title": "〈台股開盤〉台積電重挫3%逾百檔個股跌停 賣壓擴大早盤跌逾1500點失守3萬7",
+          "url": "https://news.cnyes.com/news/id/6668393",
+          "source": "鉅亨",
+          "score": 0.95,
+          "side": "short"
+        },
+        {
+          "title": "〈台股盤後〉限空令2.0擋不住賣壓狂瀉2393點創史上第三大跌點 本周跌逾7000點跌幅17.5%",
+          "url": "https://news.cnyes.com/news/id/6668992",
+          "source": "鉅亨",
+          "score": 0.92,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "FX:USD/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "美元／台幣",
+      "price": 32.958,
+      "change_pct": 0.0853,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0.085,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "〈台幣〉央行強力穩盤 收32.936元升值0.6分",
+          "url": "https://news.cnyes.com/news/id/6669140",
+          "source": "鉅亨",
+          "score": 0.98,
+          "side": "skip"
+        },
+        {
+          "title": "IMF 警告：AI 強勁需求推升全球通膨 央行升息壓力恐延燒",
+          "url": "https://news.cnyes.com/news/id/6669257",
+          "source": "鉅亨",
+          "score": 0.48,
+          "side": "skip"
+        },
+        {
+          "title": "不甩升息預期！美債連漲5天將創今年最長紀錄 誰在逆勢買？",
+          "url": "https://news.cnyes.com/news/id/6669006",
+          "source": "鉅亨",
+          "score": 0.47,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "FX:JPY/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "日圓／台幣",
+      "price": 0.2057,
+      "change_pct": -0.438,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0,
+      "news_count": 0,
+      "fx_hint": "",
+      "news": []
+    },
+    {
+      "key": "FX:CNY/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "人民幣／台幣",
+      "price": 4.943,
+      "change_pct": -0.2804,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0.07,
+      "news_count": 2,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "亞太股市重挫迎「黑色星期五」 A股與台日韓無一倖免 AI概念股估值面臨重置",
+          "url": "https://news.cnyes.com/news/id/6669298",
+          "source": "鉅亨",
+          "score": 0.45,
+          "side": "long"
+        },
+        {
+          "title": "〈陸股盤後〉半導體股領跌 滬指險守3500點大關 連二日收黑",
+          "url": "https://news.cnyes.com/news/id/6668956",
+          "source": "鉅亨",
+          "score": 0.45,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "FX:EUR/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "歐元／台幣",
+      "price": 36.189,
+      "change_pct": 0.1646,
+      "decimals": 4,
+      "call": "neutral",
+      "net": -0.078,
+      "news_count": 2,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "IMF 警告：AI 強勁需求推升全球通膨 央行升息壓力恐延燒",
+          "url": "https://news.cnyes.com/news/id/6669257",
+          "source": "鉅亨",
+          "score": 0.48,
+          "side": "skip"
+        },
+        {
+          "title": "美股重點新聞摘要2026年11月20日",
+          "url": "https://news.cnyes.com/news/id/6667052",
+          "source": "鉅亨",
+          "score": 0.44,
+          "side": "skip"
+        }
+      ]
+    }
+  ],
+  "scorecard": {
+    "days": 30,
+    "horizon_hours": 24,
+    "graded": 159,
+    "long": {
+      "n": 65,
+      "hit": 14,
+      "avg": -3.2357
+    },
+    "short": {
+      "n": 33,
+      "hit": 31,
+      "avg": 4.4856
+    },
+    "skip": {
+      "n": 61,
+      "hit": 0
+    },
+    "base": {
+      "n": 159,
+      "hit": 32,
+      "avg": -3.3528
+    },
+    "kinds": {
+      "us": {
+        "n": 44,
+        "hit": 16
+      },
+      "index": {
+        "n": 23,
+        "hit": 6
+      },
+      "sector": {
+        "n": 67,
+        "hit": 14
+      },
+      "fx": {
+        "n": 25,
+        "hit": 9
+      }
+    },
+    "tokens": 163177,
+    "usd": 0.0049
+  },
+  "warnings": [],
+  "disclaimer": "非投資建議。偏多／偏空只代表 Kairos 依新聞判斷的方向，不考慮你的財務狀況；本流程不會下單。"
+}
