@@ -1,0 +1,513 @@
+{
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T07:00:57.278+08:00",
+  "edition": 13,
+  "headline": {
+    "title": "金管會強化禁空令 融券保證金調至150%",
+    "summary": "金管會宣布自 11 月 23 日起實施五項穩定股市措施，包含全面禁止平盤以下放空，並將上市櫃公司最低融券保證金成數由 130% 提高至 150%。同時，金管會暫停受理證券商申請發行認售權證上市櫃案件，以配合近期台股單週跌點創下歷史紀錄的市場狀況。",
+    "why": "監管單位介入市場並調整融資融券條件，直接影響機構投資策略與市場流動性。",
+    "importance": 5,
+    "source_name": "公視新聞",
+    "source_url": "https://news.pts.org.tw/article/836748",
+    "original_title": "金管會祭第3波限空令 23日起全面禁止平盤以下放空",
+    "original_lang": "zh",
+    "published_at": "2026-11-21T08:38:37.000Z",
+    "tags": [
+      "監管",
+      "台股"
+    ]
+  },
+  "brief": "金管會將融券保證金調升至150%以穩定台股，經濟部則預期明年電子業出口將突破1兆美元，反映產業界對AI基礎建設長期趨勢的信心。Anthropic研究員與Claude協作提出的黎曼猜想證明，展現AI在純數學領域的獨立貢獻，而川普揚言對海外AI資料中心課重稅，凸顯科技發展與資本流动的地緣政治衝突。",
+  "sections": [
+    {
+      "id": "ai",
+      "items": [
+        {
+          "title": "川普揚言課重稅禁止海外建 AI 資料中心",
+          "summary": "川普威脅對企業海外建蓋的 AI 資料中心課徵重稅，以阻止資本外流。調查顯示美國 75% 選民反對在自家附近設立大型資料中心，顯示政策執行面臨嚴峻的「鄰避效應」阻力。",
+          "why": "地緣政治因素已正式納入 AI 基礎建設的經濟模型，將顯著影響全球算力分佈與資本支出決策。",
+          "importance": 5,
+          "source_name": "INSIDE",
+          "source_url": "https://www.inside.com.tw/article/42975-trump-threatens-tax-us-companies-overseas-ai-data-centers",
+          "original_title": "川普揚言對海外 AI 資料中心課重稅，美國 75% 選民卻反對蓋在自家附近",
+          "original_lang": "zh",
+          "published_at": "2026-11-21T07:11:00.000Z",
+          "tags": [
+            "AI基礎建設",
+            "政策法規",
+            "數據中心"
+          ]
+        },
+        {
+          "title": "Claude 協作破解 167 年黎曼猜想",
+          "summary": "Anthropic 數學家與 Claude 協作，與人類數學家各自提出了一份黎曼猜想的證明。若這兩份證明均被學術界驗證，將標誌著 AI 在解決高難度純數學問題上具備獨立且可驗證的貢獻。",
+          "why": "展示了大模型在長期、複雜的邏輯推理任務中具備產出可驗證學術成果的潛力，超越一般程式碼生成。",
+          "importance": 4,
+          "source_name": "INSIDE",
+          "source_url": "https://www.inside.com.tw/article/42976-anthropic-claude-ai-riemann-hypothesis-proof",
+          "original_title": "Anthropic 數學家攜手 Claude 宣稱破解 167 年黎曼猜想，人類數學家也提出證明",
+          "original_lang": "zh",
+          "published_at": "2026-11-21T07:33:00.000Z",
+          "tags": [
+            "AI推理",
+            "數學研究",
+            "Claude"
+          ]
+        },
+        {
+          "title": "Nvidia 財報與高層變動敘事呈現分歧",
+          "summary": "Nvidia 最新財報顯示業績強勁，與部分科技主管公開呼籲前 CEO Jensen Huang 回歸的背景形成對比。兩份不同的市場敘事反映了投資人對 AI 硬體週期持續性的分歧看法。",
+          "why": "顯示 AI 晶片巨頭的股價表現與內部治理結構正解耦，投資人開始審視管理團隊穩定性對長期供給的影響。",
+          "importance": 4,
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+          "original_title": "A tale of two Nvidias",
+          "original_lang": "en",
+          "published_at": "2026-11-21T21:07:42.000Z",
+          "tags": [
+            "Nvidia",
+            "資本市場",
+            "AI晶片"
+          ]
+        },
+        {
+          "title": "Anthropic 上市後面臨商業與安全平衡試煉",
+          "summary": "Anthropic 週四在納斯達克上市，AI 基礎模型實驗室正式進入公開資本市場。The Verge 報導探討了該公司在追求商業規模化的同時，能否兼顧其承諾的 AI 安全優先原則。",
+          "why": "AI 實驗室上市將使其安全策略暴露在公開市場的法務與財務監管下，改變產業內的合規基準。",
+          "importance": 3,
+          "source_name": "The Verge AI",
+          "source_url": "https://www.theverge.com/podcast/1038701/anthropic-ipo-ai-safety-openai-nvidia-structure",
+          "original_title": "Can Anthropic afford to put safety first?",
+          "original_lang": "en",
+          "published_at": "2026-11-21T15:00:00.000Z",
+          "tags": [
+            "Anthropic",
+            "AI安全",
+            "資本市場"
+          ]
+        },
+        {
+          "title": "Signal 限制截圖功能對抗 AI 監控威脅",
+          "summary": "Signal 在 Android 與 iOS 應用程式中限制用戶截圖功能，官方指出是為應對 AI 監控帶來的「生存威脅」。此舉旨在防止惡意軟體利用截圖機制蒐集對話內容進行 AI 訓練或分析。",
+          "why": "即時通訊平台的隱私邊界正從人對人的隱私，擴展至對抗 AI 自動化監看的技術博弈。",
+          "importance": 3,
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/21/signal-restricts-mobile-screenshots-as-it-confronts-existential-threat-of-ai-surveillance/",
+          "original_title": "Signal restricts mobile screenshots as it confronts ‘existential threat’ of AI surveillance",
+          "original_lang": "en",
+          "published_at": "2026-11-21T21:37:10.000Z",
+          "tags": [
+            "隱私安全",
+            "Signal",
+            "AI監控"
+          ]
+        },
+        {
+          "title": "尼泊爾 19 家公立醫院導入開源電子病歷",
+          "summary": "尼泊爾有 19 家公立醫院導入以 OpenMRS 為基礎的開源電子病歷系統，採用 6 階段導入流程。系統支援跨科部查閱就醫紀錄與電子報表，覆蓋全國 7 省中的 6 省。",
+          "why": "展示開源方案在基礎設施較弱地區推動大型醫療數位化項目時的可行性與標準化路徑。",
+          "importance": 2,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180691",
+          "original_title": "尼泊爾揭19家公立醫院開源電子病歷導入經驗，採6階段流程、中央統一開發與更新",
+          "original_lang": "zh",
+          "published_at": "2026-11-21T02:11:15.000Z",
+          "tags": [
+            "醫療數位化",
+            "開源软件",
+            "電子病歷"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "items": [
+        {
+          "title": "Medtronic Hugo 手術機器人年內將突破 5 萬例臨床紀錄",
+          "summary": "Medtronic 的 Hugo 手術機器人系統預計在本財政年度底前完成逾 50,000 例累計手術。該數據顯示其在全球範圍內的臨床部署規模正顯著擴大。",
+          "why": "大量真實世界手術數據的累積，是驗證自動化醫療系統安全性與可靠度的關鍵基礎，對於生技領域的技術評估具有重要參考價值。",
+          "importance": 4,
+          "source_name": "The Robot Report",
+          "source_url": "https://www.therobotreport.com/medtronics-hugo-surgical-robot-ready-for-bigger-operation/",
+          "original_title": "Medtronic’s Hugo surgical robot ready for bigger operation",
+          "original_lang": "en",
+          "published_at": "2026-11-21T00:55:45.000Z",
+          "tags": [
+            "醫療機器人",
+            "臨床數據",
+            "醫療設備"
+          ]
+        },
+        {
+          "title": "工業數據缺口阻礙實體 AI 與自主機器人的可靠部署",
+          "summary": "製造業在部署自主機器人時，面臨工業數據收集、互操作性及品質回饋方面的重大缺口。解決這些問題是實現可靠決策和提升生產效率的關鍵。",
+          "why": "指出工業界在導入 AI 與機器人時的實際技術瓶頸，強調了高品質數據標準與互操作性對於自動化系統穩定性的實際影響。",
+          "importance": 3,
+          "source_name": "The Robot Report",
+          "source_url": "https://www.therobotreport.com/the-manufacturing-data-gap-holding-back-physical-ai/",
+          "original_title": "The manufacturing data gap holding back physical AI",
+          "original_lang": "en",
+          "published_at": "2026-11-21T22:25:35.000Z",
+          "tags": [
+            "工業自動化",
+            "物理 AI",
+            "數據互操作性"
+          ]
+        },
+        {
+          "title": "利用 Lean 完成黎曼猜想的形式化驗證",
+          "summary": "Lean 證明社群宣布利用 Lean 驗證了黎曼猜想（Riemann Hypothesis）。這是一項在形式化數學領域的重大進展，涉及使用機器可驗證的代碼來處理複雜數學定理。",
+          "why": "形式化驗證技術在確保軟體與硬體邏輯正確性上的應用日益受到重視，此舉展示了 AI 輔助數學推理在嚴謹性上的實際應用潛力。",
+          "importance": 3,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://leanprover-community.github.io/blog/posts/riemann-hypothesis/",
+          "original_title": "Lean verification of the Riemann Hypothesis",
+          "original_lang": "en",
+          "published_at": "2026-11-21T14:36:45.000Z",
+          "tags": [
+            "形式化驗證",
+            "Lean 證明",
+            "數學基礎"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "items": [
+        {
+          "title": "FDA 因數據誠信問題二度拒絕杜氏肌細胞療法",
+          "summary": "美國食品藥物管理局（FDA）再次拒絕核准 Capricor Therapeutics 針對杜氏肌營養不良症（Duchenne muscular dystrophy）的細胞療法 deramiocel。FDA 指出該公司存在嚴重的數據誠信違規行為，導致其研究結果受到影響。",
+          "why": "高層次的監管標準變化將直接影響生物科技公司在臨床試驗中的數據管理與合規策略。",
+          "importance": 4,
+          "source_name": "BioPharma Dive",
+          "source_url": "https://www.biopharmadive.com/news/capricor-fda-duchenne-cell-therapy-deramiocel/875384/",
+          "original_title": "FDA again turns back Capricor Duchenne cell therapy",
+          "original_lang": "en",
+          "published_at": "2026-11-21T20:46:00.000Z",
+          "tags": [
+            "細胞療法",
+            "FDA",
+            "數據誠信"
+          ]
+        },
+        {
+          "title": "280 萬人基因分析發現 48 個阿茲海默症風險區域",
+          "summary": "荷蘭阿姆斯特丹自由大學主導的阿茲海默症基因關聯研究分析約 280 萬人的基因資料。研究首度找到 48 個新的風險基因區域，提供了疾病遺傳機制的新線索。",
+          "why": "大規模基因數據分析有助於精確定位致病變異，提升早期篩檢與藥物研發的準確度。",
+          "importance": 3,
+          "source_name": "科技新報 生技",
+          "source_url": "https://technews.tw/2026/11/22/massive-study-of-2-8-million-people-reveals-new-secrets-of-alzheimers-disease/",
+          "original_title": "280 萬人基因分析揭阿茲海默症新線索，48 個風險區域首度現身",
+          "original_lang": "zh",
+          "published_at": "2026-11-21T16:00:05.000Z",
+          "tags": [
+            "基因研究",
+            "阿茲海默症",
+            "大型队列"
+          ]
+        },
+        {
+          "title": "新研究推翻關鍵基因突變受保護的演化理論",
+          "summary": "針對細菌和酵母進行的大規模突變分析顯示，進化過程並未特別保護核心關鍵基因免受突變影響。研究推測先前研究因有害突變經自然選擇清除而無法被偵測到，導致對理論的誤判。",
+          "why": "修正核心演化生物學理論有助於重新評估基因功能重要性與突變率計算模型。",
+          "importance": 3,
+          "source_name": "ScienceDaily Biotechnology",
+          "source_url": "https://www.sciencedaily.com/releases/2026/11/261119194538.htm",
+          "original_title": "A 50-year-old theory about evolution may have been wrong all along",
+          "original_lang": "en",
+          "published_at": "2026-11-21T14:06:15.000Z",
+          "tags": [
+            "演化生物學",
+            "基因突變",
+            "關鍵基因"
+          ]
+        },
+        {
+          "title": "麻州大學開發生物混合採集器供電植入式醫材",
+          "summary": "麻州大學研發出生物混合網狀採集器，旨在利用細胞作為植入式醫療器材的電源。目前植入式器材如心律調節器電池平均壽命約 5 至 15 年，此技術提供替代方案。",
+          "why": "長效能生物能源解決方案可改善植入式器材的使用壽命與患者維護體驗。",
+          "importance": 2,
+          "source_name": "科技新報 生技",
+          "source_url": "https://technews.tw/2026/11/21/energy-harvesting-mesh-could-replace-batteries-in-implantable-medical-devices/",
+          "original_title": "麻州大學研發生物混合網狀採集器，讓細胞成為植入式醫材的電源",
+          "original_lang": "zh",
+          "published_at": "2026-11-21T02:30:43.000Z",
+          "tags": [
+            "生物感測",
+            "植入式醫療",
+            "能源供應"
+          ]
+        },
+        {
+          "title": "衛福部推國際檢驗編碼標準減少跨院重複檢查",
+          "summary": "衛福部與醫檢學會合作推動國際檢驗編碼標準，建立跨院互通的檢驗數據身份證機制。此舉讓不同醫院與儀器的檢驗結果能用統一的「語言」交換，減少因代碼差異導致的重複檢查。",
+          "why": "標準化數據交換將大幅降低醫療體系內的冗餘成本並提升診斷效率。",
+          "importance": 2,
+          "source_name": "中央社 生活健康",
+          "source_url": "https://www.cna.com.tw/news/ahel/202611210165.aspx",
+          "original_title": "衛福部推檢驗數據身分證 跨院互通減少重複檢查",
+          "original_lang": "zh",
+          "published_at": "2026-11-21T09:31:55.000Z",
+          "tags": [
+            "醫療標準",
+            "數據互通",
+            "檢驗醫學"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "items": [
+        {
+          "title": "經濟部：電子業對前景有信心 明年出口望破兆",
+          "summary": "經濟部表示，儘管近期費半指數重挫，半導體及電子業者對產業前景仍具信心，認為 AI 基礎建設長期趨勢不變。該部門徵詢八大工商團體後指出，目前股市波動尚未對企業接單及營運造成實質影響，預估明年出口有望突破 1 兆美元。",
+          "why": "官方評估顯示 AI 資本支出與供應鏈信心未受股市波動重創，提供產業基本面數據參考。",
+          "importance": 4,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611210139.aspx",
+          "original_title": "經濟部：電子業對前景仍具信心 明年出口有望破兆美元",
+          "original_lang": "zh",
+          "published_at": "2026-11-21T08:50:58.000Z",
+          "tags": [
+            "半導體",
+            "AI產業"
+          ]
+        },
+        {
+          "title": "NGINX修補高風險漏洞 資安署籲儘速升級",
+          "summary": "資安署提醒，全球廣泛使用的網頁伺服器 NGINX 近日發布重大安全更新，修補 2 項涉及 HTTP/2 通訊協定的嚴重遠端程式碼執行漏洞。漏洞嚴重度評分高達 9.2 分，攻擊者可在未經身分驗證下利用漏洞取得伺服器權限，企業需儘速升級。",
+          "why": "高嚴重度漏洞可能導致未經授權的遠端程式碼執行，對依赖 Web 伺服器基礎架構的企業構成直接風險。",
+          "importance": 4,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/ait/202611210071.aspx",
+          "original_title": "NGINX釋重大安全更新 資安署籲儘速升級防範入侵",
+          "original_lang": "zh",
+          "published_at": "2026-11-21T03:51:25.000Z",
+          "tags": [
+            "資安",
+            "伺服器"
+          ]
+        },
+        {
+          "title": "公股銀行挺中小微企業 前10月放款餘額6.27兆",
+          "summary": "財政部指出，今年前 10 月公股銀行對中小微企業放款總餘額達新台幣 6.27 兆元，較去年同期增加 3,690 億元。此外，總額度 3 兆元的中小暨微型企業振興融資方案，截至 10 月底核貸金額達 2.54 兆元，受惠廠商逾 18.7 萬戶。",
+          "why": "顯示政府通過金融體系為中小企業提供具體資金支援的規模與成效。",
+          "importance": 3,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611210179.aspx",
+          "original_title": "公股銀行挺中小微企業 前10月放款餘額達6.27兆元",
+          "original_lang": "zh",
+          "published_at": "2026-11-21T10:08:28.000Z",
+          "tags": [
+            "金融",
+            "中小企業"
+          ]
+        },
+        {
+          "title": "調查：4成中小學生每週用AI 老師難辨AI產出",
+          "summary": "台中教育大學團隊在國際研討會指出，台灣約 4 成中小學生每週至少 1 次使用 AI 協助學習。56% 的老師認為難以分辨學生能力與 AI 產出，而 97.25% 的老師曾與 AI 協作，近 9 成目的是為了教學準備與教材產出。",
+          "why": "提供 AI 在基础教育階段滲透率的量化數據，反映工具使用對評估標準的挑戰。",
+          "importance": 3,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/836750",
+          "original_title": "調查：4成中小學生每週用AI 協助解題、理解內容",
+          "original_lang": "zh",
+          "published_at": "2026-11-21T11:55:45.000Z",
+          "tags": [
+            "教育",
+            "AI應用"
+          ]
+        },
+        {
+          "title": "軟銀曾探詢1兆美元收購SK海力士 已放棄",
+          "summary": "美國媒體引述知情人士說法，日本軟銀集團創辦人孫正義曾接洽華爾街機構，探詢為收購韓國半導體大廠 SK 海力士進行融資，金額可能達到 1 兆美元。目前軟銀已表示不再考慮此項收購案。",
+          "why": "顯示大型記憶體晶片廠商潛在的巨大企業價值與市場併購動向。",
+          "importance": 3,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611210191.aspx",
+          "original_title": "美媒：軟銀曾探詢1兆美元收購SK海力士 但不再考慮",
+          "original_lang": "zh",
+          "published_at": "2026-11-21T11:27:55.000Z",
+          "tags": [
+            "併購",
+            "記憶體"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "title": "聯合國自主武器談判未達法律約束力結論",
+          "summary": "聯合國在日內瓦就自主武器問題舉行談判，未能達成具有法律約束力的規則。人道主義團體警告，軍事AI的發展速度遠超外交進度，最終雙方僅同意將討論期延長兩年。",
+          "why": "缺乏明確的法律約束可能導致軍事AI技術在缺乏國際監管的情況下快速擴散，影響未來戰場安全標準。",
+          "importance": 4,
+          "source_name": "NPR World",
+          "source_url": "https://www.npr.org/2026/11/21/nx-s1-6047916/killer-robots-un-drones",
+          "original_title": "Killer robots: U.N. talks fall short of hopes for legally binding rules",
+          "original_lang": "en",
+          "published_at": "2026-11-21T14:18:17.000Z",
+          "tags": [
+            "自主武器",
+            "AI監管",
+            "聯合國"
+          ]
+        },
+        {
+          "title": "FBI與美國農業部資料庫疑似遭駭",
+          "summary": "FBI正在調查其犯罪資料庫疑似遭駭客入侵的事件，該資料庫由聯邦和地方法律執行機關共用以分享資訊。近期美國農業部（USDA）也被報導遭入侵，幕後黑手身分待查。",
+          "why": "核心政府資料庫的連串資安事件凸顯關鍵基礎設施在面對網路攻擊時的脆弱性，引發對數據安全的廣泛擔憂。",
+          "importance": 3,
+          "source_name": "BBC World",
+          "source_url": "https://www.bbc.co.uk/news/articles/cvze7de86pk3o?at_medium=RSS&at_campaign=rss",
+          "original_title": "FBI reportedly investigating apparent hack of its criminal database",
+          "original_lang": "en",
+          "published_at": "2026-11-21T16:35:15.000Z",
+          "tags": [
+            "資安事件",
+            "美國政府",
+            "資料外洩"
+          ]
+        },
+        {
+          "title": "Anthropic研究人員稱利用AI證明黎曼假設",
+          "summary": "Anthropic公司的一位數學家稱，他使用AI工具證明瞭著名的黎曼假設。該聲明指出驗證過程將需要一定時間，目前尚未有獨立的數學界驗證結果。",
+          "why": "若該證明經受住同行評審的驗證，將標誌著AI在解決複雜純數學問題上取得重大突破，改變學術研究範式。",
+          "importance": 3,
+          "source_name": "BBC World",
+          "source_url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o?at_medium=RSS&at_campaign=rss",
+          "original_title": "In a year of AI solving maths problems, an Anthropic worker says he may have cracked the biggest",
+          "original_lang": "en",
+          "published_at": "2026-11-20T23:08:57.000Z",
+          "tags": [
+            "AI研究",
+            "數學",
+            "黎曼假設"
+          ]
+        },
+        {
+          "title": "歐盟擬對高營收科技企業課稅補預算",
+          "summary": "歐盟提案對境內年營收至少5000萬歐元的全球科技巨擘課稅，以籌措下一個財政年度的預算財源。此舉旨在化解成員國之間對於歐盟長期預算規劃的分歧。",
+          "why": "新稅制若實施，將直接影響大型科技公司在歐洲市場的淨利，並可能重塑歐盟的財源結構與科技監管框架。",
+          "importance": 2,
+          "source_name": "中央社 國際",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611210220.aspx",
+          "original_title": "歐盟提案擬課稅科技巨擘 鎖定境內年營收至少5000萬歐元業者",
+          "original_lang": "zh",
+          "published_at": "2026-11-21T14:04:01.000Z",
+          "tags": [
+            "歐盟",
+            "稅制改革",
+            "科技產業"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "items": [
+        {
+          "title": "阿仙奴平紐卡斯爾，積分領先六分",
+          "summary": "阿仙奴在新卡斯域球場與紐卡斯爾2比2平手，莫德克下半場建功。阿仙奴藉此積分領先英超龍頭，比第二名多六分。",
+          "why": "積分差距擴大反映阿仙奴在聯賽的持續穩定表現，影響季末冠軍爭奪格局。",
+          "importance": 5,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/football/videos/cm702zzl66l6o?at_medium=RSS&at_campaign=rss",
+          "original_title": "Arsenal go six points clear after lively draw at Newcastle",
+          "original_lang": "en",
+          "published_at": "2026-11-21T19:59:35.000Z",
+          "tags": [
+            "英超",
+            "阿仙奴"
+          ]
+        },
+        {
+          "title": "利茲聯27年後首勝祖魯，躍居第六",
+          "summary": "利茲聯以4比1在史丹福橋擊敗祖魯，諾亞奧卡弗攻入兩球。這是利茲聯自1999年後首次在該地取勝，球隊積分上升至英超第六。",
+          "why": "打破長期客場劣勢，提升利茲聯聯賽排名與球迷信心。",
+          "importance": 5,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/football/videos/c3ewvkk4qgxjo?at_medium=RSS&at_campaign=rss",
+          "original_title": "Leeds dominate Chelsea for first Stamford Bridge win since 1999",
+          "original_lang": "en",
+          "published_at": "2026-11-21T19:59:13.000Z",
+          "tags": [
+            "英超",
+            "利茲聯"
+          ]
+        },
+        {
+          "title": "伊寧簽下8年9500萬延長約",
+          "summary": "馬雲士頓後衛伊寧與球團簽下8年、9500萬美元延長合約。此交易由可靠消息人士證實，為球團長期建隊策略的一部分。",
+          "why": "鎖定核心球員多年，反映球隊財務健康與競爭長期規劃。",
+          "importance": 4,
+          "source_name": "MLB.com",
+          "source_url": "https://www.mlb.com/news/a-j-ewing-contract-extension-mets",
+          "original_title": "Ewing agrees to 8-year, $95 million extension with Mets (source)",
+          "original_lang": "en",
+          "published_at": "2026-11-21T19:08:00.000Z",
+          "tags": [
+            "MLB",
+            "馬雲士頓"
+          ]
+        },
+        {
+          "title": "道奇隊從雙城隊交易劉易斯",
+          "summary": "道奇隊從雙城隊取得內野手勞伊絲劉易斯。此交易將影響雙方內野配置與未來陣容深度。",
+          "why": "關鍵球員移動可能改變兩隊未來季後的戰力與市場價值。",
+          "importance": 4,
+          "source_name": "MLB.com",
+          "source_url": "https://www.mlb.com/news/royce-lewis-dodgers-twins-trade",
+          "original_title": "Dodgers acquire INF Royce Lewis from Twins",
+          "original_lang": "en",
+          "published_at": "2026-11-21T02:31:00.000Z",
+          "tags": [
+            "MLB",
+            "道奇隊"
+          ]
+        },
+        {
+          "title": "日本冬季聯盟開打，台灣5將參戰",
+          "summary": "2026日本冬季聯盟於沖繩開打，17國逾150名選手參與，台灣隊有5名球員參賽。中華職棒統一獅總教練林岳平也將到場觀賽。",
+          "why": "提供台灣選手國際演練平台，並由職棒總教練關注，影響球員技術交流與發展。",
+          "importance": 4,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611210193.aspx",
+          "original_title": "日本冬季聯盟台灣5球員參賽 獅隊教頭林岳平將到場",
+          "original_lang": "zh",
+          "published_at": "2026-11-21T11:41:59.000Z",
+          "tags": [
+            "棒壇",
+            "JWL"
+          ]
+        },
+        {
+          "title": "台灣身障棒球賽中止5連敗",
+          "summary": "2026世界身障棒球賽台灣隊以4比2擊敗波多黎各，中止跨屆5連敗紀錄。本屆最年長選手65歲的郭耀宗參與比賽，並獲得家人到場支持。",
+          "why": "終止長期連敗反映戰術調整成效，並凸顯高齡選手在國際賽事的貢獻與社會正向影響。",
+          "importance": 3,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611210209.aspx",
+          "original_title": "世界身障棒球賽台灣中止跨屆5連敗 65歲郭耀宗是家人驕傲",
+          "original_lang": "zh",
+          "published_at": "2026-11-21T13:17:35.000Z",
+          "tags": [
+            "身障棒球",
+            "台灣隊"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "feeds": 39,
+    "fetched": 3050,
+    "kept": 30,
+    "jev_cost_usd": 0.003747,
+    "llm_cost_usd": 0.00118
+  }
+}
