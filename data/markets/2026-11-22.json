@@ -1,0 +1,405 @@
+{
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T06:41:10.429+08:00",
+  "us_market_date": "2026-11-20",
+  "market_date": "2026-11-20",
+  "sector_mode": "turnover",
+  "sector_note": "依證交所 11/20 成交值×漲跌幅挑前 3",
+  "counts": {
+    "bull": 0,
+    "bear": 0,
+    "neutral": 12
+  },
+  "items": [
+    {
+      "key": "US:^GSPC",
+      "kind": "us",
+      "market": "US",
+      "name": "S&P 500",
+      "price": 6910.39,
+      "change_pct": -3.6991,
+      "decimals": 2,
+      "call": "neutral",
+      "net": -0.062,
+      "news_count": 3,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "The S&P 500 Is Having the Longest Losing Streak Since February 2020",
+          "url": "https://247wallst.com/investing/2026/11/21/the-sp-500-is-having-the-longest-losing-streak-since-february-2020/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.99,
+          "side": "short"
+        },
+        {
+          "title": "The S&P 500 Is Now Below Every Wall Street Year-End Target for 2026",
+          "url": "https://247wallst.com/investing/2026/11/21/the-sp-500-is-now-below-every-wall-street-year-end-target-for-2026/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.97,
+          "side": "skip"
+        },
+        {
+          "title": "The S&P 500 Heads Into Thanksgiving Below Its Peak. Here's How the Holiday Week Has Usually Gone Since 1950.",
+          "url": "https://www.fool.com/investing/2026/11/21/the-s-and-p-500-heads-into-thanksgiving-below-its-peak-here-s-how-the-holiday-week-has-usually-gone-since-1950/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.96,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "US:^IXIC",
+      "kind": "us",
+      "market": "US",
+      "name": "那斯達克",
+      "price": 22617.732,
+      "change_pct": -5.2827,
+      "decimals": 2,
+      "call": "neutral",
+      "net": -0.036,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "What just happened to tech stocks?",
+          "url": "https://finance.yahoo.com/markets/article/what-just-happened-to-tech-stocks-162354774.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.98,
+          "side": "short"
+        },
+        {
+          "title": "The Nasdaq Just Triggered a Correction. 1 Move I'm Making Right Now -- and 1 I'm Avoiding",
+          "url": "https://www.fool.com/investing/2026/11/21/the-nasdaq-just-triggered-a-correction-1-move-im-making-right-now-and-1-im-avoiding/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.97,
+          "side": "skip"
+        },
+        {
+          "title": "AI Selloff Has Opened New Ways To Play Semiconductor Short Exposure",
+          "url": "https://finance.yahoo.com/technology/ai/articles/ai-selloff-opened-ways-play-211024484.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.94,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "US:^DJI",
+      "kind": "us",
+      "market": "US",
+      "name": "道瓊",
+      "price": 48147.33,
+      "change_pct": -1.9344,
+      "decimals": 2,
+      "call": "neutral",
+      "net": 0.092,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "The Dow Jones Did Something It Hasn’t Done Since October 2008",
+          "url": "https://247wallst.com/investing/2026/11/21/the-dow-jones-did-something-it-hasnt-done-since-october-2008/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.99,
+          "side": "skip"
+        },
+        {
+          "title": "The Stock Market Just Had Its Worst Week of 2026. Here's Why Long-Term Investors Shouldn't Flinch.",
+          "url": "https://www.fool.com/investing/2026/11/21/stock-market-had-worst-week-2026-why-long-term-investors-shouldnt-flinch/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.8,
+          "side": "skip"
+        },
+        {
+          "title": "3 AI Infrastructure Stocks With Up To 68% Revenue Growth",
+          "url": "https://finance.yahoo.com/technology/ai/articles/3-ai-infrastructure-stocks-68-081341637.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.29,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "US:^SOX",
+      "kind": "us",
+      "market": "US",
+      "name": "費城半導體",
+      "price": 8408.591,
+      "change_pct": -10.7342,
+      "decimals": 2,
+      "call": "neutral",
+      "net": 0.249,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "Chip Stocks are Now Repeating What Happened in 2001",
+          "url": "https://247wallst.com/investing/2026/11/21/chip-stocks-are-now-repeating-what-happened-in-2001/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.99,
+          "side": "long"
+        },
+        {
+          "title": "費半狂殺10.73%、輝達血崩14%！台股週一剉咧等 金管會緊急再開大絕全面鎖空",
+          "url": "https://tw.news.yahoo.com/%E8%B2%BB%E5%8D%8A%E7%8B%82%E6%AE%BA10-73-%E8%BC%9D%E9%81%94%E8%A1%80%E5%B4%A914-%E5%8F%B0%E8%82%A1%E9%80%B1-%E5%89%89%E5%92%A7%E7%AD%89-115500654.html",
+          "source": "Yahoo奇摩",
+          "score": 0.97,
+          "side": "long"
+        },
+        {
+          "title": "美國公開中國AI晶片採購清單！344萬顆輝達、AMD晶片申請僅88萬顆獲准",
+          "url": "https://news.cnyes.com/news/id/6669713",
+          "source": "鉅亨",
+          "score": 0.84,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "IDX:^TWII",
+      "kind": "index",
+      "market": "TW",
+      "name": "加權指數",
+      "price": 36033.29,
+      "change_pct": -6.23,
+      "decimals": 2,
+      "call": "neutral",
+      "net": 0.173,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "大盤短線超跌 六大名師教你看台股中長期價值",
+          "url": "https://tw.news.yahoo.com/%E5%A4%A7%E7%9B%A4%E7%9F%AD%E7%B7%9A%E8%B6%85%E8%B7%8C-%E5%85%AD%E5%A4%A7%E5%90%8D%E5%B8%AB%E6%95%99%E4%BD%A0%E7%9C%8B%E5%8F%B0%E8%82%A1%E4%B8%AD%E9%95%B7%E6%9C%9F%E5%83%B9%E5%80%BC-221840814.html",
+          "source": "Yahoo奇摩",
+          "score": 0.99,
+          "side": "long"
+        },
+        {
+          "title": "法人：台股賣壓未消退 恐再下探",
+          "url": "https://tw.news.yahoo.com/%E6%B3%95%E4%BA%BA-%E5%8F%B0%E8%82%A1%E8%B3%A3%E5%A3%93%E6%9C%AA%E6%B6%88%E9%80%80-%E6%81%90%E5%86%8D%E4%B8%8B%E6%8E%A2-221840773.html",
+          "source": "Yahoo奇摩",
+          "score": 0.99,
+          "side": "short"
+        },
+        {
+          "title": "一個月暴跌1.4萬點！台股重挫28% 外資公股同買這16檔",
+          "url": "https://tw.news.yahoo.com/%E5%80%8B%E6%9C%88%E6%9A%B4%E8%B7%8C1-4%E8%90%AC%E9%BB%9E-%E5%8F%B0%E8%82%A1%E9%87%8D%E6%8C%AB28-%E5%A4%96%E8%B3%87%E5%85%AC%E8%82%A1%E5%90%8C%E8%B2%B7%E9%80%9916%E6%AA%94-122157969.html",
+          "source": "Yahoo奇摩",
+          "score": 0.99,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "SEC:半導體",
+      "kind": "sector",
+      "market": "TW",
+      "name": "半導體",
+      "price": 1230.73,
+      "change_pct": -5.82,
+      "decimals": 2,
+      "call": "neutral",
+      "net": 0.048,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "台積電周線重挫15.8%！台股創36年最慘單周紀錄、美收緊AI晶片出口管制添壓",
+          "url": "https://news.cnyes.com/news/id/6669709",
+          "source": "鉅亨",
+          "score": 0.97,
+          "side": "skip"
+        },
+        {
+          "title": "聯發科跌停背後有隱憂？美外資點出「2關鍵因素」 估今年EPS達73元、最新目標價曝光",
+          "url": "https://tw.stock.yahoo.com/news/%E8%81%AF%E7%99%BC%E7%A7%91%E8%B7%8C%E5%81%9C%E8%83%8C%E5%BE%8C%E6%9C%89%E9%9A%B1%E6%86%82-%E7%BE%8E%E5%A4%96%E8%B3%87%E9%BB%9E%E5%87%BA-2%E9%97%9C%E9%8D%B5%E5%9B%A0%E7%B4%A0-%E4%BC%B0%E4%BB%8A%E5%B9%B4eps%E9%81%9473%E5%85%83-%E6%9C%80%E6%96%B0%E7%9B%AE%E6%A8%99%E5%83%B9%E6%9B%9D%E5%85%89-105000557.html",
+          "source": "Yahoo奇摩",
+          "score": 0.97,
+          "side": "long"
+        },
+        {
+          "title": "做空AI交易開始獲利了結？ 《大賣空》貝瑞減半輝達、半導體ETF看跌期權",
+          "url": "https://news.cnyes.com/news/id/6669719",
+          "source": "鉅亨",
+          "score": 0.43,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "SEC:電子零組件",
+      "kind": "sector",
+      "market": "TW",
+      "name": "電子零組件",
+      "price": 507.82,
+      "change_pct": -9.51,
+      "decimals": 2,
+      "call": "neutral",
+      "net": 0,
+      "news_count": 0,
+      "fx_hint": "",
+      "news": []
+    },
+    {
+      "key": "SEC:AI 伺服器／電子代工",
+      "kind": "sector",
+      "market": "TW",
+      "name": "AI 伺服器／電子代工",
+      "price": 325.87,
+      "change_pct": -6.41,
+      "decimals": 2,
+      "call": "neutral",
+      "net": -0.058,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "伺服器CPU砍單傳聞遭誇大！廣發：微軟訂單未變 Meta調整採購組合",
+          "url": "https://news.cnyes.com/news/id/6669650",
+          "source": "鉅亨",
+          "score": 0.75,
+          "side": "skip"
+        },
+        {
+          "title": "做空AI交易開始獲利了結？ 《大賣空》貝瑞減半輝達、半導體ETF看跌期權",
+          "url": "https://news.cnyes.com/news/id/6669719",
+          "source": "鉅亨",
+          "score": 0.46,
+          "side": "long"
+        },
+        {
+          "title": "黃仁勳可能轉投英特爾？華爾街憂帶走輝達核心人才",
+          "url": "https://news.cnyes.com/news/id/6669741",
+          "source": "鉅亨",
+          "score": 0.42,
+          "side": "short"
+        }
+      ]
+    },
+    {
+      "key": "FX:USD/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "美元／台幣",
+      "price": 32.958,
+      "change_pct": 0.0853,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0.043,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "美銀：標普跌破7000點可買入 但市場低估「硬著陸」風險",
+          "url": "https://news.cnyes.com/news/id/6669653",
+          "source": "鉅亨",
+          "score": 0.47,
+          "side": "skip"
+        },
+        {
+          "title": "全球公債殖利率急跌！AI股重挫掀避險潮 美債連五日走低",
+          "url": "https://news.cnyes.com/news/id/6669652",
+          "source": "鉅亨",
+          "score": 0.47,
+          "side": "skip"
+        },
+        {
+          "title": "台股震盪！政院召集金管會、央行、證交所開會 卓榮泰下4裁示：提出穩定市場措施",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%9C%87%E7%9B%AA-%E6%94%BF%E9%99%A2%E5%8F%AC%E9%9B%86%E9%87%91%E7%AE%A1%E6%9C%83-%E5%A4%AE%E8%A1%8C-%E8%AD%89%E4%BA%A4%E6%89%80%E9%96%8B%E6%9C%83-%E5%8D%93%E6%A6%AE%E6%B3%B0%E4%B8%8B4%E8%A3%81%E7%A4%BA-083647329.html",
+          "source": "Yahoo奇摩",
+          "score": 0.45,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "FX:JPY/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "日圓／台幣",
+      "price": 0.2057,
+      "change_pct": -0.438,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0,
+      "news_count": 0,
+      "fx_hint": "",
+      "news": []
+    },
+    {
+      "key": "FX:CNY/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "人民幣／台幣",
+      "price": 4.943,
+      "change_pct": -0.2804,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0,
+      "news_count": 0,
+      "fx_hint": "",
+      "news": []
+    },
+    {
+      "key": "FX:EUR/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "歐元／台幣",
+      "price": 36.189,
+      "change_pct": 0.1646,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0,
+      "news_count": 0,
+      "fx_hint": "",
+      "news": []
+    }
+  ],
+  "scorecard": {
+    "days": 30,
+    "horizon_hours": 24,
+    "graded": 161,
+    "long": {
+      "n": 66,
+      "hit": 14,
+      "avg": -3.1867
+    },
+    "short": {
+      "n": 33,
+      "hit": 31,
+      "avg": 4.4856
+    },
+    "skip": {
+      "n": 62,
+      "hit": 1
+    },
+    "base": {
+      "n": 161,
+      "hit": 32,
+      "avg": -3.3112
+    },
+    "kinds": {
+      "us": {
+        "n": 44,
+        "hit": 16
+      },
+      "index": {
+        "n": 23,
+        "hit": 6
+      },
+      "sector": {
+        "n": 67,
+        "hit": 14
+      },
+      "fx": {
+        "n": 27,
+        "hit": 10
+      }
+    },
+    "tokens": 184125,
+    "usd": 0.0055
+  },
+  "warnings": [],
+  "disclaimer": "非投資建議。偏多／偏空只代表 Kairos 依新聞判斷的方向，不考慮你的財務狀況；本流程不會下單。"
+}
