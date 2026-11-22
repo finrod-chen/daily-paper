@@ -1,0 +1,398 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T06:41:08.301+08:00",
+  "us_market_date": "2026-11-20",
+  "market_date": "2026-11-20",
+  "sector_mode": "turnover",
+  "sector_note": "依證交所 11/20 成交值×漲跌幅挑前 3",
+  "counts": {
+    "bull": 2,
+    "bear": 0,
+    "neutral": 10
+  },
+  "items": [
+    {
+      "key": "US:^GSPC",
+      "kind": "us",
+      "market": "US",
+      "name": "S&P 500",
+      "price": 6910.39,
+      "change_pct": -3.6991,
+      "decimals": 2,
+      "call": "neutral",
+      "net": 0.23,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "Stock market correction? Whatever — Wall Street is bullish on 2027, and one chief investment officer sees the S&P 500 soaring 45% to 10,000",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-correction-whatever-wall-000217549.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.95,
+          "side": "skip"
+        },
+        {
+          "title": "The S&P 500 and Dow Jones Are Dangerously Close to Joining the Nasdaq in a Correction. Here’s the Level That Would Put the Nasdaq in a Bear Market, and What History Says Investors Should Do During a Stock Market Crash.",
+          "url": "https://www.fool.com/investing/2026/11/22/the-s-and-p-500-and-dow-jones-are-dangerously-close-to-joining-the-nasdaq-in-a-correction-here-s-the-level-that-would-put-the-nasdaq-in-a-bear-market-and-what-history-says-investors-should-do-during-a/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.95,
+          "side": "skip"
+        },
+        {
+          "title": "How exposed is the S&P 500 to an AI trade bust?",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/exposed-p-500-ai-trade-211253614.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.92,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "US:^IXIC",
+      "kind": "us",
+      "market": "US",
+      "name": "那斯達克",
+      "price": 22617.732,
+      "change_pct": -5.2827,
+      "decimals": 2,
+      "call": "neutral",
+      "net": 0.07,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "GPU prices are rising for Nvidia's older chips even as the stock keeps going down: Chart of the Day",
+          "url": "https://finance.yahoo.com/markets/article/gpu-prices-are-rising-for-nvidias-older-chips-even-as-the-stock-keeps-going-down-chart-of-the-day-123721121.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.95,
+          "side": "short"
+        },
+        {
+          "title": "Jason Calacanis Will “Catch Every Knife” With SpaceX, Tesla and Google. Only Some Are Cheap",
+          "url": "https://www.tikr.com/blog/jason-calacanis-will-catch-every-knife-with-spacex-tesla-and-google-only-some-are-cheap?ref=yahoofinance&tlnk=yf-261122-4rm83mgv&.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.92,
+          "side": "long"
+        },
+        {
+          "title": "SOXX and DRAM Are Down Between 35.6% and 51.9% From Their Highs. Here’s an Even Better Growth Stock ETF to Buy During the Nasdaq Correction.",
+          "url": "https://www.fool.com/investing/2026/11/22/soxx-and-dram-are-down-between-35-6-and-51-9-from-their-highs-here-s-an-even-better-growth-stock-etf-to-buy-during-the-nasdaq-correction/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.73,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "US:^DJI",
+      "kind": "us",
+      "market": "US",
+      "name": "道瓊",
+      "price": 48147.33,
+      "change_pct": -1.9344,
+      "decimals": 2,
+      "call": "neutral",
+      "net": -0.133,
+      "news_count": 3,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "The S&P 500 and Dow Jones Are Dangerously Close to Joining the Nasdaq in a Correction. Here’s the Level That Would Put the Nasdaq in a Bear Market, and What History Says Investors Should Do During a Stock Market Crash.",
+          "url": "https://www.fool.com/investing/2026/11/22/the-s-and-p-500-and-dow-jones-are-dangerously-close-to-joining-the-nasdaq-in-a-correction-here-s-the-level-that-would-put-the-nasdaq-in-a-bear-market-and-what-history-says-investors-should-do-during-a/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.88,
+          "side": "skip"
+        },
+        {
+          "title": "Is a Stock Market Crash Imminent for the AI-Driven Trump Bull Market? History Weighs In With an Unpleasant Answer.",
+          "url": "https://www.fool.com/investing/2026/11/22/is-stock-market-crash-imminent-for-ai-driven-trump-bull-market-history-weighs-in-unpleasant-answer/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.77,
+          "side": "skip"
+        },
+        {
+          "title": "Stock market correction? Whatever — Wall Street is bullish on 2027, and one chief investment officer sees the S&P 500 soaring 45% to 10,000",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/stock-market-correction-whatever-wall-000217549.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.26,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "US:^SOX",
+      "kind": "us",
+      "market": "US",
+      "name": "費城半導體",
+      "price": 8408.591,
+      "change_pct": -10.7342,
+      "decimals": 2,
+      "call": "neutral",
+      "net": 0.06,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "OpenAI’s Greg Brockman: AI Delivered “Roughly an Additional Year of Progress” on AMD’s Chip in Under 5 Months",
+          "url": "https://www.tikr.com/blog/openais-greg-brockman-ai-delivered-roughly-an-additional-year-of-progress-on-amds-chip-in-under-5-months?ref=yahoofinance&tlnk=yf-261122-2vm39c6q&.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.93,
+          "side": "long"
+        },
+        {
+          "title": "輝達換帥＋AI融資急凍 華爾街開始重新定價「Fed鷹派邏輯」",
+          "url": "https://news.cnyes.com/news/id/6669878",
+          "source": "鉅亨",
+          "score": 0.89,
+          "side": "short"
+        },
+        {
+          "title": "5000億美元AI晶片融資陷分歧：輝達擔保比例成焦點",
+          "url": "https://news.cnyes.com/news/id/6669871",
+          "source": "鉅亨",
+          "score": 0.88,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "IDX:^TWII",
+      "kind": "index",
+      "market": "TW",
+      "name": "加權指數",
+      "price": 36033.29,
+      "change_pct": -6.23,
+      "decimals": 2,
+      "call": "bull",
+      "net": 0.544,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "〈台股盤前要聞〉金管會：23日起全面禁平盤以下放空、10月外銷訂單連21紅",
+          "url": "https://news.cnyes.com/news/id/6669876",
+          "source": "鉅亨",
+          "score": 0.99,
+          "side": "long"
+        },
+        {
+          "title": "台股狂瀉！傳證交所擬推「融資維持率130%→120%」 最快週一上路",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E7%8B%82%E7%80%89-%E5%82%B3%E8%AD%89%E4%BA%A4%E6%89%80%E6%93%AC%E6%8E%A8-%E8%9E%8D%E8%B3%87%E7%B6%AD%E6%8C%81%E7%8E%87130-120-%E6%9C%80%E5%BF%AB%E9%80%B1-105217068.html",
+          "source": "Yahoo奇摩",
+          "score": 0.98,
+          "side": "short"
+        },
+        {
+          "title": "台股史上最慘一週還沒完 限空令3.0救得回？法人揭3萬3保衛戰",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%8F%B2%E4%B8%8A%E6%9C%80%E6%85%98-%E9%80%B1%E9%82%84%E6%B2%92%E5%AE%8C-%E9%99%90%E7%A9%BA%E4%BB%A43-0%E6%95%91%E5%BE%97%E5%9B%9E-%E6%B3%95%E4%BA%BA%E6%8F%AD3%E8%90%AC3%E4%BF%9D%E8%A1%9B%E6%88%B0-211700550.html",
+          "source": "Yahoo奇摩",
+          "score": 0.97,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "SEC:半導體",
+      "kind": "sector",
+      "market": "TW",
+      "name": "半導體",
+      "price": 1230.73,
+      "change_pct": -5.82,
+      "decimals": 2,
+      "call": "neutral",
+      "net": -0.176,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "Taiwan stocks suffer worst week since 1990 as AI rout drains emerging Asia",
+          "url": "http://www.intellinews.com/taiwan-stocks-suffer-worst-week-since-1990-as-ai-rout-drains-emerging-asia-487378/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.98,
+          "side": "short"
+        },
+        {
+          "title": "台積電抗跌 法人揭AI鏈3大洗牌",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%8A%97%E8%B7%8C-%E6%B3%95%E4%BA%BA%E6%8F%ADai%E9%8F%883%E5%A4%A7%E6%B4%97%E7%89%8C-201000623.html",
+          "source": "Yahoo奇摩",
+          "score": 0.97,
+          "side": "skip"
+        },
+        {
+          "title": "吃下台積電大單！「這大廠」在手訂單4400億 目標價上看1000元",
+          "url": "https://tw.news.yahoo.com/%E5%90%83%E4%B8%8B%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%A4%A7%E5%96%AE-%E9%80%99%E5%A4%A7%E5%BB%A0-%E5%9C%A8%E6%89%8B%E8%A8%82%E5%96%AE4400%E5%84%84-%E7%9B%AE%E6%A8%99%E5%83%B9%E4%B8%8A%E7%9C%8B1000%E5%85%83-183500154.html",
+          "source": "Yahoo奇摩",
+          "score": 0.4,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "SEC:電子零組件",
+      "kind": "sector",
+      "market": "TW",
+      "name": "電子零組件",
+      "price": 507.82,
+      "change_pct": -9.51,
+      "decimals": 2,
+      "call": "neutral",
+      "net": 0,
+      "news_count": 0,
+      "fx_hint": "",
+      "news": []
+    },
+    {
+      "key": "SEC:AI 伺服器／電子代工",
+      "kind": "sector",
+      "market": "TW",
+      "name": "AI 伺服器／電子代工",
+      "price": 325.87,
+      "change_pct": -6.41,
+      "decimals": 2,
+      "call": "neutral",
+      "net": -0.14,
+      "news_count": 2,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "5000億美元AI晶片融資陷分歧：輝達擔保比例成焦點",
+          "url": "https://news.cnyes.com/news/id/6669871",
+          "source": "鉅亨",
+          "score": 0.4,
+          "side": "skip"
+        },
+        {
+          "title": "輝達換帥＋AI融資急凍 華爾街開始重新定價「Fed鷹派邏輯」",
+          "url": "https://news.cnyes.com/news/id/6669878",
+          "source": "鉅亨",
+          "score": 0.34,
+          "side": "short"
+        }
+      ]
+    },
+    {
+      "key": "FX:USD/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "美元／台幣",
+      "price": 32.956,
+      "change_pct": -0.2129,
+      "decimals": 4,
+      "call": "bull",
+      "net": 0.377,
+      "news_count": 4,
+      "fx_hint": "外幣偏強／台幣偏貶",
+      "news": [
+        {
+          "title": "2018年劇本重演？美股暴跌 投資人質疑聯準會緊縮政策",
+          "url": "https://news.cnyes.com/news/id/6669834",
+          "source": "鉅亨",
+          "score": 0.48,
+          "side": "skip"
+        },
+        {
+          "title": "本週操盤筆記：美國10月PCE、Q3 GDP修正值及南韓央行利率決議",
+          "url": "https://news.cnyes.com/news/id/6669829",
+          "source": "鉅亨",
+          "score": 0.48,
+          "side": "skip"
+        },
+        {
+          "title": "精準預測黃金跌勢的分析師又發聲了 他警告投資人小心「多頭陷阱」",
+          "url": "https://news.cnyes.com/news/id/6669831",
+          "source": "鉅亨",
+          "score": 0.48,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "FX:JPY/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "日圓／台幣",
+      "price": 0.2056,
+      "change_pct": -0.5505,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0,
+      "news_count": 0,
+      "fx_hint": "",
+      "news": []
+    },
+    {
+      "key": "FX:CNY/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "人民幣／台幣",
+      "price": 4.9441,
+      "change_pct": -0.2582,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0,
+      "news_count": 0,
+      "fx_hint": "",
+      "news": []
+    },
+    {
+      "key": "FX:EUR/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "歐元／台幣",
+      "price": 36.195,
+      "change_pct": -0.074,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0,
+      "news_count": 0,
+      "fx_hint": "",
+      "news": []
+    }
+  ],
+  "scorecard": {
+    "days": 30,
+    "horizon_hours": 24,
+    "graded": 171,
+    "long": {
+      "n": 67,
+      "hit": 14,
+      "avg": -3.1392
+    },
+    "short": {
+      "n": 33,
+      "hit": 31,
+      "avg": 4.4856
+    },
+    "skip": {
+      "n": 71,
+      "hit": 10
+    },
+    "base": {
+      "n": 171,
+      "hit": 32,
+      "avg": -3.1176
+    },
+    "kinds": {
+      "us": {
+        "n": 44,
+        "hit": 16
+      },
+      "index": {
+        "n": 23,
+        "hit": 6
+      },
+      "sector": {
+        "n": 67,
+        "hit": 14
+      },
+      "fx": {
+        "n": 37,
+        "hit": 19
+      }
+    },
+    "tokens": 203012,
+    "usd": 0.0061
+  },
+  "warnings": [],
+  "disclaimer": "非投資建議。偏多／偏空只代表 Kairos 依新聞判斷的方向，不考慮你的財務狀況；本流程不會下單。"
+}
