@@ -1,0 +1,461 @@
+{
+  "date": "2026-11-23",
+  "generated_at": "2026-11-23T07:00:58.522+08:00",
+  "edition": 14,
+  "headline": {
+    "title": "斯庫巴爾簽下9年4.5億美元大都會合約",
+    "summary": "MLB.com指出，大聯盟球星斯庫巴爾（Tarik Skubal）正式與紐約大都會隊達成9年、總額4.5億美元的合約。",
+    "why": "創紀錄的合約金額重新定義了頂尖投手在自由市場中的薪資基準，將直接影響各大聯盟球隊後續的薪資空間策略與競爭格局。",
+    "importance": 5,
+    "source_name": "MLB.com",
+    "source_url": "https://www.mlb.com/news/tarik-skubal-mets-contract",
+    "original_title": "Skubal joining Mets for 9 years, $450M (source)",
+    "original_lang": "en",
+    "published_at": "2026-11-22T22:09:00.000Z",
+    "tags": [
+      "MLB",
+      "轉會",
+      "薪資結構"
+    ]
+  },
+  "brief": "斯庫巴爾以9年4.5億美元大都會合約開啟棒球新篇章，同時豐田、日產與本田透過標準化零部件降低成本重塑汽車產業格局。金管會因美股及台積電期貨重挫升級限空措施，而國銀前10月遭駭客探測逾2170萬次，凸顯全球資本市場與資訊安全正面臨的雙重挑戰。",
+  "sections": [
+    {
+      "id": "ai",
+      "items": [
+        {
+          "title": "OpenAI 首席科學家：限制 AI 發展需先定義速度指標",
+          "summary": "OpenAI 首席科學家撰文提出，要建立 AI 開發的速度限制，前提是必须先達成對「速度」衡量方式的一致共識。文中探討了不同指標在評估模型能力進展時的侷限與應用。",
+          "why": "統一評估框架有助於產業制定更具可比性的安全標準，降低因指標混亂導致的監管與投資風險。",
+          "importance": 4,
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/22/openais-chief-scientist-has-thoughts-on-how-to-limit-ai-development/",
+          "original_title": "OpenAI’s chief scientist has thoughts on how to limit AI development",
+          "original_lang": "en",
+          "published_at": "2026-11-22T21:14:07.000Z",
+          "tags": [
+            "AI 治理",
+            "效能評估",
+            "OpenAI"
+          ]
+        },
+        {
+          "title": "使用困惑度建立 AI 模型進展的共同評估標準",
+          "summary": "文章探討「困惑度」（Perplexity）如何用來衡量 AI 模型的進展，並分析其作為開發者共同評估標準的潛在價值。該指標旨在提供一個共享方法來追蹤新興能力的演進。",
+          "why": "標準化的量化指標能減少評估偏差，讓開發團隊在模型迭代與部署決策上具備更客觀的比較依據。",
+          "importance": 4,
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/index/perplexity-and-intelligence",
+          "original_title": "Perplexity and Intelligence",
+          "original_lang": "en",
+          "published_at": "2026-11-22T00:00:00.000Z",
+          "tags": [
+            "AI 評估",
+            "模型效能",
+            "開發工具"
+          ]
+        },
+        {
+          "title": "Muru：專為 Python Web 應用設計的 Rust 伺服器工具",
+          "summary": "Muru 是由 Graham Dumpleton 開發的 AI 輔助 Rust 伺服器，旨在為 ASGI 和 WSGI Python 應用程式提供最佳的開發與生產環境部署工具。開發者已發布詳細的專案開發紀錄，展示其設計過程。",
+          "why": "對於依賴 Python 堆疊的工程團隊，此工具可能提供更高效且穩定的伺服器部署選項，簡化生產環境維護。",
+          "importance": 3,
+          "source_name": "Simon Willison",
+          "source_url": "https://simonwillison.net/2026/Nov/21/muru/",
+          "original_title": "Muru",
+          "original_lang": "en",
+          "published_at": "2026-11-21T23:56:28.000Z",
+          "tags": [
+            "Web 開發",
+            "Python",
+            "開源專案"
+          ]
+        },
+        {
+          "title": "《以撒的結合》開發者移除爭議 AI 生成音樂",
+          "summary": "遊戲《以撒的結合：懺悔Plus》因被發現使用 AI 生成的音樂而遭到玩家批評，開發者隨後移除了相關音訊內容。玩家透過檢查 Suno 金數據發現了這些 AI 生成的音訊檔案。",
+          "why": "此事件反映出用戶對遊戲內容中 AI 生成的透明度與接受度日益敏感，影響創作者對 AI 輔助資產的決策。",
+          "importance": 3,
+          "source_name": "The Verge AI",
+          "source_url": "https://www.theverge.com/games/1039770/binding-of-isaac-ai-music",
+          "original_title": "Binding of Isaac developer removes AI music from Repentance Plus",
+          "original_lang": "en",
+          "published_at": "2026-11-22T17:25:20.000Z",
+          "tags": [
+            "遊戲產業",
+            "AI 應用",
+            "用戶反應"
+          ]
+        },
+        {
+          "title": "網擎策略投資微智安聯 攜手拓展海外市場",
+          "summary": "台灣資安業者網擎資訊（Openfind）宣布策略投資新創公司微智安聯（Shield eXtreme）。雙方將合作擴大產品布局並拓展海外市場，網擎同時揭露其在日本與奈及利亞市場的經營現況。",
+          "why": "此合作有助於台灣資安產業透過資本與技術結合，提升在國際市場的產品競爭力的能見度。",
+          "importance": 2,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180692",
+          "original_title": "網擎策略投資微智安聯，臺灣資安業者攜手擴大產品布局、拓展海外市場",
+          "original_lang": "zh",
+          "published_at": "2026-11-22T01:11:21.000Z",
+          "tags": [
+            "資安產業",
+            "台灣企業",
+            "策略投資"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "items": [
+        {
+          "title": "Anthropic 2028 年 87% 電力將依賴天然氣",
+          "summary": "Anthropic 的資料中心電力需求預計在 2028 年達到高峰，其中 87% 將來自天然氣，11% 來自煤炭，僅有極少比例來自再生能源。此數據揭示了大型 AI 訓練與推理對傳統化石燃料的高度依賴，與目前倡導的綠色 AI 敘事存在顯著落差。",
+          "why": "揭示 AI 基礎建設擴張對化石燃料的依賴，影響長期能源成本與碳足跡評估。",
+          "importance": 4,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://betterdatacenterproject.com/2026/11/16/how-ai-is-powered-a-breakdown-of-byop-and-grid-power/",
+          "original_title": "87% of the Anthropic power will come from gas and 11% from coal in 2028",
+          "original_lang": "en",
+          "published_at": "2026-11-22T08:57:34.000Z",
+          "tags": [
+            "AI",
+            "能源",
+            "永續"
+          ]
+        },
+        {
+          "title": "豐田日產本田標準化零部件降成本",
+          "summary": "豐田、日產與本田宣布將標準化零部件以降低整體成本。三大車廠透過共享供應商與規格，旨在縮短研發週期並優化供應鏈效率，以應對市場價格競爭壓力。",
+          "why": "展示大型製造業透過跨公司合作實現供應鏈自動化與成本控制的新範例。",
+          "importance": 3,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://www.caranddriver.com/news/a74490092/toyota-nissan-honda-standardize-parts-lower-costs/",
+          "original_title": "Toyota, Nissan, and Honda to standardize parts to lower costs",
+          "original_lang": "en",
+          "published_at": "2026-11-22T04:04:56.000Z",
+          "tags": [
+            "汽車",
+            "製造",
+            "供應鏈"
+          ]
+        },
+        {
+          "title": "開發者打造 LLM 子代理角色遊戲",
+          "summary": "開發者發布一款名為 worker755 的遊戲，玩家角色是大型語言模型（LLM）的子代理（subagent）。該專案允許玩家體驗在 LLM 架構中作為執行單元運作的邏輯與限制。",
+          "why": "提供直觀視角理解 LLM 多代理架構中的執行邏輯，有助於教育與系統設計思考。",
+          "importance": 2,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://github.com/gulivan/worker755",
+          "original_title": "Show HN: I built a game where you are an LLM's subagent",
+          "original_lang": "en",
+          "published_at": "2026-11-22T13:56:58.000Z",
+          "tags": [
+            "LLM",
+            "開發者工具",
+            "互動"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "items": [
+        {
+          "title": "DNA 組分機制揭示早期生命如何抵禦紫外線",
+          "summary": "研究人員發現 DNA 的關鍵組分能將紫外線造成的潛在破壞轉化為較易修復的形式，這解釋了早期生命如何在地球嚴苛輻射環境中倖存。",
+          "why": "此發現解決了長期存在的演化謎題，有助於理解生命起源早期的適應機制。",
+          "importance": 3,
+          "source_name": "ScienceDaily Biotechnology",
+          "source_url": "https://www.sciencedaily.com/releases/2026/11/261121221128.htm",
+          "original_title": "DNA’s secret sunscreen may have helped life survive on early Earth",
+          "original_lang": "en",
+          "published_at": "2026-11-22T11:31:14.000Z",
+          "tags": [
+            "演化生物學",
+            "DNA",
+            "紫外線防護"
+          ]
+        },
+        {
+          "title": "陳志鴻提五大解方推進無圍牆醫院轉型",
+          "summary": "陳志鴻在論壇提出包括虛擬病房與智慧篩檢在內的五大解方，旨在透過人機協作推動無圍牆醫院轉型。",
+          "why": "透過具體轉型方向，可能重塑醫療服務模式，提升慢性病管理效率。",
+          "importance": 3,
+          "source_name": "中央社 生活健康",
+          "source_url": "https://www.cna.com.tw/news/ahel/202611220104.aspx",
+          "original_title": "無圍牆醫院盼成日常 陳志鴻提出5大照護轉型解方",
+          "original_lang": "zh",
+          "published_at": "2026-11-22T07:33:23.000Z",
+          "tags": [
+            "智慧醫療",
+            "照護轉型",
+            "醫院管理"
+          ]
+        },
+        {
+          "title": "高雄新增本土登革熱群聚 防疫隊出動",
+          "summary": "疾管署公布高雄市新增一起本土登革熱群聚，並出動機動防疫隊協助防治。",
+          "why": "本土群聚的增加提示需加強對特定區域的媒介生物控制與監測。",
+          "importance": 2,
+          "source_name": "中央社 生活健康",
+          "source_url": "https://www.cna.com.tw/news/ahel/202611220152.aspx",
+          "original_title": "赴高雄瘋BTS別忘防蚊 新增一起本土登革熱群聚",
+          "original_lang": "zh",
+          "published_at": "2026-11-22T09:56:09.000Z",
+          "tags": [
+            "登革熱",
+            "流行病學",
+            "防疫"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "items": [
+        {
+          "title": "金管會升級限空令 明起全面禁平盤下放空",
+          "summary": "受 AI 產業前景疑慮影響，美股及台積電期貨夜盤重挫，金管會宣布 23 日起實施包含平盤下全面禁放空在內的五項穩定股市措施。期貨法人指出，與台股 AI 族群高度連動的費城半導體指數上週曾單日重挫 10.73%，台積電美國存託憑證亦大跌 9.48%，預警台股開盤將面臨系統性賣壓。",
+          "why": "監管機構介入市場情緒，直接影響 AI 相關硬體供應鏈的股價波動與投資決策風險。",
+          "importance": 4,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611220085.aspx",
+          "original_title": "美台股狂瀉金管會禁空令升級 法人：台股23日力抗賣壓",
+          "original_lang": "zh",
+          "published_at": "2026-11-22T05:44:41.000Z",
+          "tags": [
+            "台股",
+            "金管會",
+            "AI 產業"
+          ]
+        },
+        {
+          "title": "國銀前 10 月遭駭客探測逾 2,170 萬次",
+          "summary": "國銀業者透露今年前 10 月累計偵測約 2,170 萬次外部異常探測及攻擊。銀行業除落實委外供應商資安控管外，正導入 AI 工具協助偵測及分析攻擊，但對人工智慧代理（AI Agent）的應用仍處於審慎評估階段。",
+          "why": "顯示 AI 在資安防禦端已從概念進入實戰部署階段，為自動化安全工具提供具體市場需求數據。",
+          "importance": 3,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611220031.aspx",
+          "original_title": "駭客猛攻金融業 國銀今年探測攻擊逾2000萬次、AI上陣協防",
+          "original_lang": "zh",
+          "published_at": "2026-11-22T02:13:41.000Z",
+          "tags": [
+            "資安",
+            "AI 應用",
+            "金融科技"
+          ]
+        },
+        {
+          "title": "輝達結盟 6 家台廠 強化後黃仁勳時代供應鏈",
+          "summary": "輝達共同創辦人黃仁勳辭任執行長後，輝達與台積電等 6 家台廠擴大結盟以穩定供應鏈。專家分析認為，輝達具備技術護城河與制度化的供應鏈韌性，短期內其在全球 AI 算力賽道的主導地位仍難以被撼動。",
+          "why": "確認 AI 算力龍頭供應商的合作架構，有助於評估長期 AI 基礎設施投資的穩定性。",
+          "importance": 2,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611220025.aspx",
+          "original_title": "後黃仁勳時代輝達結盟供應鏈 AI訂單無虞主導地位穩固",
+          "original_lang": "zh",
+          "published_at": "2026-11-22T01:54:28.000Z",
+          "tags": [
+            "NVIDIA",
+            "供應鏈",
+            "台積電"
+          ]
+        },
+        {
+          "title": "國銀海外據點前 3 季獲利 811 億 創同期新高",
+          "summary": "金管會統計顯示，本國銀行今年前 3 季海外分支機構獲利達 811.8 億元，創歷年同期新高，年增 13.81%。海外獲利前五大區域中，美國、新加坡與日本據點獲利皆創下歷年同期新高，香港則持續穩居獲利最高寶座。",
+          "why": "反映金融機構國際化布局成效，顯示全球數位金融與跨國業務的成長動能。",
+          "importance": 2,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611220110.aspx",
+          "original_title": "國銀海外據點前3季獲利811億 美國新加坡日本寫同期新高",
+          "original_lang": "zh",
+          "published_at": "2026-11-22T08:04:37.000Z",
+          "tags": [
+            "銀行業",
+            "國際金融",
+            "財報"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "title": "COP31氣候談判因化石燃料分歧而破裂",
+          "summary": "聯合國氣候變化綱約公約第31次締約方會議（COP31）在土耳其安塔利亞舉行期間破裂。歐盟與多個國家拒絕背書由主辦方土耳其及澳洲提出的最終協議草案，認為草案過於薄弱且未明確提及化石燃料議題，無助於對抗全球暖化。沙特阿拉伯等產油國亦反對重申逐步擺脫煤炭、石油和天然氣的承諾。",
+          "why": "全球氣候協定缺失化石燃料削減承諾，削弱未來減排政策的法律基礎與執行力道。",
+          "importance": 4,
+          "source_name": "中央社 國際",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611220188.aspx",
+          "original_title": "COP31氣候談判恐破局 歐盟和多個國家拒協議草案",
+          "original_lang": "zh",
+          "published_at": "2026-11-22T13:47:34.000Z",
+          "tags": [
+            "COP31",
+            "氣候變遷",
+            "國際外交"
+          ]
+        },
+        {
+          "title": "紐約時報：中國國安部持續兩年暗中推動AI晶片行動",
+          "summary": "紐約時報報導指出，中國國家安全部已持續至少兩年推動秘密行動，協助中國企業取得先進人工智慧晶片並蒐集相關情報。這些行動針對輝達等公司的晶片技術，顯示中國國安部門在AI硬體領域的情報蒐集與供應鏈介入程度深於外界預期。",
+          "why": "揭示AI硬體供應鏈中的潛在資安風險與地緣政治對科技研發長期策略的影響。",
+          "importance": 3,
+          "source_name": "中央社 國際",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611220182.aspx",
+          "original_title": "紐時：輝達醜聞爆發數年前 中國國安部已盯上AI晶片",
+          "original_lang": "zh",
+          "published_at": "2026-11-22T12:34:16.000Z",
+          "tags": [
+            "AI晶片",
+            "中國國安",
+            "半導體"
+          ]
+        },
+        {
+          "title": "救助兒童會報告：衝突區兒童數達新高 人道援助受阻激增",
+          "summary": "國際慈善組織「救助兒童會」發布報告顯示，過去一年生活在衝突地區的兒童人數創下歷史新高。針對兒童的各類侵权行为急劇增加，其中阻礙兒童獲得人道主義援助的事件數量過去十年激增16倍，成為增長最快的侵权行为類型。",
+          "why": "量化數據顯示人道主義援助缺口擴大，反映全球安全局勢惡化對民用基礎設施與醫療資源的實質衝擊。",
+          "importance": 3,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/战争离孩子有多近？最新报告给出惊人数字/a-79993218?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "战争离孩子有多近？最新报告给出惊人数字",
+          "original_lang": "zh",
+          "published_at": "2026-11-22T08:04:00.000Z",
+          "tags": [
+            "人權",
+            "人道危機",
+            "統計數據"
+          ]
+        },
+        {
+          "title": "俄烏戰爭影響擴及北約領土 丹麥指控俄境內行動",
+          "summary": "俄羅斯與烏克蘭戰爭的影響持續擴展至北約領土內。近期事件包括對船舶的攻擊、導彈飛抵波蘭境內，以及丹麥指控俄羅斯在其境內進行新的行動，顯示衝突地理範圍正在擴大。",
+          "why": "戰爭外溢效應改變歐洲區域風險評估，影響供應鏈穩定與區域科技合作環境。",
+          "importance": 2,
+          "source_name": "NPR World",
+          "source_url": "https://www.npr.org/2026/11/22/nx-s1-6050236/ukraine-war-spilling-into-nato-territory",
+          "original_title": "Ukraine war spilling into NATO territory",
+          "original_lang": "en",
+          "published_at": "2026-11-22T22:40:22.000Z",
+          "tags": [
+            "俄烏戰爭",
+            "北約",
+            "歐洲安全"
+          ]
+        },
+        {
+          "title": "達美航空自動化系統故障致千餘航班延誤",
+          "summary": "達美航空公司的載重與平衡自動化系統發生故障，導致其在亞特蘭大樞紐及全美各地超過1,000架次航班延誤。事故發生於感恩節前夕，對旅客行程造成嚴重影響。",
+          "why": "顯示大型商業營運中關鍵自動化系統單點故障對連鎖效應的巨大衝擊，凸顯韌性設計重要性。",
+          "importance": 2,
+          "source_name": "中央社 國際",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611230006.aspx",
+          "original_title": "達美航空自動化系統故障 感恩節前夕全美上千航班延誤",
+          "original_lang": "zh",
+          "published_at": "2026-11-22T19:17:36.000Z",
+          "tags": [
+            "航空業",
+            "自動化系統",
+            "營運中斷"
+          ]
+        },
+        {
+          "title": "民主黨在美中期選舉取得眾院最大多數",
+          "summary": "美國中期選舉結果顯示，民主黨在翻轉北卡羅來納州一個席位後，在眾議院取得自1992年以來最大多數，持有至少258個席位。共和黨則持有至少173個席位。",
+          "why": "美國國會立法結構重大調整，可能影響後續科技監管、貿易政策及科研經費分配。",
+          "importance": 2,
+          "source_name": "BBC World",
+          "source_url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno?at_medium=RSS&at_campaign=rss",
+          "original_title": "Democrats win largest House majority since 1992 after flipping North Carolina seat",
+          "original_lang": "en",
+          "published_at": "2026-11-22T20:26:24.000Z",
+          "tags": [
+            "美國政治",
+            "中期選舉",
+            "立法權"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "items": [
+        {
+          "title": "利物浦狂勝曼聯，紅牌判罰引發關注",
+          "summary": "在曼徹斯特德比中，利物浦憑藉新星恩戈莫哈（Ngumoha）的出色表現，以壓倒性比分擊敗僅出戰八分鐘即被紅牌驅逐的曼聯。曼聯目前仍深陷英超降級區。",
+          "why": "比賽中關鍵紅牌的爭議與球隊戰績的懸殊，凸顯了現代體育賽事中數據分析在即時戰術決策與裁判判罰公正性上的重要性。",
+          "importance": 4,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/football/videos/c933g77knz00o?at_medium=RSS&at_campaign=rss",
+          "original_title": "Ngumoha stars as Liverpool thrash 10-man Man Utd",
+          "original_lang": "en",
+          "published_at": "2026-11-22T19:59:35.000Z",
+          "tags": [
+            "英超",
+            "曼聯",
+            "戰役分析"
+          ]
+        },
+        {
+          "title": "史華伯擊球數據分析：500全壘打里程碑評估",
+          "summary": "分析指出，强打者史華伯（Schwarber）在28歲球季已擊出153支全壘打，距離生涯500支全壘打還差115支，這使其達成該里程碑的機率在歷史上極為罕見。",
+          "why": "透過嚴謹的統計模型與歷史數據對比，量化評估特定運動成績的達成機率，展示了數據分析在長期體育預測中的應用價值。",
+          "importance": 4,
+          "source_name": "MLB.com",
+          "source_url": "https://www.mlb.com/news/kyle-schwarber-s-unusual-path-to-500-home-runs",
+          "original_title": "Why Schwarber's path to 500 home runs would be nearly unprecedented",
+          "original_lang": "en",
+          "published_at": "2026-11-22T21:08:15.000Z",
+          "tags": [
+            "MLB",
+            "數據統計",
+            "紀錄分析"
+          ]
+        },
+        {
+          "title": "高國豪砍32分 台鋼獵鷹逆轉領航猿",
+          "summary": "台灣職籃P. League+中，台鋼獵鷹靠著高國豪全場最高的32分，搭配洋將霸爾穩的16分與13籃板，終場以97比94擊潰衛冕軍桃園璞園領航猿，成功終止兩連敗。",
+          "why": "關鍵比賽中的具體數據表現（得分、籃板、助攻）是評估運動員即時影響與戰術執行的核心依據。",
+          "importance": 3,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611220174.aspx",
+          "original_title": "PLG高國豪狂轟32分 獵鷹氣走領航猿終止2連敗",
+          "original_lang": "zh",
+          "published_at": "2026-11-22T12:06:58.000Z",
+          "tags": [
+            "籃球",
+            "P.Legaue+",
+            "台鋼獵鷹"
+          ]
+        },
+        {
+          "title": "FIFA確認英國主辦2035年女子世界盃",
+          "summary": "國際足總（FIFA）預計於下周一正式確認英國將獲得2035年女子世界盃主辦權。這將是英國自1966年男子世界盃以來，首次承辦足球世界盃賽事的頂層賽事。",
+          "why": "決定特定地區大型體育賽事的主辦權，是評估未來體育產業基礎建設投資、媒體版權價值與長期經濟影響的關鍵指標。",
+          "importance": 2,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/football/articles/cx30g83716lzo?at_medium=RSS&at_campaign=rss",
+          "original_title": "Fifa to confirm UK as host for 2035 Women's World Cup",
+          "original_lang": "en",
+          "published_at": "2026-11-22T21:44:37.000Z",
+          "tags": [
+            "足球",
+            "FIFA",
+            "賽事主办"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "feeds": 39,
+    "fetched": 3033,
+    "kept": 26,
+    "jev_cost_usd": 0.003535,
+    "llm_cost_usd": 0.00107
+  }
+}
