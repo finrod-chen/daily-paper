@@ -1,0 +1,442 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T06:41:13.253+08:00",
+  "us_market_date": "2026-11-23",
+  "market_date": "2026-11-23",
+  "sector_mode": "turnover",
+  "sector_note": "依證交所 11/23 成交值×漲跌幅挑前 3",
+  "counts": {
+    "bull": 8,
+    "bear": 0,
+    "neutral": 4
+  },
+  "items": [
+    {
+      "key": "US:^GSPC",
+      "kind": "us",
+      "market": "US",
+      "name": "S&P 500",
+      "price": 7237.17,
+      "change_pct": 4.7288,
+      "decimals": 2,
+      "call": "bull",
+      "net": 1.696,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "Stock Market Today, Nov. 23: Markets Rebound From Correction on AI Relief Rally",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/23/stock-market-today-nov-23-markets-rebound-from-correction-on-ai-relief-rally/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.99,
+          "side": "long"
+        },
+        {
+          "title": "美股今天恐重演「黑色星期一」？VIX飆近40、華爾街曝反彈訊號與潛在風險",
+          "url": "https://news.cnyes.com/news/id/6669875",
+          "source": "鉅亨",
+          "score": 0.98,
+          "side": "long"
+        },
+        {
+          "title": "美股上周有多慘？三大指數齊陷修正 華爾街多項慘烈紀錄一次看",
+          "url": "https://news.cnyes.com/news/id/6670237",
+          "source": "鉅亨",
+          "score": 0.96,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "US:^IXIC",
+      "kind": "us",
+      "market": "US",
+      "name": "那斯達克",
+      "price": 24089.559,
+      "change_pct": 6.5074,
+      "decimals": 2,
+      "call": "bull",
+      "net": 3.067,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "Tech stocks surge as Nvidia rally adds $2 trillion to Nasdaq 100",
+          "url": "https://www.proactiveinvestors.com/companies/news/1102286/tech-stocks-surge-as-nvidia-rally-adds-2-trillion-to-nasdaq-100-1102286.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.99,
+          "side": "long"
+        },
+        {
+          "title": "Dow Jones Futures: Tech Stocks, Nvidia Snap Back On Jensen Huang's Return; Elon Musk-Led SpaceX, Tesla Rally",
+          "url": "https://finance.yahoo.com/m/be493228-4ecf-338d-9017-054d3d6efc36/dow-jones-futures%3A-tech.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.98,
+          "side": "long"
+        },
+        {
+          "title": "黃仁勳回任輝達執行長！輝達開盤飆33%、那斯達克漲7.3%，法人看台股V型反轉仍待觀察",
+          "url": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E4%BB%BB%E8%BC%9D%E9%81%94%E5%9F%B7%E8%A1%8C%E9%95%B7-%E8%BC%9D%E9%81%94%E9%96%8B%E7%9B%A4%E9%A3%8633-%E9%82%A3%E6%96%AF%E9%81%94%E5%85%8B%E6%BC%B27-3-%E6%B3%95%E4%BA%BA%E7%9C%8B%E5%8F%B0%E8%82%A1v%E5%9E%8B%E5%8F%8D%E8%BD%89%E4%BB%8D%E5%BE%85%E8%A7%80%E5%AF%9F-193922032.html",
+          "source": "Yahoo奇摩",
+          "score": 0.96,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "US:^DJI",
+      "kind": "us",
+      "market": "US",
+      "name": "道瓊",
+      "price": 49595.31,
+      "change_pct": 3.0074,
+      "decimals": 2,
+      "call": "bull",
+      "net": 1.034,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "Dow Jones Futures: Tech Stocks, Nvidia Snap Back On Jensen Huang's Return; Elon Musk-Led SpaceX, Tesla Rally",
+          "url": "https://finance.yahoo.com/m/be493228-4ecf-338d-9017-054d3d6efc36/dow-jones-futures%3A-tech.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.79,
+          "side": "long"
+        },
+        {
+          "title": "How major US stock indexes fared Monday 11/23/2026",
+          "url": "https://finance.yahoo.com/markets/world-indices/articles/major-us-stock-indexes-fared-213053319.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.5,
+          "side": "long"
+        },
+        {
+          "title": "Nasdaq surges 6.5% in second-largest one-day gain ever as Nvidia leads tech, AI stocks higher",
+          "url": "https://nypost.com/2026/11/23/business/nasdaq-surges-6-5-in-second-largest-one-day-gain-ever-as-nvidia-leads-tech-ai-stocks-higher/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.42,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "US:^SOX",
+      "kind": "us",
+      "market": "US",
+      "name": "費城半導體",
+      "price": 9588.05,
+      "change_pct": 14.0268,
+      "decimals": 2,
+      "call": "bull",
+      "net": 1.381,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "〈美股盤後〉見證歷史！黃仁勳辭職11天閃電回鍋 輝達單日狂飆超31% 費半瘋漲超14%",
+          "url": "https://news.cnyes.com/news/id/6670378",
+          "source": "鉅亨",
+          "score": 0.98,
+          "side": "long"
+        },
+        {
+          "title": "Taiwan Semiconductor Rallies 17% as Jensen Huang’s Return to NVIDIA Lifts Chip Stocks; Intel Surges 15%, AMD Jumps 8%",
+          "url": "https://247wallst.com/investing/2026/11/23/taiwan-semiconductor-rallies-17-as-jensen-huangs-return-to-nvidia-lifts-chip-stocks-intel-surges-15-amd-jumps-8/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.98,
+          "side": "long"
+        },
+        {
+          "title": "Not Good: Broadcom Loses $200 Billion as Chips Crash and Google Reportedly Cuts AI Chip Plans",
+          "url": "https://www.tikr.com/blog/not-good-broadcom-loses-200-billion-as-chips-crash-and-google-reportedly-cuts-ai-chip-plans?ref=yahoofinance&tlnk=yf-261123-ccmmcf34&.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.97,
+          "side": "short"
+        }
+      ]
+    },
+    {
+      "key": "IDX:^TWII",
+      "kind": "index",
+      "market": "TW",
+      "name": "加權指數",
+      "price": 36811.89,
+      "change_pct": 2.16,
+      "decimals": 2,
+      "call": "bull",
+      "net": 2.312,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "融資減幅＞大盤跌幅、買價值、買成長、買被錯殺",
+          "url": "https://news.cnyes.com/news/id/6670180",
+          "source": "鉅亨",
+          "score": 0.99,
+          "side": "long"
+        },
+        {
+          "title": "台股反彈778點外資仍賣289億元 砍0050及正2反手大敲這檔ETF逾20萬張",
+          "url": "https://news.cnyes.com/news/id/6670205",
+          "source": "鉅亨",
+          "score": 0.99,
+          "side": "long"
+        },
+        {
+          "title": "〈台股盤前要聞〉黃仁勳復職、擔保維持率將至120%、永豐金法說",
+          "url": "https://news.cnyes.com/news/id/6670353",
+          "source": "鉅亨",
+          "score": 0.89,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "SEC:電子零組件",
+      "kind": "sector",
+      "market": "TW",
+      "name": "電子零組件",
+      "price": 541.4,
+      "change_pct": 6.61,
+      "decimals": 2,
+      "call": "bull",
+      "net": 1.118,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "〈台股盤後〉護盤措施擴大激勵反彈 聯發科、台達電領軍漲778點收36811點",
+          "url": "https://news.cnyes.com/news/id/6670135",
+          "source": "鉅亨",
+          "score": 0.69,
+          "side": "long"
+        },
+        {
+          "title": "〈台股開盤〉多空激戰高低震盪1200點 聯發科、聯電扮多頭先鋒",
+          "url": "https://news.cnyes.com/news/id/6670007",
+          "source": "鉅亨",
+          "score": 0.69,
+          "side": "skip"
+        },
+        {
+          "title": "〈焦點股〉金像電獲利表現稱霸PCB廠 今反彈爆量攻上漲停782元",
+          "url": "https://news.cnyes.com/news/id/6670052",
+          "source": "鉅亨",
+          "score": 0.65,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "SEC:半導體",
+      "kind": "sector",
+      "market": "TW",
+      "name": "半導體",
+      "price": 1262.49,
+      "change_pct": 2.58,
+      "decimals": 2,
+      "call": "bull",
+      "net": 1.964,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "〈台股盤後〉護盤措施擴大激勵反彈 聯發科、台達電領軍漲778點收36811點",
+          "url": "https://news.cnyes.com/news/id/6670135",
+          "source": "鉅亨",
+          "score": 0.99,
+          "side": "long"
+        },
+        {
+          "title": "台積電強力喊話AI沒降溫！ 先進製程供不應求情況將持續存在",
+          "url": "https://news.cnyes.com/news/id/6670191",
+          "source": "鉅亨",
+          "score": 0.99,
+          "side": "long"
+        },
+        {
+          "title": "殺盤嚇不倒真AI！【2454聯發科】⊕【3661世芯-KY】⊕雙亮燈，急拉止穩就看這關鍵!!",
+          "url": "https://news.cnyes.com/news/id/6670177",
+          "source": "鉅亨",
+          "score": 0.97,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "SEC:塑膠",
+      "kind": "sector",
+      "market": "TW",
+      "name": "塑膠",
+      "price": 360.18,
+      "change_pct": 7.12,
+      "decimals": 2,
+      "call": "bull",
+      "net": 1.061,
+      "news_count": 3,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "〈焦點股〉南亞受惠法人反手轉買按讚 盤中爆量亮燈衝上漲停板",
+          "url": "https://news.cnyes.com/news/id/6670112",
+          "source": "鉅亨",
+          "score": 0.91,
+          "side": "long"
+        },
+        {
+          "title": "〈焦點股〉玻纖布全面復活 台玻亮燈爆量鎖漲停",
+          "url": "https://news.cnyes.com/news/id/6670126",
+          "source": "鉅亨",
+          "score": 0.68,
+          "side": "long"
+        },
+        {
+          "title": "殺盤嚇不倒真AI！【2454聯發科】⊕【3661世芯-KY】⊕雙亮燈，急拉止穩就看這關鍵!!",
+          "url": "https://news.cnyes.com/news/id/6670177",
+          "source": "鉅亨",
+          "score": 0.46,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "FX:USD/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "美元／台幣",
+      "price": 32.823,
+      "change_pct": -0.6156,
+      "decimals": 4,
+      "call": "neutral",
+      "net": -0.014,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "〈台幣〉股匯雙紅力守33元大關！盤中觸32.999元 午後翻升收32.895元",
+          "url": "https://news.cnyes.com/news/id/6670182",
+          "source": "鉅亨",
+          "score": 0.99,
+          "side": "skip"
+        },
+        {
+          "title": "Fed死守2%錯了？艾克曼喊通膨目標改3% 警告12月升息恐釀衰退",
+          "url": "https://news.cnyes.com/news/id/6670213",
+          "source": "鉅亨",
+          "score": 0.48,
+          "side": "skip"
+        },
+        {
+          "title": "〈永豐金法說〉永豐銀LCR穩守120%底線、逾放比將逐季改善 估美台央行續走升息路",
+          "url": "https://news.cnyes.com/news/id/6670148",
+          "source": "鉅亨",
+          "score": 0.47,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "FX:JPY/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "日圓／台幣",
+      "price": 0.2042,
+      "change_pct": -1.2276,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0,
+      "news_count": 0,
+      "fx_hint": "",
+      "news": []
+    },
+    {
+      "key": "FX:CNY/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "人民幣／台幣",
+      "price": 4.9324,
+      "change_pct": -0.2144,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0,
+      "news_count": 0,
+      "fx_hint": "",
+      "news": []
+    },
+    {
+      "key": "FX:EUR/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "歐元／台幣",
+      "price": 35.843,
+      "change_pct": -1.0457,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0.135,
+      "news_count": 2,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "【遠東商銀】疑避險資金流入，日圓買盤增多",
+          "url": "https://news.cnyes.com/news/id/6652679",
+          "source": "鉅亨",
+          "score": 0.47,
+          "side": "long"
+        },
+        {
+          "title": "黃仁勳王者歸來！交易員加碼押注英國、歐洲央行下月升息",
+          "url": "https://news.cnyes.com/news/id/6670276",
+          "source": "鉅亨",
+          "score": 0.44,
+          "side": "skip"
+        }
+      ]
+    }
+  ],
+  "scorecard": {
+    "days": 30,
+    "horizon_hours": 24,
+    "graded": 258,
+    "long": {
+      "n": 94,
+      "hit": 39,
+      "avg": -0.8146
+    },
+    "short": {
+      "n": 64,
+      "hit": 31,
+      "avg": -0.6245
+    },
+    "skip": {
+      "n": 100,
+      "hit": 10
+    },
+    "base": {
+      "n": 258,
+      "hit": 115,
+      "avg": -0.3788
+    },
+    "kinds": {
+      "us": {
+        "n": 89,
+        "hit": 26
+      },
+      "index": {
+        "n": 35,
+        "hit": 13
+      },
+      "sector": {
+        "n": 93,
+        "hit": 22
+      },
+      "fx": {
+        "n": 41,
+        "hit": 19
+      }
+    },
+    "tokens": 232540,
+    "usd": 0.007
+  },
+  "warnings": [],
+  "disclaimer": "非投資建議。偏多／偏空只代表 Kairos 依新聞判斷的方向，不考慮你的財務狀況；本流程不會下單。"
+}
