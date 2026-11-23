@@ -1,0 +1,534 @@
+{
+  "date": "2026-11-24",
+  "generated_at": "2026-11-24T07:01:00.412+08:00",
+  "edition": 15,
+  "headline": {
+    "title": "黃仁勳復職輝達 股價飆漲31% 半導體指數勁揚",
+    "summary": "輝達董事會恢復創辦人黃仁勳的執行長職務，並確認此舉不構成國安風險。消息引發全球科技股劇烈波動，輝達股價飆升31.48%至165.05美元，費城半導體指數勁揚14.03%，台指期夜盤亦站回40000點關卡。",
+    "why": "AI基礎設施核心供應商的領導層變動直接影響全球資本市場情緒與供應鏈穩定預期。",
+    "importance": 5,
+    "source_name": "中央社 財經",
+    "source_url": "https://www.cna.com.tw/news/afe/202611240012.aspx",
+    "original_title": "黃仁勳返輝達股價飆31% 美股收盤大漲、費半勁揚14%",
+    "original_lang": "zh",
+    "published_at": "2026-11-23T22:10:10.000Z",
+    "tags": [
+      "AI硬體",
+      "半導體",
+      "市場劇烈波動"
+    ]
+  },
+  "brief": "黃仁勳獲白宮背書復職英偉達，帶動股價飆漲逾三成並引發半導體指數劇烈波動。Amazon斥資七十五億美元收購Decart，強化其人工智慧晶片與優化技術佈局。智譜發布GLM-5.4模型，導入循環變壓器架構以提升複雜編碼任務的解決能力。",
+  "sections": [
+    {
+      "id": "ai",
+      "items": [
+        {
+          "title": "Amazon斥資75億美元收購AI優化技術公司Decart",
+          "summary": "Amazon 報導以 75 億美元收購 AI 優化技術與研究團隊 Decart，交易規模達 7.5 billion。此次收購正值 Amazon 準備銷售 Trainium 晶片的關鍵時期。",
+          "why": "巨額收購顯示大型雲服務商正加速垂直整合 AI 基礎設施與晶片研發，重塑產業鏈價值分配。",
+          "importance": 5,
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+          "original_title": "Amazon snaps up Decart’s AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+          "original_lang": "en",
+          "published_at": "2026-11-23T17:14:23.000Z",
+          "tags": [
+            "M&A",
+            "AI Infra"
+          ]
+        },
+        {
+          "title": "義大利批准Tesla FSD成歐盟首個放行市場",
+          "summary": "義大利批准特斯拉全自動輔助駕駛系統，使其成為首個放行的歐盟主要汽車市場。該系統在歐洲更名為 Tesla Assisted Driving，仍屬 L2 輔助駕駛，要求駕駛全程監督。",
+          "why": "單一歐盟主要市場的放行將顯著擴大系統覆蓋人口，為年底歐盟整體表決增添關鍵動能與實質參考依據。",
+          "importance": 4,
+          "source_name": "INSIDE",
+          "source_url": "https://www.inside.com.tw/article/42982-tesla-fsd-italy-approval",
+          "original_title": "Tesla FSD 獲義大利批准！首個歐盟主要市場放行，12 國認可為年底歐盟表決增添動能",
+          "original_lang": "zh",
+          "published_at": "2026-11-23T03:29:00.000Z",
+          "tags": [
+            "Regulation",
+            "Autonomous Driving"
+          ]
+        },
+        {
+          "title": "Anthropic推出Claude Ship讓AI代理自主批准程式碼變更",
+          "summary": "Anthropic 推出開發者工具 Claude Ship，允許 AI 代理審查、修復並批准程式碼變更。該工具旨在解決 AI 產生大量程式碼後的人為審批瓶頸。",
+          "why": "自動化審批流程可提升大型軟體專案的工程效率，減少人工介入例行任務的時間成本。",
+          "importance": 4,
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/2026/11/23/anthropic-launches-claude-ship-letting-ai-agents-review-fix-and-approve-code-changes/",
+          "original_title": "Anthropic launches Claude Ship, letting AI agents review, fix, and approve code changes",
+          "original_lang": "en",
+          "published_at": "2026-11-23T22:05:50.000Z",
+          "tags": [
+            "DevTools",
+            "AI Agents"
+          ]
+        },
+        {
+          "title": "研究指出AI代理與物理機器人在故障回滾能力上的本質差異",
+          "summary": "Gartner 調查顯示 37% 受訪 CIO 已部署 AI 代理，OWASP 報告記錄了代理刪信、資料曝光等安全事件。文章指出 AI Agent 與物理 AI 的差異在於出錯後可回滾性，軟體可留日誌，機器人失誤無法即時復原。",
+          "why": "明確區分數位代理與物理實體在錯誤處理上的限制，有助於制定差異化的安全監控與合規策略。",
+          "importance": 4,
+          "source_name": "INSIDE",
+          "source_url": "https://www.inside.com.tw/article/42984-ai-agents-vs-physical-ai-differences",
+          "original_title": "AI Agent 與物理 AI 差在出錯之後，軟體留得下日誌、機器人失誤無法回滾",
+          "original_lang": "zh",
+          "published_at": "2026-11-23T05:08:00.000Z",
+          "tags": [
+            "AI Safety",
+            "Robotics"
+          ]
+        },
+        {
+          "title": "駭客用AI框架11分鐘內攻破醫療影像軟體零時差漏洞",
+          "summary": "中國駭客利用 AI 攻擊框架 Cairn，在 11 分鐘內發現並利用醫療影像 AI 軟體的零時差漏洞，攻擊東亞多所大學。此外，研究發現 API 金鑰隨 Docker Hub 映像檔暴露後，最快 7.86 秒即遭濫用。",
+          "why": "AI 輔助攻擊大幅縮短漏洞發現至利用的時間窗口，迫使安全團隊必須從被動修補轉向自動化防護與即時響應。",
+          "importance": 3,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180718",
+          "original_title": "【資安日報】11月23日，東亞多所大學遭鎖定，中國駭客用AI攻擊框架Cairn發動攻擊，11分鐘內發現並利用醫療影像AI軟體零時差漏洞",
+          "original_lang": "zh",
+          "published_at": "2026-11-23T02:11:19.000Z",
+          "tags": [
+            "Cybersecurity",
+            "AI Attack"
+          ]
+        },
+        {
+          "title": "荷蘭監管機構建議暫勿購買AI眼鏡因存在多項資安風險",
+          "summary": "荷蘭個人資料保護局調查 6 款 AI 攝影眼鏡，發現普遍存在隱私、資安及人身安全風險，包括遭陌生人接管、偷偷錄影及緊急救援提供錯誤資訊。官方因此建議消費者暫時不要購買。",
+          "why": "穿戴式 AI 裝置的監管標準初現雛形，可能影響全球消費級 AI 硬體產品的設計規範與上市節奏。",
+          "importance": 3,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180714",
+          "original_title": "荷蘭測試6款AI眼鏡揭安全漏洞，建議消費者不要購買",
+          "original_lang": "zh",
+          "published_at": "2026-11-23T01:11:54.000Z",
+          "tags": [
+            "Privacy",
+            "Hardware AI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "items": [
+        {
+          "title": "智譜發布 GLM-5.4 模型",
+          "summary": "智譜 AI 發布 GLM-5.4 模型，引入「循環變壓器」架構以支持通用編碼。該模型旨在通過迭代優化提升複雜程式任務的解決能力。",
+          "why": "循環變壓器架構可能顯著提升 AI 在複雜軟體開發流程中的代碼生成質量與一致性。",
+          "importance": 5,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://z.ai/blog/glm-5.4",
+          "original_title": "GLM-5.4: Toward generalized coding with our first loop transformer",
+          "original_lang": "en",
+          "published_at": "2026-11-23T10:06:43.000Z",
+          "tags": [
+            "AI模型",
+            "編碼助手",
+            "架構創新"
+          ]
+        },
+        {
+          "title": "Ladybird 瀏覽器進入 Alpha 階段",
+          "summary": "Ladybird 瀏覽器正式進入 Alpha 階段。這款由 Linus Torvalds 主導開源的瀏覽器項目旨在提供輕量且高效的替代方案。",
+          "why": "為開發者和企業提供一個無專利授權風險、輕量化的瀏覽器基礎設施選擇。",
+          "importance": 4,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://ladybird.org/posts/alpha/",
+          "original_title": "Ladybird is now in alpha",
+          "original_lang": "en",
+          "published_at": "2026-11-23T16:13:12.000Z",
+          "tags": [
+            "開源軟體",
+            "瀏覽器",
+            "系統工具"
+          ]
+        },
+        {
+          "title": "Apple 移除九年的開源筆記應用",
+          "summary": "開發者 Glushchenko 指出，其開源筆記應用 FSNotes 在運行 9 年後被 Apple 從歐盟區 App Store 下架。此舉引發了關於開源軟體在封閉生態系統中長期可用性的討論。",
+          "why": "突顯了依賴單一廠商分發渠道對開源項目長期生存能力的潛在風險，推動社區探索跨平台或自托管替代方案。",
+          "importance": 3,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://github.com/glushchenko/fsnotes/discussions/2056",
+          "original_title": "Apple removed my open-source app from EU App Stores after 9 years",
+          "original_lang": "en",
+          "published_at": "2026-11-23T18:48:10.000Z",
+          "tags": [
+            "開源生態",
+            "應用商店政策",
+            "用戶隱私"
+          ]
+        },
+        {
+          "title": "Kagi 推出隱私郵件服務測試版",
+          "summary": "搜索工具 Kagi 推出 Kagi Mail 公共測試版。該服務結合了無追蹤的搜索能力與隱私保護的郵件功能，目前處於公開測試階段。",
+          "why": "為注重數據隱私的專業人士提供了一體化的搜索與通信解決方案，減少對大型廣告追蹤平台的依賴。",
+          "importance": 3,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://blog.kagi.com/kagi-mail-public-beta",
+          "original_title": "Kagi Mail (public beta)",
+          "original_lang": "en",
+          "published_at": "2026-11-23T17:17:01.000Z",
+          "tags": [
+            "隱私工具",
+            "搜索服務",
+            "SaaS"
+          ]
+        },
+        {
+          "title": "機器人報導聚焦運動控制工程",
+          "summary": "The Robot Report 發布專報，聚焦製造業自動化中的運動控制技術進展。內容涵蓋最新技術改進、實際應用案例以及人形機器人與 AI 結合的潛在影響。",
+          "why": "為製造業從業人員提供了評估先進運動控制技術及其在自動化生產線中應用前景的參考依據。",
+          "importance": 2,
+          "source_name": "The Robot Report",
+          "source_url": "https://www.therobotreport.com/special-report-engineering-focus-on-motion-control/",
+          "original_title": "Special Report: Engineering Focus on Motion Control",
+          "original_lang": "en",
+          "published_at": "2026-11-23T15:16:26.000Z",
+          "tags": [
+            "工業自動化",
+            "運動控制",
+            "機器人"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "items": [
+        {
+          "title": "Kymera 濕疹口服新藥二期試驗成功",
+          "summary": "Kymera Therapeutics 報告其口服皮膚炎症候群新藥在二期試驗中，有效且安全地改善了244名濕疹患者的症狀。該結果顯示該藥物可能提供與注射型藥物 Dupixent 相當的療效。",
+          "why": "提供比現有注射療法更方便的口服替代選項，可能改變濕疹患者的標準治療模式。",
+          "importance": 4,
+          "source_name": "STAT News",
+          "source_url": "https://www.statnews.com/2026/11/23/kymera-therapeutics-eczema-trial-success-potential-dupixent-rival/",
+          "original_title": "STAT+: Kymera Therapeutics reports mid-stage eczema trial success for would-be Dupixent rival",
+          "original_lang": "en",
+          "published_at": "2026-11-23T12:00:00.000Z",
+          "tags": [
+            "皮膚科",
+            "臨床試驗",
+            "口服新藥"
+          ]
+        },
+        {
+          "title": "Lilly 收購 LoQus23 布局 Huntington 病治療",
+          "summary": "Eli Lilly 宣布以最高 7.25 億美元收購 LoQus23，取得其針對 Huntington 病的新藥。該藥物旨在抑制 MSH3 蛋白，以阻斷導致該疾病遺傳異常的機制。",
+          "why": "為罕見遺傳病提供首批針對性治療選項，並擴大 Lilly 在罕病領域的產品組合。",
+          "importance": 4,
+          "source_name": "BioPharma Dive",
+          "source_url": "https://www.biopharmadive.com/news/lilly-loqus-huntingtons-drug-acquisition-deal/875448/",
+          "original_title": "Lilly buys Huntington’s drug developer LoQus23 in potentially $725M deal",
+          "original_lang": "en",
+          "published_at": "2026-11-23T16:17:09.000Z",
+          "tags": [
+            "罕病",
+            "併購",
+            "基因治療"
+          ]
+        },
+        {
+          "title": "FDA 核准首個肢帶型肌营养不良症藥物",
+          "summary": "BridgeBio 獲得美國 FDA 批准，推出治療肢帶型肌營養不良症（LGMD）的首個藥物。此藥專門針對長期缺乏治療選項的肌病變類型。",
+          "why": "為長期無藥可用的肢帶型肌营养不良症患者提供治療選擇，改變疾病管理現狀。",
+          "importance": 4,
+          "source_name": "STAT News",
+          "source_url": "https://www.statnews.com/2026/11/23/fda-approves-bridgebio-lgmd-drug-welgemda/",
+          "original_title": "STAT+: Limb-girdle muscular dystrophy gets its first FDA-approved drug, from BridgeBio",
+          "original_lang": "en",
+          "published_at": "2026-11-23T21:23:42.000Z",
+          "tags": [
+            "肌肉疾病",
+            "FDA核准",
+            "罕病"
+          ]
+        },
+        {
+          "title": "國衛院揭露東亞族群思覺失調症遺傳線索",
+          "summary": "國衛院跨國分析近八萬人基因數據，發現東亞族群特有的思覺失調症關鍵遺傳變異。研究結果有助於建立族群特定的基因風險評估模型。",
+          "why": "提供族群針對性的基因風險數據，有助於未來發展更精準的精神疾病預防與篩檢策略。",
+          "importance": 3,
+          "source_name": "中央社 生活健康",
+          "source_url": "https://www.cna.com.tw/news/ahel/202611230231.aspx",
+          "original_title": "國衛院分析近8萬人基因 揭露思覺失調症遺傳線索",
+          "original_lang": "zh",
+          "published_at": "2026-11-23T10:20:56.000Z",
+          "tags": [
+            "遺傳學",
+            "精神疾病",
+            "精準醫療"
+          ]
+        },
+        {
+          "title": "新框架實現空間組學數據的可擴展差異分析",
+          "summary": "Nature Biotechnology 發表一篇論文，提出一個可扩展的空間多组学差异测试统一框架。该方法能实现细胞类型级别的分析，适用于大规模空间组学数据。",
+          "why": "提升空間多组学研究的分析效率與精確度，有助於理解組織微環境與細胞互動。",
+          "importance": 3,
+          "source_name": "Nature Biotechnology",
+          "source_url": "https://www.nature.com/articles/s41587-026-03284-0",
+          "original_title": "A unified framework for scalable differential testing for spatial omics",
+          "original_lang": "en",
+          "published_at": "2026-11-23T00:00:00.000Z",
+          "tags": [
+            "生技資訊學",
+            "空間組學",
+            "生物資訊"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "items": [
+        {
+          "title": "美智庫報告稱中國補助台商機票 干預台九合一選",
+          "summary": "美國智庫發布報告指出，北京當局正透過補助台商機票錢等方式干預台灣九合一選舉，試圖協助親中候選人當選。台灣九合一選舉將於28日登場，涵蓋22縣市的縣市长與地方民代等多項公職。",
+          "why": "揭示選舉中的具體資安與情報威脅路徑，影響選務安全部署與社會輿論走向。",
+          "importance": 4,
+          "source_name": "中央社 政治",
+          "source_url": "https://www.cna.com.tw/news/aipl/202611230297.aspx",
+          "original_title": "九合一投票日將屆 美智庫報告關注中國介選",
+          "original_lang": "zh",
+          "published_at": "2026-11-23T15:06:29.000Z",
+          "tags": [
+            "九合一選舉",
+            "情報報告",
+            "選情分析"
+          ]
+        },
+        {
+          "title": "OpenAI建議以困惑度訂AI門檻 監控未達標不跨線",
+          "summary": "OpenAI首席科學家建議AI開發業者設定共同發展門檻，並採用困惑度（perplexity）作為衡量AI能力的共通指標。該觀點主張在監控與安全機制未達標準前，不應跨越既定安全邊界。",
+          "why": "提出具體的量化指標用於監管AI模型，有助於業界建立統一的安全評估基準。",
+          "importance": 3,
+          "source_name": "中央社 科技",
+          "source_url": "https://www.cna.com.tw/news/ait/202611230017.aspx",
+          "original_title": "OpenAI科學家建議以困惑度為指標 訂定AI發展業界門檻",
+          "original_lang": "zh",
+          "published_at": "2026-11-23T00:37:07.000Z",
+          "tags": [
+            "AI安全",
+            "業界標準",
+            "模型評估"
+          ]
+        },
+        {
+          "title": "達美航空系統故障致兩千航班延誤 專家警老舊系統風險",
+          "summary": "達美航空因計算飛機重量和重心的系統故障，導致全美約2000架次航班延誤，一度改用人工應急。美國國家情報總監提醒，隨著老舊系統升級，民眾未來可能碰上更多服務中斷。",
+          "why": "反映關鍵產業自動化與AI系統在升級過程中的韌性挑戰，具實務參考價值。",
+          "importance": 3,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/837030",
+          "original_title": "達美航空自動化系統故障 全美2000架次航班延誤",
+          "original_lang": "zh",
+          "published_at": "2026-11-23T13:11:24.000Z",
+          "tags": [
+            "系統可靠性",
+            "航空業",
+            "數位基礎建設"
+          ]
+        },
+        {
+          "title": "聯合國氣候峰會破局 化石燃料退場協議失敗",
+          "summary": "第31屆聯合國氣候峰會宣告破局，未能就化石燃料退場及氣候資金達成整體政治協議。此挫敗讓運作超過30年的氣候談判機制面臨改革壓力，部分國家開始尋找新的減碳合作方式。",
+          "why": "氣候政策延宕影響全球綠色供應鏈布局與淨零技術的投資風險評估。",
+          "importance": 2,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/837031",
+          "original_title": "聯合國氣候峰會破局 化石燃料退場無法達成協議",
+          "original_lang": "zh",
+          "published_at": "2026-11-23T13:11:58.000Z",
+          "tags": [
+            "氣候變遷",
+            "國際談判",
+            "能源轉型"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "title": "胰臟癌新藥試驗顯示部分患者腫瘤消失",
+          "summary": "最新臨床試驗顯示，一款新藥可顯著縮小胰臟癌腫瘤，甚至讓部分患者體內腫瘤完全消失。研究團隊強調，雖然初期結果具有突破性，但仍需更長期的臨床試驗來驗證其持續效力與安全性。",
+          "why": "提供針對性療法的初步證據，有望改變晚期胰臟癌患者的治療預後。",
+          "importance": 4,
+          "source_name": "BBC 中文",
+          "source_url": "https://www.bbc.com/zhongwen/articles/c6vg2vv10kjdo/trad?at_medium=RSS&at_campaign=rss",
+          "original_title": "胰臟癌治療現突破，新藥試驗顯示部分患者腫瘤消失",
+          "original_lang": "zh",
+          "published_at": "2026-11-23T11:23:23.000Z",
+          "tags": [
+            "醫療",
+            "腫瘤",
+            "臨床試驗"
+          ]
+        },
+        {
+          "title": "黃仁勳獲白宮背書重掌英偉達，盤前股價大漲",
+          "summary": "英偉達（NVIDIA）宣布恢復聯創黃仁勳的首席執行官職務，並在獲得白宮背書後，股價在紐約盤前交易一度上漲超過 25% 至 30%。此舉是在其因涉及間諜醜聞辭職不到兩週後發生的重大逆轉。",
+          "why": "AI 算力核心供應商的高層穩定對全球科技供應鏈及 AI 基礎設施發展具有直接影響。",
+          "importance": 4,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/英伟达宣布黄仁勋即刻复任首席执行官/a-80022108?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "英伟达宣布黄仁勋即刻复任首席执行官",
+          "original_lang": "zh",
+          "published_at": "2026-11-23T14:49:00.000Z",
+          "tags": [
+            "半導體",
+            "AI",
+            "企業治理"
+          ]
+        },
+        {
+          "title": "COP31 氣候談判破裂，未達化石燃料協議共識",
+          "summary": "聯合國氣候大會 COP31 因談判僵局延至 22 日閉幕，成為該系列會議中歷時最長的一屆，最終未能就核心協議達成共識。分歧主要集中在最終草案未直接提及化石燃料，導致歐盟及太平洋島國等無法接受。",
+          "why": "全球脫碳進度受阻，可能影響長期能源轉型政策與相關產業監管框架。",
+          "importance": 3,
+          "source_name": "BBC 中文",
+          "source_url": "https://www.bbc.com/zhongwen/articles/cmx2xj9d16wlo/trad?at_medium=RSS&at_campaign=rss",
+          "original_title": "COP31氣候談判破裂，各國為何未能達成共識？",
+          "original_lang": "zh",
+          "published_at": "2026-11-23T08:47:39.000Z",
+          "tags": [
+            "氣候",
+            "國際政治",
+            "能源"
+          ]
+        },
+        {
+          "title": "CNN 調查揭露中國疑似情報網竊取美國官員資訊",
+          "summary": "CNN 調查揭露疑似中國情報人員建立虛假諮詢公司，透過招聘網站鎖定美國現任及前任政府官員以搜集敏感情報。美國聯邦調查局已查封 13 個相關網站，專家警告實際規模可能更大。",
+          "why": "突顯跨國企業與政府機構在數據邊界與人員往來中面臨的潛在資安風險。",
+          "importance": 3,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/cnn调查揭露疑似中国情报网络，锁定美国政府官员刺探敏感情报/a-80020177?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "CNN调查揭露疑似中国情报网络，锁定美国政府官员刺探敏感情报",
+          "original_lang": "zh",
+          "published_at": "2026-11-23T12:31:00.000Z",
+          "tags": [
+            "資安",
+            "地緣政治",
+            "諜報"
+          ]
+        },
+        {
+          "title": "伊朗加劇攻擊海灣地區，美國升級金融制裁",
+          "summary": "在面臨美國海軍封鎖與制裁壓力後，伊朗近日加劇對海灣地區的美軍基地及民用設施發動攻擊。美國財政部同步對伊朗實體及「影子銀行」網絡實施新一輪制裁，以切斷其全球金融活動。",
+          "why": "中東地緣政治緊張局勢升級，可能影響區域能源穩定與全球供應鏈風險。",
+          "importance": 3,
+          "source_name": "Al Jazeera",
+          "source_url": "https://www.aljazeera.com/video/inside-story/2026/11/23/iran-hits-us-bases-and-civilian-sites-in-the-gulf-after-a-lull?traffic_source=rss",
+          "original_title": "Iran hits US bases and civilian sites in the Gulf after a lull",
+          "original_lang": "en",
+          "published_at": "2026-11-23T20:26:40.000Z",
+          "tags": [
+            "中東",
+            "軍事",
+            "地緣政治"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "items": [
+        {
+          "title": "大都會簽下史庫柏創下MLB投手合約紀錄",
+          "summary": "紐約大都會與賽揚獎二連霸投手馬克·史庫柏達成協議，簽下9年4.5億美元合約。此交易創下MLB投手歷史最高薪資紀錄。",
+          "why": "打破歷史薪資紀錄將重定義頂尖球員市場價值，並可能引發薪資結構重估。",
+          "importance": 5,
+          "source_name": "MLB.com",
+          "source_url": "https://www.mlb.com/news/tarik-skubal-mets-contract",
+          "original_title": "Mets make the big splash, agree with Skubal for 9 years, $450M (sources)",
+          "original_lang": "en",
+          "published_at": "2026-11-23T00:27:00.000Z",
+          "tags": [
+            "MLB",
+            "轉會",
+            "薪資紀錄"
+          ]
+        },
+        {
+          "title": "英國主辦2035女足世盃 終結1966年後空白",
+          "summary": "2035年女子足球世界盃確定由英國主辦，包括英格蘭、北愛爾蘭、蘇格蘭和威爾斯。這是英國自1966年男足世界盃後，首次主辦足球世界盃。",
+          "why": "重大體育賽事落地將顯著帶動英國基礎建設投資與全球媒體關注度。",
+          "importance": 4,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/football/articles/cx30g83716lzo?at_medium=RSS&at_campaign=rss",
+          "original_title": "England, Northern Ireland, Scotland & Wales to host 2035 Women's World Cup",
+          "original_lang": "en",
+          "published_at": "2026-11-23T15:09:50.000Z",
+          "tags": [
+            "足總",
+            "世足賽",
+            "英國"
+          ]
+        },
+        {
+          "title": "台灣U19桌球男團擊敗中國奪銀 創改制後最佳",
+          "summary": "在土耳其伊斯坦堡舉辦的ITTF世界青少年桌球錦標賽，台灣U19男團以1比3不敵中國隊奪銀。這是該賽事自2021年改制以來的最佳成績。",
+          "why": "反映台灣在亞洲桌球強權競爭中保持競爭力的具體數據表現。",
+          "importance": 2,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611240008.aspx",
+          "original_title": "桌球世青少錦標賽 台灣U19男團不敵中國奪銀改制後最佳",
+          "original_lang": "zh",
+          "published_at": "2026-11-23T19:07:58.000Z",
+          "tags": [
+            "桌球",
+            "青少年",
+            "台灣"
+          ]
+        },
+        {
+          "title": "日韓冬季棒球聯盟茁壯 台職棒扮演關鍵推手",
+          "summary": "日本冬季聯盟（JWL）在沖繩舉行，來自17國超過150名選手參賽。盟主稱台灣棒球界是重要推手，因中華職棒派員參賽吸引日本職棒跟進。",
+          "why": "顯示台灣在區域體育生態系統中的影響力與國際交流價值。",
+          "importance": 2,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611230131.aspx",
+          "original_title": "日本棒球冬季聯盟逐步茁壯 社長：台灣球界是重要推手",
+          "original_lang": "zh",
+          "published_at": "2026-11-23T06:47:18.000Z",
+          "tags": [
+            "棒球",
+            "交流",
+            "日本"
+          ]
+        },
+        {
+          "title": "曼聯英超積分滑落 教練莫耶斯面臨救贖壓力",
+          "summary": "曼徹斯特聯隊在英超積分榜滑落，新任教練莫耶斯面臨挽救危機的壓力。文章探討球隊如何自我救贖而非依賴外部因素。",
+          "why": "反映頂級足球俱樂部管理動盪對競技表現的即時影響。",
+          "importance": 1,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/football/articles/ck9d7qxxl7w8o?at_medium=RSS&at_campaign=rss",
+          "original_title": "'No-one's coming to save us' - but how can Man Utd save themselves?",
+          "original_lang": "en",
+          "published_at": "2026-11-23T16:30:59.000Z",
+          "tags": [
+            "英超",
+            "曼聯"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "feeds": 39,
+    "fetched": 2997,
+    "kept": 31,
+    "jev_cost_usd": 0.005533,
+    "llm_cost_usd": 0.00124
+  }
+}
