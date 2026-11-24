@@ -1,0 +1,428 @@
+{
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T06:41:11.553+08:00",
+  "us_market_date": "2026-11-24",
+  "market_date": "2026-11-24",
+  "sector_mode": "turnover",
+  "sector_note": "依證交所 11/24 成交值×漲跌幅挑前 3",
+  "counts": {
+    "bull": 5,
+    "bear": 2,
+    "neutral": 5
+  },
+  "items": [
+    {
+      "key": "US:^GSPC",
+      "kind": "us",
+      "market": "US",
+      "name": "S&P 500",
+      "price": 7201.09,
+      "change_pct": -0.4985,
+      "decimals": 2,
+      "call": "neutral",
+      "net": 0.272,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "美股還能再漲近25%？德銀喊標普2027年底衝9000點",
+          "url": "https://news.cnyes.com/news/id/6671051",
+          "source": "鉅亨",
+          "score": 0.94,
+          "side": "skip"
+        },
+        {
+          "title": "Stock Market Today, Nov. 24: Nvidia Gives Back $240 Billion in Market Value Despite Wall Street Upgrade Signaling 29% Upside",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/24/stock-market-today-nov-24-nvidia-gives-back-usd240-billion-in-market-value-despite-wall-street-upgrade-signaling-29-upside/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.93,
+          "side": "skip"
+        },
+        {
+          "title": "SharkNinja (SN) Joins The S&P 500 As Fair Value Debate Heats Up",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/sharkninja-sn-joins-p-500-221420996.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.77,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "US:^IXIC",
+      "kind": "us",
+      "market": "US",
+      "name": "那斯達克",
+      "price": 23733.535,
+      "change_pct": -1.4779,
+      "decimals": 2,
+      "call": "bear",
+      "net": -0.542,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "市場過度受情緒主導？黃仁勳復職引爆美股史詩級反彈、輝達單日暴漲31%",
+          "url": "https://news.cnyes.com/news/id/6670427",
+          "source": "鉅亨",
+          "score": 0.98,
+          "side": "long"
+        },
+        {
+          "title": "Nvidia's Historic 31% Rally Unravels In Just One Day. AI Stocks Plunge As Nasdaq Sinks 2%.",
+          "url": "https://www.ibtimes.com/us-stocks-mixed-ai-selloff-consumer-confidence-3810150?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.97,
+          "side": "short"
+        },
+        {
+          "title": "Stock Market Today: Nasdaq Dives As Jensen Huang Tells Nvidia Staff This; Walmart Tests Entry",
+          "url": "https://finance.yahoo.com/m/4aa4ff31-269f-346e-80c4-e681510af7ae/stock-market-today%3A-nasdaq.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.93,
+          "side": "short"
+        }
+      ]
+    },
+    {
+      "key": "US:^DJI",
+      "kind": "us",
+      "market": "US",
+      "name": "道瓊",
+      "price": 50018.7,
+      "change_pct": 0.8537,
+      "decimals": 2,
+      "call": "bull",
+      "net": 0.306,
+      "news_count": 2,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "The Argument Behind Monness Crespi & Hardt’s Call on SoFi (SOFI)",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/argument-behind-monness-crespi-hardt-191300732.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.52,
+          "side": "long"
+        },
+        {
+          "title": "ASE Technology (ASX) Is Widening Its Margins. Here’s How",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ase-technology-asx-widening-margins-191315596.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.43,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "US:^SOX",
+      "kind": "us",
+      "market": "US",
+      "name": "費城半導體",
+      "price": 8832.501,
+      "change_pct": -7.8801,
+      "decimals": 2,
+      "call": "bear",
+      "net": -1.019,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "Chip Stocks Just Had Their Fourth-Best Day Since 2000",
+          "url": "https://247wallst.com/investing/2026/11/24/chip-stocks-just-had-their-fourth-best-day-since-2000/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.99,
+          "side": "skip"
+        },
+        {
+          "title": "Nvidia, AMD, Broadcom lead chip stocks lower as AI trade comes under pressure",
+          "url": "https://finance.yahoo.com/markets/article/nvidia-amd-broadcom-lead-chip-stocks-lower-as-ai-trade-comes-under-pressure-141635463.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.99,
+          "side": "short"
+        },
+        {
+          "title": "Nvidia, AMD and Micron Lead AI Selloff as Chip Stocks Slide",
+          "url": "https://finance.yahoo.com/technology/ai/articles/nvidia-amd-micron-lead-ai-174008056.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.99,
+          "side": "short"
+        }
+      ]
+    },
+    {
+      "key": "IDX:^TWII",
+      "kind": "index",
+      "market": "TW",
+      "name": "加權指數",
+      "price": 40122.35,
+      "change_pct": 8.99,
+      "decimals": 2,
+      "call": "neutral",
+      "net": 0.204,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "不管台股狂飆！外資續賣503億、自營商暴砍810億 三大法人賣超1230.11億元",
+          "url": "https://news.cnyes.com/news/id/6670956",
+          "source": "鉅亨",
+          "score": 0.99,
+          "side": "skip"
+        },
+        {
+          "title": "台股漲停卻沒量？三大法人賣超1230億真相曝 郭哲榮：籌碼洗淨沒人賣",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%BC%B2%E5%81%9C%E5%8D%BB%E6%B2%92%E9%87%8F-%E4%B8%89%E5%A4%A7%E6%B3%95%E4%BA%BA%E8%B3%A3%E8%B6%851230%E5%84%84%E7%9C%9F%E7%9B%B8%E6%9B%9D-%E9%83%AD%E5%93%B2%E6%A6%AE-%E7%B1%8C%E7%A2%BC%E6%B4%97%E6%B7%A8%E6%B2%92%E4%BA%BA%E8%B3%A3-130000122.html",
+          "source": "Yahoo奇摩",
+          "score": 0.99,
+          "side": "long"
+        },
+        {
+          "title": "台股狂噴8.99%三大法人卻爆逃命訊號！下殺1230億「這檔記憶體」被出清1.6萬張最慘 聯電、台塑也難逃",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E7%8B%82%E5%99%B48-99-%E4%B8%89%E5%A4%A7%E6%B3%95%E4%BA%BA%E5%8D%BB%E7%88%86%E9%80%83%E5%91%BD%E8%A8%8A%E8%99%9F-%E4%B8%8B%E6%AE%BA1230%E5%84%84-%E9%80%99%E6%AA%94%E8%A8%98%E6%86%B6%E9%AB%94-133600975.html",
+          "source": "Yahoo奇摩",
+          "score": 0.99,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "SEC:半導體",
+      "kind": "sector",
+      "market": "TW",
+      "name": "半導體",
+      "price": 1385.94,
+      "change_pct": 9.78,
+      "decimals": 2,
+      "call": "bull",
+      "net": 0.654,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "明天會震盪!!換股時機?台積電⊕、鴻海⊕、台達電⊕、國巨⊕、金像電⊕",
+          "url": "https://news.cnyes.com/news/id/6670970",
+          "source": "鉅亨",
+          "score": 0.98,
+          "side": "skip"
+        },
+        {
+          "title": "台積電226億美元新廠落腳德州？能否減稅成關鍵",
+          "url": "https://news.cnyes.com/news/id/6671000",
+          "source": "鉅亨",
+          "score": 0.98,
+          "side": "skip"
+        },
+        {
+          "title": "〈台股開盤〉黃仁勳回歸點火大盤重返4萬 早盤飆3368點創史上最大盤中漲點",
+          "url": "https://news.cnyes.com/news/id/6670720",
+          "source": "鉅亨",
+          "score": 0.97,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "SEC:金融保險",
+      "kind": "sector",
+      "market": "TW",
+      "name": "金融保險",
+      "price": 3404.16,
+      "change_pct": 8.74,
+      "decimals": 2,
+      "call": "bull",
+      "net": 0.386,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "〈兆豐金法說〉輝達狂飆36%帶旺台股！企金與海外放款雙位數成長 明年股利配發率站穩7成",
+          "url": "https://news.cnyes.com/news/id/6670993",
+          "source": "鉅亨",
+          "score": 0.83,
+          "side": "long"
+        },
+        {
+          "title": "國泰金分享COP31現場三大觀察 剖析「專案落地」與「混合金融」加速關鍵",
+          "url": "https://news.cnyes.com/news/id/6670973",
+          "source": "鉅亨",
+          "score": 0.74,
+          "side": "skip"
+        },
+        {
+          "title": "從「邊做邊學」到商業化！國泰金揭綠能拓荒史 用實證數據打破預測盲點",
+          "url": "https://news.cnyes.com/news/id/6670974",
+          "source": "鉅亨",
+          "score": 0.73,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "SEC:AI 伺服器／電子代工",
+      "kind": "sector",
+      "market": "TW",
+      "name": "AI 伺服器／電子代工",
+      "price": 366.95,
+      "change_pct": 9.47,
+      "decimals": 2,
+      "call": "bull",
+      "net": 1.855,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "明天會震盪!!換股時機?台積電⊕、鴻海⊕、台達電⊕、國巨⊕、金像電⊕",
+          "url": "https://news.cnyes.com/news/id/6670970",
+          "source": "鉅亨",
+          "score": 0.95,
+          "side": "long"
+        },
+        {
+          "title": "〈焦點股〉黃仁勳回鍋CEO 電子五哥同歡三檔高掛紅燈",
+          "url": "https://news.cnyes.com/news/id/6670875",
+          "source": "鉅亨",
+          "score": 0.94,
+          "side": "long"
+        },
+        {
+          "title": "黃仁勳回歸亞洲輝達概念股狂飆！台股多檔個股逼近漲停",
+          "url": "https://news.cnyes.com/news/id/6670758",
+          "source": "鉅亨",
+          "score": 0.93,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "FX:USD/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "美元／台幣",
+      "price": 32.961,
+      "change_pct": 0.0194,
+      "decimals": 4,
+      "call": "bull",
+      "net": 0.531,
+      "news_count": 4,
+      "fx_hint": "外幣偏強／台幣偏貶",
+      "news": [
+        {
+          "title": "〈台幣〉美元指數強升衝破104大關 台幣終止連3升收在32.939元",
+          "url": "https://news.cnyes.com/news/id/6670979",
+          "source": "鉅亨",
+          "score": 0.98,
+          "side": "long"
+        },
+        {
+          "title": "〈兆豐金法說〉台幣貶向33元探底？張傳章：估央行12月不升息 這原因讓明年GDP回落至5.22%",
+          "url": "https://news.cnyes.com/news/id/6670985",
+          "source": "鉅亨",
+          "score": 0.82,
+          "side": "long"
+        },
+        {
+          "title": "貝萊德：2027年美國通膨將趨緩 市場過度高估聯準會升息幅度",
+          "url": "https://news.cnyes.com/news/id/6670938",
+          "source": "鉅亨",
+          "score": 0.48,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "FX:JPY/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "日圓／台幣",
+      "price": 0.2048,
+      "change_pct": -1.4778,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0,
+      "news_count": 0,
+      "fx_hint": "",
+      "news": []
+    },
+    {
+      "key": "FX:CNY/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "人民幣／台幣",
+      "price": 4.9539,
+      "change_pct": 0.5072,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0,
+      "news_count": 0,
+      "fx_hint": "",
+      "news": []
+    },
+    {
+      "key": "FX:EUR/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "歐元／台幣",
+      "price": 36.191,
+      "change_pct": 3.4442,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0.086,
+      "news_count": 1,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "歐洲央行鷹聲再起！官員：最新數據顯示必須再升息",
+          "url": "https://news.cnyes.com/news/id/6671015",
+          "source": "鉅亨",
+          "score": 0.44,
+          "side": "long"
+        }
+      ]
+    }
+  ],
+  "scorecard": {
+    "days": 30,
+    "horizon_hours": 24,
+    "graded": 295,
+    "long": {
+      "n": 122,
+      "hit": 56,
+      "avg": 0.0753
+    },
+    "short": {
+      "n": 65,
+      "hit": 32,
+      "avg": -0.4937
+    },
+    "skip": {
+      "n": 108,
+      "hit": 10
+    },
+    "base": {
+      "n": 295,
+      "hit": 140,
+      "avg": 0.0385
+    },
+    "kinds": {
+      "us": {
+        "n": 105,
+        "hit": 31
+      },
+      "index": {
+        "n": 39,
+        "hit": 17
+      },
+      "sector": {
+        "n": 104,
+        "hit": 30
+      },
+      "fx": {
+        "n": 47,
+        "hit": 20
+      }
+    },
+    "tokens": 261316,
+    "usd": 0.0078
+  },
+  "warnings": [],
+  "disclaimer": "非投資建議。偏多／偏空只代表 Kairos 依新聞判斷的方向，不考慮你的財務狀況；本流程不會下單。"
+}
