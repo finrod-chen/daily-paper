@@ -1,0 +1,552 @@
+{
+  "date": "2026-11-25",
+  "generated_at": "2026-11-25T07:01:02.543+08:00",
+  "edition": 16,
+  "headline": {
+    "title": "賽諾菲 410 億美元收購 Insmed 創下業界紀錄",
+    "summary": "賽諾菲（Sanofi）宣布以 410 億美元收購生技公司 Insmed，這是數年以來生技產業規模最大的併購案。交易將為賽諾菲帶來兩項已獲核准的新藥。",
+    "why": "此併購案將重塑全球呼吸與罕見疾病藥物市場格局，並提升對生技創投資產流動性的信心。",
+    "importance": 5,
+    "source_name": "STAT News",
+    "source_url": "https://www.statnews.com/pharmalot/2026/11/24/sanofi-buying-insmed-roche-breast-cancer-pill/",
+    "original_title": "STAT+: Pharmalittle: We’re reading about Sanofi buying Insmed, Roche touting its breast cancer pill, and more",
+    "original_lang": "en",
+    "published_at": "2026-11-24T14:27:36.000Z",
+    "tags": [
+      "併購",
+      "賽諾菲",
+      "Insmed"
+    ]
+  },
+  "brief": "賽諾菲以四百一十億美元收購Insmed創下生技併購紀錄，同場FDA亦核准Roche乳癌口服藥擴展至早期疾病治療。美國兩黨抨擊黃仁勳回任輝達並加強AI晶片管制，而華為竊密罪成但最重罪無罪，同時俄國飛彈落波蘭引發北約警覺。OpenAI GPT-6展現蛋白質設計能力，但馬斯克示警AI循環融資缺口恐達千億美元。",
+  "sections": [
+    {
+      "id": "ai",
+      "items": [
+        {
+          "title": "GPT-6 模型展現蛋白質設計能力",
+          "summary": "OpenAI 的 GPT-6 模型展現出內在的蛋白質設計能力，能透過推理和程式碼設計蛋白質結構與序列。實驗室測試發現，該模型在針對五種目標的結合測試中呈現出有效的結合證據。",
+          "why": "大型語言模型開始具備直接設計生物分子的能力，為藥物研發與合成生物學提供新的自動化路徑。",
+          "importance": 4,
+          "source_name": "OpenAI News",
+          "source_url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities",
+          "original_title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+          "original_lang": "en",
+          "published_at": "2026-11-24T13:00:00.000Z",
+          "tags": [
+            "GPT-6",
+            "蛋白質設計",
+            "生技AI"
+          ]
+        },
+        {
+          "title": "CISA 警告醫療與郵件防護系統漏洞遭利用",
+          "summary": "美國網路安全與基礎設施安全局（CISA）揭露兩個遭積極利用的漏洞，分別影響醫療影像 AI 軟體 MONAI Label 與 N-able 郵件防護系統 Mail Assure。這兩個漏洞（CVE-2026-133968 與 CVE-2026-134624）已被列入已知遭利用漏洞名單，聯邦機構必須在 11 月 26 日前完成修補。",
+          "why": "醫療與企業關鍵基礎設施的資安風險上升，特別是涉及 AI 影像處理與郵件安全元件的漏洞正被積極攻擊。",
+          "importance": 3,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180757",
+          "original_title": "CISA警告醫療影像軟體、N-able郵件防護平臺漏洞遭積極利用",
+          "original_lang": "zh",
+          "published_at": "2026-11-24T04:11:26.000Z",
+          "tags": [
+            "資安漏洞",
+            "醫療影像",
+            "CISA"
+          ]
+        },
+        {
+          "title": "微軟 AI Agent 數破 5,000 萬，轉向用量計費",
+          "summary": "微軟在 Ignite 2026 會議上宣布 Agent 365 登錄的 AI Agent 數量已超過 5,000 萬個。微軟同時調整 Copilot 商業模式，從按席次訂閱擴大到用量計費，採用用量計費的客戶數在單季內增加逾 75%。",
+          "why": "企業級 AI 服務的計費模型正從固定訂閱轉向基於實際使用量，反映 AI 負載與複雜度快速成長的產業趨勢。",
+          "importance": 3,
+          "source_name": "INSIDE",
+          "source_url": "https://www.inside.com.tw/article/42994-microsoft-agent-365-50-million-business-analytics",
+          "original_title": "微軟 Agent 365 登錄數破 5,000 萬，Copilot 計費從按席次擴大到按用量",
+          "original_lang": "zh",
+          "published_at": "2026-11-24T06:26:00.000Z",
+          "tags": [
+            "微軟",
+            "AI Agent",
+            "商業模式"
+          ]
+        },
+        {
+          "title": "CrowdStrike 439 億美元併購 Zscaler，PHP 重大漏洞曝光",
+          "summary": "CrowdStrike 以 439 億美元併購 Zscaler，創下資安業界交易紀錄。此外，研究人員揭露 PHP 存在重大漏洞 phpAfterShell，指出此前的修補措施不夠完整，可能導致伺服器被入侵。",
+          "why": "資安市場集中度提高，同時 Web 伺服器常見技術棧的漏洞若修補不週，將持續威脅企業與開發環境的安全性。",
+          "importance": 3,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180756",
+          "original_title": "【資安日報】11月24日，CrowdStrike以439億美元併購Zscaler，創下資安界交易紀錄",
+          "original_lang": "zh",
+          "published_at": "2026-11-24T02:11:26.000Z",
+          "tags": [
+            "資安并购",
+            "PHP漏洞",
+            "CrowdStrike"
+          ]
+        },
+        {
+          "title": "AI Agent 使企業網路流量激增 450%",
+          "summary": "企業網路面臨嚴重壓力，因為人工智慧部署成為最大的需求來源。研究顯示，由 AI Agent 執行的任務產生的網路流量比人類工作者執行相同任務高出約 450%。",
+          "why": "導入自主式 AI 代理時，企業必須重新評估網路基礎設施的承載能力，以避免效能瓶頸。",
+          "importance": 2,
+          "source_name": "MIT Technology Review AI",
+          "source_url": "https://www.technologyreview.com/2026/11/24/1148091/raising-the-stakes-for-enterprise-networks-with-ai-modernization/",
+          "original_title": "Raising the stakes for enterprise networks with AI modernization",
+          "original_lang": "en",
+          "published_at": "2026-11-24T15:15:16.000Z",
+          "tags": [
+            "企業網路",
+            "AI基礎設施",
+            "Agentic AI"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "items": [
+        {
+          "title": "Check Point 安全伺服器遭受主動入侵攻擊",
+          "summary": "GreyNoise 指出，一場針對 Check Point 安全管理伺服器的主動入侵攻擊活動正在進行中。該組織利用未修補的漏洞進入管理介面，試圖部署惡意工具以進一步滲透企業網路。",
+          "why": "企業 IT 管理團隊需立即檢查伺服器韌體與更新安全配置，以防範未經授權的存取與資料外洩。",
+          "importance": 4,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+          "original_title": "Active intrusion campaign against Check Point security management servers",
+          "original_lang": "en",
+          "published_at": "2026-11-24T16:32:17.000Z",
+          "tags": [
+            "資安",
+            "入侵"
+          ]
+        },
+        {
+          "title": "OpenAI 關閉 Agent Builder，需導出工作流",
+          "summary": "OpenAI 宣布將於 2026 年 11 月 30 日關閉 Agent Builder 服務。使用者需在此期限前將工作流導出，但 OpenAI 仅提供原始程式碼，無法直接遷移至其他平台，Zapier 提供了重新建立 Zaps 的指引。",
+          "why": "依賴該平台進行自動化流程開發的團隊，必須面臨重新建構工作流及評估替代方案的額外成本與時間。",
+          "importance": 4,
+          "source_name": "Zapier Blog",
+          "source_url": "https://zapier.com/blog/openai-agent-builder-alternatives",
+          "original_title": "OpenAI Agent Builder is shutting down: How to export your workflows and move to Zapier",
+          "original_lang": "en",
+          "published_at": "2026-11-24T00:00:00.000Z",
+          "tags": [
+            "AI 工具",
+            "工作流"
+          ]
+        },
+        {
+          "title": "n8n 發布 AI 代理審計與追蹤實戰指南",
+          "summary": "n8n 提供五項實用練習，協助開發者審計與追蹤 AI 代理的決策過程。內容涵蓋讀取已儲存執行記錄、為決策標記以方便搜尋、使用 OpenTelemetry 追蹤工具呼叫，以及驗證執行的工作流版本。",
+          "why": "提供具體方法確保 AI 自動化流程的透明度與可追溯性，符合企業合規與除錯需求。",
+          "importance": 3,
+          "source_name": "n8n Blog",
+          "source_url": "https://blog.n8n.io/production-ai-playbook-audit-trace-for-ai-agents/",
+          "original_title": "Production AI Playbook: Audit & trace for AI agents",
+          "original_lang": "en",
+          "published_at": "2026-11-24T14:30:29.000Z",
+          "tags": [
+            "自動化",
+            "AI 審計"
+          ]
+        },
+        {
+          "title": "SoftBank 收購 Marc Raibert 的機器人與 AI 研究所",
+          "summary": "SoftBank 已從現代汽車集團完成收購 Robotics and AI Institute（R&AI）。該機構將擴展 SoftBank 的機器人業務，並在馬薩諸塞州與瑞士開設 24 個職位進行招聘。",
+          "why": "顯示大型企業正整合頂級機器人研究資源，加速實體 AI 與自動化技術的產業化落地。",
+          "importance": 3,
+          "source_name": "The Robot Report",
+          "source_url": "https://www.therobotreport.com/softbank-acquires-marc-raiberts-robotics-and-ai-institute/",
+          "original_title": "SoftBank acquires Marc Raibert’s Robotics and AI Institute",
+          "original_lang": "en",
+          "published_at": "2026-11-24T14:48:57.000Z",
+          "tags": [
+            "機器人",
+            "收購"
+          ]
+        },
+        {
+          "title": "Ternary Bonsai 2.5 27B 模型發布",
+          "summary": "PrismML 發布 Ternary Bonsai 2.5 27B 模型。該模型針對效能與資源使用進行了優化，在 Hacker News 上獲得關注，討論其作為輕量級 AI 解決方案的可能性。",
+          "why": "輕量級模型的發展有助於在邊緣設備或資源受限環境中部署 AI 功能，降低運算成本。",
+          "importance": 3,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://prismml.com/news/bonsai-2-5-27b",
+          "original_title": "Ternary Bonsai 2.5 27B",
+          "original_lang": "en",
+          "published_at": "2026-11-24T20:08:03.000Z",
+          "tags": [
+            "LLM",
+            "模型發布"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "items": [
+        {
+          "title": "Roche 乳癌口服藥再獲 FDA 核准用於早期疾病",
+          "summary": "Roche 的乳癌口服藥物在一週內獲得 FDA 第二次核准，最新適應症為手術後的早期乳癌。此舉擴大了該藥物在早期疾病治療中的臨床應用範圍。",
+          "why": "擴展適應症將顯著增加該藥物的市場滲透率，對乳癌治療標準產生實質影響。",
+          "importance": 4,
+          "source_name": "STAT News",
+          "source_url": "https://www.statnews.com/2026/11/24/biotech-news-roche-potential-breast-cancer-blockbluster-drug-wins-second-fda-nod/",
+          "original_title": "STAT+: Roche’s potential breast cancer blockbuster drug wins second FDA nod",
+          "original_lang": "en",
+          "published_at": "2026-11-24T14:26:07.000Z",
+          "tags": [
+            "乳癌",
+            "Roche",
+            "FDA核准"
+          ]
+        },
+        {
+          "title": "FDA 核准 BridgeBio 肌肉萎縮症藥物，年費預估近百萬美元",
+          "summary": "FDA 核准 BridgeBio 開發的肌肉萎縮症藥物。華爾街分析師認為，由於該藥物能幫助患者改善行走與呼吸功能，且預期年費接近 100 萬美元，將帶動鉅額銷售額。",
+          "why": "高價罕見病藥物的成功上市，顯示臨床效益可支撐高額定價，為生技公司定價策略提供參考。",
+          "importance": 4,
+          "source_name": "BioPharma Dive",
+          "source_url": "https://www.biopharmadive.com/news/fda-bridgebio-welgemda-limb-girdle-muscle-disorder-approval/875610/",
+          "original_title": "FDA approves BridgeBio muscular dystrophy drug",
+          "original_lang": "en",
+          "published_at": "2026-11-24T16:36:00.000Z",
+          "tags": [
+            "肌肉萎縮症",
+            "BridgeBio",
+            "罕見病"
+          ]
+        },
+        {
+          "title": "研究揭示模組化 mRNA 輔助蛋白提升 DNA 傳遞效率",
+          "summary": "Nature Biotechnology 發表研究指出，利用模組化 mRNA 編碼的輔助蛋白質，可有效提升 DNA 傳遞效率。該研究顯示共同遞送輔助蛋白質能改善基因治療的送達效果。",
+          "why": "優化基因傳遞技術有助於解決基因治療中常見的遞送瓶頸，加速相關藥物開發進度。",
+          "importance": 3,
+          "source_name": "Nature Biotechnology",
+          "source_url": "https://www.nature.com/articles/s41587-026-03351-6",
+          "original_title": "Modular mRNA-encoded helper proteins enhance DNA delivery",
+          "original_lang": "en",
+          "published_at": "2026-11-24T00:00:00.000Z",
+          "tags": [
+            "基因治療",
+            "mRNA",
+            "DNA傳遞"
+          ]
+        },
+        {
+          "title": "FDA 罕見對藥廠未報告臨床結果發布執法通知",
+          "summary": "FDA 首次在一年多以來，向兩家藥廠發送通知，指出其未依規定將臨床試驗結果報告至資料庫。此舉顯示監管機構加強對臨床數據透明度的執法力道。",
+          "why": "強化臨床試驗數據報告的合規要求，將影響藥廠的研發管理流程與數據治理策略。",
+          "importance": 3,
+          "source_name": "STAT News",
+          "source_url": "https://www.statnews.com/pharmalot/2026/11/24/fda-cites-two-drugmakers-for-failing-to-report-clinical-trial-results/",
+          "original_title": "STAT+: In a rare move, the FDA cites two drugmakers for failing to report clinical trial results to a database",
+          "original_lang": "en",
+          "published_at": "2026-11-24T13:39:31.000Z",
+          "tags": [
+            "FDA",
+            "臨床試驗",
+            "監管"
+          ]
+        },
+        {
+          "title": "港中大雙臂內視鏡手術機器人進入人體試驗",
+          "summary": "香港中文大學團隊研發的雙臂內視鏡手術機器人正式進入人體臨床試驗階段。研究人員預期該技術有助於縮短腫瘤切除所需的手術時間。",
+          "why": "手術機器人的臨床進展可能提高手術精確度與效率，對醫療自動化與手術標準化具有長期價值。",
+          "importance": 3,
+          "source_name": "科技新報 生技",
+          "source_url": "https://technews.tw/2026/11/24/how-2-tiny-robot-arms-could-halve-digestive-cancer-surgery-time/",
+          "original_title": "港中大雙臂內視鏡手術機器人進入人體實驗，腫瘤切除時間有望縮短一半",
+          "original_lang": "zh",
+          "published_at": "2026-11-23T23:20:32.000Z",
+          "tags": [
+            "醫療機器人",
+            "內視鏡",
+            "臨床試驗"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "items": [
+        {
+          "title": "美兩黨抨擊黃仁勳回任，加強AI晶片管制",
+          "summary": "美國兩黨國會議員批評黃仁勳重返輝達，要求加強對中國AI晶片出口管制並追查川普介入人事案細節。涉及Megaspeed的新加坡業者已被美國列入貿易黑名單，新加坡政府將持續調查其違法情形。",
+          "why": "地緣政治監管風險升高，直接影響全球AI供應鏈穩定及晶片出口合規策略。",
+          "importance": 5,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/837207",
+          "original_title": "美兩黨皆批評黃仁勳回輝達 籲加強對中AI晶片管制",
+          "original_lang": "zh",
+          "published_at": "2026-11-24T12:33:49.000Z",
+          "tags": [
+            "輝達",
+            "晶片管制",
+            "AI"
+          ]
+        },
+        {
+          "title": "馬斯克示警AI循環融資缺口，恐達千億美元",
+          "summary": "市場擔憂AI產業過度仰賴循環融資，馬斯克預警2027年全球AI恐面臨數千億美元資金缺口。輝達執行長黃仁勳回歸雖穩定供應鏈情緒，但硬體採購到獲利間的時滯仍構成重大隱憂。",
+          "why": "揭示AI基礎設施投資的財務結構脆弱性，提醒企業評估長期資金流與營收轉化效率。",
+          "importance": 4,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/837205",
+          "original_title": "AI循環融資成泡沫化隱憂 馬斯克：未來恐有千億美元缺口",
+          "original_lang": "zh",
+          "published_at": "2026-11-24T12:32:29.000Z",
+          "tags": [
+            "AI產業",
+            "融資風險",
+            "資本市場"
+          ]
+        },
+        {
+          "title": "國發會推生醫戰略，2030年拚營業額兆元",
+          "summary": "國發會將生醫納入戰略產業，目標2030年產業營業額達新台幣1兆元。政策聚焦智慧醫療、在宅醫療及關鍵藥物國產化，規劃2029年開發50項關鍵藥品並上市10項國產醫藥品。",
+          "why": "明確的量化目標與國產化路徑，為生技研發與供應鏈投資提供長期的政策確定性。",
+          "importance": 4,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611240300.aspx",
+          "original_title": "國發會：生醫納戰略產業規劃 2030年營業額拚兆元",
+          "original_lang": "zh",
+          "published_at": "2026-11-24T12:53:45.000Z",
+          "tags": [
+            "生技醫療",
+            "產業政策",
+            "關鍵藥物"
+          ]
+        },
+        {
+          "title": "AI前景疑慮引發拋售，輝達重挫近6%",
+          "summary": "受AI熱潮前景不明影響，美國股市多數收跌，科技類股遭拋售。輝達股價下探5.86%，收在155.38美元。",
+          "why": "反映市場對AI資本支出回報率的審視，影響相關供應鏈的估值邏輯與資金配置。",
+          "importance": 3,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611250011.aspx",
+          "original_title": "AI熱潮前景不明 美股多收跌、輝達股價下挫近6%",
+          "original_lang": "zh",
+          "published_at": "2026-11-24T22:09:18.000Z",
+          "tags": [
+            "美股",
+            "輝達",
+            "AI行情"
+          ]
+        },
+        {
+          "title": "偽裝人機驗證誘導執行惡意指令，竊取個資",
+          "summary": "駭客利用偽裝的人機驗證，誘導使用者執行惡意指令以植入木馬竊取個資。此攻擊手法亦隱藏於網路求職軟體下載過程，資安專家呼籲警惕網頁要求開啟命令提示字元的情況。",
+          "why": "新型社會工程攻擊提高員工個資洩漏與系統入侵風險，企業需強化人員資安意識與軟體來源驗證。",
+          "importance": 3,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/837209",
+          "original_title": "網路真人驗證藏陷阱 誘導按快捷、複製指令恐洩個資",
+          "original_lang": "zh",
+          "published_at": "2026-11-24T12:30:42.000Z",
+          "tags": [
+            "資安",
+            "社會工程",
+            "個資保護"
+          ]
+        },
+        {
+          "title": "聯合國籲建立AI風險管控機制",
+          "summary": "聯合國秘書長古特瑞斯呼籲各國建立管控AI的風險管理機制。他於巴貝多AI會議致詞，強調需降低人工智慧帶來的潛在風險。",
+          "why": "國際監管趨勢可能演變為強制性標準，影響AI模型開發與部署的合規成本。",
+          "importance": 2,
+          "source_name": "中央社 科技",
+          "source_url": "https://www.cna.com.tw/news/ait/202611240071.aspx",
+          "original_title": "聯合國秘書長籲管控AI 一年內建風險管理機制",
+          "original_lang": "zh",
+          "published_at": "2026-11-24T03:35:24.000Z",
+          "tags": [
+            "AI治理",
+            "聯合國",
+            "風險管理"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "title": "華為美國案定：竊密罪成，最重罪無罪",
+          "summary": "華為在美國刑事審判中被陪審團裁定犯有竊取商業機密及詐欺銀行罪，主要針對其隱瞞伊朗業務行為。然而，陪審團無罪釋放了該公司面臨的最嚴重指控，即參與犯罪勒索陰謀罪。",
+          "why": "此判決確立了跨國企業在竊取機密與銀行詐欺上的法律責任，影響未來科技公司的合規風險評估。",
+          "importance": 4,
+          "source_name": "Al Jazeera",
+          "source_url": "https://www.aljazeera.com/economy/2026/11/24/chinese-tech-giant-huawei-found-guilty-of-conspiracy-to-steal-trade-secrets?traffic_source=rss",
+          "original_title": "China’s Huawei found guilty of trade secrets conspiracy, fraud in US trial",
+          "original_lang": "en",
+          "published_at": "2026-11-24T21:43:34.000Z",
+          "tags": [
+            "華為",
+            "美國司法",
+            "知識產權"
+          ]
+        },
+        {
+          "title": "俄烏衝突擴大，飛彈落波蘭引北約警覺",
+          "summary": "俄烏戰爭衝突範圍擴大，最近數日發生烏軍銷毀停泊在利比亞港口的俄軍戰艦，以及俄國飛彈落在波蘭境內的事件。克里姆林宮目前對飛彈落入波蘭一事未置評。",
+          "why": "衝突向非交戰區蔓延，增加了北約與俄國直接對立的風險，影響全球供應鏈穩定性。",
+          "importance": 4,
+          "source_name": "NPR World",
+          "source_url": "https://www.npr.org/2026/11/24/nx-s1-6051564/fighting-between-russia-and-ukraine-has-expanded-geographically-drawing-concerns",
+          "original_title": "Fighting between Russia and Ukraine has expanded geographically, drawing concerns",
+          "original_lang": "en",
+          "published_at": "2026-11-24T09:52:03.000Z",
+          "tags": [
+            "俄烏戰爭",
+            "北約",
+            "地緣政治"
+          ]
+        },
+        {
+          "title": "北約承諾防範太空威脅，俄擬發核衛星",
+          "summary": "北約秘書長魯特在俄國核彈衛星報告後，誓言對太空威脅進行防衛。德國媒體報導稱，俄國計劃在數週內在太空中發射帶有核彈頭的衛星。",
+          "why": "太空軍事化趨勢升高，可能引發新的軍備競賽並改變全球安全防禦架構。",
+          "importance": 4,
+          "source_name": "BBC World",
+          "source_url": "https://www.bbc.co.uk/news/articles/c9x2er1ry2mzo?at_medium=RSS&at_campaign=rss",
+          "original_title": "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+          "original_lang": "en",
+          "published_at": "2026-11-24T10:58:51.000Z",
+          "tags": [
+            "太空安全",
+            "北約",
+            "核武器"
+          ]
+        },
+        {
+          "title": "歐盟設限中國混動車進口，年上限35萬輛",
+          "summary": "歐盟自12月起對中國進口混合動力汽車實施臨時配額限制，年度上限約35萬輛。此措施有效期最長200天，期間歐盟委員會需提出長期方案並經27個成员国批准。",
+          "why": "貿易保護措施直接影響汽車產業跨國佈局與關稅策略，對供應鏈決策具有重要參考意義。",
+          "importance": 3,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/欧盟设进口配额：中国混动车每年最多35万辆/a-80034664?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "欧盟设进口配额：中国混动车每年最多35万辆",
+          "original_lang": "zh",
+          "published_at": "2026-11-24T13:57:00.000Z",
+          "tags": [
+            "歐盟貿易",
+            "自動汽車",
+            "中國製造"
+          ]
+        },
+        {
+          "title": "德國汽車業危機加劇，剩12至18個月窗口期",
+          "summary": "梅賽德斯-賓士凍結德國工廠投資，大眾汽車擬裁減超過10萬員工，顯示德國汽車業面臨結構性危機。普華永道分析指出，德國汽車業完成自我重塑的時間僅剩12至18個月。",
+          "why": "全球第二大汽車市場面臨結構性調整，反映產業轉型壓力與供應鏈重組趨勢。",
+          "importance": 3,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/奔驰暂停对德国工厂投资-德国车企还能否扭转局面？/a-80022159?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "奔驰暂停对德国工厂投资 德国车企还能否扭转局面？",
+          "original_lang": "zh",
+          "published_at": "2026-11-24T10:16:00.000Z",
+          "tags": [
+            "德國汽車業",
+            "產業轉型",
+            "勞動力"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "items": [
+        {
+          "title": "佐藤輝明簽約小熊6年1.2億美元",
+          "summary": "日本職棒阪神虎強打佐藤輝明與芝加哥小熊達成6年1.2億美元合約，將透過入札制度挑戰美國職棒大聯盟。這是繼大谷翔平之後，又一名日本強打以高總額加入MLB的關鍵轉會。",
+          "why": "此交易反映MLB對日本投手及強打市場價值的重估，高金額合約顯示跨國球員流動對薪資結構的實質影響。",
+          "importance": 4,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611250005.aspx",
+          "original_title": "日職重砲佐藤輝明傳加盟MLB小熊 合約6年1.2億美元",
+          "original_lang": "zh",
+          "published_at": "2026-11-24T18:32:01.000Z",
+          "tags": [
+            "MLB",
+            "日職",
+            "轉會"
+          ]
+        },
+        {
+          "title": "金鶯簽下投手創隊史最大合約",
+          "summary": "奧蘭多金鶯隊簽下投手Freddy，成為該隊史上投手最大金額合約。這筆交易旨在強化先發輪值，對球隊長期競爭格局具有戰略意義。",
+          "why": "隊史最大投手合約顯示球隊在輪值深度上的重大投資，可能影響未來數年的戰力配置與薪資空間。",
+          "importance": 4,
+          "source_name": "MLB.com",
+          "source_url": "https://www.mlb.com/news/freddy-peralta-orioles-contract",
+          "original_title": "O's add 'Fastball Freddy' to rotation on largest deal for pitcher in franchise history",
+          "original_lang": "en",
+          "published_at": "2026-11-24T20:52:00.000Z",
+          "tags": [
+            "MLB",
+            "金鶯",
+            "投手"
+          ]
+        },
+        {
+          "title": "MLB提案保障球員合約薪資",
+          "summary": "MLB球團向工會提出包含保證合約確定的條款提案。此舉旨在調整勞資雙方權益，保障球員在合約期間的收入穩定性。",
+          "why": "合約結構的改變將影響自由球員市場流動性與球隊薪資帽策略，對產業長期運作模式有實質影響。",
+          "importance": 3,
+          "source_name": "MLB.com",
+          "source_url": "https://www.mlb.com/news/mlb-proposal-to-mlbpa-guaranteed-contracts-escrow",
+          "original_title": "MLB proposal to union offers assurance of guaranteed contracts",
+          "original_lang": "en",
+          "published_at": "2026-11-24T20:14:28.000Z",
+          "tags": [
+            "MLB",
+            "勞資",
+            "合約"
+          ]
+        },
+        {
+          "title": "網球好手Sinner膝部手術",
+          "summary": "世界第二網球好手Sinner宣布已進行膝部輕微手術，距離一月開始的澳洲網球公開賽僅七週。目前尚未公布具體復歸時程。",
+          "why": "頂級選手的健康狀況直接影響大滿貫賽事積分榜爭奪態勢，是網球迷關注的賽事變數。",
+          "importance": 3,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/tennis/articles/cxlylr3p4q8mo?at_medium=RSS&at_campaign=rss",
+          "original_title": "'I miss being on court' - Sinner has 'minor surgery' on knee",
+          "original_lang": "en",
+          "published_at": "2026-11-24T18:00:06.000Z",
+          "tags": [
+            "網球",
+            "Sinner",
+            "受傷"
+          ]
+        },
+        {
+          "title": "英格蘭T20追平澳洲系列賽",
+          "summary": "英國選手Donald與Salt在T20比賽中建立150分合作，幫助英格蘭追平對陣澳洲的系列賽。Donald的快速得分展現了突出的击球表現。",
+          "why": "關鍵分數的貢獻直接改變系列賽積分，顯示個人表現對團隊賽程結果的即时影響。",
+          "importance": 2,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/cricket/articles/ck30g8ed598no?at_medium=RSS&at_campaign=rss",
+          "original_title": "'The rest of the world noticed' - Welshman Donald demolishes Aussies",
+          "original_lang": "en",
+          "published_at": "2026-11-24T12:58:20.000Z",
+          "tags": [
+            "板球",
+            "英格蘭",
+            "T20"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "feeds": 39,
+    "fetched": 3019,
+    "kept": 32,
+    "jev_cost_usd": 0.005561,
+    "llm_cost_usd": 0.00126
+  }
+}
