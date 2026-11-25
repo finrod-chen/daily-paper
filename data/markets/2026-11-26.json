@@ -1,0 +1,402 @@
+{
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T06:41:11.956+08:00",
+  "us_market_date": "2026-11-25",
+  "market_date": "2026-11-25",
+  "sector_mode": "turnover",
+  "sector_note": "依證交所 11/25 成交值×漲跌幅挑前 3",
+  "counts": {
+    "bull": 1,
+    "bear": 2,
+    "neutral": 9
+  },
+  "items": [
+    {
+      "key": "US:^GSPC",
+      "kind": "us",
+      "market": "US",
+      "name": "S&P 500",
+      "price": 7182.78,
+      "change_pct": -0.2543,
+      "decimals": 2,
+      "call": "neutral",
+      "net": -0.165,
+      "news_count": 3,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "Stock Market Today, Nov. 25: Dow Erases 1,100-Point Loss as Wall Street Stages Dramatic Late-Day Comeback",
+          "url": "https://www.fool.com/coverage/stock-market-today/2026/11/25/stock-market-today-nov-25-dow-erases-1-100-point-loss-as-wall-street-stages-dramatic-late-day-comeback/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.91,
+          "side": "skip"
+        },
+        {
+          "title": "Nasdaq Plunges 4.6% Before Dramatic Rebound. Wall Street Faces A Triple Threat From AI, Inflation And Trump Tariffs.",
+          "url": "https://www.ibtimes.com/us-stocks-recover-ai-inflation-tariff-selloff-3810199?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.88,
+          "side": "short"
+        },
+        {
+          "title": "Update: Wall Street Mixed as Inflation, GDP Data Reinforce Rate-Hike Bets",
+          "url": "https://finance.yahoo.com/economy/policy/articles/wall-street-mixed-inflation-gdp-214123047.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.56,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "US:^IXIC",
+      "kind": "us",
+      "market": "US",
+      "name": "那斯達克",
+      "price": 23585.803,
+      "change_pct": -0.6225,
+      "decimals": 2,
+      "call": "neutral",
+      "net": 0.131,
+      "news_count": 3,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "不是V了嗎？台股狂震重挫逾3400點！富坦專家揭科技股長抱與必勝「2招」",
+          "url": "https://news.cnyes.com/news/id/6671604",
+          "source": "鉅亨",
+          "score": 0.86,
+          "side": "long"
+        },
+        {
+          "title": "These 5 Tech Stocks are Sidestepping the AI Downturn",
+          "url": "https://finance.yahoo.com/m/d635c9d7-dbc8-3f44-bc94-e186ec33e2bd/these-5-tech-stocks-are.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.84,
+          "side": "short"
+        },
+        {
+          "title": "輝達買權翻倍還沒賣！《大賣空》貝瑞曝盤算：股價接近200美元擬再放空",
+          "url": "https://news.cnyes.com/news/id/6671851",
+          "source": "鉅亨",
+          "score": 0.74,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "US:^DJI",
+      "kind": "us",
+      "market": "US",
+      "name": "道瓊",
+      "price": 50182.95,
+      "change_pct": 0.3284,
+      "decimals": 2,
+      "call": "bull",
+      "net": 0.697,
+      "news_count": 2,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "Wall Street rebounds amid fragile sentiment as Nasdaq recovers from steep morning drop",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/wall-street-rebounds-amid-fragile-210348853.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.94,
+          "side": "long"
+        },
+        {
+          "title": "Dow Jones Futures: Market Goes On Wild Ride. Nasdaq, Nvidia Slash Losses While Anthropic Reverses Higher.",
+          "url": "https://finance.yahoo.com/m/158e82fc-b889-34b6-8704-99a49e9a83ae/dow-jones-futures%3A-market.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.9,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "US:^SOX",
+      "kind": "us",
+      "market": "US",
+      "name": "費城半導體",
+      "price": 8774.862,
+      "change_pct": -0.6526,
+      "decimals": 2,
+      "call": "neutral",
+      "net": -0.142,
+      "news_count": 1,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "Chip Stocks Just Pulled a Whipsaw Last Seen at the April 2025 Tariff Pause",
+          "url": "https://247wallst.com/investing/2026/11/25/chip-stocks-just-pulled-a-whipsaw-last-seen-at-the-april-2025-tariff-pause/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.99,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "IDX:^TWII",
+      "kind": "index",
+      "market": "TW",
+      "name": "加權指數",
+      "price": 38195.43,
+      "change_pct": -4.8,
+      "decimals": 2,
+      "call": "bear",
+      "net": -0.627,
+      "news_count": 3,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "台股重挫1926點還沒完? 台指期夜盤再跌近2000點 3萬7保衛戰提前上演",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%87%8D%E6%8C%AB1926%E9%BB%9E%E9%82%84%E6%B2%92%E5%AE%8C-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E5%86%8D%E8%B7%8C%E9%80%BE900%E9%BB%9E-%E9%80%86%E5%83%B9%E5%B7%AE%E6%93%B4%E5%A4%A7%E8%87%B3993%E9%BB%9E-102454150.html",
+          "source": "Yahoo奇摩",
+          "score": 0.99,
+          "side": "short"
+        },
+        {
+          "title": "明天台股挫哩等？台指期夜盤大跌逾1100點 失守3.7萬點大關",
+          "url": "https://tw.stock.yahoo.com/news/%E6%98%8E%E5%A4%A9%E5%8F%B0%E8%82%A1%E6%8C%AB%E5%93%A9%E7%AD%89-%E5%8F%B0%E6%8C%87%E6%9C%9F%E5%A4%9C%E7%9B%A4%E5%A4%A7%E8%B7%8C%E9%80%BE1100%E9%BB%9E-%E5%A4%B1%E5%AE%883-7%E8%90%AC%E9%BB%9E%E5%A4%A7%E9%97%9C-133521602.html",
+          "source": "Yahoo奇摩",
+          "score": 0.99,
+          "side": "short"
+        },
+        {
+          "title": "外資大舉倒貨1236億、投信猛接535億 三大法人賣超829.55億元",
+          "url": "https://news.cnyes.com/news/id/6671668",
+          "source": "鉅亨",
+          "score": 0.99,
+          "side": "short"
+        }
+      ]
+    },
+    {
+      "key": "SEC:半導體",
+      "kind": "sector",
+      "market": "TW",
+      "name": "半導體",
+      "price": 1320.63,
+      "change_pct": -4.71,
+      "decimals": 2,
+      "call": "neutral",
+      "net": -0.211,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "〈台股盤後〉兩日如洗三溫暖 盤中跌逾3400點創第二大跌點 終場跌1926點收38195點",
+          "url": "https://news.cnyes.com/news/id/6671653",
+          "source": "鉅亨",
+          "score": 0.95,
+          "side": "long"
+        },
+        {
+          "title": "川普再批台灣「偷走」美國晶片產業！預告2年後課200%關稅",
+          "url": "https://news.cnyes.com/news/id/6671603",
+          "source": "鉅亨",
+          "score": 0.93,
+          "side": "skip"
+        },
+        {
+          "title": "救回黃仁勳後再出招！川普擬親赴台積電美廠動土",
+          "url": "https://news.cnyes.com/news/id/6671735",
+          "source": "鉅亨",
+          "score": 0.9,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "SEC:電子零組件",
+      "kind": "sector",
+      "market": "TW",
+      "name": "電子零組件",
+      "price": 571.94,
+      "change_pct": -3.65,
+      "decimals": 2,
+      "call": "neutral",
+      "net": -0.205,
+      "news_count": 2,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "〈台股盤後〉兩日如洗三溫暖 盤中跌逾3400點創第二大跌點 終場跌1926點收38195點",
+          "url": "https://news.cnyes.com/news/id/6671653",
+          "source": "鉅亨",
+          "score": 0.33,
+          "side": "short"
+        },
+        {
+          "title": "〈台股開盤〉川普再揮關稅大刀 台股一度跌逾2000點失守4萬關回測5日線",
+          "url": "https://news.cnyes.com/news/id/6671273",
+          "source": "鉅亨",
+          "score": 0.28,
+          "side": "short"
+        }
+      ]
+    },
+    {
+      "key": "SEC:其他電子",
+      "kind": "sector",
+      "market": "TW",
+      "name": "其他電子",
+      "price": 207.24,
+      "change_pct": -6.91,
+      "decimals": 2,
+      "call": "bear",
+      "net": -0.305,
+      "news_count": 3,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "印度子公司傳欠款遭供應商聲請破產 鴻海：雙方履約情形存在歧見",
+          "url": "https://news.cnyes.com/news/id/6671719",
+          "source": "鉅亨",
+          "score": 0.92,
+          "side": "skip"
+        },
+        {
+          "title": "〈台股盤前要聞〉匯市爆63.62億美元創第三大、鴻海印度子公司遭控欠款",
+          "url": "https://news.cnyes.com/news/id/6671817",
+          "source": "鉅亨",
+          "score": 0.41,
+          "side": "short"
+        },
+        {
+          "title": "〈台股開盤〉川普再揮關稅大刀 台股一度跌逾2000點失守4萬關回測5日線",
+          "url": "https://news.cnyes.com/news/id/6671273",
+          "source": "鉅亨",
+          "score": 0.33,
+          "side": "short"
+        }
+      ]
+    },
+    {
+      "key": "FX:USD/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "美元／台幣",
+      "price": 33.214,
+      "change_pct": 1.1127,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0.178,
+      "news_count": 2,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "美國Q3 GDP強勁上修至4.3% 消費與投資雙引擎熱絡 聯準會12月升息機率飆升",
+          "url": "https://news.cnyes.com/news/id/6671691",
+          "source": "鉅亨",
+          "score": 0.47,
+          "side": "long"
+        },
+        {
+          "title": "從火雞大餐到玩具都漲價！美國人勒緊褲帶過節 Fed升息恐再補一刀",
+          "url": "https://news.cnyes.com/news/id/6671772",
+          "source": "鉅亨",
+          "score": 0.47,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "FX:JPY/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "日圓／台幣",
+      "price": 0.2064,
+      "change_pct": -0.0828,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0,
+      "news_count": 0,
+      "fx_hint": "",
+      "news": []
+    },
+    {
+      "key": "FX:CNY/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "人民幣／台幣",
+      "price": 4.9818,
+      "change_pct": 0.6465,
+      "decimals": 4,
+      "call": "neutral",
+      "net": -0.015,
+      "news_count": 1,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "工業富聯股東樂了！今年擬分紅132億人民幣 上市迄今累計近900億",
+          "url": "https://news.cnyes.com/news/id/6671493",
+          "source": "鉅亨",
+          "score": 0.27,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "FX:EUR/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "歐元／台幣",
+      "price": 36.494,
+      "change_pct": 1.8524,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0,
+      "news_count": 0,
+      "fx_hint": "",
+      "news": []
+    }
+  ],
+  "scorecard": {
+    "days": 30,
+    "horizon_hours": 24,
+    "graded": 330,
+    "long": {
+      "n": 137,
+      "hit": 61,
+      "avg": -0.244
+    },
+    "short": {
+      "n": 70,
+      "hit": 37,
+      "avg": -0.4127
+    },
+    "skip": {
+      "n": 123,
+      "hit": 10
+    },
+    "base": {
+      "n": 330,
+      "hit": 147,
+      "avg": -0.2327
+    },
+    "kinds": {
+      "us": {
+        "n": 119,
+        "hit": 38
+      },
+      "index": {
+        "n": 43,
+        "hit": 17
+      },
+      "sector": {
+        "n": 116,
+        "hit": 30
+      },
+      "fx": {
+        "n": 52,
+        "hit": 23
+      }
+    },
+    "tokens": 280986,
+    "usd": 0.0084
+  },
+  "warnings": [
+    "有 13 則新聞 Kairos 沒回應，明天再試"
+  ],
+  "disclaimer": "非投資建議。偏多／偏空只代表 Kairos 依新聞判斷的方向，不考慮你的財務狀況；本流程不會下單。"
+}
