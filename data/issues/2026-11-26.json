@@ -1,0 +1,493 @@
+{
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T07:01:16.960+08:00",
+  "edition": 17,
+  "headline": {
+    "title": "美擬對14經濟體加關稅，台灣稅率至少15%",
+    "summary": "美國公布針對歐盟、中國等14個經濟體的工業產能過剩調查結果，提議加徵關稅。美方同時提出對台灣徵收至少15%的「協議稅率」關稅。",
+    "why": "新關稅架構將重塑全球貿易成本與供應鏈佈局，直接影響出口企業的成本結構與市場策略。",
+    "importance": 5,
+    "source_name": "中央社 國際",
+    "source_url": "https://www.cna.com.tw/news/aopl/202611250324.aspx",
+    "original_title": "美301調查出爐擬對14經濟體加關稅 台灣協議稅率至少15%",
+    "original_lang": "zh",
+    "published_at": "2026-11-25T13:36:48.000Z",
+    "tags": [
+      "貿易戰",
+      "關稅",
+      "供應鏈"
+    ]
+  },
+  "brief": "美國公布301調查報告，擬對台灣等14個經濟體加徵關稅，其中對台稅率最高15%，並豁免半導體與專利藥品等項目。美國陪審團同時裁定華為在10項罪名上成立，包括竊取商業機密與違反制裁，而聯邦通訊委員會核准SpaceX部署百萬顆衛星建立太空資料中心，以突破地面能源與土地限制。此外，微軟因大規模當機啟動紅色警戒整頓系統，並依據通膨削減法案擴大Medicare藥品定價管制範圍，同時將阿里巴巴旗下子公司等7家機構列入出口管制實體清單。",
+  "sections": [
+    {
+      "id": "ai",
+      "items": [
+        {
+          "title": "FCC核准SpaceX部署百萬顆AI衛星",
+          "summary": "美國聯邦通訊委員會（FCC）核准SpaceX部署最多100萬顆搭載AI晶片的人造衛星，用於太空資料中心。此舉旨在解決陸地能源與土地限制，該核准是首個針對太空AI運算基礎設施的監管批准。",
+          "why": "將AI運算擴展至軌道，可能重塑全球數據中心的能源成本結構與部署地理限制。",
+          "importance": 5,
+          "source_name": "The Verge AI",
+          "source_url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+          "original_title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+          "original_lang": "en",
+          "published_at": "2026-11-25T17:44:51.000Z",
+          "tags": [
+            "太空運算",
+            "基礎建設",
+            "SpaceX"
+          ]
+        },
+        {
+          "title": "美將阿里子司等7家列出口管制清單",
+          "summary": "美國商務部將阿里巴巴新加坡子公司等7家東南亞公司列入實體清單，指控其涉嫌違規轉運先進運算產品。馬來西亞政府亦發布警告，建議國內資料中心業者避免向列名公司服務。",
+          "why": "強化供應鏈合規審查，可能增加跨區域AI硬體部署的監管不確定性與成本。",
+          "importance": 4,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180794",
+          "original_title": "美國防堵AI晶片違規轉運，阿里巴巴子公司等7家企業遭列出口管制清單",
+          "original_lang": "zh",
+          "published_at": "2026-11-25T03:11:24.000Z",
+          "tags": [
+            "出口管制",
+            "晶片",
+            "地緣政治"
+          ]
+        },
+        {
+          "title": "Tesla FSD v15推送，介入率宣稱改善25倍",
+          "summary": "Tesla推出FSD v15，升級端到端神經網路，強化交通標誌與坑洞辨識。官方宣稱安全關鍵介入事件發生率改善25倍，並導入Reality View視覺介面。",
+          "why": "端到端模型在感知模組的精準度提升，對驗證自動駕駛系統的邊界情境處理能力具參考價值。",
+          "importance": 4,
+          "source_name": "INSIDE",
+          "source_url": "https://www.inside.com.tw/article/42983-tesla-fsd-v15",
+          "original_title": "Tesla FSD v15 正式推送，強化交通標誌、坑洞辨識能力，安全關鍵介入事件發生率宣稱改善 25 倍",
+          "original_lang": "zh",
+          "published_at": "2026-11-25T10:08:00.000Z",
+          "tags": [
+            "自動駕駛",
+            "Tesla",
+            "演算法"
+          ]
+        },
+        {
+          "title": "DeepMind發布HFE，揭露模型簡單任務穩定性問題",
+          "summary": "Google DeepMind在Kaggle推出Humanity’s First Exam（HFE）基準測試，評估大型語言模型穩定完成日常簡單任務的能力。結果顯示頂尖模型在簡單指令上仍存在穩定性問題。",
+          "why": "提供可驗證的指標，量化模型在基礎認知任務上的可靠性缺口，有助於評估實際部署風險。",
+          "importance": 3,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180797",
+          "original_title": "DeepMind推出AI可靠性評測，揭頂尖模型仍難穩定完成簡單任務",
+          "original_lang": "zh",
+          "published_at": "2026-11-25T05:11:57.000Z",
+          "tags": [
+            "基準測試",
+            "LLM",
+            "DeepMind"
+          ]
+        },
+        {
+          "title": "Nvidia嚴控AI資料中心建設，雲業者債務壓力增",
+          "summary": "Nvidia宣布除非AI資料中心接近可運行狀態，否則不提供背書或支持。此政策導致新興雲服務商（neoclouds）面臨建設延誤與債務成本上升，強調土地、電力與實體建築的重要性。",
+          "why": "改變AI基礎建設的融資邏輯，從概念驗證轉向實體資產審計，影響開發者的硬體獲取週期。",
+          "importance": 3,
+          "source_name": "TechCrunch AI",
+          "source_url": "https://techcrunch.com/podcast/ai-data-centers-are-becoming-harder-to-build-and-neoclouds-are-feeling-it/",
+          "original_title": "AI data centers are becoming harder to build, and neoclouds are feeling it",
+          "original_lang": "en",
+          "published_at": "2026-11-25T15:41:43.000Z",
+          "tags": [
+            "Nvidia",
+            "資料中心",
+            "供應鏈"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "items": [
+        {
+          "title": "Pipedream Workflows 將於 2027 年終止",
+          "summary": "Pipedream 宣布將於 2027 年 3 月 31 日關閉 Pipedream Workflows 及其 AI 代理建置器 String。平台將於 2027 年 4 月 30 日永久刪除所有 Workflows 數據，迫使現有使用者必須在此期限前匯出資料並遷移至其他自動化工具。",
+          "why": "對於依賴該平台整合系統或 AI 代理的團隊而言，需立即規劃數據遷移與流程重建，以避免費用損失與業務中斷風險。",
+          "importance": 4,
+          "source_name": "Zapier Blog",
+          "source_url": "https://zapier.com/blog/pipedream-workflows",
+          "original_title": "Pipedream Workflows is shutting down: How to export workflows and move to Zapier",
+          "original_lang": "en",
+          "published_at": "2026-11-25T05:00:00.000Z",
+          "tags": [
+            "工作流自動化",
+            "平台遷移",
+            "AI 工具"
+          ]
+        },
+        {
+          "title": "Vention 用 AI 將工廠編程縮短至分鐘",
+          "summary": "Vention 透過 AI 部署策略，將工廠編程時間從數週大幅縮短至數分鐘。該公司認為，AI 的實際部署效率而非模型優化本身，將定義工業自動化的未來發展方向。",
+          "why": "顯著降低製造業自動化導入門檻與維護成本，顯示 AI 在即時現場部署上的實用價值正超越單純的演算法提升。",
+          "importance": 3,
+          "source_name": "The Robot Report",
+          "source_url": "https://www.therobotreport.com/how-vention-is-cutting-factory-programming-from-weeks-to-minutes/",
+          "original_title": "How Vention is cutting factory programming from weeks to minutes",
+          "original_lang": "en",
+          "published_at": "2026-11-25T18:24:42.000Z",
+          "tags": [
+            "工業自動化",
+            "AI 部署",
+            "生產效率"
+          ]
+        },
+        {
+          "title": "GitHub 推出應用程式現代化安全步驟指南",
+          "summary": "GitHub 部落格發布指南，教導開發者如何評估傳統應用程式並選擇安全的現代化步驟。該方法結合 GitHub Copilot 智能體技能，協助開發者以有界的方式逐步重構舊系統。",
+          "why": "為企業遷移傳統程式提供結構化方法，降低大型系統重構時的風險並提升 AI 輔助開發的適用性。",
+          "importance": 2,
+          "source_name": "GitHub Blog",
+          "source_url": "https://github.blog/ai-and-ml/github-copilot/how-to-choose-the-next-safe-step-in-application-modernization/",
+          "original_title": "How to choose the next safe step in application modernization",
+          "original_lang": "en",
+          "published_at": "2026-11-25T15:00:00.000Z",
+          "tags": [
+            "軟體現代化",
+            "GitHub Copilot",
+            "開發工具"
+          ]
+        },
+        {
+          "title": "n8n 推出鍵盤驅動終端機介面工具",
+          "summary": "開發者發布了 N8n-TUI，這是一個鍵盤驅動的終端機介面工具，用於操作 n8n 自動化工具。目前該項目在 Hacker News 上獲得關注，旨在提供比圖形介面更高效的 n8n 工作流管理方式。",
+          "why": "滿足偏好終端機操作的高階使用者對 n8n 自動化工具的需求，提供更精細的流程管控體驗。",
+          "importance": 1,
+          "source_name": "Hacker News n8n",
+          "source_url": "https://github.com/kaypee90/n8n-tui",
+          "original_title": "Show HN: N8n-TUI – A keyboard-driven terminal UI for n8n",
+          "original_lang": "en",
+          "published_at": "2026-11-25T13:52:21.000Z",
+          "tags": [
+            "n8n",
+            "開發工具",
+            "終端機介面"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "items": [
+        {
+          "title": "FDA 核准 Cogent 罕見胃癌藥物",
+          "summary": "Cogent Biosciences 的胃癌治療藥物獲得美國 FDA 核准。該藥物需與 Pfizer 的 Sutent 合併使用，針對罕見胃部癌症患者提供新的治療選項。",
+          "why": "為難治性胃癌患者提供經監管機構認可的合併療法，縮短了臨床應用落地的時間。",
+          "importance": 4,
+          "source_name": "STAT News",
+          "source_url": "https://www.statnews.com/2026/11/25/biotech-news-fda-approves-cogents-drug-for-rare-stomach-cancer/",
+          "original_title": "STAT+: FDA approves Cogent’s drug for rare stomach cancer",
+          "original_lang": "en",
+          "published_at": "2026-11-25T20:44:15.000Z",
+          "tags": [
+            "FDA核准",
+            "胃癌",
+            "罕見疾病"
+          ]
+        },
+        {
+          "title": "Medicare 擴大藥品定價管制範圍",
+          "summary": "Medicare 依據「通膨削減法案」(Inflation Reduction Act) 為 13 種新藥設定 2028 年價格，面臨嚴格成本控制。同時，該法案擴大受監管藥物範圍，對特定專科醫師的當日醫療服務費率削減也引發關注。",
+          "why": "改變美國生物製藥產業的成本結構，直接影響新藥定價策略與醫務人員收入模式，對產業商業模式有實質衝擊。",
+          "importance": 4,
+          "source_name": "STAT News",
+          "source_url": "https://www.statnews.com/2026/11/25/medicare-physician-fee-schedule-change-worry-some-specialists/",
+          "original_title": "Why Medicare’s 2027 physician pay changes worry some specialists",
+          "original_lang": "en",
+          "published_at": "2026-11-25T21:28:53.000Z",
+          "tags": [
+            "Medicare",
+            "藥品價格",
+            "支付政策"
+          ]
+        },
+        {
+          "title": "雙特異性抗體助淋巴癌患者復健",
+          "summary": "一名 50 多歲男性確診第 4 期瀰漫性大 B 細胞淋巴瘤，高強度化療無效且導致下肢癱瘓。台北榮總（三總）團隊改用雙特異性抗體合併化療，經 6 次療程後狀況好轉並恢復行走能力。",
+          "why": "展示了針對難治性淋巴瘤的創新藥物組合在解決治療副作用（如神經毒性）與腫瘤控制上的臨床潛力。",
+          "importance": 3,
+          "source_name": "中央社 生活健康",
+          "source_url": "https://www.cna.com.tw/news/ahel/202611250288.aspx",
+          "original_title": "男罹淋巴癌癱瘓 三總採新藥合併化療助重新站起",
+          "original_lang": "zh",
+          "published_at": "2026-11-25T10:45:26.000Z",
+          "tags": [
+            "淋巴瘤",
+            "雙特異性抗體",
+            "臨床案例"
+          ]
+        },
+        {
+          "title": "美國外籍研究生註冊率顯著下降",
+          "summary": "儘管法院有暫緩執行命令，美國對外籍學生的限制政策仍對註冊率產生冷卻效果。最新數據顯示國際研究生註冊數明顯下降，這被視為美國生物醫學勞動力體系的重要組成部分。",
+          "why": "外籍人才是美國生技研發的核心動力，註冊率下降預示著長期研發人力斷層，影響美國創新生態系。",
+          "importance": 3,
+          "source_name": "STAT News",
+          "source_url": "https://www.statnews.com/2026/11/25/foreign-students-us-biomedical-science-enrollment-drop-trump/",
+          "original_title": "Despite stalling in court, Trump restrictions on foreign students have had a chilling effect on enrollment",
+          "original_lang": "en",
+          "published_at": "2026-11-25T09:30:00.000Z",
+          "tags": [
+            "人才流失",
+            "生物醫學",
+            "政策影響"
+          ]
+        },
+        {
+          "title": "BioNTech 創辦人募資新腫瘤公司",
+          "summary": "BioNTech 聯合創業者正在籌組一家新的腫瘤學 startup，目前洽谈募資約 10 億美元。此舉顯示資深生技創業者持續透過新公司進入特定癌症治療領域。",
+          "why": "反映資深科學家與創業者在腫瘤領域持續活躍，資本市場對高風險生技創投的資金流向指示。",
+          "importance": 2,
+          "source_name": "STAT News",
+          "source_url": "https://www.statnews.com/pharmalot/2026/11/25/biontech-founders-oncology-startup-gsk-egpa-drug-exdensur/",
+          "original_title": "STAT+: We’re reading about BioNTech founders’ oncology startup, a long-acting GSK drug, and more",
+          "original_lang": "en",
+          "published_at": "2026-11-25T13:55:58.000Z",
+          "tags": [
+            "腫瘤學",
+            "創業",
+            "募資"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "items": [
+        {
+          "title": "美301調查擬對台關稅15% 豁免半導體藥品",
+          "summary": "美國貿易代表署發布301條款調查報告，建議對14個經濟體加徵關稅，其中對台灣的稅率最高為15%，且不疊加最惠國關稅。報告特別指出，鋁製品、木製品、專利藥品及半導體產品等項目可能被納入豁免範圍。",
+          "why": "關稅結構與豁免清單直接影響台出口成本，半導體與藥品豁免可緩解部分產業壓力。",
+          "importance": 5,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611250342.aspx",
+          "original_title": "美擬對14經濟體加徵關稅 中國20%最高、台韓日歐盟15%",
+          "original_lang": "zh",
+          "published_at": "2026-11-25T15:21:32.000Z",
+          "tags": [
+            "貿易關稅",
+            "半導體",
+            "對美出口"
+          ]
+        },
+        {
+          "title": "FCC批准SpaceX部署百萬衛星建太空資料中心",
+          "summary": "美國聯邦傳播委員會授權SpaceX部署由100萬顆衛星組成的星系，目的是建立太空資料中心。此舉將大型運算基礎建設遷移至軌道，以應對地面機房能耗與空間限制。",
+          "why": "展示AI運算需求已驅動基礎建設架構創新，可能影響未來雲端與邊緣運算的成本結構。",
+          "importance": 4,
+          "source_name": "中央社 科技",
+          "source_url": "https://www.cna.com.tw/news/ait/202611260012.aspx",
+          "original_title": "美批准SpaceX部署100萬顆衛星 建太空資料中心",
+          "original_lang": "zh",
+          "published_at": "2026-11-25T21:29:09.000Z",
+          "tags": [
+            "太空科技",
+            "資料中心",
+            "AI基礎建設"
+          ]
+        },
+        {
+          "title": "微軟因24小時當機啟動紅色警戒整頓系統",
+          "summary": "微軟因近期發生長達24小時的大規模當機，經內部備忘錄檢視後確認存在工程系統與危機應變缺陷。公司因此啟動「紅色警戒」，全面整頓重大服務中斷的預防與應變機制。",
+          "why": "揭露大型科技企業在複雜系統中的韌性弱點，為自動化維運與故障應變提供警訊。",
+          "importance": 4,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611260009.aspx",
+          "original_title": "重大當機暴露系統缺陷 微軟宣布進入「紅色警戒」",
+          "original_lang": "zh",
+          "published_at": "2026-11-25T20:17:01.000Z",
+          "tags": [
+            "軟體工程",
+            "系統韌性",
+            "企業治理"
+          ]
+        },
+        {
+          "title": "AI股賣壓致那指挫逾3% 市場評估關稅與通膨",
+          "summary": "華爾街主要指數開盤大幅下挫，那斯達克綜合指數跌幅超過3%，主要因AI相關股票持續遭拋售。投資人同時正在評估美國新關稅提案及10月核心通膨報告的影響。",
+          "why": "反映資本市場對AI高估值與地緣政治經濟風險的敏感度，影響科技研發企業的融資環境。",
+          "importance": 3,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611250337.aspx",
+          "original_title": "AI股賣壓加劇 美股開盤盡墨、那指挫逾3%",
+          "original_lang": "zh",
+          "published_at": "2026-11-25T14:48:21.000Z",
+          "tags": [
+            "金融市場",
+            "AI投資",
+            "通膨"
+          ]
+        },
+        {
+          "title": "華為在美10罪名成立 竊取商業機密案判結",
+          "summary": "美國陪審團裁定華為12項指控中10項罪名成立，包括違反伊朗制裁、銀行電信詐欺及竊取商業機密，但未認定共謀組織犯罪。法院預計2027年9月宣判，華為已表示將提出上訴。",
+          "why": "判決結果凸顯跨國企業商業機密保護的司法趨勢，對研發資產管理具有參考價值。",
+          "importance": 3,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/837399",
+          "original_title": "華為在美10罪名陪審團裁定成立 法院預計明年9月宣判",
+          "original_lang": "zh",
+          "published_at": "2026-11-25T13:26:48.000Z",
+          "tags": [
+            "國際司法",
+            "商業機密",
+            "華為"
+          ]
+        },
+        {
+          "title": "福衛八號第2顆衛星12月底起運赴美升空",
+          "summary": "福衛八號第2顆衛星已完成運送前審查，預計12月28日起運赴美。該衛星將於明年2月搭乘SpaceX獵鷹九號火箭升空，執行科學觀測任務。",
+          "why": "展現台灣在小型衛星開發與國際發射合作上的具體進度，強化太空科技產業供應鏈能見度。",
+          "importance": 3,
+          "source_name": "中央社 科技",
+          "source_url": "https://www.cna.com.tw/news/ait/202611250314.aspx",
+          "original_title": "福衛八號第2顆衛星完成運送前審查 預計12/28起運赴美",
+          "original_lang": "zh",
+          "published_at": "2026-11-25T12:48:24.000Z",
+          "tags": [
+            "太空科技",
+            "衛星发射",
+            "國際合作"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "title": "華為遭美裁定竊取商業機密等10項罪名成立",
+          "summary": "美國陪審團裁定華為在共謀竊取商業機密、銀行詐欺及違反制裁等10項罪名上成立。華為針對共謀妨礙司法及組織犯罪指控獲判無罪，並表示將提出上訴。",
+          "why": "此判決確立了跨國科技企業在商業間諜與制裁合規上的法律先例，提高全球企業的法務與資安風險門檻。",
+          "importance": 5,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/華為遭美裁定竊取商業機密等10項罪名成立/a-80042520?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "華為遭美裁定竊取商業機密等10項罪名成立",
+          "original_lang": "zh",
+          "published_at": "2026-11-25T05:13:00.000Z",
+          "tags": [
+            "華為",
+            "國安法務",
+            "跨國執法"
+          ]
+        },
+        {
+          "title": "歐元區商店刷卡支付占比首度超越現金",
+          "summary": "歐洲中央銀行調查顯示，歐元區實體商店的刷卡支付占比首度超越現金。這項數據反映出該地區消費者支付行為正從實體貨幣轉向數位交易。",
+          "why": "支付習慣的結構性轉變將推動後端金融基礎建設升級，並影響零售業的數據收集與庫存管理效率。",
+          "importance": 3,
+          "source_name": "中央社 國際",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611250321.aspx",
+          "original_title": "歐元區商店支付調查 刷卡占比首度超越現金",
+          "original_lang": "zh",
+          "published_at": "2026-11-25T13:16:39.000Z",
+          "tags": [
+            "數位支付",
+            "歐元區",
+            "金融科技"
+          ]
+        },
+        {
+          "title": "小行星撞擊實驗影像揭示競技場大小坑洞",
+          "summary": "四年前太空船刻意撞擊小行星後，最新影像顯示其表面產生了一個競技場大小的坑洞。該影像提供了行星防衛任務的關鍵數據。",
+          "why": "實測數據驗證了改變小行星軌道的技術可行性，為建立地球行星防衛系統提供可驗證的物理參數。",
+          "importance": 3,
+          "source_name": "BBC World",
+          "source_url": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo?at_medium=RSS&at_campaign=rss",
+          "original_title": "Images of asteroid targeted to test Earth's defences reveal stadium-sized crater",
+          "original_lang": "en",
+          "published_at": "2026-11-25T17:30:16.000Z",
+          "tags": [
+            "行星防衛",
+            "太空探索",
+            "小行星撞擊"
+          ]
+        },
+        {
+          "title": "俄方數據顯示烏戰爭已致近50萬人喪生",
+          "summary": "俄方數據顯示，全面入侵烏克蘭戰爭已造成接近50萬人喪生。這些數據揭示了戰爭對俄羅斯整體死亡率模式的根本性改變。",
+          "why": "大規模的人口損失數據揭示了長期地緣衝突對社會結構與人力資本的不可逆衝擊。",
+          "importance": 3,
+          "source_name": "BBC World",
+          "source_url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo?at_medium=RSS&at_campaign=rss",
+          "original_title": "Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
+          "original_lang": "en",
+          "published_at": "2026-11-25T12:21:49.000Z",
+          "tags": [
+            "人口統計",
+            "地緣政治",
+            "戰爭影響"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "items": [
+        {
+          "title": "MLB 提訴訟以維護集體談判程序",
+          "summary": "美國職業棒球大聯盟（MLB）提起訴訟，其目標在於維持集體談判程序。此法律行動旨在確保勞資雙方能夠在既有框架下進行薪資與勞動條件的協商。",
+          "why": "集體談判機制是產業勞動標準制定的核心，訴訟結果將影響未來薪資結構與球員權益保障的穩定性。",
+          "importance": 4,
+          "source_name": "MLB.com",
+          "source_url": "https://www.mlb.com/news/mlb-files-lawsuit-with-goal-of-preserving-collective-bargaining-process",
+          "original_title": "MLB files lawsuit with goal of preserving collective bargaining process",
+          "original_lang": "en",
+          "published_at": "2026-11-25T19:45:36.000Z",
+          "tags": [
+            "MLB",
+            "勞資糾紛",
+            "集體談判"
+          ]
+        },
+        {
+          "title": "洋基補強牛棚 評估洽談莫雷洪",
+          "summary": "洋基隊在離賽期簽下貝納（Bednar）、羅伊西加（Loáisiga）等投手，補強牛棚戰力。目前傳聞球隊正考慮洽談莫雷洪（Morejon），以解決牛棚配置上的潛在缺口與深度問題。",
+          "why": "牛棚深度是季後賽獲勝關鍵因子，球隊透過精確的戰力評估與資源配置，反映現代球團對數據導向決策的重視。",
+          "importance": 3,
+          "source_name": "MLB.com",
+          "source_url": "https://www.mlb.com/news/yankees-bullpen-moves-and-free-agent-reliever-options-for-2027",
+          "original_title": "The big bullpen question looming over Yankees' offseason",
+          "original_lang": "en",
+          "published_at": "2026-11-25T21:03:07.000Z",
+          "tags": [
+            "MLB",
+            "洋基隊",
+            "牛棚補強"
+          ]
+        },
+        {
+          "title": "斯特林獲暫緩監禁判決",
+          "summary": "英格蘭足球超級聯賽球星斯特林（Raheem Sterling）因犯罪判決獲得暫緩執行的監禁刑期。這是其職業生涯晚期面临的重大法律與形象爭議，距離其17歲英超首秀已過去14年。",
+          "why": "頂尖運動員的法律行為直接影響品牌形象與贊助合約，顯示體育界對公眾人物道德與法治標準的嚴格要求。",
+          "importance": 2,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/football/articles/cxzd9ydqzylno?at_medium=RSS&at_campaign=rss",
+          "original_title": "Sterling - from England icon to suspended jail sentence",
+          "original_lang": "en",
+          "published_at": "2026-11-25T12:42:57.000Z",
+          "tags": [
+            "足球",
+            "斯特林",
+            "法律制裁"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "feeds": 39,
+    "fetched": 3019,
+    "kept": 28,
+    "jev_cost_usd": 0.00492,
+    "llm_cost_usd": 0.00114
+  }
+}
