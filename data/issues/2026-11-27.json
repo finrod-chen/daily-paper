@@ -1,0 +1,525 @@
+{
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T07:01:01.169+08:00",
+  "edition": 18,
+  "headline": {
+    "title": "Nvidia暫停東南亞伺服器出貨防AI晶片流入",
+    "summary": "Nvidia已通知製造伙伴，暫停向馬來西亞、新加坡、泰國及印尼運送伺服器晶片。此舉旨在配合美國政府加強管控，防止先進AI晶片流入中國市場。",
+    "why": "直接影響全球AI硬體供應鏈佈局與地區性數據中心的擴建進度，可能導致東南亞AI基礎設施建設延宕。",
+    "importance": 5,
+    "source_name": "TechCrunch AI",
+    "source_url": "https://techcrunch.com/2026/11/26/nvidia-hits-pause-on-chip-shipments-to-southeast-asia/",
+    "original_title": "Nvidia hits pause on chip shipments to Southeast Asia",
+    "original_lang": "en",
+    "published_at": "2026-11-26T20:03:54.000Z",
+    "tags": [
+      "Nvidia",
+      "AI晶片管制",
+      "供應鏈"
+    ]
+  },
+  "brief": "輝達應美國要求暫停向東南亞四國出貨伺服器，阻斷中國取得先進AI算力，同時華為被美法院裁定十項罪名成立。美國對台部分商品適用十五協議關稅且不疊加，並擬對十四國加徵關稅，中國則敦促美方落實減讓安排。澳洲團隊成功以人工身體保存捐贈肝臟達七週，並立法規範AI聊天機器人安全責任，違規罰款上限可達全球營收百分之五。",
+  "sections": [
+    {
+      "id": "ai",
+      "items": [
+        {
+          "title": "澳洲立法規範AI聊天機器人安全責任",
+          "summary": "澳洲國會通過數位注意義務法案，要求社群媒體與AI聊天機器人防範內容傷害風險。違規罰款上限為全球營收5%或1.092億澳元，該規範預計12個月後生效。",
+          "why": "建立針對AI生成內容的嚴格法律責任與高額罰則，將成為全球AI產品合規與風險管理的基準參考。",
+          "importance": 4,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180825",
+          "original_title": "澳洲立法強化AI聊天機器人與社群平臺安全責任，違規罰款可達全球營收5%",
+          "original_lang": "zh",
+          "published_at": "2026-11-26T04:11:01.000Z",
+          "tags": [
+            "AI法規",
+            "澳洲",
+            "數位安全"
+          ]
+        },
+        {
+          "title": "1Password員工GitHub帳號遭入侵竊取客戶資料",
+          "summary": "1Password員工的GitHub帳號遭入侵，攻擊者竊取了原始碼及客戶資料。此事件突顯開發環境與版本控制平台在資安防護上的弱點。",
+          "why": "資安產品廠商自身遭受數據外洩，對依賴該服務儲存敏感憑證的企業構成信任危機與即時安全風險。",
+          "importance": 3,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180823",
+          "original_title": "【資安日報】11月26日，Copeland XWEB PRO冷凍控制器遭劫持，淪為垃圾郵件發送與代理節點",
+          "original_lang": "zh",
+          "published_at": "2026-11-26T02:11:50.000Z",
+          "tags": [
+            "資安",
+            "1Password",
+            "數據外洩"
+          ]
+        },
+        {
+          "title": "PayNow API遭異常存取波及500家商家發票",
+          "summary": "電子發票加值服務商PayNow對外API遭異常存取，攻擊者入侵主機批次讀取發票資料。累計約500家商家及281萬張電子發票受到影響。",
+          "why": "揭露第三方支付與發票生態系統在API存取控管上的重大漏洞，引發對中小企業數據外洩風險的擔憂。",
+          "importance": 3,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180833",
+          "original_title": "香帥蛋糕、一事製菓揭露資安事件，電子發票服務商PayNow對外API遭異常存取，波及500商家",
+          "original_lang": "zh",
+          "published_at": "2026-11-26T09:11:15.000Z",
+          "tags": [
+            "資安",
+            "API安全",
+            "數據外洩"
+          ]
+        },
+        {
+          "title": "GeoServer漏洞遭探測可串連遠端執行",
+          "summary": "資安公司watchTowr指出，攻擊者正探測GeoServer近期的重大漏洞。研究人員警告，這些漏洞可串連形成不需身分驗證即可遠端執行程式碼的攻擊鏈。",
+          "why": "開源地理資訊基礎設施的未修補漏洞可能被廣泛利用，對部署相關系統的機構構成遠端入侵風險。",
+          "importance": 2,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180829",
+          "original_title": "地理資訊伺服器GeoServer漏洞遭串連用於攻擊活動",
+          "original_lang": "zh",
+          "published_at": "2026-11-26T05:11:47.000Z",
+          "tags": [
+            "資安",
+            "漏洞利用",
+            "GeoServer"
+          ]
+        },
+        {
+          "title": "美國FinCEN遭入侵致反洗錢申報中斷",
+          "summary": "美國財政部金融犯罪執法局（FinCEN）證實部分系統遭未經授權存取，已將部分系統下線。金融機構批次提交反洗錢申報資料的服務中斷，申報期限延至12月30日。",
+          "why": "導致美國金融機構合規作業中斷與申報期限延遲，凸顯關鍵基礎設施面臨的網路威脅。",
+          "importance": 2,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180830",
+          "original_title": "美國財政部金融犯罪執法局遭入侵，反洗錢批次申報服務中斷",
+          "original_lang": "zh",
+          "published_at": "2026-11-26T06:11:36.000Z",
+          "tags": [
+            "資安",
+            "政府機構",
+            "金融監管"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "items": [
+        {
+          "title": "Minipg: PostgreSQL 單一可執行檔",
+          "summary": "Minipg 提供了一個將 PostgreSQL 打包為單一可執行檔的方案，讓開發者無需複雜的環境配置即可本地運行資料庫。此工具簡化了開發測試流程，特別適合需要快速部署或輕量級資料庫需求的專案。",
+          "why": "降低資料庫部署門檻，加速開發環境搭建。",
+          "importance": 4,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://progrium.github.io/minipg/",
+          "original_title": "Minipg: PostgreSQL as a Single Executable",
+          "original_lang": "en",
+          "published_at": "2026-11-26T03:00:48.000Z",
+          "tags": [
+            "PostgreSQL",
+            "DevOps",
+            "工具"
+          ]
+        },
+        {
+          "title": "Nextcloud 推出 Office 桌面應用",
+          "summary": "Nextcloud 發布了 Office 桌面應用，將原本基於網頁的協作功能延伸至本地端。這允許用戶在保持數據自主控制的同時，獲得更接近傳統辦公軟體的操作體驗。",
+          "why": "提升協作軟體的離線使用體驗與數據自主性。",
+          "importance": 4,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://nextcloud.com/blog/euro-office-comes-to-your-desktop-with-the-nextcloud-office-desktop-app/",
+          "original_title": "Nextcloud Office Desktop app",
+          "original_lang": "en",
+          "published_at": "2026-11-26T11:50:49.000Z",
+          "tags": [
+            "協作軟體",
+            "桌面應用",
+            "開源"
+          ]
+        },
+        {
+          "title": "Moat: 開源 AI 模型路由服務",
+          "summary": "Moat 是一個開源的 OpenRouter 替代品，旨在提供去中心化的 AI 模型路由服務。其目標是降低對單一供應商 API 的依賴，並可能提供更具成本效益的模型接入方式。",
+          "why": "提供 AI 模型接入的去中心化替代方案，增加供應鏈彈性。",
+          "importance": 3,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://commandcode.ai/moat",
+          "original_title": "Moat: OpenRouter replacement",
+          "original_lang": "en",
+          "published_at": "2026-11-26T06:32:48.000Z",
+          "tags": [
+            "AI 基礎設施",
+            "開源",
+            "路由"
+          ]
+        },
+        {
+          "title": "AMD 專用 llama.cpp 分支",
+          "summary": "一個針對 AMD 硬體優化的 llama.cpp 分支出現，專注於提升 AMD GPU 在運行大型語言模型時的效能。此項目試圖解決非 NVIDIA 生態系統在本地推演 AI 模型時的性能瓶頸。",
+          "why": "擴大本地 AI 硬體生態，降低對特定 GPU 品牌的依賴。",
+          "importance": 3,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://devnull.land/amd-specific-llama-cpp",
+          "original_title": "AMD-specific fork of llama.cpp",
+          "original_lang": "en",
+          "published_at": "2026-11-26T17:11:29.000Z",
+          "tags": [
+            "AI 推演",
+            "AMD",
+            "效能優化"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "items": [
+        {
+          "title": "澳洲團隊以「人工身體」保存捐贈肝臟，體外存活達 7 週",
+          "summary": "澳洲皇家阿佛烈親王醫院及雪梨大學團隊開發人工身體系統，成功保存捐贈肝臟並維持體外存活達 7 週。該技術旨在解決移植等待期間器官保存的瓶頸，延長器官可用時間。",
+          "why": "顯著延長移植器官的保存壽命，有助於擴大供體涵蓋範圍並減少器官浪費。",
+          "importance": 4,
+          "source_name": "科技新報 生技",
+          "source_url": "https://technews.tw/2026/11/26/australian-team-claims-to-keep-human-liver-alive-outside-the-body-for-7weeks/",
+          "original_title": "澳洲團隊以「人工身體」保存捐贈肝臟，體外存活達 7 週",
+          "original_lang": "zh",
+          "published_at": "2026-11-25T23:10:45.000Z",
+          "tags": [
+            "器官保存",
+            "肝臟移植",
+            "生物醫學工程"
+          ]
+        },
+        {
+          "title": "史丹佛醫學院用 AI 分析 fMRI，找出 ADHD 與焦慮症的早期腦型跡象",
+          "summary": "史丹佛醫學院利用 AI 模型分析數千名兒童的功能性磁振造影數據，識別出 ADHD 與焦慮症在確診前的三種特定腦型跡象。研究結果有望成為早期篩查與介入的指標。",
+          "why": "提供非侵入性的早期診斷工具，有助於在疾病發展初期進行干預，改善長期預後。",
+          "importance": 4,
+          "source_name": "科技新報 生技",
+          "source_url": "https://technews.tw/2026/11/26/httpsmed-stanford-edunewsall-news202611adhd-biotypes-html/",
+          "original_title": "確診前大腦就有跡象！史丹佛醫學院用 AI 找出 ADHD 與焦慮症三種腦型，有望成早期介入指標",
+          "original_lang": "zh",
+          "published_at": "2026-11-26T04:20:40.000Z",
+          "tags": [
+            "AI 醫療",
+            "神經影像",
+            "兒童精神健康"
+          ]
+        },
+        {
+          "title": "拜耳 32.5 億美元授權中國雙標靶 ADC，GSK 長效抗體三期告捷",
+          "summary": "拜耳宣布與中國翰森製藥簽署雙特異性抗體藥物複合體（ADC）授權協議，潛在交易金額最高達 32.5 億美元。同日消息顯示，GSK 的長效抗體藥物在三期臨床試驗中取得捷報。",
+          "why": "反映多特異性療法在腫瘤市場的高商業價值，並顯示長效劑型在臨床端的持續進展。",
+          "importance": 3,
+          "source_name": "GeneOnline 基因線上",
+          "source_url": "https://geneonline.news/20261126-news-highlights-007-news-nov-2026/",
+          "original_title": "拜耳 32.5 億美元布局中國雙標靶 ADC，GSK 長效抗體三期告捷",
+          "original_lang": "zh",
+          "published_at": "2026-11-26T09:49:10.000Z",
+          "tags": [
+            "ADC",
+            "授權交易",
+            "臨床試驗"
+          ]
+        },
+        {
+          "title": "鴻海三年砸 3 億元攻智慧醫療，展示與北榮合作的 AI 化療自動化成果",
+          "summary": "鴻海宣布與台北榮民總醫院合作打造的化療自動化智慧場域正式亮相，過去三年投入 3 億元研發相關 AI 與機器人技術。該系統旨在提升化療準備過程的自動化程度與精準度。",
+          "why": "透過自動化降低人工配制藥物的風險，提升臨床流程效率與患者安全。",
+          "importance": 3,
+          "source_name": "科技新報 生技",
+          "source_url": "https://finance.technews.tw/2026/11/26/foxconn-smart-medicine/",
+          "original_title": "三年砸 3 億元攻智慧醫療，鴻海攜北榮秀 AI 機器人成果",
+          "original_lang": "zh",
+          "published_at": "2026-11-26T11:42:01.000Z",
+          "tags": [
+            "醫療機器人",
+            "智慧醫療",
+            "醫院自動化"
+          ]
+        },
+        {
+          "title": "工程化分子膠穩定老化卵細胞染色體，有望改善 IVF 成果",
+          "summary": "研究人員開發出一種工程化蛋白質系統，能恢復老化小鼠卵細胞中正常的染色體連接機制。這被視為改善體外授精（IVF）成果的潜在技術基礎。",
+          "why": "針對生育力下降的核心問題提供機轉性解決方案，可能未來延長女性生育窗口。",
+          "importance": 2,
+          "source_name": "STAT News",
+          "source_url": "https://www.statnews.com/2026/11/26/fertility-advance-engineered-protein-stabilizes-chromosomes-in-aging-eggs/",
+          "original_title": "In a fertility advance, engineered molecular glue stabilizes chromosomes in aging eggs",
+          "original_lang": "en",
+          "published_at": "2026-11-26T19:00:00.000Z",
+          "tags": [
+            "生殖生物技術",
+            "染色體穩定性",
+            "IVF"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "items": [
+        {
+          "title": "美301調查出爐 對台稅率15%不疊加",
+          "summary": "美國結構性產能過剩301調查結果出爐，建議對台灣部分商品適用15%協議關稅稅率，且與現行稅率不疊加。行政院副院長鄭麗君指出，最終稅率預計2027年初確認，政府確認為2,232項產品取得豁免，日本與韓國被列為相同最低級別。",
+          "why": "明確的關稅豁免清單與稅率結構，直接影響台灣製造業對美出口的成本預測與供應鏈佈局。",
+          "importance": 4,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/837567",
+          "original_title": "美301產能調查出爐 對台關稅適用15%不疊加",
+          "original_lang": "zh",
+          "published_at": "2026-11-26T12:31:50.000Z",
+          "tags": [
+            "貿易",
+            "關稅",
+            "美國"
+          ]
+        },
+        {
+          "title": "輝達暫停對東南亞四國出貨 阻中國取得AI算力",
+          "summary": "美國收緊出口管制以防中國取得AI算力，輝達（Nvidia）要求製造合作夥伴暫停向東南亞4國出貨伺服器。泰國被列入新增出口許可要求國家，部分資料中心潛在投資案已暫停，但業者對長期前景仍表樂觀。",
+          "why": "全球AI算力供應鏈因地緣政治管制產生中斷風險，影響半導體製造商與雲端基礎設施建設進度。",
+          "importance": 4,
+          "source_name": "中央社 科技",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611260186.aspx",
+          "original_title": "金融時報：輝達暫停對東南亞4國出貨 防堵中國取得AI算力",
+          "original_lang": "zh",
+          "published_at": "2026-11-26T08:08:34.000Z",
+          "tags": [
+            "AI",
+            "半導體",
+            "出口管制"
+          ]
+        },
+        {
+          "title": "分析：台廠在印、美隱形成本高 越南情勢較好",
+          "summary": "美國擬對越南課徵最高35%關稅，分析師指出台廠在印度與拉丁美洲佈局因法規、人員培訓與基建落後等隱形成本，短中期面臨虧損風險。相較之下，台廠配合大型客戶，直接承受關稅壓力有限，越南情勢相對較好。",
+          "why": "揭示台廠海外擴廠時常被忽略的非關稅成本結構，影響企業對東南亞與印度生產基地的投資決策。",
+          "importance": 3,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611260275.aspx",
+          "original_title": "越南印度被美課高關稅恐衝擊蘋果鏈 分析師：台廠隱形成本更難扛",
+          "original_lang": "zh",
+          "published_at": "2026-11-26T11:43:48.000Z",
+          "tags": [
+            "供應鏈",
+            "東南亞",
+            "成本"
+          ]
+        },
+        {
+          "title": "希拉探測器揭露小行星撞擊後樣貌",
+          "summary": "歐洲太空總署（ESA）希拉（Hera）探測器公布影像，顯示NASA太空船撞擊後，小行星迪莫弗斯表面一側形成體育場大小的撞擊坑，目前該小行星在太空中翻滾。",
+          "why": "提供首次行星防禦測試的視覺化驗證數據，有助於評估動量轉移技術在偏轉小行星轨道上的實際效果。",
+          "importance": 3,
+          "source_name": "中央社 科技",
+          "source_url": "https://www.cna.com.tw/news/ait/202611260095.aspx",
+          "original_title": "歐洲探測器揭露小行星遭撞後樣貌 巨大撞擊坑覆蓋表面",
+          "original_lang": "zh",
+          "published_at": "2026-11-26T04:18:14.000Z",
+          "tags": [
+            "太空探索",
+            "行星防禦",
+            "NASA"
+          ]
+        },
+        {
+          "title": "壽險業10月稅前虧損112億 淨值創新高",
+          "summary": "受台股10月下跌5.69%影響，壽險業10月稅前虧損112億元，主因股票評價損失。然而，台債殖利率走揚帶動保險負債端評價利益，推升壽險業10月底淨值達4兆4,551億元，創歷史新高。",
+          "why": "反映資產負債表兩端對市場波動的非對稱反應，顯示利率上升對保險業負債成本的影響大於股票波動損益。",
+          "importance": 2,
+          "source_name": "中央社 財經",
+          "source_url": "https://www.cna.com.tw/news/afe/202611260300.aspx",
+          "original_title": "台股單月跌逾5%拖累 壽險業10月稅前虧損112億",
+          "original_lang": "zh",
+          "published_at": "2026-11-26T13:33:44.000Z",
+          "tags": [
+            "金融",
+            "壽險",
+            "台股"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "title": "美擬對14國加徵301關稅 中國籲落實減讓安排",
+          "summary": "白宮針對貿易夥伴的「結構性產能過剩」公布調查結果，擬對中國、歐盟等14個經濟體加徵301關稅。中國商務部表態堅決反對，同時敦促美方落實600億美元關稅減讓安排。",
+          "why": "貿易壁壘加劇將擾動全球供應鏈，可能推高進口產品成本並影響跨國企業的策略規劃。",
+          "importance": 4,
+          "source_name": "BBC 中文",
+          "source_url": "https://www.bbc.com/zhongwen/articles/c9ly484v6pdzo/trad?at_medium=RSS&at_campaign=rss",
+          "original_title": "特朗普深圳會晤一週後再揮關稅大棒 對華稅率可達40%",
+          "original_lang": "zh",
+          "published_at": "2026-11-26T08:34:56.000Z",
+          "tags": [
+            "全球貿易",
+            "中美關係",
+            "關稅"
+          ]
+        },
+        {
+          "title": "美限制海外算力衝擊中國AI 模型發布恐延遲",
+          "summary": "美國加強限制海外算力並實施反「蒸餾」措施，衝擊中國AI公司。知情人士稱，智譜AI旗艦模型發布或延至2027年，月之暗面新模型發布間隔預計延長一倍。",
+          "why": "算力資源受限將直接影響AI模型訓練節奏與商業化進程，改變全球AI競爭格局。",
+          "importance": 4,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/美国限制海外算力-知情人士称中国ai公司受冲击/a-80064912?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "美国限制海外算力 知情人士称中国AI公司受冲击",
+          "original_lang": "zh",
+          "published_at": "2026-11-26T14:48:00.000Z",
+          "tags": [
+            "AI監管",
+            "半導體",
+            "美中科技戰"
+          ]
+        },
+        {
+          "title": "美法院裁定華為竊取商業機密等10項罪成",
+          "summary": "美國法院裁定華為共謀竊取商業機密及銀行欺詐等10項罪名成立，僅敲詐勒索組織罪無罪。此判決基於華為長期被指控竊取美國公司機密的案件。",
+          "why": "判決結果可能影響華為在美資產及業務運作，並成為跨國企業應對商業機密法律風險的參考案例。",
+          "importance": 4,
+          "source_name": "BBC 中文",
+          "source_url": "https://www.bbc.com/zhongwen/articles/cmq8lz8ddyg9o/trad?at_medium=RSS&at_campaign=rss",
+          "original_title": "美國法院裁定：中國科技巨頭華為，共謀竊取商業機密罪名成立",
+          "original_lang": "zh",
+          "published_at": "2026-11-26T07:35:10.000Z",
+          "tags": [
+            "科技司法",
+            "華為",
+            "商業機密"
+          ]
+        },
+        {
+          "title": "剛果埃博拉疫情達12,000例 衝突干擾防疫",
+          "summary": "剛果東部埃博拉疫情爆發，案例數達12,000起。反叛武裝與軍隊的武裝衝突干擾防疫工作，導致部分緊急應變人員撤離。",
+          "why": "疫情在衝突地區擴散增加控制難度，對區域醫療系統與人道主義援助構成重大壓力。",
+          "importance": 3,
+          "source_name": "NPR World",
+          "source_url": "https://www.npr.org/2026/11/26/g-s1-155957/congo-ebola-responders",
+          "original_title": "Congo Ebola outbreak reaches 12,000 cases as some responders evacuate",
+          "original_lang": "en",
+          "published_at": "2026-11-26T13:47:09.000Z",
+          "tags": [
+            "流行病",
+            "剛果",
+            "公衛危機"
+          ]
+        },
+        {
+          "title": "台大選前AI深度偽造與虛假敘事激增",
+          "summary": "台灣地方選舉前，針對特定候選人及對台政策議題的AI生成虛假資訊激增。包括由AI生成的不實內容及聲稱美國撤回對台支持的謠言。",
+          "why": "深偽技術濫用可能操弄公眾認知，增加選民辨識資訊真實性的難度，影響民主程序。",
+          "importance": 3,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/事实核查：台湾地方选举前的深度伪造与虚假叙事/a-80045799?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "事实核查：台湾地方选举前的深度伪造与虚假叙事",
+          "original_lang": "zh",
+          "published_at": "2026-11-26T09:59:00.000Z",
+          "tags": [
+            "深度偽造",
+            "政治資訊",
+            "選舉"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "items": [
+        {
+          "title": "史庫柏簽9年4.5億美元 創MLB投手合約紀錄",
+          "summary": "兩度獲得賽揚獎的投手史庫柏，正式與紐約大都會簽下9年總計4.5億美元的重磅合約。此筆交易金額改寫了美國職棒大聯盟投手合約總額的歷史紀錄。",
+          "why": "此合約金額顯著拉高了頂尖投手的市場基準，對球隊薪資空間策略及自由球員市場整體定價產生實質影響。",
+          "importance": 4,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611260080.aspx",
+          "original_title": "史庫柏9年4.5億美元加盟大都會 投手合約創紀錄",
+          "original_lang": "zh",
+          "published_at": "2026-11-26T03:41:42.000Z",
+          "tags": [
+            "MLB",
+            "自由球員",
+            "大都會"
+          ]
+        },
+        {
+          "title": "大谷翔平：明年續守二刀流 補本季遺憾",
+          "summary": "洛杉磯道奇隊球星大谷翔平在線上媒體訪談中坦言對本季因傷未竟世界大賽連霸感到不甘心。他明確表示明年將堅持投打二刀流，並期望以良好狀態迎接季後賽。",
+          "why": "頂尖雙重位置球員的持續性與戰術價值，對球隊戰力配置及跨領域 athlete 表現數據分析具有重要參考意義。",
+          "importance": 4,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611260142.aspx",
+          "original_title": "大谷翔平不甘無緣世界大賽3連霸 明年續拚二刀流",
+          "original_lang": "zh",
+          "published_at": "2026-11-26T06:01:58.000Z",
+          "tags": [
+            "MLB",
+            "大谷翔平",
+            "二刀流"
+          ]
+        },
+        {
+          "title": "許皓鋐稱霸首屆玄樂盃 進帳百萬獎金",
+          "summary": "台灣圍棋名將許皓鋐在首屆玄樂盃五番勝負中，於第4局中盤擊敗賴均輔鎖定勝利。他藉此摘下本季第3座冠軍，並獲得新台幣百萬元的冠軍獎金。",
+          "why": "頂尖棋手在關鍵賽事中的穩定勝率，反映了決策系統在複雜博弈環境下的效能與實際商業價值。",
+          "importance": 3,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611260279.aspx",
+          "original_title": "圍棋名將許皓鋐稱霸首屆玄樂盃 進帳百萬獎金",
+          "original_lang": "zh",
+          "published_at": "2026-11-26T12:03:57.000Z",
+          "tags": [
+            "圍棋",
+            "許皓鋐",
+            "玄樂盃"
+          ]
+        },
+        {
+          "title": "詹姆斯42歲前刷紀錄 達成NBA大三元",
+          "summary": "費城76人隊球星詹姆斯對戰邁阿密熱火時，繳出25分、10籃板與12助攻的全面數據。他藉此在即將滿42歲時，締造NBA大三元紀錄中最年長球員的新標竿。",
+          "why": "頂尖運動員在生涯晚期維持高水準競技數據的案例，為生物力學與運動生理學的極限研究提供極具價值的實證數據。",
+          "importance": 3,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611260152.aspx",
+          "original_title": "詹姆斯加盟76人首度大三元 改寫NBA最年長紀錄",
+          "original_lang": "zh",
+          "published_at": "2026-11-26T06:37:20.000Z",
+          "tags": [
+            "NBA",
+            "詹姆斯",
+            "76人"
+          ]
+        },
+        {
+          "title": "德女足國腳涉藥檢失格 遭停賽16月",
+          "summary": "德國女子足球國腳 Freigang 因三次藥物檢測出現問題，被官方裁決停賽16個月。此判決將影響其在國際賽事的出賽資格。",
+          "why": "反藥禁執行細節與檢測標準的調整，對職業體育的公平性及生物檢測技術的監管框架產生直接衝擊。",
+          "importance": 2,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/football/articles/cqlym4rd3y52o?at_medium=RSS&at_campaign=rss",
+          "original_title": "Germany's Freigang given 16-month ban over drugs test issues",
+          "original_lang": "en",
+          "published_at": "2026-11-26T17:12:45.000Z",
+          "tags": [
+            "足球",
+            "反藥禁",
+            "禁賽"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "feeds": 39,
+    "fetched": 3036,
+    "kept": 30,
+    "jev_cost_usd": 0.004693,
+    "llm_cost_usd": 0.00121
+  }
+}
