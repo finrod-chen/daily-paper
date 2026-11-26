@@ -1,0 +1,443 @@
+{
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T06:41:11.843+08:00",
+  "us_market_date": "2026-11-25",
+  "market_date": "2026-11-26",
+  "sector_mode": "turnover",
+  "sector_note": "依證交所 11/26 成交值×漲跌幅挑前 3",
+  "counts": {
+    "bull": 4,
+    "bear": 2,
+    "neutral": 6
+  },
+  "items": [
+    {
+      "key": "US:^GSPC",
+      "kind": "us",
+      "market": "US",
+      "name": "S&P 500",
+      "price": 7182.78,
+      "change_pct": -0.2543,
+      "decimals": 2,
+      "call": "neutral",
+      "net": 0.172,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "Jim Cramer sends strong words to stock market investors",
+          "url": "https://www.thestreet.com/investing/stocks/jim-cramer-sends-strong-words-to-stock-market-investors?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.71,
+          "side": "skip"
+        },
+        {
+          "title": "2 Growth Stocks That Lagged the S&P 500 in 2026 and Could Lead in 2027",
+          "url": "https://www.fool.com/investing/2026/11/26/2-growth-stocks-that-lagged-the-sp-500-in-2026-and-could-lead-in-2027/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.5,
+          "side": "skip"
+        },
+        {
+          "title": "Wall Street Sees Upside in AstraZeneca PLC (AZN) as Shares Retreat",
+          "url": "https://finance.yahoo.com/healthcare/articles/wall-street-sees-upside-astrazeneca-203743976.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.28,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "US:^IXIC",
+      "kind": "us",
+      "market": "US",
+      "name": "那斯達克",
+      "price": 23585.803,
+      "change_pct": -0.6225,
+      "decimals": 2,
+      "call": "neutral",
+      "net": -0.042,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "Apple Stocks Rise as AI Selloff Spares the iPhone Maker",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/apple-stocks-rise-ai-selloff-190038273.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.98,
+          "side": "short"
+        },
+        {
+          "title": "Is Apple Stock Outperforming the Nasdaq?",
+          "url": "https://www.barchart.com/story/news/9020084/is-apple-stock-outperforming-the-nasdaq?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.97,
+          "side": "skip"
+        },
+        {
+          "title": "美股收盤／那斯達克一度重挫4.6%後收斂跌幅道瓊翻紅守住5萬點",
+          "url": "https://news.cnyes.com/news/id/6672743",
+          "source": "鉅亨",
+          "score": 0.95,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "US:^DJI",
+      "kind": "us",
+      "market": "US",
+      "name": "道瓊",
+      "price": 50182.95,
+      "change_pct": 0.3284,
+      "decimals": 2,
+      "call": "neutral",
+      "net": -0.164,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "How Far Could the Dow Jones Industrial Average, S&P 500, and Nasdaq Composite Plunge? Nearly 156 Years of History Offers an Answer.",
+          "url": "https://www.fool.com/investing/2026/11/26/how-far-could-dow-sp-500-and-nasdaq-composite-plunge-nearly-156-years-history-offer-answer/?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.89,
+          "side": "short"
+        },
+        {
+          "title": "Stock Market Trading Hours For Thanksgiving And Black Friday",
+          "url": "https://finance.yahoo.com/m/b9c07147-90c9-300a-9712-4f1b0d4b57b3/stock-market-trading-hours.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.85,
+          "side": "skip"
+        },
+        {
+          "title": "Dow Investors Chased Tech Swings—While Amgen Quietly Surged 77%",
+          "url": "https://finance.yahoo.com/healthcare/articles/dow-investors-chased-tech-swings-144540662.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.85,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "US:^SOX",
+      "kind": "us",
+      "market": "US",
+      "name": "費城半導體",
+      "price": 8774.862,
+      "change_pct": -0.6526,
+      "decimals": 2,
+      "call": "bear",
+      "net": -0.912,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "〈SemiAnalysis報告解析〉AI加速器需求與出貨預測大降！輝達受衝擊最大 博通相對抗跌",
+          "url": "https://news.cnyes.com/news/id/6672045",
+          "source": "鉅亨",
+          "score": 0.95,
+          "side": "short"
+        },
+        {
+          "title": "兩大信評機構接連拆台！穆迪展望下修+標普負面觀察 輝達「治理缺陷」90天不補恐遭降評",
+          "url": "https://news.cnyes.com/news/id/6672064",
+          "source": "鉅亨",
+          "score": 0.87,
+          "side": "short"
+        },
+        {
+          "title": "美光驚傳恐因罷工撤資？張善政怒「選前2天放消息」：4年前台積電龍潭廠案重演",
+          "url": "https://tw.news.yahoo.com/%E7%BE%8E%E5%85%89%E9%A9%9A%E5%82%B3%E6%81%90%E5%9B%A0%E7%BD%B7%E5%B7%A5%E6%92%A4%E8%B3%87-%E5%BC%B5%E5%96%84%E6%94%BF%E6%80%92-%E9%81%B8%E5%89%8D2%E5%A4%A9%E6%94%BE%E6%B6%88%E6%81%AF-4%E5%B9%B4%E5%89%8D%E5%8F%B0%E7%A9%8D%E9%9B%BB%E9%BE%8D%E6%BD%AD%E5%BB%A0%E6%A1%88%E9%87%8D%E6%BC%94-171713934.html",
+          "source": "Yahoo奇摩",
+          "score": 0.77,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "IDX:^TWII",
+      "kind": "index",
+      "market": "TW",
+      "name": "加權指數",
+      "price": 39151.81,
+      "change_pct": 2.5,
+      "decimals": 2,
+      "call": "bull",
+      "net": 1.626,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "台股收盤／加權指數大漲956點收復3萬9台積電逆勢收黑",
+          "url": "https://news.cnyes.com/news/id/6673048",
+          "source": "鉅亨",
+          "score": 1,
+          "side": "long"
+        },
+        {
+          "title": "台股收復3萬9關 外資續砍491億、三大法人賣超132.65億元",
+          "url": "https://news.cnyes.com/news/id/6672850",
+          "source": "鉅亨",
+          "score": 0.99,
+          "side": "long"
+        },
+        {
+          "title": "連續9天追著殺！台積電今再遭三大法人提款333億元 台玻、聯電、景碩齊入出貨名單",
+          "url": "https://tw.stock.yahoo.com/news/%E9%80%A3%E7%BA%8C9%E5%A4%A9%E8%BF%BD%E8%91%97%E6%AE%BA-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E4%BB%8A%E5%86%8D%E9%81%AD%E4%B8%89%E5%A4%A7%E6%B3%95%E4%BA%BA%E6%8F%90%E6%AC%BE333%E5%84%84%E5%85%83-%E5%8F%B0%E7%8E%BB-%E8%81%AF%E9%9B%BB-%E6%99%AF%E7%A2%A9%E9%BD%8A%E5%85%A5%E5%87%BA%E8%B2%A8%E5%90%8D%E5%96%AE-133600775.html",
+          "source": "Yahoo奇摩",
+          "score": 0.9,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "SEC:電子零組件",
+      "kind": "sector",
+      "market": "TW",
+      "name": "電子零組件",
+      "price": 619.47,
+      "change_pct": 8.31,
+      "decimals": 2,
+      "call": "bull",
+      "net": 1.485,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "〈台股盤後〉電子族群強勢反彈帶動收漲近千點 護盤指標股台積電收小跌",
+          "url": "https://news.cnyes.com/news/id/6672829",
+          "source": "鉅亨",
+          "score": 0.96,
+          "side": "long"
+        },
+        {
+          "title": "台股收盤／加權指數大漲956點收復3萬9台積電逆勢收黑",
+          "url": "https://news.cnyes.com/news/id/6673048",
+          "source": "鉅亨",
+          "score": 0.69,
+          "side": "long"
+        },
+        {
+          "title": "台股飆漲956點！PCB女王看好「AI備貨潮來了」點名這2檔強力買進",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%A3%86%E6%BC%B2956%E9%BB%9E-pcb%E5%A5%B3%E7%8E%8B%E7%9C%8B%E5%A5%BD-ai%E5%82%99%E8%B2%A8%E6%BD%AE%E4%BE%86%E4%BA%86-%E9%BB%9E%E5%90%8D%E9%80%992%E6%AA%94%E5%BC%B7%E5%8A%9B%E8%B2%B7%E9%80%B2-141100391.html",
+          "source": "Yahoo奇摩",
+          "score": 0.54,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "SEC:AI 伺服器／電子代工",
+      "kind": "sector",
+      "market": "TW",
+      "name": "AI 伺服器／電子代工",
+      "price": 370.51,
+      "change_pct": 7.21,
+      "decimals": 2,
+      "call": "bull",
+      "net": 0.415,
+      "news_count": 3,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "台股收盤／加權指數大漲956點收復3萬9台積電逆勢收黑",
+          "url": "https://news.cnyes.com/news/id/6673048",
+          "source": "鉅亨",
+          "score": 0.91,
+          "side": "long"
+        },
+        {
+          "title": "北榮機器人藏黃仁勳晶片！鴻海秀3大戰力 鋼鐵雙臂調毒藥＋會搭電梯抽屜送藥",
+          "url": "https://tw.news.yahoo.com/%E5%8C%97%E6%A6%AE%E6%A9%9F%E5%99%A8%E4%BA%BA%E8%97%8F%E9%BB%83%E4%BB%81%E5%8B%B3%E6%99%B6%E7%89%87-%E9%B4%BB%E6%B5%B7%E7%A7%803%E5%A4%A7%E6%88%B0%E5%8A%9B-%E9%8B%BC%E9%90%B5%E9%9B%99%E8%87%82%E8%AA%BF%E6%AF%92%E8%97%A5-%E6%9C%83%E6%90%AD%E9%9B%BB%E6%A2%AF%E6%8A%BD%E5%B1%9C%E9%80%81%E8%97%A5-144500168.html",
+          "source": "Yahoo奇摩",
+          "score": 0.65,
+          "side": "skip"
+        },
+        {
+          "title": "美AI晶片恐供過於求！SemiAnalysis下修2030年支出40% 輝達首當其衝",
+          "url": "https://news.cnyes.com/news/id/6672014",
+          "source": "鉅亨",
+          "score": 0.39,
+          "side": "short"
+        }
+      ]
+    },
+    {
+      "key": "SEC:半導體",
+      "kind": "sector",
+      "market": "TW",
+      "name": "半導體",
+      "price": 1329.89,
+      "change_pct": 0.7,
+      "decimals": 2,
+      "call": "bull",
+      "net": 1.268,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "台積電傳赴德州蓋2奈米廠 洩AI需求風向？華爾街點破關鍵訊號",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%82%B3%E8%B5%B4%E5%BE%B7%E5%B7%9E%E8%93%8B2%E5%A5%88%E7%B1%B3%E5%BB%A0-%E6%B4%A9ai%E9%9C%80%E6%B1%82%E9%A2%A8%E5%90%91-%E8%8F%AF%E7%88%BE%E8%A1%97%E9%BB%9E%E7%A0%B4%E9%97%9C%E9%8D%B5%E8%A8%8A%E8%99%9F-210530975.html",
+          "source": "Yahoo奇摩",
+          "score": 0.98,
+          "side": "long"
+        },
+        {
+          "title": "iPhone、晶片暫列美301關稅豁免！台積電、輝達鬆口氣 越南製AirPods恐遭課最高35%",
+          "url": "https://news.cnyes.com/news/id/6671885",
+          "source": "鉅亨",
+          "score": 0.97,
+          "side": "long"
+        },
+        {
+          "title": "川普12/4赴亞利桑那州 出席台積電晶片廠擴建動土典禮",
+          "url": "https://news.cnyes.com/news/id/6671912",
+          "source": "鉅亨",
+          "score": 0.92,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "FX:USD/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "美元／台幣",
+      "price": 32.918,
+      "change_pct": -0.0091,
+      "decimals": 4,
+      "call": "bear",
+      "net": -1.13,
+      "news_count": 4,
+      "fx_hint": "外幣偏弱／台幣偏升",
+      "news": [
+        {
+          "title": "台股漲近千點 新台幣重返32元",
+          "url": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%BC%B2%E8%BF%91%E5%8D%83%E9%BB%9E-%E6%96%B0%E5%8F%B0%E5%B9%A3%E9%87%8D%E8%BF%9432%E5%85%83-201000404.html",
+          "source": "Yahoo奇摩",
+          "score": 0.97,
+          "side": "short"
+        },
+        {
+          "title": "〈華南金法說〉央行不排除年底前升息！蕭玉美看AI與出口支撐動能 台幣震盪偏升",
+          "url": "https://news.cnyes.com/news/id/6673210",
+          "source": "鉅亨",
+          "score": 0.91,
+          "side": "skip"
+        },
+        {
+          "title": "別指望聯準會出手救市？Fed傳聲筒：AI股暴跌拉高升息門檻 華許陷政策兩難",
+          "url": "https://news.cnyes.com/news/id/6671886",
+          "source": "鉅亨",
+          "score": 0.48,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "FX:JPY/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "日圓／台幣",
+      "price": 0.2045,
+      "change_pct": -1.062,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0.104,
+      "news_count": 1,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "日銀委員釋加快升息訊號 稱須迅速因應通膨風險",
+          "url": "https://news.cnyes.com/news/id/6672012",
+          "source": "鉅亨",
+          "score": 0.42,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "FX:CNY/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "人民幣／台幣",
+      "price": 4.9499,
+      "change_pct": -0.6623,
+      "decimals": 4,
+      "call": "neutral",
+      "net": -0.022,
+      "news_count": 1,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "〈陸股盤後〉美擬對14國課產能過剩關稅 三大指數漲跌互見",
+          "url": "https://news.cnyes.com/news/id/6671900",
+          "source": "鉅亨",
+          "score": 0.33,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "FX:EUR/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "歐元／台幣",
+      "price": 36.155,
+      "change_pct": 0.1843,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0,
+      "news_count": 0,
+      "fx_hint": "",
+      "news": []
+    }
+  ],
+  "scorecard": {
+    "days": 30,
+    "horizon_hours": 24,
+    "graded": 345,
+    "long": {
+      "n": 139,
+      "hit": 62,
+      "avg": -0.2419
+    },
+    "short": {
+      "n": 78,
+      "hit": 37,
+      "avg": -0.829
+    },
+    "skip": {
+      "n": 128,
+      "hit": 10
+    },
+    "base": {
+      "n": 345,
+      "hit": 159,
+      "avg": -0.1039
+    },
+    "kinds": {
+      "us": {
+        "n": 119,
+        "hit": 38
+      },
+      "index": {
+        "n": 46,
+        "hit": 17
+      },
+      "sector": {
+        "n": 125,
+        "hit": 31
+      },
+      "fx": {
+        "n": 55,
+        "hit": 23
+      }
+    },
+    "tokens": 309670,
+    "usd": 0.0093
+  },
+  "warnings": [],
+  "disclaimer": "非投資建議。偏多／偏空只代表 Kairos 依新聞判斷的方向，不考慮你的財務狀況；本流程不會下單。"
+}
