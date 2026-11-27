@@ -1,0 +1,468 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T07:01:00.534+08:00",
+  "edition": 19,
+  "headline": {
+    "title": "英銀估雲端巨頭 AI 曝險逾 4 兆美元",
+    "summary": "英格蘭銀行發布《金融穩定報告》，估算超大規模雲端業者的債務加上表外承諾，潛在曝險略高於 4 兆美元。該行指出 AI 融資日益複雜、循環且不透明，可能放大跨市場連鎖風險。",
+    "why": "揭示 AI 基礎建設背後隱藏的巨大金融槓桿與系統性風險，對科技產業投資決策有重大影響。",
+    "importance": 4,
+    "source_name": "INSIDE",
+    "source_url": "https://www.inside.com.tw/article/43024-boe-ai-hyperscaler-4-trillion-exposure",
+    "original_title": "英國央行估雲端巨頭 AI 曝險逾 4 兆美元，表外承諾與循環融資放大跨市場連鎖風險",
+    "original_lang": "zh",
+    "published_at": "2026-11-27T05:19:00.000Z",
+    "tags": [
+      "AI",
+      "金融風險",
+      "英格蘭銀行"
+    ]
+  },
+  "brief": "英國央行估計雲端巨頭AI曝險逾4兆美元，同時全球半導體出口額首度超越石油，顯示科技金融正加速取代傳統霸權。美國空軍雲端計算平台遭駭客入侵，可能洩漏大量敏感資料，突顯軍事關鍵基礎設施在雲端架構下的資安漏洞。在區域地緣政治緊張升溫之際，解放軍於台灣地方選舉前夕有30架軍機活動於台海，其中26架次越過中線，緊密關聯了區域軍事活動與政治時程。",
+  "sections": [
+    {
+      "id": "ai",
+      "items": [
+        {
+          "title": "荷蘭聯手德法阻擋 ASML 新管制",
+          "summary": "美國國會協商將 MATCH 法案納入國防法案，旨在限制先進晶片出口。荷蘭外貿部長表態若法案通過，將要求美國不要執行，並與德法聯手阻擋對 ASML 的新管制。",
+          "why": "反映全球半導體供應鏈監管的地緣政治博弈加劇，可能改變先進製程設備的出口限制規則。",
+          "importance": 3,
+          "source_name": "INSIDE",
+          "source_url": "https://www.inside.com.tw/article/43023-netherlands-asml-match-act-pushback",
+          "original_title": "美國國會協商將 MATCH 法案納入國防法案，荷蘭聯手德法阻擋 ASML 新管制",
+          "original_lang": "zh",
+          "published_at": "2026-11-27T04:25:00.000Z",
+          "tags": [
+            "半導體管制",
+            "ASML",
+            "地緣政治"
+          ]
+        },
+        {
+          "title": "西班牙規範大型資料中心能源效率",
+          "summary": "西班牙通過《Real Decreto 1032/2026》，規範資料中心能源永續標準。該法規要求電力容量超過 10MW 的大型資料中心必須符合新的能源與環境標準，才能取得電網接入資格。",
+          "why": "標誌歐洲對 AI 算力基礎建設引入強制性永續監管，可能提高資料中心的建置與維運成本。",
+          "importance": 3,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180859",
+          "original_title": "西班牙要求大型資料中心符合能源與水效率標準，強化AI算力基礎建設的永續監管",
+          "original_lang": "zh",
+          "published_at": "2026-11-27T06:11:32.000Z",
+          "tags": [
+            "永續發展",
+            "資料中心",
+            "歐盟監管"
+          ]
+        },
+        {
+          "title": "OpenAI 修正 GPT-6.2 計費錯誤",
+          "summary": "OpenAI 修正 GPT-6.2 計費系統錯誤，導致 Astra 與 Sol 模型的使用限額更快用罄。修正後，Astra 用完配額的速度較上週加快 40%，Sol 則加快 25%。",
+          "why": "影響依賴該模型進行自動化流程開發者的成本預算與資源規劃，需重新評估 token 消耗速率。",
+          "importance": 2,
+          "source_name": "iThome",
+          "source_url": "https://www.ithome.com.tw/news/180853",
+          "original_title": "OpenAI修正GPT-6.2計費系統錯誤，Astra、Sol模型將更快用罄使用限額",
+          "original_lang": "zh",
+          "published_at": "2026-11-27T03:11:04.000Z",
+          "tags": [
+            "OpenAI",
+            "API 計費",
+            "大型語言模型"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "automation",
+      "items": [
+        {
+          "title": "美國空軍雲端計算平台遭駭",
+          "summary": "美國空軍的雲端計算平台遭到駭客攻擊。此事件顯示即使是高度設防的軍事雲端基礎設施，仍面臨嚴重的資安漏洞風險。",
+          "why": "高階軍事機構的雲端資安失守，突顯了關鍵基礎設施在數位轉型中防禦體系的脆弱性，對依賴雲端運算的機構具警示作用。",
+          "importance": 4,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://news.sky.com/story/us-air-forces-cloud-computing-platform-hacked-13617163",
+          "original_title": "US Air Force's cloud computing platform hacked",
+          "original_lang": "en",
+          "published_at": "2026-11-27T12:54:11.000Z",
+          "tags": [
+            "資安",
+            "雲端",
+            "軍事"
+          ]
+        },
+        {
+          "title": "WebRTC 腳本被用於信用卡竊取",
+          "summary": "研究人員在熱門購物網站上發現使用 WebRTC 技術進行信用卡資料竊取的腳本。此方法利用瀏覽器標準功能繞過傳統防護，在光筆節期間風險升高。",
+          "why": "攻擊向量轉向瀏覽器原生功能，使得依賴前端安全措施的電商與金流系統面臨新的隱蔽威脅，需更新防護策略。",
+          "importance": 3,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+          "original_title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+          "original_lang": "en",
+          "published_at": "2026-11-27T15:40:31.000Z",
+          "tags": [
+            "資安",
+            "WebRTC",
+            "電商"
+          ]
+        },
+        {
+          "title": "主流程式語言需具備形式驗證",
+          "summary": "文章討論了開發具備形式驗證功能之主流程式語言的需求。作者認為這將有助於確保軟體邏輯的正確性，並降低大型系統中的潛在錯誤。",
+          "why": "隨著系統複雜度增加，形式驗證能從根本減少邏輯錯誤，對追求高可靠性與自動化的開發流程具有長期價值。",
+          "importance": 3,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://blainehansen.me/post/mainstream-verifiable-language/",
+          "original_title": "The need for a formally verifiable mainstream programming language",
+          "original_lang": "en",
+          "published_at": "2026-11-27T05:22:06.000Z",
+          "tags": [
+            "程式語言",
+            "形式驗證",
+            "軟體工程"
+          ]
+        },
+        {
+          "title": "Michael Nielsen 移除神經網路書籍",
+          "summary": "知名 AI 研究者 Michael Nielsen 移除了其關於神經網路的線上書籍。此舉引發社群對其內容時效性、版權或學術觀點變化的討論。",
+          "why": "該資源曾廣泛被引用，其移除可能影響部分自學者與研究人員的教學與參考材料，反映出版品在快速演進領域中的動態管理。",
+          "importance": 3,
+          "source_name": "Hacker News Front Page 200+",
+          "source_url": "https://neuralnetworksanddeeplearning.com/",
+          "original_title": "Michael Nielsen took down his book on neural nets",
+          "original_lang": "en",
+          "published_at": "2026-11-27T19:31:01.000Z",
+          "tags": [
+            "AI",
+            "教育資源",
+            "研究"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "biotech",
+      "items": [
+        {
+          "title": "植物糖工程標準化框架與重組蛋白生產趨勢",
+          "summary": "文章探討植物糖工程技術在生產重組蛋白上的進展，指出其已成為生物技術發展的重要方向。文中提到針對此技術的標準化評估框架正在發展，以解決產業應用中的關鍵瓶頸。",
+          "why": "標準化評估框架的建立有助於降低重組蛋白生產的變異風險，提升生技產品的穩定性與監管效率。",
+          "importance": 4,
+          "source_name": "GeneOnline 基因線上",
+          "source_url": "https://geneonline.news/%E6%A4%8D%E7%89%A9%E7%B3%96%E5%B7%A5%E7%A8%8B%E6%8A%80%E8%A1%93%E7%AA%81%E7%A0%B4%E8%88%87%E6%A8%99%E6%BA%96%E5%8C%96%E8%A9%95%E4%BC%B0%E6%A1%86%E6%9E%B6%E4%B9%8B%E7%99%BC%E5%B1%95%E8%B6%A8%E5%8B%A2/",
+          "original_title": "植物糖工程技術突破與標準化評估框架之發展趨勢",
+          "original_lang": "zh",
+          "published_at": "2026-11-27T09:21:04.000Z",
+          "tags": [
+            "植物糖工程",
+            "重組蛋白",
+            "標準化"
+          ]
+        },
+        {
+          "title": "工程化益生菌精準生成治療分子成為轉譯醫學目標",
+          "summary": "研究將益生菌進行工程化改造，使其具備精準產生特定治療分子的能力。此技術旨在將腸道轉化為精準生物製藥工廠，結合生物特性與工程技術以推動轉譯醫學發展。",
+          "why": "利用腸道菌相作為生物反應器可能開啟新型藥物遞送途徑，對開發針對性生物製劑具有實際應用價值。",
+          "importance": 4,
+          "source_name": "GeneOnline 基因線上",
+          "source_url": "https://geneonline.news/%E7%87%9F%E9%A4%8A%E7%A8%8B%E5%BC%8F%E5%8C%96%E5%B7%A5%E7%A8%8B%E7%9B%8A%E7%94%9F%E8%8F%8C%E5%B0%87%E8%85%B8%E9%81%93%E8%BD%89%E5%8C%96%E7%82%BA%E7%B2%BE%E6%BA%96%E7%94%9F%E7%89%A9%E8%A3%BD%E8%97%A5/",
+          "original_title": "營養程式化工程益生菌將腸道轉化為精準生物製藥工廠",
+          "original_lang": "zh",
+          "published_at": "2026-11-27T10:21:05.000Z",
+          "tags": [
+            "工程化益生菌",
+            "精準醫療",
+            "轉譯醫學"
+          ]
+        },
+        {
+          "title": "FDA 延長 Vertex 實驗性腎臟药物安全評估期限",
+          "summary": "美國食品藥物管理局（FDA）延長對 Vertex Pharmaceuticals 實驗性腎臟药物的評估期。由於存在潛在安全性疑慮，監管單位需進行更深入的審查以確定該藥物是否符合標準。",
+          "why": "監管時程的延長反映了對新藥安全數據的嚴格審查標準，影響相關疾病領域患者的用药可及性與臨床試驗進度。",
+          "importance": 3,
+          "source_name": "STAT News",
+          "source_url": "https://www.statnews.com/2026/11/27/fda-vertex-povetacicept-kidney-capricor-duchenne-readout-newsletter/",
+          "original_title": "STAT+: FDA extends assessment of experimental Vertex kidney drug",
+          "original_lang": "en",
+          "published_at": "2026-11-27T16:00:54.000Z",
+          "tags": [
+            "FDA",
+            "Vertex",
+            "藥物監管"
+          ]
+        },
+        {
+          "title": "蒙大拿州通過首個州級「嘗試權利」法案引發成本與風險爭議",
+          "summary": "蒙大拿州成為美國首個通過「嘗試權利」（right to try）法案的州份，允許特定患者在臨床試驗失敗後使用未獲批准的治療。研究者指出，該法律使患者需承擔相關成本與風險，並引發關於醫療責任邊界的討論。",
+          "why": "此法案改變了患者獲取未批准治療的法律路徑，對生物製藥業的臨床試驗設計及患者支持策略產生直接影響。",
+          "importance": 2,
+          "source_name": "STAT News",
+          "source_url": "https://www.statnews.com/2026/11/27/montana-sb-535-right-to-try-questions-risks-costs-insurance/",
+          "original_title": "Opinion: Montana’s ‘right to try’ law makes patients responsible for bearing costs — and risks",
+          "original_lang": "en",
+          "published_at": "2026-11-27T09:30:00.000Z",
+          "tags": [
+            "政策法規",
+            "患者權益",
+            "實驗治療"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "taiwan",
+      "items": [
+        {
+          "title": "腦機介面手術獲 FDA 核准，癱瘓患者術後能自主進食",
+          "summary": "美國 Neuralink 公司獲 FDA 核准啟動樞紐性臨床試驗。同時，中國有癱瘓病人在接受腦機介面手術 4 個月後，展現出自主進食的能力。",
+          "why": "臨床試驗的啟動意味著腦機介面技術正從概念驗證轉向實際醫療應用，有望幫助脊髓損傷或腦幹中風患者恢復部分身體功能。",
+          "importance": 4,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/837765",
+          "original_title": "腦機介面手術突破 癱瘓患者術後能自主進食",
+          "original_lang": "zh",
+          "published_at": "2026-11-27T12:53:56.000Z",
+          "tags": [
+            "醫療",
+            "腦機介面"
+          ]
+        },
+        {
+          "title": "全球半導體出口額首度超越石油，美元霸權轉向科技金融",
+          "summary": "德意志銀行分析顯示，全球半導體出口額首度超越石油及天然氣，且差距持續擴大。晶片已被視為支撐人工智慧時代的關鍵資產。",
+          "why": "這標誌著全球經濟版圖的深層結構變化，能源主權正逐漸讓位於科技晶片與 AI 算力，影響未來的國際貨幣體系與貿易流向。",
+          "importance": 4,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/837757",
+          "original_title": "全球半導體出口首超越石油 美元霸權從能源轉向科技金融",
+          "original_lang": "zh",
+          "published_at": "2026-11-27T13:37:43.000Z",
+          "tags": [
+            "半導體",
+            "地緣政治"
+          ]
+        },
+        {
+          "title": "愛沙尼亞示警資安風險，籲停用 DeepSeek 等 3 款 AI 工具",
+          "summary": "愛沙尼亞司法暨數位事務部公布 AI 工具安全評估結果，中國開發的 DeepSeek、通義千問及本土平台 Botastico 因資料安全疑慮被列為紅燈評級。官方呼籲政府機關、企業及家庭停止使用。",
+          "why": "歐洲主要國家政府針對特定國籍 AI 模型發出停用警告，突顯了 AI 工具在地部署時，資料主權與供應鏈安全已成为政府評估的核心指標。",
+          "importance": 4,
+          "source_name": "中央社 科技",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611270015.aspx",
+          "original_title": "愛沙尼亞示警資安風險 籲停用DeepSeek等3款AI工具",
+          "original_lang": "zh",
+          "published_at": "2026-11-26T23:13:17.000Z",
+          "tags": [
+            "AI",
+            "資安",
+            "法規"
+          ]
+        },
+        {
+          "title": "台灣人超愛 Threads，華郵揭中國藉此鎖定台灣進行資訊操作",
+          "summary": "《華盛頓郵報》報導指出，台灣人對社群平台 Threads 的重度使用，為中國資訊操作開闢了新戰場。台灣官員和研究人員表示，这种熱衷程度讓中國得以透過該平台進行滲透。",
+          "why": "高使用率的平台成為資訊戰的入口，顯示社群媒體的數據分析已成為評估國家資安風險的重要維度。",
+          "importance": 3,
+          "source_name": "中央社 政治",
+          "source_url": "https://www.cna.com.tw/news/aipl/202611270269.aspx",
+          "original_title": "台灣人超愛用 華郵揭中國鎖定Threads進行資訊操作",
+          "original_lang": "zh",
+          "published_at": "2026-11-27T13:52:39.000Z",
+          "tags": [
+            "資安",
+            "社群媒體"
+          ]
+        },
+        {
+          "title": "Meta AI 眼鏡恐侵害隱私，荷蘭民間團體訴請禁售",
+          "summary": "荷蘭民間團體指控 Meta 與雷朋合作的 AI 眼鏡可能在別人不知情下錄影，違反隱私保護法規，要求法官下令禁止銷售。Meta 辯稱錄影指示燈已具有提醒功能，目前荷蘭一家連鎖賣場已暫時下架。",
+          "why": "此案將影響歐洲 AI 穿戴裝置的監管環境，對涉及 AI 產品與硬體整合的開發者而言，隱私合規設計將成為進入歐洲市場的重大門檻。",
+          "importance": 3,
+          "source_name": "公視新聞",
+          "source_url": "https://news.pts.org.tw/article/837766",
+          "original_title": "Meta眼鏡恐侵害隱私 荷蘭民團訴請禁售",
+          "original_lang": "zh",
+          "published_at": "2026-11-27T12:54:20.000Z",
+          "tags": [
+            "AI 硬體",
+            "隱私"
+          ]
+        },
+        {
+          "title": "選前之夜中國官媒集中攻擊沈伯洋，安全官員示警中國介選",
+          "summary": "九合一選舉投票前夜，中國官媒密集發布批評台北市長候選人沈伯洋的訊息，並炒作境外勢力介入議題。安全官員已示警中國可能透過網路社群與訊息操弄介入選舉。",
+          "why": "透過公開的媒體行為，安全單位得以向公眾提供辨識特定資訊操作特徵的依據，強化了公眾對國土資安的防禦意識。",
+          "importance": 2,
+          "source_name": "中央社 政治",
+          "source_url": "https://www.cna.com.tw/news/aipl/202611270270.aspx",
+          "original_title": "安全官員示警中國介選 選前之夜官媒集中攻擊沈伯洋",
+          "original_lang": "zh",
+          "published_at": "2026-11-27T14:01:41.000Z",
+          "tags": [
+            "選舉",
+            "資安"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "world",
+      "items": [
+        {
+          "title": "川普新關稅劍指北京 圖重塑貿易秩序",
+          "summary": "美國宣布加徵新關稅，旨在通過施壓其他國家重塑全球貿易秩序，並將北京列為主要目標。各國已調整貿易流向以繞過美國關稅壁壘，並開始關注特朗普卸任後的市場變化。",
+          "why": "全球供應鏈成本結構與地緣經濟策略將面臨重新洗牌，影響跨國商業決策。",
+          "importance": 4,
+          "source_name": "中央社 國際",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611270242.aspx",
+          "original_title": "路透：川普新關稅施壓各國劍指北京 圖重塑全球貿易秩序",
+          "original_lang": "zh",
+          "published_at": "2026-11-27T12:15:37.000Z",
+          "tags": [
+            "國際貿易",
+            "地緣政治",
+            "美國關稅"
+          ]
+        },
+        {
+          "title": "黃仁勳重返英偉達 亞洲股市劇烈波動",
+          "summary": "英偉達執行長黃仁勳重返崗位引發亞洲股市劇烈波動。此事件暴露出亞洲經濟體對AI產業及英偉達的高度依賴，並凸顯相關的投資風險。",
+          "why": "揭示亞洲市場對特定AI巨頭供應鏈的系統性風險，影響區域資本配置。",
+          "importance": 3,
+          "source_name": "BBC 中文",
+          "source_url": "https://www.bbc.com/zhongwen/articles/cq62p0n4er0wo/trad?at_medium=RSS&at_campaign=rss",
+          "original_title": "押注英偉達發展AI，亞洲在黃仁勳復職後前景如何？",
+          "original_lang": "zh",
+          "published_at": "2026-11-27T07:40:38.000Z",
+          "tags": [
+            "AI產業",
+            "科技股",
+            "亞洲經濟"
+          ]
+        },
+        {
+          "title": "芬蘭研議調整版權法 遏止AI深偽冒用",
+          "summary": "芬蘭教育文化部公布深偽研究報告，建議調整既有著作權法保護範圍，以遏止AI冒用個人聲音與影像。丹麥此前已提出防制深偽法案，顯示歐洲正積極補強數位時代的法律缺口。",
+          "why": "AI內容生成技術的快速發展正迫使監管框架更新，影響未來媒體與身份驗證標準。",
+          "importance": 3,
+          "source_name": "中央社 國際",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611270286.aspx",
+          "original_title": "AI深偽威脅媒體公信力與生計 芬蘭尋解方",
+          "original_lang": "zh",
+          "published_at": "2026-11-27T15:09:19.000Z",
+          "tags": [
+            "AI監管",
+            "深偽技術",
+            "歐洲立法"
+          ]
+        },
+        {
+          "title": "台選前夕 解放軍30架軍機活動於台海",
+          "summary": "台灣地方選舉前夕，國防部偵測到30架次解放軍軍機在台灣周邊活動，其中26架次越過台灣海峽中线及其延伸線。此举發生在選戰最後衝刺階段，顯示區域軍事活動與政治時程的緊密關聯。",
+          "why": "區域安全態勢的不確定性增加，可能影響供應鏈穩定與地緣政治風險評估。",
+          "importance": 3,
+          "source_name": "DW 中文",
+          "source_url": "https://www.dw.com/zh/台湾地方选举前夕-解放军30架次军机在台海周边活动/a-80072713?maca=chi-rss-chi-all-1127-rdf",
+          "original_title": "台湾地方选举前夕 解放军30架次军机在台海周边活动",
+          "original_lang": "zh",
+          "published_at": "2026-11-27T11:08:00.000Z",
+          "tags": [
+            "台海情勢",
+            "軍事動態",
+            "台灣選舉"
+          ]
+        },
+        {
+          "title": "美空軍旗艦雲平台遭駭 敏感資料恐洩漏",
+          "summary": "美國空軍旗艦雲端運算平台遭到駭客入侵，可能危及大量敏感的戰術、人事和後勤資料。此事件突顯了軍事關鍵基礎設施在雲端架構下的安全漏洞。",
+          "why": "關鍵基礎設施的資安事件提醒企業與政府需強化雲端資態防禦，避免數據外洩風險。",
+          "importance": 3,
+          "source_name": "中央社 國際",
+          "source_url": "https://www.cna.com.tw/news/aopl/202611270266.aspx",
+          "original_title": "路透：美國空軍旗艦雲端平台遭駭 恐危及戰術人事後勤資料",
+          "original_lang": "zh",
+          "published_at": "2026-11-27T13:38:32.000Z",
+          "tags": [
+            "資安",
+            "網路攻擊",
+            "美國空軍"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "sports",
+      "items": [
+        {
+          "title": "Kimi Antonelli 卡塔爾練賽奪最快",
+          "summary": "世界冠軍 Kimi Antonelli 在卡塔爾大獎賽第二次練習中取得最佳單圈，領先梅賽德斯車隊隊友 George Russell。該場練習因賽道狀況而中斷，顯示新賽季競爭態勢。",
+          "why": "反映新賽季 F1 技術競爭與車隊策略調整趨勢。",
+          "importance": 3,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/formula1/articles/cqpv903y40jko?at_medium=RSS&at_campaign=rss",
+          "original_title": "Mercedes set pace in eventful Qatar second practice",
+          "original_lang": "en",
+          "published_at": "2026-11-27T19:50:06.000Z",
+          "tags": [
+            "F1",
+            "卡塔爾GP"
+          ]
+        },
+        {
+          "title": "英格蘭 T20 狂掃澳洲奪系列賽領先",
+          "summary": "英格蘭隊在第三場 T20 賽事中以七個三振擊垮澳洲隊，取得系列賽領先。澳洲隊在白球板球中表現持續不穩，面臨積分壓力。",
+          "why": "顯示國際板球格局變化，影響體育產業資源分配。",
+          "importance": 3,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/cricket/articles/cm9d704g26z4o?at_medium=RSS&at_campaign=rss",
+          "original_title": "England outclass Australia again to take series lead",
+          "original_lang": "en",
+          "published_at": "2026-11-27T11:45:14.000Z",
+          "tags": [
+            "板球",
+            "T20"
+          ]
+        },
+        {
+          "title": "檯球成心理挑戰最嚴苛運動引關注",
+          "summary": "BBC Sport 探討檯球成為心理挑戰最嚴苛運動之一的原因，提及多位球員面臨心理健康問題，並介紹目前支援措施。",
+          "why": "揭示高壓競技運動對運動員心理韌性的影響，有助於運動科學與支持系統建設。",
+          "importance": 2,
+          "source_name": "BBC Sport",
+          "source_url": "https://www.bbc.co.uk/sport/snooker/articles/cm174wqxk8lpo?at_medium=RSS&at_campaign=rss",
+          "original_title": "Why snooker could be the most mentally challenging sport",
+          "original_lang": "en",
+          "published_at": "2026-11-27T17:00:10.000Z",
+          "tags": [
+            "檯球",
+            "心理健康"
+          ]
+        },
+        {
+          "title": "劉任右飆速 150 公里助平鎮晉冠軍戰",
+          "summary": "黑豹旗青棒賽中，平鎮高中左投劉任右先發六局失一分，飆速達 150 公里，助隊擊敗穀保晉級冠軍戰。北科附工則由胡宸睿後援表現穩健，以 1 比 0 險勝台南海事。",
+          "why": "展現年輕投手潛力，對棒球人才發展具有參考價值。",
+          "importance": 1,
+          "source_name": "中央社 運動",
+          "source_url": "https://www.cna.com.tw/news/aspt/202611270104.aspx",
+          "original_title": "劉任右強化控球、續航和穩定性 黑豹旗先發飆速平鎮晉冠軍戰",
+          "original_lang": "zh",
+          "published_at": "2026-11-27T05:53:36.000Z",
+          "tags": [
+            "青棒",
+            "黑豹旗"
+          ]
+        }
+      ]
+    }
+  ],
+  "stats": {
+    "feeds": 39,
+    "fetched": 3032,
+    "kept": 27,
+    "jev_cost_usd": 0.004264,
+    "llm_cost_usd": 0.0011
+  }
+}
