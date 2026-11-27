@@ -1,0 +1,451 @@
+{
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T06:41:27.960+08:00",
+  "us_market_date": "2026-11-27",
+  "market_date": "2026-11-27",
+  "sector_mode": "turnover",
+  "sector_note": "依證交所 11/27 成交值×漲跌幅挑前 3",
+  "counts": {
+    "bull": 6,
+    "bear": 0,
+    "neutral": 6
+  },
+  "items": [
+    {
+      "key": "US:^GSPC",
+      "kind": "us",
+      "market": "US",
+      "name": "S&P 500",
+      "price": 7297.49,
+      "change_pct": 1.597,
+      "decimals": 2,
+      "call": "bull",
+      "net": 1.367,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "S&P 500 Posts Year's Largest Weekly Gain Led by Materials, Technology",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/p-500-posts-apos-largest-183955223.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.98,
+          "side": "skip"
+        },
+        {
+          "title": "〈美股早盤〉AI買盤回流主要指數走揚 標普500拚4月以來最佳單周表現",
+          "url": "https://news.cnyes.com/news/id/6674170",
+          "source": "鉅亨",
+          "score": 0.95,
+          "side": "long"
+        },
+        {
+          "title": "Nasdaq Leads Market Rebound as Treasury Yields Hit 5.29% at the Long End",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/nasdaq-leads-market-rebound-treasury-195242969.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.93,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "US:^IXIC",
+      "kind": "us",
+      "market": "US",
+      "name": "那斯達克",
+      "price": 24129.5,
+      "change_pct": 2.3052,
+      "decimals": 2,
+      "call": "bull",
+      "net": 0.657,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "Jim Cramer Is Still Bullish On These 5 Tech Stocks Despite AI Bear Market",
+          "url": "https://finance.yahoo.com/technology/articles/jim-cramer-still-bullish-5-184921596.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.94,
+          "side": "long"
+        },
+        {
+          "title": "Dow Jones Futures: Stock Market Makes Bullish Move, Tesla Leads 7 New Buys; Nvidia's Jensen Huang Heads To Capitol Hill",
+          "url": "https://finance.yahoo.com/m/5b917298-e5b5-3d87-b1fa-f7cad345af64/dow-jones-futures%3A-stock.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.91,
+          "side": "long"
+        },
+        {
+          "title": "Jim Cramer Named His Buy-the-Dip Price for Dell Stock",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/jim-cramer-named-buy-dip-185032145.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.48,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "US:^DJI",
+      "kind": "us",
+      "market": "US",
+      "name": "道瓊",
+      "price": 50774.94,
+      "change_pct": 1.1797,
+      "decimals": 2,
+      "call": "bull",
+      "net": 0.763,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "US Equity Markets Higher Amid Broad Rally Led by Technology, Consumer Discretionary Stocks",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/us-equity-markets-higher-amid-175904719.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.88,
+          "side": "long"
+        },
+        {
+          "title": "5 Cheap Stocks that Will Explode in 2027",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/5-cheap-stocks-explode-2027-151335148.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.78,
+          "side": "skip"
+        },
+        {
+          "title": "10 Cheap Stocks With Explosive Growth Potential Heading into 2027",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/10-cheap-stocks-explosive-growth-164412420.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.68,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "US:^SOX",
+      "kind": "us",
+      "market": "US",
+      "name": "費城半導體",
+      "price": 9186.706,
+      "change_pct": 4.6935,
+      "decimals": 2,
+      "call": "bull",
+      "net": 0.916,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "感恩節後強勁反彈！道瓊飆591點、台積電ADR漲3.21％",
+          "url": "https://tw.stock.yahoo.com/news/%E6%84%9F%E6%81%A9%E7%AF%80%E5%BE%8C%E5%BC%B7%E5%8B%81%E5%8F%8D%E5%BD%88-%E9%81%93%E7%93%8A%E9%A3%86591%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BBadr%E6%BC%B23-21-221222331.html",
+          "source": "Yahoo奇摩",
+          "score": 0.97,
+          "side": "long"
+        },
+        {
+          "title": "iShares A.I. Innovation and Tech Active ETF (BAI) Sells Broadcom and AMD on Wednesday",
+          "url": "https://finance.yahoo.com/markets/stocks/articles/ishares-innovation-tech-active-etf-110424675.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.85,
+          "side": "skip"
+        },
+        {
+          "title": "Dow Jones Futures: Stock Market Makes Bullish Move, Tesla Leads 7 New Buys; Nvidia's Jensen Huang Heads To Capitol Hill",
+          "url": "https://finance.yahoo.com/m/5b917298-e5b5-3d87-b1fa-f7cad345af64/dow-jones-futures%3A-stock.html?.tsrc=rss",
+          "source": "Yahoo Finance",
+          "score": 0.75,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "IDX:^TWII",
+      "kind": "index",
+      "market": "TW",
+      "name": "加權指數",
+      "price": 39308.08,
+      "change_pct": 0.4,
+      "decimals": 2,
+      "call": "bull",
+      "net": 0.512,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "台股選前量縮 外資續砍296億、三大法人賣超213.04億元",
+          "url": "https://news.cnyes.com/news/id/6673736",
+          "source": "鉅亨",
+          "score": 1,
+          "side": "long"
+        },
+        {
+          "title": "國安基金狂敲台積…台股尾盤翻紅 樂觀派法人預期下周重返40K",
+          "url": "https://tw.news.yahoo.com/%E5%9C%8B%E5%AE%89%E5%9F%BA%E9%87%91%E7%8B%82%E6%95%B2%E5%8F%B0%E7%A9%8D-%E5%8F%B0%E8%82%A1%E5%B0%BE%E7%9B%A4%E7%BF%BB%E7%B4%85-%E6%A8%82%E8%A7%80%E6%B4%BE%E6%B3%95%E4%BA%BA%E9%A0%90%E6%9C%9F%E4%B8%8B%E5%91%A8%E9%87%8D%E8%BF%9440k-214847384.html",
+          "source": "Yahoo奇摩",
+          "score": 0.99,
+          "side": "long"
+        },
+        {
+          "title": "外資賣超296億元連十賣 選前倒貨00406A 15萬張 台指期空單再增至10萬7503口",
+          "url": "https://news.cnyes.com/news/id/6673941",
+          "source": "鉅亨",
+          "score": 0.99,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "SEC:半導體",
+      "kind": "sector",
+      "market": "TW",
+      "name": "半導體",
+      "price": 1344.32,
+      "change_pct": 1.09,
+      "decimals": 2,
+      "call": "neutral",
+      "net": 0.265,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "台積電擬在美布局第二座先進晶圓廠！美銀重申買進、目標價3260、隱含漲幅逾5成",
+          "url": "https://news.cnyes.com/news/id/6673758",
+          "source": "鉅亨",
+          "score": 0.98,
+          "side": "skip"
+        },
+        {
+          "title": "傳德國首座晶圓廠已完成主體結構工程 台積電：建廠進度如期且進展順利",
+          "url": "https://tw.news.yahoo.com/%E5%82%B3%E5%BE%B7%E5%9C%8B%E9%A6%96%E5%BA%A7%E6%99%B6%E5%9C%93%E5%BB%A0%E5%B7%B2%E5%AE%8C%E6%88%90%E4%B8%BB%E9%AB%94%E7%B5%90%E6%A7%8B%E5%B7%A5%E7%A8%8B-%E5%8F%B0%E7%A9%8D%E9%9B%BB-%E5%BB%BA%E5%BB%A0%E9%80%B2%E5%BA%A6%E5%A6%82%E6%9C%9F%E4%B8%94%E9%80%B2%E5%B1%95%E9%A0%86%E5%88%A9-133132514.html",
+          "source": "Yahoo奇摩",
+          "score": 0.92,
+          "side": "skip"
+        },
+        {
+          "title": "輝達AI帝國非單打獨鬥！美股新ETF瞄準非美半導體供應鏈",
+          "url": "https://news.cnyes.com/news/id/6673832",
+          "source": "鉅亨",
+          "score": 0.55,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "SEC:光電",
+      "kind": "sector",
+      "market": "TW",
+      "name": "光電",
+      "price": 54.47,
+      "change_pct": -2.17,
+      "decimals": 2,
+      "call": "bull",
+      "net": 0.303,
+      "news_count": 3,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "友達華亞廠找到新買家 售予矽品處分利益估104億元",
+          "url": "https://news.cnyes.com/news/id/6674033",
+          "source": "鉅亨",
+          "score": 0.99,
+          "side": "skip"
+        },
+        {
+          "title": "台股3萬9千點暗藏變盤訊號？下一波主流?!",
+          "url": "https://news.cnyes.com/news/id/6673891",
+          "source": "鉅亨",
+          "score": 0.8,
+          "side": "long"
+        },
+        {
+          "title": "台積電淪外資提款機！連12天追著砍 聯電、友達齊入出貨名單",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%B7%AA%E5%A4%96%E8%B3%87%E6%8F%90%E6%AC%BE%E6%A9%9F-%E9%80%A312%E5%A4%A9%E8%BF%BD%E8%91%97%E7%A0%8D-%E8%81%AF%E9%9B%BB-%E5%8F%8B%E9%81%94%E9%BD%8A%E5%85%A5%E5%87%BA%E8%B2%A8%E5%90%8D%E5%96%AE-135000954.html",
+          "source": "Yahoo奇摩",
+          "score": 0.67,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "SEC:通信網路",
+      "kind": "sector",
+      "market": "TW",
+      "name": "通信網路",
+      "price": 221.33,
+      "change_pct": -1.39,
+      "decimals": 2,
+      "call": "neutral",
+      "net": 0.142,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "〈智邦法說〉領先同業出貨1.6T全液冷交換器 明年灣區設研發中心卡位光通訊與800V商機",
+          "url": "https://news.cnyes.com/news/id/6673825",
+          "source": "鉅亨",
+          "score": 0.79,
+          "side": "skip"
+        },
+        {
+          "title": "〈智邦法說〉AI重點筆記2026/11/27",
+          "url": "https://news.cnyes.com/news/id/6673829",
+          "source": "鉅亨",
+          "score": 0.7,
+          "side": "long"
+        },
+        {
+          "title": "〈智邦法說〉明年新加坡、達拉斯新廠齊發 三大策略面對AI資本支出放緩疑慮",
+          "url": "https://news.cnyes.com/news/id/6673820",
+          "source": "鉅亨",
+          "score": 0.69,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "FX:USD/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "美元／台幣",
+      "price": 32.979,
+      "change_pct": -0.6327,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0.208,
+      "news_count": 4,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "〈台幣〉股匯齊揚！台股守穩3萬9大關 台幣連2升收32.935元",
+          "url": "https://news.cnyes.com/news/id/6673973",
+          "source": "鉅亨",
+          "score": 0.99,
+          "side": "skip"
+        },
+        {
+          "title": "台幣貶破33元！ 他憂台股要崩了 網搖頭：倒果為因",
+          "url": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E5%B9%A3%E8%B2%B6%E7%A0%B433%E5%85%83-%E4%BB%96%E6%86%82%E5%8F%B0%E8%82%A1%E8%A6%81%E5%B4%A9%E4%BA%86-%E7%B6%B2%E6%90%96%E9%A0%AD-%E5%80%92%E6%9E%9C%E7%82%BA%E5%9B%A0-104200010.html",
+          "source": "Yahoo奇摩",
+          "score": 0.97,
+          "side": "long"
+        },
+        {
+          "title": "東京11月核心CPI微幅低於預期 日本央行12月升息機率仍高",
+          "url": "https://news.cnyes.com/news/id/6673732",
+          "source": "鉅亨",
+          "score": 0.47,
+          "side": "skip"
+        }
+      ]
+    },
+    {
+      "key": "FX:JPY/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "日圓／台幣",
+      "price": 0.2045,
+      "change_pct": -1.9171,
+      "decimals": 4,
+      "call": "neutral",
+      "net": -0.131,
+      "news_count": 1,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "東京11月核心CPI微幅低於預期 日本央行12月升息機率仍高",
+          "url": "https://news.cnyes.com/news/id/6673732",
+          "source": "鉅亨",
+          "score": 0.44,
+          "side": "short"
+        }
+      ]
+    },
+    {
+      "key": "FX:CNY/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "人民幣／台幣",
+      "price": 4.9631,
+      "change_pct": 0.2667,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0.052,
+      "news_count": 1,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "〈陸股盤後〉國務院釋加大穩市作用訊號 創板指飆逾11% 滬指收復3600點",
+          "url": "https://news.cnyes.com/news/id/6673735",
+          "source": "鉅亨",
+          "score": 0.45,
+          "side": "long"
+        }
+      ]
+    },
+    {
+      "key": "FX:EUR/TWD",
+      "kind": "fx",
+      "market": "TW",
+      "name": "歐元／台幣",
+      "price": 36.106,
+      "change_pct": -0.8681,
+      "decimals": 4,
+      "call": "neutral",
+      "net": 0.072,
+      "news_count": 1,
+      "fx_hint": "",
+      "news": [
+        {
+          "title": "【遠東商銀】美國感恩節假期，市場窄幅震盪",
+          "url": "https://news.cnyes.com/news/id/6666133",
+          "source": "鉅亨",
+          "score": 0.44,
+          "side": "skip"
+        }
+      ]
+    }
+  ],
+  "scorecard": {
+    "days": 30,
+    "horizon_hours": 24,
+    "graded": 391,
+    "long": {
+      "n": 158,
+      "hit": 76,
+      "avg": -0.1169
+    },
+    "short": {
+      "n": 86,
+      "hit": 37,
+      "avg": -0.9544
+    },
+    "skip": {
+      "n": 147,
+      "hit": 10
+    },
+    "base": {
+      "n": 391,
+      "hit": 200,
+      "avg": 0.0757
+    },
+    "kinds": {
+      "us": {
+        "n": 144,
+        "hit": 43
+      },
+      "index": {
+        "n": 50,
+        "hit": 21
+      },
+      "sector": {
+        "n": 136,
+        "hit": 35
+      },
+      "fx": {
+        "n": 61,
+        "hit": 24
+      }
+    },
+    "tokens": 337595,
+    "usd": 0.0101
+  },
+  "warnings": [],
+  "disclaimer": "非投資建議。偏多／偏空只代表 Kairos 依新聞判斷的方向，不考慮你的財務狀況；本流程不會下單。"
+}
